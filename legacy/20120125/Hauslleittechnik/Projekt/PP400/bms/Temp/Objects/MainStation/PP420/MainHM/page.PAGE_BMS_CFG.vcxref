@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <PAGE_BMS_CFG ReferenceString="Source[local].Page[PAGE_BMS_CFG]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[lstRcpNames].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.nameIndex]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numDateDay].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.general.setTime.day]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[bmpSaveStatus].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.saveOk]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[bmpLoadStatus].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.loadOk]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numDateMonth].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.general.setTime.month]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numDateYear].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.general.setTime.year]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numHeatTimeHour].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.general.setTime.hour]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numHeatTimeMin].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.general.setTime.minute]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </PAGE_BMS_CFG>
+</VCXReferenceList>

@@ -1,0 +1,8 @@
+hmi_sup	"$(AS_CPU_PATH)/hmi_sup/hmi_sup.ox" -o "$(AS_CPU_PATH)/hmi_sup.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SG4 -B V3.00 -extConstants -d "runtime: V* - V*" -r Cyclic1 -p 4 -s MainStation.hmi_sup
+alarm	"$(AS_CPU_PATH)/alarm/alarm.ox" -o "$(AS_CPU_PATH)/alarm.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SG4 -B V3.00 -extConstants -d "runtime: V* - V*" -r Cyclic2 -p 3 -s MainStation.alarm
+bmslib	"$(AS_CPU_PATH)/bmslib/bmslib.ox" -o "$(AS_CPU_PATH)/bmslib.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SG4 -B V3.00 -extConstants -d "runtime: V* - V*" -r Library -R "BMS support functions"  -s Libraries.bmslib
+rcp_cpy	"$(AS_CPU_PATH)/rcp_cpy/rcp_cpy.ox" -o "$(AS_CPU_PATH)/rcp_cpy.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SG4 -B V3.00 -extConstants -d "runtime: V* - V*" -r Cyclic2 -p 2 -s MainStation.rcp_cpy
+hs_sim	"$(AS_CPU_PATH)/hs_sim/hs_sim.ox" -o "$(AS_CPU_PATH)/hs_sim.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SG4 -B V3.00 -extConstants -d "runtime: V* - V*" -r Cyclic1 -p 5 -s MainStation.HeatingSystem.hs_sim
+ip_con	"$(AS_CPU_PATH)/ip_con/ip_con.ox" -o "$(AS_CPU_PATH)/ip_con.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SG4 -B V3.00 -extConstants -d "runtime: V* - V*" -r Cyclic1 -p 3 -s MainStation.IrrigationSystem.ip_con
+hs_con	"$(AS_CPU_PATH)/hs_con/hs_con.ox" -o "$(AS_CPU_PATH)/hs_con.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SG4 -B V3.00 -extConstants -d "runtime: V* - V*" -r Cyclic1 -p 2 -s MainStation.HeatingSystem.hs_con
+statistics	"$(AS_CPU_PATH)/statistics/statistics.ox" -o "$(AS_CPU_PATH)/statistics.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SG4 -B V3.00 -extConstants -d "runtime: V* - V*" -r Cyclic2 -p 4 -s MainStation.statistics

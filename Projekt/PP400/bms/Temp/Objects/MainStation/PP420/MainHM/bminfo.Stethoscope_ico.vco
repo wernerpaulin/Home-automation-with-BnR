@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="Stethoscope_ico" ClsId="0x306" Version="1" TargetIndex="104" Type="GFX" RefString="Source[local].Bitmap[Stethoscope_ico]">
+        <UInt16 Name="Width">24</UInt16>
+        <UInt16 Name="Height">24</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA7BJREFUSEtjYCAB7NixQ2XLli3VcnJyG4DaOkjQSljpsWPH4g4dOnRw5cqVGTw8PNVAHQVIuuSBbGHCpuBQAXS50JEjR85s27aNHYeSCSwsLM98fX31yLJk165d3idOnJiIRzOTsbFx2YEDB/asWrWKmWRLgK4vPHr0aB4hjcAgrAaqdSOkDkMe6Pppe/fu9SKkEagm8vTp08mE1GHIAyN4z/bt29UJaQT6YBMwmAwJqUORVwcCoMteGBkZ7dbQ0DitpaV1CBje84DseAZ+fgGY4p07dzoBg2cd0YaLi4tzGxgYztTS0nmUnp7+gp+f35Cbm1ucnZ1fiZOT009JSWmmmpraU11d3V6ghSJA158GOkSZKAtUDAxELSytT8vLK3aIiYlZWltbH8SmUVBQkF9CSqq1sKjo3fr166cTZTjQNVyu7u6n5ZVUMkAa9PQMwx2dnefj0gzM2fIHDx68aWxsetfU1NSOoCW+/kETdfUN4Wk+Mjq22srGrg6XRjc3j40lJSUxoqKi+iYmpvdVVFREcVpibm+v4OTi+kBPT48bpigxObXQ2dVjMjZNRqaWPi6u7tuBcowgeTk5hVpHR6denBYEBIVWGJma1yIrcHLyFY+JS3zg6uGDkoGAQckfEBR8Xk/PTBGmXl5eXsLc3OIhTgvcPLxXmppamaAr8PIK0IxPTD0JxOeSUtP7UzKy++KSUm6FhEVGo6u1trV9ArSIA6slrp4+W2xtbSWxSXr7BeS7e/os8fUPSfYPCUuxd3dXwKbOwdH5MTAesBeKQM3T7V1cbLBpjIiKq3dwci3Dl0oMgMnb1cPzNk41Pv5BwQHB4ZM2bdokAkzXKcDcaQ1THBAcmgqMo6n4LLB1dCwJj4zpx6kmNDSULTo26dLatWvuXbly+f+FCxf+AesCH5AGe3sPmfComOcgGpsBFnZ2usA4emxvb49VHq5n3rx5E7du3fT/1KmT/2/fvv3/8OHD+/7//w9OhpExiZlRsYn3gYkh2sXFhR8k5urqyu0XHJqUmJr+NCQi2g9vRjtz5gzr5s2bPq1YsfT/sWNH/+/bt+//lStX/j9+/NwcpjEoLMouNSNnU0JyxoeE5PTXkbHxn6PjkrY6ubsb4TUcJDl//nyBQ4cO/9u7d89/YAXzH2jh/ydPnv5/+PAhRsTX19czeXt7CwKDhIWgwcgK9u07sP3mzVv/7927Dzb8JpADrAbZSDIEn+KJEyfyAcO98/LlKweAtdPMtWvX4o80AjYDAA2rXs15qS8IAAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0?>
+<CrossRef Scope="MainHM" xmlns="http://br-automation.co.at/AS/VC/Crossreference">
+   <Vars>
+      <Var Name="gHMI.heating.statusDatapointAlarmIndicator" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Layer[Global].Control[hotChangePageAlarm].Property[StatusDatapoint]" A="RW" O="StatusDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Layer[Global].Control[AlarmIndicator].Property[StatusDatapoint]" A="RW" O="StatusDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.tempOutsideTendency" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Layer[Global].Control[OutsideTendency].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.tempLivingroomTendency" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Layer[Global].Control[LivingroomTendency].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.recipe.ctrl.nameIndex" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[lstRcpNames].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.general.setTime.day" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numDateDay].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.recipe.ctrl.saveOk" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[bmpSaveStatus].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.recipe.ctrl.loadOk" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[bmpLoadStatus].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.general.setTime.month" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numDateMonth].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.general.setTime.year" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numDateYear].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.general.setTime.hour" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numHeatTimeHour].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.general.setTime.minute" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_BMS_CFG].Layer[Default].Control[numHeatTimeMin].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.manSwitchedOff" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHeatModeAct].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.enable" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHeatOnOff].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHeatOnOff].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[txtHeatOnOff1].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[txtHeatOnOff1].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.startTime.hour" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.cmd.updateDateTime" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour1].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin1].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour2].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin2].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour3].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin3].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour1].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin1].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour2].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin2].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour3].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin3].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour4].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin4].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.startTime.minute" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.endTime.hour" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.endTime.minute" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.tempLivingroomSet" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.outOfHomeActive" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHeatModeAct1].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.recipe.data.heating.tempLowOffset" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatLowering].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.outOfHome.startDate.day" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.outOfHome.startDate.month" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.outOfHome.endDate.day" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour3].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.outOfHome.endDate.month" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin3].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.hotwater.enable" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHotwaterOnOff].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHotwaterOnOff].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.heating.hotwater.startTime[0].hour" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.heating.hotwater.startTime[0].minute" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.heating.hotwater.endTime[0].hour" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.heating.hotwater.endTime[0].minute" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.heating.hotwater.startTime[1].hour" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour3].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.heating.hotwater.startTime[1].minute" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin3].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.heating.hotwater.endTime[1].hour" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour4].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.heating.hotwater.endTime[1].minute" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin4].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.recipe.data.heating.hotwater.tempSet" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatLowering1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.hotwater.tempAct" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.heating.onTimeBoilerBump" Scope="Global" Type="UDINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.heating.onTimeFlowPump" Scope="Global" Type="UDINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet3].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.heating.statusDatapointLoweringText" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtLoweringText].Property[StatusDatapoint]" A="RW" O="StatusDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.heating.onTimeBurner" Scope="Global" Type="UDINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet4].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="doBurner" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[txtHeatOnOff].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[txtHeatOnOff].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.burner.tempAct" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numBurnerTempAct].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.burner.tempSet" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numBurnerTempSet].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.tempFlowAct" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numFlowTempAct].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.tempFlowSet" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numFlowTempSet].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.sSetMixer" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numFlowTempSet1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.recipe.data.heating.kp" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numKp].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.cmd.updatePID" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numKp].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numKp1].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.recipe.data.heating.tn" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numKp1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].date.year" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendYear2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].update" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendYear2].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendMonth2].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendDay2].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].date.month" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendMonth2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].high.enable" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearTempHigh2].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].date.day" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendDay2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].high.tempDate" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHigh2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].low.tempDate" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendLow2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].heat.hoursDate" Scope="Global" Type="UDINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHeat2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].tempAv" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendAv2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].low.enable" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearTempLow2].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].heat.enable" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearHeat2].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].heat.hoursTotal" Scope="Global" Type="UDINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHeatTot2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].date.year" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendYear1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].update" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendYear1].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendMonth1].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendDay1].Property[CompletionDatapoint]" A="RW" O="CompletionDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].date.month" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendMonth1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].high.enable" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearTempHigh1].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].date.day" Scope="Global" Type="USINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendDay1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].high.tempDate" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHigh1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].low.tempDate" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendLow1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].heat.hoursDate" Scope="Global" Type="UDINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHeat1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].tempAv" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendAv1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].low.enable" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearTempLow1].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].heat.enable" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearHeat1].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].heat.hoursTotal" Scope="Global" Type="UDINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHeatTot1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.irrigation.valve[0]" Scope="Global" Type="UDINT[0..5]" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[numValve1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.irrigation.valve[1]" Scope="Global" Type="UDINT[0..5]" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[numValve2].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.irrigation.valve[2]" Scope="Global" Type="UDINT[0..5]" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[numValve3].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.irrigation.valve[3]" Scope="Global" Type="UDINT[0..5]" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[numValve4].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.irrigation.valve[4]" Scope="Global" Type="UDINT[0..5]" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[numValve5].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.irrigation.valve[5]" Scope="Global" Type="UDINT[0..5]" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[numValve6].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.statistics.irrigation.onTimePump" Scope="Global" Type="UDINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[numLivingroomTempSet10].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="doIrrigPump" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[txtPumpOnOff].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[txtPumpOnOff].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_OVERVIEW].Layer[Default].Control[txtPumpOnOff].Property[IndexDatapoint]" A="RW" O="IndexDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_OVERVIEW].Layer[Default].Control[txtPumpOnOff].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.irrigation.tankLevel" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_CFG].Layer[Default].Control[BarGraph_1].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="doIrrigValve1" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_OVERVIEW].Layer[Default].Control[shpValve1].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="doIrrigValve2" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_OVERVIEW].Layer[Default].Control[shpValve2].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_OVERVIEW].Layer[Default].Control[shpValve7].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="doIrrigValve3" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_OVERVIEW].Layer[Default].Control[shpValve3].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="doIrrigValve4" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_OVERVIEW].Layer[Default].Control[shpValve4].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="doIrrigValve5" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_OVERVIEW].Layer[Default].Control[shpValve5].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="doIrrigValve6" Scope="Global" Type="BOOL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_IS_OVERVIEW].Layer[Default].Control[shpValve6].Property[ColorDatapoint]" A="R" O="ColorDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.general.screenCleanTime" Scope="Global" Type="UDINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Page[PAGE_SCREEN_CLEAN].Layer[Default].Control[numScreenCleanTime].Property[ValueDatapoint]" A="RW" O="ValueDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].heat.statusDatapoint" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Trend[TrendYearHeat].Control[TrendDataYearHeat1_Curve].Property[StatusDatapoint]" A="RW" O="StatusDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].heat.statusDatapoint" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Trend[TrendYearHeat].Control[TrendDataYearHeat2_Curve].Property[StatusDatapoint]" A="RW" O="StatusDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].high.statusDatapoint" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Trend[TrendYearTemp].Control[TrendDataYearTempHigh_Curve1].Property[StatusDatapoint]" A="RW" O="StatusDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[0].low.statusDatapoint" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Trend[TrendYearTemp].Control[TrendDataYearTempLow_Curve1].Property[StatusDatapoint]" A="RW" O="StatusDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].high.statusDatapoint" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Trend[TrendYearTemp].Control[TrendDataYearTempHigh_Curve2].Property[StatusDatapoint]" A="RW" O="StatusDatapoint" />
+         </File>
+      </Var>
+      <Var Name="Globals.gHMI.trend.year[1].low.statusDatapoint" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Trend[TrendYearTemp].Control[TrendDataYearTempLow_Curve2].Property[StatusDatapoint]" A="RW" O="StatusDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.tempOutsideAct" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].TextGroup[HeaderGroup].Snippet[OutsideTemp].Property[Datapoint]" A="RW" O="Datapoint" />
+         </File>
+      </Var>
+      <Var Name="gActData.heating.tempLivingroomAct" Scope="Global" Type="REAL" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].TextGroup[HeaderGroup].Snippet[InsideTemp].Property[Datapoint]" A="RW" O="Datapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.general.setPage" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Runtime[MainHM].Property[PageChangeDatapoint]" A="RW" O="PageChangeDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gHMI.general.actPage" Scope="Global" Type="UINT" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[local].Runtime[MainHM].Property[PageCurrentDatapoint]" A="RW" O="PageCurrentDatapoint" />
+         </File>
+      </Var>
+      <Var Name="gAlarm.request" Scope="Global" Type="BOOL[0..0]" Desc="">
+         <File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc">
+            <Pos L="0" C="0" PS="Source[global].AlarmGroup[AS1.AlarmBMS].Property[AlarmImage]" A="RW" O="AlarmImage" />
+         </File>
+      </Var>
+   </Vars>
+</CrossRef>

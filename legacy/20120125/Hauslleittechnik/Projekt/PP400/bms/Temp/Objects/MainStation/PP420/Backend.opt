@@ -1,0 +1,7 @@
+alarm	"$(AS_CPU_PATH)/alarm/a.out" -o "$(AS_CPU_PATH)/alarm/alarm.ox" -T SG4 -r Cyclic2   -G V4.1.1
+bmslib	"$(AS_CPU_PATH)/bmslib/a.out" -o "$(AS_CPU_PATH)/bmslib/bmslib.ox" -T SG4 -r Library   -G V4.1.1
+rcp_cpy	"$(AS_CPU_PATH)/rcp_cpy/a.out" -o "$(AS_CPU_PATH)/rcp_cpy/rcp_cpy.ox" -T SG4 -r Cyclic2   -G V4.1.1
+hs_con	"$(AS_CPU_PATH)/hs_con/a.out" -o "$(AS_CPU_PATH)/hs_con/hs_con.ox" -T SG4 -r Cyclic1   -G V4.1.1
+statistics	"$(AS_CPU_PATH)/statistics/a.out" -o "$(AS_CPU_PATH)/statistics/statistics.ox" -T SG4 -r Cyclic2   -G V4.1.1
+ip_con	"$(AS_CPU_PATH)/ip_con/a.out" -o "$(AS_CPU_PATH)/ip_con/ip_con.ox" -T SG4 -r Cyclic1   -G V4.1.1
+hmi_sup	"$(AS_CPU_PATH)/hmi_sup/a.out" -o "$(AS_CPU_PATH)/hmi_sup/hmi_sup.ox" -T SG4 -r Cyclic1   -G V4.1.1

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <PAGE_HS_CFG ReferenceString="Source[local].Page[PAGE_HS_CFG]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHeatModeAct].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.manSwitchedOff]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHeatOnOff].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHeatOnOff].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.enable]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.startTime.hour]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.startTime.minute]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.endTime.hour]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour1].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.endTime.minute]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin1].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.tempLivingroomSet]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHeatModeAct1].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.outOfHomeActive]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatLowering].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempLowOffset]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.startDate.day]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour2].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.startDate.month]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin2].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.endDate.day]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeHour3].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.endDate.month]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatTimeMin3].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHotwaterOnOff].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.hotwater.enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtHotwaterOnOff].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.hotwater.enable]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[0].hour]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour1].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[0].minute]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin1].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[0].hour]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour2].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[0].minute]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin2].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[1].hour]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour3].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[1].minute]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin3].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour4].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[1].hour]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeHour4].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin4].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[1].minute]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHotwaterTimeMin4].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numHeatLowering1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.hotwater.tempSet]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.hotwater.tempAct]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeBoilerBump]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeFlowPump]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[txtLoweringText].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.heating.statusDatapointLoweringText]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_CFG].Layer[Default].Control[numLivingroomTempSet4].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeBurner]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </PAGE_HS_CFG>
+</VCXReferenceList>

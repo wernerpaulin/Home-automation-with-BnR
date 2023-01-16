@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="CONTROL_CHECKBOX_OFF" ClsId="0x306" Version="1" TargetIndex="75" Type="GFX" RefString="Source[local].Bitmap[CONTROL_CHECKBOX_OFF]">
+        <UInt16 Name="Width">18</UInt16>
+        <UInt16 Name="Height">18</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIxJREFUOE9jfPr0acquXbtm//r1i4EcwMbGxuDm5pbKMH/+/P+ysrL/gYaQhZOTk/+DzGBoa2sDG7B+/fr/+/fvJxm/efPm/8yZM/8zgAmgQZSAUYMIh95oGI2GESyv3b9/n3BgYFHx6dMnSKYFFQEODg7/QQKkAlDOB5UY4GIEVLCBGCBTycEgvSAzALiKK5eGamNgAAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

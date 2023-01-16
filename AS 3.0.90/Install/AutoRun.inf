@@ -1,0 +1,214 @@
+; AutoPlay.inf file
+[autorun]
+open=Install.exe /CD
+icon=Autoplay\B&R.ico
+
+[Main]
+Home=Autoplay\index_Lang.html
+Name=B&R Automation Software
+Icon=Autoplay\B&R.ico
+Sound=
+SizeX=1035
+SizeY=765
+DisableSysMenu=0
+
+; **********
+; AS
+; **********
+[LaunchInstallCHM_Ger]
+Command=Setups\RevInfo\Ger\Install.chm
+ShowCmd=SW_SHOW
+
+[LaunchInstallCHM_Eng]
+Command=Setups\RevInfo\Eng\Install.chm
+ShowCmd=SW_SHOW
+
+[LaunchInstallPDF_Ger]
+Command=Setups\RevInfo\Ger\Install.pdf
+ShowCmd=SW_SHOW
+
+[LaunchInstallPDF_Eng]
+Command=Setups\RevInfo\Eng\Install.pdf
+ShowCmd=SW_SHOW
+
+[LaunchASCHM_Ger]
+Command=Setups\RevInfo\Ger\AS_3.0.90.33_UP15_RevInfoD.chm
+ShowCmd=SW_SHOW
+
+[LaunchASCHM_Eng]
+Command=Setups\RevInfo\Eng\AS_3.0.90.33_UP15_RevInfoE.chm
+ShowCmd=SW_SHOW
+
+[LaunchASPDF_Ger]
+Command=Setups\RevInfo\Ger\AS_3.0.90.33_UP15_RevInfoD.pdf
+ShowCmd=SW_SHOW
+
+[LaunchASPDF_Eng]
+Command=Setups\RevInfo\Eng\AS_3.0.90.33_UP15_RevInfoE.pdf
+ShowCmd=SW_SHOW
+
+
+; **********
+; PVI
+; **********
+[LaunchPVICHM_Ger]
+Command=Setups\RevInfo\Ger\PVI_3.0.2.3019_RevInfoD.chm
+ShowCmd=SW_SHOW
+
+[LaunchPVIPDF_Ger]
+Command=Setups\RevInfo\Ger\PVI_3.0.2.3019_RevInfoD.pdf
+ShowCmd=SW_SHOW
+
+[LaunchPVICHM_Eng]
+Command=Setups\RevInfo\Eng\PVI_3.0.2.3019_RevInfoE.chm
+ShowCmd=SW_SHOW
+
+[LaunchPVIPDF_Eng]
+Command=Setups\RevInfo\Eng\PVI_3.0.2.3019_RevInfoE.pdf
+ShowCmd=SW_SHOW
+
+
+[LaunchDongleDriver]
+Command=Setups\AddOn\install_1_wire_drivers_x86_v403.msi
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchDongleDriverX64]
+Command=Setups\AddOn\install_1_wire_drivers_x64_v403.msi
+ShowCmd=SW_SHOWNORMAL
+
+
+; **********
+; Setups
+; **********
+[LaunchASSetup]
+Command=Setups\Automation Studio V3.0.90.exe
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchASSetup_Eng]
+Command=Setups\Automation Studio V3.0.90.exe
+ShowCmd=SW_SHOWNORMAL
+Params=/L=1033
+
+[LaunchASSetup_Ger]
+Command=Setups\Automation Studio V3.0.90.exe
+ShowCmd=SW_SHOWNORMAL
+Params=/L=1031
+
+[LaunchASSetup_APROL]
+Command=Setups\Automation Studio V3.0.90.exe
+ShowCmd=SW_SHOWNORMAL
+Params=/L=1033 /APROL=1
+
+[LaunchSERVOsoftSetup]
+Command=Setups\AddOn\servosoftsetupact.exe
+ShowCmd=SW_SHOWNORMAL
+Params=
+
+[LaunchSERVOCsoftPDF_Ger]
+Command=Setups\RevInfo\Ger\ServoSoft_Doku_de.pdf
+ShowCmd=SW_SHOW
+
+[LaunchSERVOCsoftPDF_Eng]
+Command=Setups\RevInfo\Eng\ServoSoft_Doku_en.pdf
+ShowCmd=SW_SHOW
+
+[LaunchSVNSetup]
+Command=Setups\AddOn\TortoiseSVN-1.4.5.10425-win32-svn-1.4.5.msi
+ShowCmd=SW_SHOWNORMAL
+Params=
+
+[LaunchWININST]
+Command=Setups\AddOn\WindowsInstaller-KB893803-v2-x86.exe
+ShowCmd=SW_SHOWNORMAL
+Params=
+
+
+[LaunchPVISetup_Eng]
+Command=Setups\AddOn\Automation Net PVI Runtime V3.0.2.exe
+Params=/L=1033
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchPVISetup_Ger]
+Command=Setups\AddOn\Automation Net PVI Runtime V3.0.2.exe
+Params=/L=1031
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchPVIDevSetup_Eng]
+Command=Setups\AddOn\Automation Net PVI Developer V3.0.2.exe
+Params=/L=1033
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchPVIDevSetup_Ger]
+Command=Setups\AddOn\Automation Net PVI Developer V3.0.2.exe
+Params=/L=1031
+ShowCmd=SW_SHOWNORMAL
+
+
+[LaunchARSG4308Setup_Eng]
+Command=Setups\AddOn\Automation Runtime 3.0.81.18_V3.08.exe
+Params=/L=1033
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSG4308Setup_Ger]
+Command=Setups\AddOn\Automation Runtime 3.0.81.18_V3.08.exe
+Params=/L=1031
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSG4Setup_Eng]
+Command=Setups\AddOn\Automation Runtime 3.0.81.18_V4.00.exe
+Params=/L=1033
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSG4Setup_Ger]
+Command=Setups\AddOn\Automation Runtime 3.0.81.18_V4.00.exe
+Params=/L=1031
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSG3Setup_Eng]
+Command=Setups\AddOn\Automation Runtime AS3.0 AR X8.14.exe
+Params=/L=1033
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSG3Setup_Ger]
+Command=Setups\AddOn\Automation Runtime AS3.0 AR X8.14.exe
+Params=/L=1031
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSG3_OldSetup_Eng]
+Command=Setups\AddOn\Automation Studio V3.0.55 AR V2.40.exe
+Params=/L=1033
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSG3_OldSetup_Ger]
+Command=Setups\AddOn\Automation Studio V3.0.55 AR V2.40.exe
+Params=/L=1031
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSGCSetup_Eng]
+Command=Setups\AddOn\Automation Runtime 3.0.80.25_V2.32.exe
+Params=/L=1033
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSGCSetup_Ger]
+Command=Setups\AddOn\Automation Runtime 3.0.80.25_V2.32.exe
+Params=/L=1031
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSGC_OldSetup_Eng]
+Command=Setups\AddOn\Automation Runtime 3.0.80.25_G2.31.exe
+Params=/L=1033
+ShowCmd=SW_SHOWNORMAL
+
+[LaunchARSGC_OldSetup_Ger]
+Command=Setups\AddOn\Automation Runtime 3.0.80.25_G2.31.exe
+Params=/L=1031
+ShowCmd=SW_SHOWNORMAL
+
+[SaveVCWT]
+SaveFileName=Setups\AddOn\VC WindowsTerminal.exe
+
+[SaveARwinSetup]
+SaveFileName=Setups\AddOn\Automation Runtime ARwin M0401.exe
+
+[SaveARwin309Setup]
+SaveFileName=Setups\AddOn\Automation Runtime ARwin B3.10.exe

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ActiveInactive">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="3"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="de">
+    <Text ID="94726" Value="aktiviert"/>
+    <Text ID="94727" Value="deaktiviert"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="94726" Value="1"/>
+    <Index ID="94727" Value="0"/>
+  </IndexMap>
+</TextGroup>

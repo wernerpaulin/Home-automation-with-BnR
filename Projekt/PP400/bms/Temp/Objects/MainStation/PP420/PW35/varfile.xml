@@ -1,0 +1,15 @@
+<VARIABLES>
+	<VARIABLE Name="gActData.heating.tempOutsideAct" Type="REAL"/>
+	<VARIABLE Name="gActData.irrigation.segment[0].switchOnRequest" Type="BOOL"/>
+	<VARIABLE Name="gActData.irrigation.segment[1].switchOnRequest" Type="BOOL"/>
+	<VARIABLE Name="gActData.irrigation.segment[2].switchOnRequest" Type="BOOL"/>
+	<VARIABLE Name="gActData.irrigation.segment[3].switchOnRequest" Type="BOOL"/>
+	<VARIABLE Name="gActData.irrigation.segment[4].switchOnRequest" Type="BOOL"/>
+	<VARIABLE Name="gActData.irrigation.segment[5].switchOnRequest" Type="BOOL"/>
+	<VARIABLE Name="hmi_sup:ledControl[1]" Type="USINT"/>
+	<VARIABLE Name="hmi_sup:ledControl[2]" Type="USINT"/>
+	<VARIABLE Name="hmi_sup:ledControl[0]" Type="USINT"/>
+	<VARIABLE Name="hmi_sup:ledControl[3]" Type="USINT"/>
+	<VARIABLE Name="hmi_sup:ledControl[4]" Type="USINT"/>
+	<VARIABLE Name="hmi_sup:ledControl[5]" Type="USINT"/>
+</VARIABLES>

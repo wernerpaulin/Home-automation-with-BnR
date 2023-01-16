@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+
+<tree  xmlns:dt="urn:schemas-microsoft-com:datatypes">
+
+<n ID="DEVICES">
+
+<n ID="SWIOTIMER">
+<d ID="DDriverName" dt:dt="string">DdVxIotimPc</d>
+<d ID="DDriverType" dt:dt="ui4">11</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+</n>
+
+<n ID="IF2">
+<d ID="DDriverName" dt:dt="string">DdxxSf16x5xIO</d>
+<d ID="DDriverType" dt:dt="ui4">1</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+<d ID="DeviceParam" dt:dt="string">/BD=9600 /PA=N /DB=8 /SB=1 /RIT=5 /PHY=RS232 /IR=3 /IO=0x2F8 /CLK=1843200 /CARD=4966 /IF=2</d>
+<d ID="PhysDeviceName" dt:dt="string">IF2</d>
+</n>
+
+</n>
+
+
+<n ID="INADEVICES">
+
+<n ID="IF2">
+<d ID="FbDriverName" dt:dt="string">FbSerial</d>
+<d ID="Device" dt:dt="string">IF2</d>
+<d ID="StartMode" dt:dt="ui4">0</d>
+</n>
+
+</n>
+
+
+<n ID="PROFILING">
+<d ID="DefaultGroups" dt:dt="string">2,18,19,20,21</d>
+<d ID="DefaultMode" dt:dt="string">0</d>
+<d ID="DefaultArch" dt:dt="string">0</d>
+<d ID="DefaultBuffer" dt:dt="ui4">24000</d>
+<d ID="DefaultMemType" dt:dt="ui4">65</d>
+</n>
+
+
+<n ID="CYCLICSYSTEM">
+<d ID="TimerDevice" dt:dt="string">SWIOTIMER</d>
+</n>
+
+
+<n ID="TASKS">
+
+<n ID="debg">
+<d ID="Priority" dt:dt="ui4">252</d>
+</n>
+
+<n ID="IOHwCopy">
+<d ID="Priority" dt:dt="ui4">252</d>
+</n>
+
+<n ID="TcIdleGen">
+<d ID="Priority" dt:dt="ui4">251</d>
+</n>
+
+<n ID="IOSwCopy">
+<d ID="Priority" dt:dt="ui4">251</d>
+</n>
+
+<n ID="I82527">
+<d ID="Priority" dt:dt="ui4">236</d>
+</n>
+
+<n ID="canio">
+<d ID="Priority" dt:dt="ui4">235</d>
+</n>
+
+<n ID="IOException">
+<d ID="Priority" dt:dt="ui4">231</d>
+</n>
+
+<n ID="TC_High">
+<d ID="Priority" dt:dt="ui4">230</d>
+</n>
+
+<n ID="Usb">
+<d ID="Priority" dt:dt="ui4">189</d>
+</n>
+
+<n ID="Can2DDTask">
+<d ID="Priority" dt:dt="ui4">224</d>
+</n>
+
+<n ID="SerFrmEvHandler">
+<d ID="Priority" dt:dt="ui4">222</d>
+</n>
+
+<n ID="tNetTask">
+<d ID="Priority" dt:dt="ui4">185</d>
+</n>
+
+<n ID="tFtpdTask">
+<d ID="Priority" dt:dt="ui4">200</d>
+</n>
+
+<n ID="TC_Low">
+<d ID="Priority" dt:dt="ui4">190</d>
+</n>
+
+<n ID="Ethernet">
+<d ID="Priority" dt:dt="ui4">183</d>
+</n>
+
+<n ID="FileIO">
+<d ID="Priority" dt:dt="ui4">175</d>
+</n>
+
+<n ID="PnPManager">
+<d ID="Priority" dt:dt="ui4">128</d>
+</n>
+
+<n ID="IOPnP">
+<d ID="Priority" dt:dt="ui4">128</d>
+</n>
+
+<n ID="IOAcyclicAccess">
+<d ID="Priority" dt:dt="ui4">128</d>
+</n>
+
+<n ID="FBSF_EventHandler">
+<d ID="Priority" dt:dt="ui4">95</d>
+</n>
+
+<n ID="FBEthSend">
+<d ID="Priority" dt:dt="ui4">94</d>
+</n>
+
+<n ID="FBEthReceive">
+<d ID="Priority" dt:dt="ui4">93</d>
+</n>
+
+<n ID="arou">
+<d ID="Priority" dt:dt="ui4">90</d>
+</n>
+
+<n ID="sysserv">
+<d ID="Priority" dt:dt="ui4">89</d>
+</n>
+
+<n ID="inaiqdrv">
+<d ID="Priority" dt:dt="ui4">88</d>
+</n>
+
+<n ID="lociqdrv">
+<d ID="Priority" dt:dt="ui4">88</d>
+</n>
+
+<n ID="cs_brmod">
+<d ID="Priority" dt:dt="ui4">87</d>
+</n>
+
+<n ID="net2000">
+<d ID="Priority" dt:dt="ui4">87</d>
+</n>
+
+<n ID="dbtracer">
+<d ID="Priority" dt:dt="ui4">86</d>
+</n>
+
+<n ID="profiler">
+<d ID="Priority" dt:dt="ui4">86</d>
+</n>
+
+<n ID="AsArProf">
+<d ID="Priority" dt:dt="ui4">85</d>
+</n>
+
+<n ID="ARRegNvHandler">
+<d ID="Priority" dt:dt="ui4">85</d>
+</n>
+
+<n ID="AsARCfg">
+<d ID="Priority" dt:dt="ui4">84</d>
+</n>
+
+<n ID="AsIOMMan">
+<d ID="Priority" dt:dt="ui4">84</d>
+</n>
+
+<n ID="AsIO">
+<d ID="Priority" dt:dt="ui4">83</d>
+</n>
+
+<n ID="applader">
+<d ID="Priority" dt:dt="ui4">80</d>
+</n>
+
+<n ID="InaEvChk">
+<d ID="Priority" dt:dt="ui4">79</d>
+</n>
+
+<n ID="Net2000Event">
+<d ID="Priority" dt:dt="ui4">79</d>
+</n>
+
+<n ID="DatObjAllocHandler">
+<d ID="Priority" dt:dt="ui4">79</d>
+</n>
+
+<n ID="spooler">
+<d ID="Priority" dt:dt="ui4">75</d>
+</n>
+
+<n ID="AsHW">
+<d ID="Priority" dt:dt="ui4">70</d>
+</n>
+
+<n ID="dhcp">
+<d ID="Priority" dt:dt="ui4">50</d>
+</n>
+
+<n ID="AsIODiag">
+<d ID="Priority" dt:dt="ui4">40</d>
+</n>
+
+<n ID="AsHost">
+<d ID="Priority" dt:dt="ui4">20</d>
+</n>
+
+<n ID="Install">
+<d ID="Priority" dt:dt="ui4">11</d>
+</n>
+
+<n ID="TcIdleFiller">
+<d ID="Priority" dt:dt="ui4">3</d>
+</n>
+
+<n ID="TcIdle">
+<d ID="Priority" dt:dt="ui4">2</d>
+</n>
+
+</n>
+
+
+<n ID="ARLOGGER">
+
+<n ID="ARLOGGER/ARLOGSYS">
+<d ID="LogDataLen" dt:dt="ui4">204800</d>
+<d ID="LogID" dt:dt="ui4">0</d>
+</n>
+
+<n ID="ARLOGGER/ARLOGUSR">
+<d ID="LogDataLen" dt:dt="ui4">204800</d>
+<d ID="LogID" dt:dt="ui4">1</d>
+</n>
+
+<n ID="ARLOGGER/fieldbus">
+<d ID="LogDataLen" dt:dt="ui4">204800</d>
+<d ID="LogID" dt:dt="ui4">2</d>
+</n>
+
+</n>
+
+
+</tree>

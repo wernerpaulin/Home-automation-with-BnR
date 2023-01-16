@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="3.0"?>
+<DisplayInformation>
+  <Options Name="ArgumentLine" Value="PW35 -a 'Z:/Hauslleittechnik/Projekt/PP400/bms/Temp/Objects/MainStation/PP420/PW35/vcobject.dip' -c MainStation -g 'Z:/Hauslleittechnik/Projekt/PP400/bms/Temp/Objects/Declarations.lst' -H 'Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/Hardware.hc' -m 'Z:/Hauslleittechnik/Projekt/PP400/bms/Temp/Objects/MainStation/PP420/ConfigInfo.cfi' -o 'PW35' -P 'Z:/Hauslleittechnik/Projekt/PP400/bms/' -postBuild '' -s Basement -S PP420 -t 'Z:/Hauslleittechnik/Projekt/PP400/bms/Temp/' -T SG4 -v V1.00.0 -V V3.63.8 -X xref" />
+  <MappingFile Name="MappingFileName" Value="Z:\Hauslleittechnik\Projekt\PP400\bms\Physical\MainStation\PP420\Visual.vcm" />
+  <Connection Name="Type" Value="CAN" />
+  <Driver Name="Parameter" Value="/IF=SL1.SS1.IF2 /DA=4 /BD=250000" />
+  <Controller Name="HWCFilePath" Value="C:/Program Files/BrAutomation/AS30080/as/hardware/4PW035.E300-01.hwc" />
+  <Touch Name="Interface" Value="" />
+  <Module Name="Address" Value="SL1.SS1.IF2.ST4" />
+  <VCObject Name="Name" Value="PW35" />
+  <KeyMatrix Name="Priority" Value="Lower Cyclic #8" />
+  <Master Name="ObjectAddress" Value="" />
+  <KeyMapping Name="File" Value="C:\Program Files\BrAutomation\AS30080/AS/VC/Templates/CharacterMapping.xml" />
+  <CharacterMapping Name="CharacterMappingFile" Value="C:\Program Files\BrAutomation\AS30080/AS/VC/Templates/CharacterMapping.xml" />
+  <Export Name="ExportPath" Value="Z:/Hauslleittechnik/Projekt/PP400/bms/Temp/Conversion/PW35/Export" />
+  <Project Name="ProjectPath" Value="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/Visu.pwc" />
+</DisplayInformation>

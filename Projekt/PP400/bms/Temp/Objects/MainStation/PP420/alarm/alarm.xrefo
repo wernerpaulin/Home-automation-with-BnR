@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<Crossref Scope="MainStation.alarm">
+	<Vars>
+		<Var Name="alarm.alarmStop" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="39" C="2" PS="Ln:39, Col:2" A="W"/>
+				<Pos L="50" C="32" PS="Ln:50, Col:32" A="W"/>
+				<Pos L="58" C="18" PS="Ln:58, Col:18" A="R"/>
+			</File>
+		</Var>
+		<Var Name="alarm.alarmWarning" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="40" C="2" PS="Ln:40, Col:2" A="W"/>
+				<Pos L="51" C="32" PS="Ln:51, Col:32" A="W"/>
+				<Pos L="59" C="20" PS="Ln:59, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="alarm.index" Scope="Local" Type="DINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="42" C="6" PS="Ln:42, Col:6" A="W"/>
+				<Pos L="43" C="18" PS="Ln:43, Col:18" A="R"/>
+				<Pos L="44" C="21" PS="Ln:44, Col:21" A="R"/>
+				<Pos L="45" C="15" PS="Ln:45, Col:15" A="R"/>
+				<Pos L="48" C="22" PS="Ln:48, Col:22" A="R"/>
+				<Pos L="49" C="27" PS="Ln:49, Col:27" A="R"/>
+				<Pos L="50" C="0" PS="Ln:50, Col:0" A="R"/>
+				<Pos L="51" C="0" PS="Ln:51, Col:0" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.reaction" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="27" C="2" PS="Ln:27, Col:2" A="W"/>
+				<Pos L="28" C="2" PS="Ln:28, Col:2" A="W"/>
+				<Pos L="29" C="2" PS="Ln:29, Col:2" A="W"/>
+				<Pos L="30" C="2" PS="Ln:30, Col:2" A="W"/>
+				<Pos L="31" C="2" PS="Ln:31, Col:2" A="W"/>
+				<Pos L="32" C="2" PS="Ln:32, Col:2" A="W"/>
+				<Pos L="33" C="2" PS="Ln:33, Col:2" A="W"/>
+				<Pos L="34" C="2" PS="Ln:34, Col:2" A="W"/>
+				<Pos L="49" C="11" PS="Ln:49, Col:11" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.ack" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="43" C="7" PS="Ln:43, Col:7" A="R"/>
+				<Pos L="45" C="4" PS="Ln:45, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.ackBlock" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="43" C="37" PS="Ln:43, Col:37" A="R"/>
+				<Pos L="55" C="2" PS="Ln:55, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.request" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="44" C="6" PS="Ln:44, Col:6" A="W"/>
+				<Pos L="48" C="7" PS="Ln:48, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.stop" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="58" C="2" PS="Ln:58, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.warning" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="59" C="2" PS="Ln:59, Col:2" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+		<Enum Name="ALARM_RECIPE_READ" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="27" C="18" PS="Ln:27, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_RECIPE_WRITE" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="28" C="18" PS="Ln:28, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_RECIPE_NAME_INV" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="29" C="18" PS="Ln:29, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_HEATING_BURNER_TEMP_HIGH" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="30" C="18" PS="Ln:30, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_HEATING_BOILER_TEMP_HIGH" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="31" C="18" PS="Ln:31, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_HEATING_NODE_CON_ERROR" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="32" C="18" PS="Ln:32, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_IRRIGATION_NODE_CON_ERROR" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="33" C="18" PS="Ln:33, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_HEATING_BURNER_TEMP_LIMIT" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="34" C="18" PS="Ln:34, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_MAX" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="42" C="20" PS="Ln:42, Col:20" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_REACTION_NOTHING" Scope="Global" Type="ALARM_REACTIONS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="27" C="44" PS="Ln:27, Col:44" A="R"/>
+				<Pos L="28" C="44" PS="Ln:28, Col:44" A="R"/>
+				<Pos L="29" C="47" PS="Ln:29, Col:47" A="R"/>
+				<Pos L="32" C="53" PS="Ln:32, Col:53" A="R"/>
+				<Pos L="33" C="53" PS="Ln:33, Col:53" A="R"/>
+				<Pos L="34" C="54" PS="Ln:34, Col:54" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_REACTION_STOP" Scope="Global" Type="ALARM_REACTIONS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="30" C="53" PS="Ln:30, Col:53" A="R"/>
+				<Pos L="31" C="53" PS="Ln:31, Col:53" A="R"/>
+				<Pos L="50" C="7" PS="Ln:50, Col:7" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_REACTION_WARNING" Scope="Global" Type="ALARM_REACTIONS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/alarm/alarm.st">
+				<Pos L="51" C="7" PS="Ln:51, Col:7" A="R"/>
+			</File>
+		</Enum>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

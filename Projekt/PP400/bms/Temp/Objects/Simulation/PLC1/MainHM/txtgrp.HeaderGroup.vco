@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="TextGroupBase">
+    <Folder Name="HeaderGroup" TargetIndex="Source[local].TextGroup[HeaderGroup]">
+      <Object Name="HeaderGroup" ClsId="0x304" Version="1" TargetIndex="0" Type="TG" RefString="Source[local].TextGroup[HeaderGroup]">
+        <UInt32 Name="NumberOfTags">3</UInt32>
+        <UInt32 Name="NumberOfTexts">3</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">0</UInt32>
+            <UInt32 Name="TextIndex">93112</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">1</UInt32>
+            <UInt32 Name="TextIndex">93113</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">2</UInt32>
+            <UInt32 Name="TextIndex">93111</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="HeaderGroup">
+      <Folder Name="TextSnippets">
+        <Object Name="DateTime" ClsId="0x2003" Version="1" Type="SNP" RefString="Source[local].TextGroup[HeaderGroup].Snippet[DateTime]">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00002003].StyleClass[default]</Reference>
+          <UInt16 Name="StyleTableSize">20</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="TextGroup">
+            <UInt16 Name="Offset">0</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <Reference Name="Data" Type="TG">Source[global].TextGroup[DateTimeFormats]</Reference>
+          </Group>
+          <Group Name="TextIndexOffset">
+            <UInt16 Name="Offset">4</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">0</UInt32>
+          </Group>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="HeaderGroup">
+      <Folder Name="TextSnippets">
+        <Object Name="InsideTemp" ClsId="0x2001" Version="1" Type="SNP" RefString="Source[local].TextGroup[HeaderGroup].Snippet[InsideTemp]">
+          <Reference Name="Datapoint" Type="DP">Source[global].Variable[Local.Globals.gActData.heating.tempLivingroomAct]</Reference>
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00002001].StyleClass[default]</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="HeaderGroup">
+      <Folder Name="TextSnippets">
+        <Object Name="OutsideTemp" ClsId="0x2001" Version="1" Type="SNP" RefString="Source[local].TextGroup[HeaderGroup].Snippet[OutsideTemp]">
+          <Reference Name="Datapoint" Type="DP">Source[global].Variable[Local.Globals.gActData.heating.tempOutsideAct]</Reference>
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00002001].StyleClass[default]</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].TextGroup[HeaderGroup]" Type="TG" RefString="Source[local].TextGroup[HeaderGroup].Language[de]">
+            <UInt32 Name="NumberOfTexts">3</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">93111</UInt32>
+                <UInt32 Name="TextOffset">40</UInt32>
+                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">93112</UInt32>
+                <UInt32 Name="TextOffset">62</UInt32>
+                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">93113</UInt32>
+                <UInt32 Name="TextOffset">106</UInt32>
+                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"&#x1;DateTime&#x2;"</String>
+              <String Name="Text" Encoding="Unicode">"Aussen: &#x1;OutsideTemp&#x2;"</String>
+              <String Name="Text" Encoding="Unicode">"Wohnzimmer: &#x1;InsideTemp&#x2;"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

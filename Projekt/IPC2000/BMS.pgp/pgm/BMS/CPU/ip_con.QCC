@@ -1,0 +1,9 @@
+[FileList]
+\pgm\bms\cpu\ip_con.c
+\pgm\bms\cpu\bms_gn.h
+\pgm\bms\cpu\bms_io.h
+\pgm\bms\cpu\bms_global.h
+\library\brsystem\i386\libbrsystem.a
+
+[IncludeList]
+\pgm\bms\cpu

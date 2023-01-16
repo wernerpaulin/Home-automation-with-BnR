@@ -1,0 +1,14 @@
+[FileList]
+\pgm\bms\cpu\hmi_con.c
+\pgm\bms\cpu\bms_gn.h
+\library\brsystem\i386\libbrsystem.a
+\library\visapi\i386\libvisapi.a
+\library\bms_aux\i386\libbms_aux.a
+\library\vctrend\i386\libvctrend.a
+\library\vscreen\i386\libvscreen.a
+\library\asstring\i386\libasstring.a
+\library\dataobj\i386\libdataobj.a
+\library\sys_lib\i386\libsys_lib.a
+
+[IncludeList]
+\pgm\bms\cpu

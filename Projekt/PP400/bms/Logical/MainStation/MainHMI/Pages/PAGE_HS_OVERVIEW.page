@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="PAGE_HS_OVERVIEW">
+  <Property Name="BackColor" Value="255"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="10"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="640"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[Global]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Global"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="640"/>
+      <Property Name="Z-Order" Value="1"/>
+      <TextGroup>
+        <TextLayer LanguageId="de">
+          <Text ID="93360" Value="Jahresverlauf"/>
+          <Text ID="93363" Value="Tagesverlauf"/>
+          <Text ID="93771" Value="Jan"/>
+          <Text ID="93796" Value="Feb"/>
+          <Text ID="93797" Value="Mar"/>
+          <Text ID="93798" Value="Apr"/>
+          <Text ID="93799" Value="Mai"/>
+          <Text ID="93800" Value="Jun"/>
+          <Text ID="93801" Value="Jul"/>
+          <Text ID="93802" Value="Aug"/>
+          <Text ID="93803" Value="Sep"/>
+          <Text ID="93804" Value="Okt"/>
+          <Text ID="93805" Value="Nov"/>
+          <Text ID="93806" Value="Dez"/>
+          <Text ID="93807" Value="Jan"/>
+          <Text ID="93808" Value="Feb"/>
+          <Text ID="93809" Value="Mar"/>
+          <Text ID="93810" Value="Apr"/>
+          <Text ID="93811" Value="Mai"/>
+          <Text ID="93812" Value="Jun"/>
+          <Text ID="93813" Value="Jul"/>
+          <Text ID="93814" Value="Aug"/>
+          <Text ID="93815" Value="Sep"/>
+          <Text ID="93816" Value="Okt"/>
+          <Text ID="93817" Value="Nov"/>
+          <Text ID="93818" Value="Dez"/>
+          <Text ID="93820" Value="."/>
+          <Text ID="93821" Value="."/>
+          <Text ID="93822" Value="Hoch:"/>
+          <Text ID="93823" Value="Tief:"/>
+          <Text ID="93824" Value="Brenner:"/>
+          <Text ID="93825" Value="Gesamt:"/>
+          <Text ID="93826" Value="Schnitt:"/>
+          <Text ID="93827" Value="."/>
+          <Text ID="93828" Value="."/>
+          <Text ID="93829" Value="Hoch:"/>
+          <Text ID="93830" Value="Tief:"/>
+          <Text ID="93831" Value="Brenner:"/>
+          <Text ID="93832" Value="Gesamt:"/>
+          <Text ID="93833" Value="Schnitt:"/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="93360" Value="1"/>
+          <Index ID="93363" Value="4"/>
+          <Index ID="93771" Value="0"/>
+          <Index ID="93796" Value="12"/>
+          <Index ID="93797" Value="13"/>
+          <Index ID="93798" Value="14"/>
+          <Index ID="93799" Value="15"/>
+          <Index ID="93800" Value="16"/>
+          <Index ID="93801" Value="17"/>
+          <Index ID="93802" Value="18"/>
+          <Index ID="93803" Value="19"/>
+          <Index ID="93804" Value="20"/>
+          <Index ID="93805" Value="21"/>
+          <Index ID="93806" Value="22"/>
+          <Index ID="93807" Value="23"/>
+          <Index ID="93808" Value="24"/>
+          <Index ID="93809" Value="25"/>
+          <Index ID="93810" Value="26"/>
+          <Index ID="93811" Value="27"/>
+          <Index ID="93812" Value="28"/>
+          <Index ID="93813" Value="29"/>
+          <Index ID="93814" Value="30"/>
+          <Index ID="93815" Value="31"/>
+          <Index ID="93816" Value="32"/>
+          <Index ID="93817" Value="33"/>
+          <Index ID="93818" Value="34"/>
+          <Index ID="93820" Value="36"/>
+          <Index ID="93821" Value="37"/>
+          <Index ID="93822" Value="38"/>
+          <Index ID="93823" Value="39"/>
+          <Index ID="93824" Value="40"/>
+          <Index ID="93825" Value="41"/>
+          <Index ID="93826" Value="42"/>
+          <Index ID="93827" Value="43"/>
+          <Index ID="93828" Value="44"/>
+          <Index ID="93829" Value="45"/>
+          <Index ID="93830" Value="46"/>
+          <Index ID="93831" Value="47"/>
+          <Index ID="93832" Value="48"/>
+          <Index ID="93833" Value="49"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001011" Name="trendYearTemp">
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="105"/>
+          <Property Name="Left" Value="29"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Trend]"/>
+          <Property Name="Top" Value="57"/>
+          <Property Name="TrendConfig" Value="Source[local].Trend[TrendYearTemp]"/>
+          <Property Name="Width" Value="411"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearTrendTemp">
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="29"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="1"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="40"/>
+          <Property Name="Width" Value="242"/>
+        </Control>
+        <Control ClassId="0x00001011" Name="trendYearBurner">
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="74"/>
+          <Property Name="Left" Value="29"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Trend]"/>
+          <Property Name="Top" Value="186"/>
+          <Property Name="TrendConfig" Value="Source[local].Trend[TrendYearHeat]"/>
+          <Property Name="Width" Value="411"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtDayTrend">
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="29"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="4"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="293"/>
+          <Property Name="Width" Value="237"/>
+        </Control>
+        <Control ClassId="0x00001011" Name="trendDayTemp">
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="102"/>
+          <Property Name="Left" Value="30"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Trend]"/>
+          <Property Name="Top" Value="310"/>
+          <Property Name="TrendConfig" Value="Source[local].Trend[TrendDayTemp]"/>
+          <Property Name="Width" Value="405"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtJan">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="77"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtFeb">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="107"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="12"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtMar">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="137"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="13"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtApr">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="167"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="14"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtMai">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="197"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="15"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtJun">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="227"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="16"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtJul">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="257"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="17"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtAug">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="287"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="18"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtSep">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="317"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="19"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtOkt">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="347"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="20"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtNov">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="377"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="21"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtDez">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="407"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="22"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtJan1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="77"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="23"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtFeb1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="107"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="24"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtMar1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="137"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="25"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtApr1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="167"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="26"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtMai1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="197"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="27"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtJun1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="227"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="28"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtJul1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="257"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="29"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtAug1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="287"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="30"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtSep1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="317"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="31"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtOkt1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="347"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="32"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtNov1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="377"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="33"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtDez1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="407"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="34"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="261"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="rectTrend2">
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="23"/>
+          <Property Name="Left" Value="484"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="247"/>
+          <Property Name="Width" Value="79"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendYear2">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].update]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="525"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="2099"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="2002"/>
+          <Property Name="SimulationValue" Value="2009"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="248"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.year]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="34"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendMonth2">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].update]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="509"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="12"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="1"/>
+          <Property Name="SimulationValue" Value="12"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="248"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.month]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txTrendDecPoint1_2">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="523"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="36"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="248"/>
+          <Property Name="Width" Value="6"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txTrendDecPoint2_2">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="502"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="37"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="249"/>
+          <Property Name="Width" Value="6"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendDay2">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].update]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="488"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="31"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="1"/>
+          <Property Name="SimulationValue" Value="12"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="249"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.day]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="chkTrendYearTempHigh2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CheckBox]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.enable]"/>
+          <Property Name="Left" Value="484"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="285"/>
+          <Property Name="Width" Value="18"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearHigh2">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="255"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="511"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="38"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="285"/>
+          <Property Name="Width" Value="34"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendHigh2">
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="558"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="25"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="285"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.tempDate]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="43"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearLow2">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="43"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="511"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="39"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="316"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendLow2">
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="558"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="-15"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="316"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.tempDate]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="43"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearHeatDay2">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="111"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="511"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="40"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="345"/>
+          <Property Name="Width" Value="52"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendHeat2">
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="561"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="618"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="345"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.hoursDate]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="33"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="chkTrendYearTempLow2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CheckBox]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.enable]"/>
+          <Property Name="Left" Value="484"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="316"/>
+          <Property Name="Width" Value="18"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendAv2">
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="559"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="10.4"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="393"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].tempAv]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="42"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearHeatTot2">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="510"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="41"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="373"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendHeatTot2">
+          <Property Name="AddFractionDigits" Value="-1"/>
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="561"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="49500"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="373"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.hoursTotal]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="33"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="chkTrendYearHeat2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CheckBox]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.enable]"/>
+          <Property Name="Left" Value="484"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="345"/>
+          <Property Name="Width" Value="18"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="hotTrendYearTempHigh2">
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="473"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="279"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[enableTrendYearHigh2]"/>
+          <Property Name="Width" Value="131"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="hotTrendYearTempLow2">
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="473"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="309"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[enableTrendYearLow2]"/>
+          <Property Name="Width" Value="131"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="hotTrendYearHeat2">
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="473"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="339"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[enableTrendYearHeat2]"/>
+          <Property Name="Width" Value="131"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearTempAv2">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="512"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="42"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="393"/>
+          <Property Name="Width" Value="48"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="rectTrend1">
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="23"/>
+          <Property Name="Left" Value="484"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="57"/>
+          <Property Name="Width" Value="79"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendYear1">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].update]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="525"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="2099"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="2002"/>
+          <Property Name="SimulationValue" Value="2010"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="58"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.year]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="34"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendMonth1">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].update]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="Left" Value="509"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="12"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="1"/>
+          <Property Name="SimulationValue" Value="12"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="58"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.month]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txTrendDecPoint1_1">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="523"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="43"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="58"/>
+          <Property Name="Width" Value="6"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txTrendDecPoint2_1">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="502"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="44"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="59"/>
+          <Property Name="Width" Value="6"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendDay1">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].update]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="488"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="31"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="1"/>
+          <Property Name="SimulationValue" Value="12"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="59"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.day]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="chkTrendYearTempHigh1">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CheckBox]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.enable]"/>
+          <Property Name="Left" Value="484"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="95"/>
+          <Property Name="Width" Value="18"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearHigh1">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="39"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="511"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="45"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="95"/>
+          <Property Name="Width" Value="34"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendHigh1">
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="558"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="23"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="95"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.tempDate]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="43"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearLow1">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="213"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="511"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="46"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="126"/>
+          <Property Name="Width" Value="35"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendLow1">
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="558"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="-12"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="126"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.tempDate]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="43"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearHeatDay1">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="2"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="511"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="47"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="155"/>
+          <Property Name="Width" Value="52"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendHeat1">
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="561"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="618"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="155"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.hoursDate]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="33"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="chkTrendYearTempLow1">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CheckBox]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.enable]"/>
+          <Property Name="Left" Value="484"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="126"/>
+          <Property Name="Width" Value="18"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendAv1">
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="559"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="10.5"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="203"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].tempAv]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="42"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearHeatTot1">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="510"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="48"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="183"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numTrendHeatTot1">
+          <Property Name="AddFractionDigits" Value="-1"/>
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="561"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="48000"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="183"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Center"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.hoursTotal]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="33"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="chkTrendYearHeat1">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CheckBox]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.enable]"/>
+          <Property Name="Left" Value="484"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="155"/>
+          <Property Name="Width" Value="18"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="hotTrendYearTempHigh1">
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="473"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="89"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[enableTrendYearHigh1]"/>
+          <Property Name="Width" Value="131"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="hotTrendYearTempLow1">
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="473"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="119"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[enableTrendYearLow1]"/>
+          <Property Name="Width" Value="131"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="hotTrendYearHeat1">
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="473"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="149"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[enableTrendYearHeat1]"/>
+          <Property Name="Width" Value="131"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtYearTempAv1">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="512"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="49"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="203"/>
+          <Property Name="Width" Value="48"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="enableTrendYearHigh1">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.enable]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="enableTrendYearLow1">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.enable]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="enableTrendYearHeat1">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.enable]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="enableTrendYearHigh2">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.enable]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="enableTrendYearLow2">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.enable]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="enableTrendYearHeat2">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.enable]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numTrendYear2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numTrendYear1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numTrendMonth2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numTrendDay2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numTrendYear1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numTrendMonth2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numTrendMonth1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numTrendDay2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numTrendYear2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numTrendMonth1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numTrendDay2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numTrendDay1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numTrendYear2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numTrendMonth2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numTrendDay1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numTrendYear1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numTrendYear2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numTrendMonth1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numTrendDay1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numTrendYear2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numTrendMonth1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numTrendMonth2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numTrendDay1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numTrendYear1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numTrendMonth2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numTrendDay1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numTrendDay2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numTrendYear1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numTrendMonth1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numTrendDay2]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[trendYearTemp]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[trendYearBurner]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[trendDayTemp]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[numTrendYear2]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[numTrendMonth2]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[numTrendDay2]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[numTrendHigh2]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[numTrendLow2]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[numTrendHeat2]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[Default].Control[numTrendAv2]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[Default].Control[numTrendHeatTot2]"/>
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[Default].Control[numTrendYear1]"/>
+    <TabSeqItem Index="12" Value="Source[embedded].Layer[Default].Control[numTrendMonth1]"/>
+    <TabSeqItem Index="13" Value="Source[embedded].Layer[Default].Control[numTrendDay1]"/>
+    <TabSeqItem Index="14" Value="Source[embedded].Layer[Default].Control[numTrendHigh1]"/>
+    <TabSeqItem Index="15" Value="Source[embedded].Layer[Default].Control[numTrendLow1]"/>
+    <TabSeqItem Index="16" Value="Source[embedded].Layer[Default].Control[numTrendHeat1]"/>
+    <TabSeqItem Index="17" Value="Source[embedded].Layer[Default].Control[numTrendAv1]"/>
+    <TabSeqItem Index="18" Value="Source[embedded].Layer[Default].Control[numTrendHeatTot1]"/>
+  </TabSequence>
+</Page>

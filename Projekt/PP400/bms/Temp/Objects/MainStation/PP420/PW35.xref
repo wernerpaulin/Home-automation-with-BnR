@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0?>
+<CrossRef Scope="PW35" xmlns="http://br-automation.co.at/AS/VC/CrossreferenceSG3">
+	<Vars>
+		<Var Name="gActData.heating.tempOutsideAct" Scope="Global" Type="REAL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Picture[INIT_PIC].Layer[DEFAULT].Control[OUTPUT_NUMERIC].Property[OBJ_DATA_VAR]" A="R" O="OBJ_DATA_VAR"/>
+			</File>
+		</Var>
+		<Var Name="gActData.irrigation.segment[0].switchOnRequest" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Picture[INIT_PIC].Layer[DEFAULT].Control[OUTPUT_TEXT_ADVANCED].Property[OTA_TEXT_NUMBER_DATA_VAR]" A="R" O="OTA_TEXT_NUMBER_DATA_VAR"/>
+			</File>
+		</Var>
+		<Var Name="gActData.irrigation.segment[1].switchOnRequest" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Picture[INIT_PIC].Layer[DEFAULT].Control[OUTPUT_TEXT_ADVANCED].Property[OTA_TEXT_NUMBER_DATA_VAR]" A="R" O="OTA_TEXT_NUMBER_DATA_VAR"/>
+			</File>
+		</Var>
+		<Var Name="gActData.irrigation.segment[2].switchOnRequest" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Picture[INIT_PIC].Layer[DEFAULT].Control[OUTPUT_TEXT_ADVANCED].Property[OTA_TEXT_NUMBER_DATA_VAR]" A="R" O="OTA_TEXT_NUMBER_DATA_VAR"/>
+			</File>
+		</Var>
+		<Var Name="gActData.irrigation.segment[3].switchOnRequest" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Picture[INIT_PIC].Layer[DEFAULT].Control[OUTPUT_TEXT_ADVANCED].Property[OTA_TEXT_NUMBER_DATA_VAR]" A="R" O="OTA_TEXT_NUMBER_DATA_VAR"/>
+			</File>
+		</Var>
+		<Var Name="gActData.irrigation.segment[4].switchOnRequest" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Picture[INIT_PIC].Layer[DEFAULT].Control[OUTPUT_TEXT_ADVANCED].Property[OTA_TEXT_NUMBER_DATA_VAR]" A="R" O="OTA_TEXT_NUMBER_DATA_VAR"/>
+			</File>
+		</Var>
+		<Var Name="gActData.irrigation.segment[5].switchOnRequest" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Picture[INIT_PIC].Layer[DEFAULT].Control[OUTPUT_TEXT_ADVANCED].Property[OTA_TEXT_NUMBER_DATA_VAR]" A="R" O="OTA_TEXT_NUMBER_DATA_VAR"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.ledControl[1]" Scope="Local" Type="USINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[1].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[6].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.ledControl[2]" Scope="Local" Type="USINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[2].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[7].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.ledControl[0]" Scope="Local" Type="USINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[0].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.ledControl[3]" Scope="Local" Type="USINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[3].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[8].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.ledControl[4]" Scope="Local" Type="USINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[4].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[9].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.ledControl[5]" Scope="Local" Type="USINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Basement/PW35/VCObject.vc3">
+				<Pos L="0" C="0" PS="Panel.Display[PW35 CAN].Keypad.KeyStates[INIT_PIC].KeyState[5].Property[KEYSTATE_LED_VAR]" A="R" O="KEYSTATE_LED_VAR"/>
+			</File>
+		</Var>
+	</Vars>
+</CrossRef>

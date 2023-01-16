@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/bmslib/bmslib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
+$(AS_PROJECT_PATH)/Logical/MainStation/IrrigationSystem/ip_con/ip_con.var
+$(AS_PROJECT_PATH)/Logical/Globals/Global.typ
+$(AS_PROJECT_PATH)/Logical/Globals/Global.var
+$(AS_PROJECT_PATH)/Logical/Globals/Alarms.var
+$(AS_PROJECT_PATH)/Logical/Globals/Alarms.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.typ
+$(AS_PROJECT_PATH)/Logical/Globals/IO.var

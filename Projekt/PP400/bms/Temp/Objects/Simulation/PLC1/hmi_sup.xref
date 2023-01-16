@@ -1,0 +1,1019 @@
+<?xml version="1.0"?>
+<Crossref Scope="MainStation.hmi_sup">
+	<Vars>
+		<Var Name="hmi_sup.yearIndex" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="104" C="6" PS="Ln:104, Col:6" A="W"/>
+				<Pos L="108" C="68" PS="Ln:108, Col:68" A="R"/>
+				<Pos L="109" C="20" PS="Ln:109, Col:20" A="R"/>
+				<Pos L="109" C="62" PS="Ln:109, Col:62" A="R"/>
+				<Pos L="109" C="85" PS="Ln:109, Col:85" A="R"/>
+				<Pos L="110" C="20" PS="Ln:110, Col:20" A="R"/>
+				<Pos L="111" C="20" PS="Ln:111, Col:20" A="R"/>
+				<Pos L="112" C="20" PS="Ln:112, Col:20" A="R"/>
+				<Pos L="113" C="20" PS="Ln:113, Col:20" A="R"/>
+				<Pos L="117" C="19" PS="Ln:117, Col:19" A="R"/>
+				<Pos L="117" C="76" PS="Ln:117, Col:76" A="R"/>
+				<Pos L="118" C="19" PS="Ln:118, Col:19" A="R"/>
+				<Pos L="118" C="76" PS="Ln:118, Col:76" A="R"/>
+				<Pos L="119" C="19" PS="Ln:119, Col:19" A="R"/>
+				<Pos L="119" C="76" PS="Ln:119, Col:76" A="R"/>
+				<Pos L="122" C="23" PS="Ln:122, Col:23" A="R"/>
+				<Pos L="124" C="24" PS="Ln:124, Col:24" A="R"/>
+				<Pos L="130" C="79" PS="Ln:130, Col:79" A="R"/>
+				<Pos L="134" C="89" PS="Ln:134, Col:89" A="R"/>
+				<Pos L="137" C="31" PS="Ln:137, Col:31" A="R"/>
+				<Pos L="137" C="89" PS="Ln:137, Col:89" A="R"/>
+				<Pos L="138" C="20" PS="Ln:138, Col:20" A="R"/>
+				<Pos L="139" C="20" PS="Ln:139, Col:20" A="R"/>
+				<Pos L="144" C="22" PS="Ln:144, Col:22" A="R"/>
+				<Pos L="145" C="22" PS="Ln:145, Col:22" A="R"/>
+				<Pos L="145" C="64" PS="Ln:145, Col:64" A="R"/>
+				<Pos L="145" C="105" PS="Ln:145, Col:105" A="R"/>
+				<Pos L="147" C="21" PS="Ln:147, Col:21" A="R"/>
+				<Pos L="147" C="65" PS="Ln:147, Col:65" A="R"/>
+				<Pos L="148" C="21" PS="Ln:148, Col:21" A="R"/>
+				<Pos L="148" C="65" PS="Ln:148, Col:65" A="R"/>
+				<Pos L="148" C="118" PS="Ln:148, Col:118" A="R"/>
+				<Pos L="152" C="88" PS="Ln:152, Col:88" A="R"/>
+				<Pos L="155" C="31" PS="Ln:155, Col:31" A="R"/>
+				<Pos L="155" C="88" PS="Ln:155, Col:88" A="R"/>
+				<Pos L="156" C="20" PS="Ln:156, Col:20" A="R"/>
+				<Pos L="157" C="20" PS="Ln:157, Col:20" A="R"/>
+				<Pos L="162" C="22" PS="Ln:162, Col:22" A="R"/>
+				<Pos L="163" C="22" PS="Ln:163, Col:22" A="R"/>
+				<Pos L="163" C="63" PS="Ln:163, Col:63" A="R"/>
+				<Pos L="163" C="103" PS="Ln:163, Col:103" A="R"/>
+				<Pos L="165" C="21" PS="Ln:165, Col:21" A="R"/>
+				<Pos L="165" C="64" PS="Ln:165, Col:64" A="R"/>
+				<Pos L="166" C="21" PS="Ln:166, Col:21" A="R"/>
+				<Pos L="166" C="64" PS="Ln:166, Col:64" A="R"/>
+				<Pos L="166" C="116" PS="Ln:166, Col:116" A="R"/>
+				<Pos L="170" C="20" PS="Ln:170, Col:20" A="R"/>
+				<Pos L="170" C="58" PS="Ln:170, Col:58" A="R"/>
+				<Pos L="170" C="99" PS="Ln:170, Col:99" A="R"/>
+				<Pos L="173" C="84" PS="Ln:173, Col:84" A="R"/>
+				<Pos L="176" C="31" PS="Ln:176, Col:31" A="R"/>
+				<Pos L="176" C="89" PS="Ln:176, Col:89" A="R"/>
+				<Pos L="177" C="20" PS="Ln:177, Col:20" A="R"/>
+				<Pos L="178" C="20" PS="Ln:178, Col:20" A="R"/>
+				<Pos L="183" C="22" PS="Ln:183, Col:22" A="R"/>
+				<Pos L="184" C="22" PS="Ln:184, Col:22" A="R"/>
+				<Pos L="184" C="68" PS="Ln:184, Col:68" A="R"/>
+				<Pos L="184" C="113" PS="Ln:184, Col:113" A="R"/>
+				<Pos L="186" C="21" PS="Ln:186, Col:21" A="R"/>
+				<Pos L="186" C="66" PS="Ln:186, Col:66" A="R"/>
+				<Pos L="186" C="119" PS="Ln:186, Col:119" A="R"/>
+				<Pos L="190" C="20" PS="Ln:190, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.tempOutsideActOld" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="85" C="41" PS="Ln:85, Col:41" A="R"/>
+				<Pos L="87" C="4" PS="Ln:87, Col:4" A="W"/>
+				<Pos L="88" C="44" PS="Ln:88, Col:44" A="R"/>
+				<Pos L="90" C="4" PS="Ln:90, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.tempLivingroomActOld" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="94" C="44" PS="Ln:94, Col:44" A="R"/>
+				<Pos L="96" C="4" PS="Ln:96, Col:4" A="W"/>
+				<Pos L="97" C="47" PS="Ln:97, Col:47" A="R"/>
+				<Pos L="99" C="4" PS="Ln:99, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.status" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="272" C="5" PS="Ln:272, Col:5" A="W"/>
+				<Pos L="273" C="9" PS="Ln:273, Col:9" A="R"/>
+				<Pos L="279" C="4" PS="Ln:279, Col:4" A="W"/>
+				<Pos L="280" C="8" PS="Ln:280, Col:8" A="R"/>
+				<Pos L="285" C="4" PS="Ln:285, Col:4" A="W"/>
+				<Pos L="286" C="8" PS="Ln:286, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.sScrSht" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="269" C="7" PS="Ln:269, Col:7" A="R"/>
+				<Pos L="274" C="6" PS="Ln:274, Col:6" A="W"/>
+				<Pos L="281" C="5" PS="Ln:281, Col:5" A="W"/>
+				<Pos L="288" C="5" PS="Ln:288, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.pagePowerUpTimer" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="51" C="3" PS="Ln:51, Col:3" A="W"/>
+				<Pos L="51" C="23" PS="Ln:51, Col:23" A="R"/>
+				<Pos L="52" C="7" PS="Ln:52, Col:7" A="R"/>
+				<Pos L="54" C="4" PS="Ln:54, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.oldMinute" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="31" C="6" PS="Ln:31, Col:6" A="R"/>
+				<Pos L="38" C="3" PS="Ln:38, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.newPage" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="60" C="3" PS="Ln:60, Col:3" A="W"/>
+				<Pos L="62" C="3" PS="Ln:62, Col:3" A="W"/>
+				<Pos L="69" C="7" PS="Ln:69, Col:7" A="R"/>
+				<Pos L="106" C="8" PS="Ln:106, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.newMinute" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="32" C="3" PS="Ln:32, Col:3" A="W"/>
+				<Pos L="40" C="3" PS="Ln:40, Col:3" A="W"/>
+				<Pos L="83" C="6" PS="Ln:83, Col:6" A="R"/>
+				<Pos L="206" C="7" PS="Ln:206, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.nbDays" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="125" C="5" PS="Ln:125, Col:5" A="W"/>
+				<Pos L="126" C="9" PS="Ln:126, Col:9" A="R"/>
+				<Pos L="127" C="6" PS="Ln:127, Col:6" A="W"/>
+				<Pos L="127" C="16" PS="Ln:127, Col:16" A="R"/>
+				<Pos L="130" C="5" PS="Ln:130, Col:5" A="W"/>
+				<Pos L="143" C="27" PS="Ln:143, Col:27" A="R"/>
+				<Pos L="147" C="103" PS="Ln:147, Col:103" A="R"/>
+				<Pos L="161" C="27" PS="Ln:161, Col:27" A="R"/>
+				<Pos L="165" C="101" PS="Ln:165, Col:101" A="R"/>
+				<Pos L="182" C="27" PS="Ln:182, Col:27" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.hScrSht" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="272" C="37" PS="Ln:272, Col:37" A="R"/>
+				<Pos L="279" C="28" PS="Ln:279, Col:28" A="R"/>
+				<Pos L="285" C="34" PS="Ln:285, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fRTInfo" Scope="Local" Type="RTInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="22" C="2" PS="Ln:22, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fRTInfo.cycle_time" Scope="Local" Type="RTInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="23" C="10" PS="Ln:23, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fileScrSht" Scope="Local" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="271" C="55" PS="Ln:271, Col:55" A="R"/>
+				<Pos L="272" C="51" PS="Ln:272, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fGetTrendDatObjName" Scope="Local" Type="GetTrendDatObjName">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="134" C="4" PS="Ln:134, Col:4" A="RW"/>
+				<Pos L="152" C="4" PS="Ln:152, Col:4" A="RW"/>
+				<Pos L="173" C="4" PS="Ln:173, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fGetTrendDatObjName.datObjName" Scope="Local" Type="GetTrendDatObjName">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="135" C="42" PS="Ln:135, Col:42" A="R"/>
+				<Pos L="153" C="42" PS="Ln:153, Col:42" A="R"/>
+				<Pos L="174" C="42" PS="Ln:174, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDTStructureSetTime" Scope="Local" Type="DTStructureSetTime">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="76" C="3" PS="Ln:76, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDTStructureSetTime.status" Scope="Local" Type="DTStructureSetTime">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="77" C="7" PS="Ln:77, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDTStructureGetTime" Scope="Local" Type="DTStructureGetTime">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="66" C="2" PS="Ln:66, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDTGetTime" Scope="Local" Type="DTGetTime">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="107" C="4" PS="Ln:107, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDTGetTime.DT1" Scope="Local" Type="DTGetTime">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="108" C="22" PS="Ln:108, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDatObjInfo" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="135" C="4" PS="Ln:135, Col:4" A="RW"/>
+				<Pos L="153" C="4" PS="Ln:153, Col:4" A="RW"/>
+				<Pos L="174" C="4" PS="Ln:174, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDatObjInfo.status" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="140" C="8" PS="Ln:140, Col:8" A="R"/>
+				<Pos L="158" C="8" PS="Ln:158, Col:8" A="R"/>
+				<Pos L="179" C="8" PS="Ln:179, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDatObjInfo.pDatObjMem" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="142" C="30" PS="Ln:142, Col:30" A="RW"/>
+				<Pos L="160" C="30" PS="Ln:160, Col:30" A="RW"/>
+				<Pos L="181" C="31" PS="Ln:181, Col:31" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.dayIndex" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="143" C="9" PS="Ln:143, Col:9" A="W"/>
+				<Pos L="144" C="49" PS="Ln:144, Col:49" A="R"/>
+				<Pos L="144" C="80" PS="Ln:144, Col:80" A="R"/>
+				<Pos L="145" C="132" PS="Ln:145, Col:132" A="R"/>
+				<Pos L="161" C="9" PS="Ln:161, Col:9" A="W"/>
+				<Pos L="162" C="48" PS="Ln:162, Col:48" A="R"/>
+				<Pos L="162" C="79" PS="Ln:162, Col:79" A="R"/>
+				<Pos L="163" C="129" PS="Ln:163, Col:129" A="R"/>
+				<Pos L="182" C="9" PS="Ln:182, Col:9" A="W"/>
+				<Pos L="183" C="49" PS="Ln:183, Col:49" A="R"/>
+				<Pos L="183" C="81" PS="Ln:183, Col:81" A="R"/>
+				<Pos L="184" C="140" PS="Ln:184, Col:140" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.cycT" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="23" C="2" PS="Ln:23, Col:2" A="W"/>
+				<Pos L="51" C="42" PS="Ln:51, Col:42" A="R"/>
+				<Pos L="256" C="25" PS="Ln:256, Col:25" A="R"/>
+				<Pos L="257" C="43" PS="Ln:257, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.cmdNewPageOld" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="45" C="68" PS="Ln:45, Col:68" A="R"/>
+				<Pos L="47" C="3" PS="Ln:47, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.actPicOld" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="59" C="6" PS="Ln:59, Col:6" A="R"/>
+				<Pos L="64" C="2" PS="Ln:64, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.bufferElementREAL" Scope="Local" Type="REFERENCE TO REAL[0..365]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="142" C="5" PS="Ln:142, Col:5" A="A"/>
+				<Pos L="144" C="62" PS="Ln:144, Col:62" A="R"/>
+				<Pos L="160" C="5" PS="Ln:160, Col:5" A="A"/>
+				<Pos L="162" C="61" PS="Ln:162, Col:61" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.bufferElementUDINT" Scope="Local" Type="REFERENCE TO UDINT[0..365]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="181" C="5" PS="Ln:181, Col:5" A="A"/>
+				<Pos L="183" C="62" PS="Ln:183, Col:62" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.cntMinute" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="33" C="3" PS="Ln:33, Col:3" A="W"/>
+				<Pos L="33" C="16" PS="Ln:33, Col:16" A="R"/>
+				<Pos L="34" C="6" PS="Ln:34, Col:6" A="R"/>
+				<Pos L="36" C="4" PS="Ln:36, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.new4Minute" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="35" C="4" PS="Ln:35, Col:4" A="W"/>
+				<Pos L="41" C="3" PS="Ln:41, Col:3" A="W"/>
+				<Pos L="195" C="6" PS="Ln:195, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDateOfDay" Scope="Local" Type="DateOfDay">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="236" C="3" PS="Ln:236, Col:3" A="RW"/>
+				<Pos L="238" C="3" PS="Ln:238, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.fDateOfDay.outDate" Scope="Local" Type="DateOfDay">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="237" C="39" PS="Ln:237, Col:39" A="R"/>
+				<Pos L="239" C="37" PS="Ln:239, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.index" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="222" C="7" PS="Ln:222, Col:7" A="W"/>
+				<Pos L="223" C="48" PS="Ln:223, Col:48" A="R"/>
+				<Pos L="223" C="90" PS="Ln:223, Col:90" A="R"/>
+				<Pos L="223" C="141" PS="Ln:223, Col:141" A="R"/>
+				<Pos L="224" C="46" PS="Ln:224, Col:46" A="R"/>
+				<Pos L="224" C="88" PS="Ln:224, Col:88" A="R"/>
+				<Pos L="224" C="139" PS="Ln:224, Col:139" A="R"/>
+				<Pos L="242" C="7" PS="Ln:242, Col:7" A="W"/>
+				<Pos L="243" C="36" PS="Ln:243, Col:36" A="R"/>
+				<Pos L="243" C="112" PS="Ln:243, Col:112" A="R"/>
+				<Pos L="244" C="36" PS="Ln:244, Col:36" A="R"/>
+				<Pos L="244" C="112" PS="Ln:244, Col:112" A="R"/>
+				<Pos L="245" C="34" PS="Ln:245, Col:34" A="R"/>
+				<Pos L="245" C="110" PS="Ln:245, Col:110" A="R"/>
+				<Pos L="246" C="34" PS="Ln:246, Col:34" A="R"/>
+				<Pos L="246" C="110" PS="Ln:246, Col:110" A="R"/>
+				<Pos L="293" C="6" PS="Ln:293, Col:6" A="W"/>
+				<Pos L="295" C="35" PS="Ln:295, Col:35" A="R"/>
+				<Pos L="296" C="15" PS="Ln:296, Col:15" A="R"/>
+				<Pos L="298" C="15" PS="Ln:298, Col:15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.screenCleanTimer" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="256" C="6" PS="Ln:256, Col:6" A="R"/>
+				<Pos L="257" C="4" PS="Ln:257, Col:4" A="W"/>
+				<Pos L="257" C="24" PS="Ln:257, Col:24" A="R"/>
+				<Pos L="262" C="3" PS="Ln:262, Col:3" A="W"/>
+				<Pos L="265" C="34" PS="Ln:265, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.pageBeforeScreenClean" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="259" C="28" PS="Ln:259, Col:28" A="R"/>
+				<Pos L="263" C="3" PS="Ln:263, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmi_sup.ledControl" Scope="Local" Type="USINT[0..5]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="296" C="4" PS="Ln:296, Col:4" A="W"/>
+				<Pos L="298" C="4" PS="Ln:298, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.minute" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="31" C="19" PS="Ln:31, Col:19" A="R"/>
+				<Pos L="38" C="16" PS="Ln:38, Col:16" A="R"/>
+				<Pos L="196" C="74" PS="Ln:196, Col:74" A="R"/>
+				<Pos L="206" C="68" PS="Ln:206, Col:68" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="66" C="55" PS="Ln:66, Col:55" A="R"/>
+				<Pos L="70" C="42" PS="Ln:70, Col:42" A="R"/>
+				<Pos L="125" C="25" PS="Ln:125, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempOutsideAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="85" C="7" PS="Ln:85, Col:7" A="R"/>
+				<Pos L="87" C="25" PS="Ln:87, Col:25" A="R"/>
+				<Pos L="88" C="10" PS="Ln:88, Col:10" A="R"/>
+				<Pos L="90" C="25" PS="Ln:90, Col:25" A="R"/>
+				<Pos L="202" C="76" PS="Ln:202, Col:76" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempLivingroomAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="94" C="7" PS="Ln:94, Col:7" A="R"/>
+				<Pos L="96" C="28" PS="Ln:96, Col:28" A="R"/>
+				<Pos L="97" C="10" PS="Ln:97, Col:10" A="R"/>
+				<Pos L="99" C="28" PS="Ln:99, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.year" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="124" C="47" PS="Ln:124, Col:47" A="R"/>
+				<Pos L="236" C="22" PS="Ln:236, Col:22" A="R"/>
+				<Pos L="238" C="22" PS="Ln:238, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.hour" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="196" C="40" PS="Ln:196, Col:40" A="R"/>
+				<Pos L="206" C="30" PS="Ln:206, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.loweringActive" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="251" C="52" PS="Ln:251, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.irrigation.segment.switchOnRequest" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="295" C="7" PS="Ln:295, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.day.nbSamples" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="25" C="2" PS="Ln:25, Col:2" A="W"/>
+				<Pos L="196" C="3" PS="Ln:196, Col:3" A="W"/>
+				<Pos L="197" C="6" PS="Ln:197, Col:6" A="R"/>
+				<Pos L="198" C="4" PS="Ln:198, Col:4" A="W"/>
+				<Pos L="199" C="9" PS="Ln:199, Col:9" A="R"/>
+				<Pos L="200" C="4" PS="Ln:200, Col:4" A="W"/>
+				<Pos L="202" C="36" PS="Ln:202, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.general.setPage" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="45" C="6" PS="Ln:45, Col:6" A="R"/>
+				<Pos L="46" C="3" PS="Ln:46, Col:3" A="W"/>
+				<Pos L="53" C="4" PS="Ln:53, Col:4" A="W"/>
+				<Pos L="259" C="4" PS="Ln:259, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.general.cmdNewPage" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="45" C="41" PS="Ln:45, Col:41" A="R"/>
+				<Pos L="46" C="27" PS="Ln:46, Col:27" A="R"/>
+				<Pos L="47" C="20" PS="Ln:47, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.general.actPage" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="50" C="6" PS="Ln:50, Col:6" A="R"/>
+				<Pos L="59" C="19" PS="Ln:59, Col:19" A="R"/>
+				<Pos L="64" C="15" PS="Ln:64, Col:15" A="R"/>
+				<Pos L="69" C="28" PS="Ln:69, Col:28" A="R"/>
+				<Pos L="106" C="29" PS="Ln:106, Col:29" A="R"/>
+				<Pos L="255" C="6" PS="Ln:255, Col:6" A="R"/>
+				<Pos L="263" C="28" PS="Ln:263, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.general.setTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="70" C="15" PS="Ln:70, Col:15" A="R"/>
+				<Pos L="70" C="73" PS="Ln:70, Col:73" A="R"/>
+				<Pos L="76" C="56" PS="Ln:76, Col:56" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.general.setTime.second" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="71" C="3" PS="Ln:71, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.cmd.setTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="75" C="6" PS="Ln:75, Col:6" A="R"/>
+				<Pos L="78" C="4" PS="Ln:78, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.tempOutsideTendency" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="86" C="6" PS="Ln:86, Col:6" A="W"/>
+				<Pos L="89" C="6" PS="Ln:89, Col:6" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.tempLivingroomTendency" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="95" C="6" PS="Ln:95, Col:6" A="W"/>
+				<Pos L="98" C="6" PS="Ln:98, Col:6" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.date" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="108" C="52" PS="Ln:108, Col:52" A="R"/>
+				<Pos L="148" C="102" PS="Ln:148, Col:102" A="R"/>
+				<Pos L="166" C="100" PS="Ln:166, Col:100" A="R"/>
+				<Pos L="186" C="103" PS="Ln:186, Col:103" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.date.year" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="109" C="4" PS="Ln:109, Col:4" A="W"/>
+				<Pos L="109" C="46" PS="Ln:109, Col:46" A="R"/>
+				<Pos L="124" C="8" PS="Ln:124, Col:8" A="R"/>
+				<Pos L="130" C="63" PS="Ln:130, Col:63" A="R"/>
+				<Pos L="134" C="73" PS="Ln:134, Col:73" A="R"/>
+				<Pos L="152" C="72" PS="Ln:152, Col:72" A="R"/>
+				<Pos L="173" C="68" PS="Ln:173, Col:68" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.high.enable" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="110" C="4" PS="Ln:110, Col:4" A="W"/>
+				<Pos L="117" C="60" PS="Ln:117, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.low.enable" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="111" C="4" PS="Ln:111, Col:4" A="W"/>
+				<Pos L="118" C="60" PS="Ln:118, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.heat.enable" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="112" C="4" PS="Ln:112, Col:4" A="W"/>
+				<Pos L="119" C="60" PS="Ln:119, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.update" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="113" C="4" PS="Ln:113, Col:4" A="W"/>
+				<Pos L="122" C="7" PS="Ln:122, Col:7" A="R"/>
+				<Pos L="190" C="4" PS="Ln:190, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.high.statusDatapoint.0" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="117" C="3" PS="Ln:117, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.low.statusDatapoint.0" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="118" C="3" PS="Ln:118, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.heat.statusDatapoint.0" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="119" C="3" PS="Ln:119, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.high.dataBuffer" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="137" C="15" PS="Ln:137, Col:15" A="R"/>
+				<Pos L="137" C="73" PS="Ln:137, Col:73" A="R"/>
+				<Pos L="144" C="6" PS="Ln:144, Col:6" A="W"/>
+				<Pos L="145" C="89" PS="Ln:145, Col:89" A="R"/>
+				<Pos L="148" C="49" PS="Ln:148, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.high.nbSamples" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="138" C="4" PS="Ln:138, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.high.tempAv" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="139" C="4" PS="Ln:139, Col:4" A="W"/>
+				<Pos L="145" C="6" PS="Ln:145, Col:6" A="W"/>
+				<Pos L="145" C="48" PS="Ln:145, Col:48" A="R"/>
+				<Pos L="147" C="5" PS="Ln:147, Col:5" A="W"/>
+				<Pos L="147" C="49" PS="Ln:147, Col:49" A="R"/>
+				<Pos L="170" C="42" PS="Ln:170, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.high.tempDate" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="148" C="5" PS="Ln:148, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.low.dataBuffer" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="155" C="15" PS="Ln:155, Col:15" A="R"/>
+				<Pos L="155" C="72" PS="Ln:155, Col:72" A="R"/>
+				<Pos L="162" C="6" PS="Ln:162, Col:6" A="W"/>
+				<Pos L="163" C="87" PS="Ln:163, Col:87" A="R"/>
+				<Pos L="166" C="48" PS="Ln:166, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.low.nbSamples" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="156" C="4" PS="Ln:156, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.low.tempAv" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="157" C="4" PS="Ln:157, Col:4" A="W"/>
+				<Pos L="163" C="6" PS="Ln:163, Col:6" A="W"/>
+				<Pos L="163" C="47" PS="Ln:163, Col:47" A="R"/>
+				<Pos L="165" C="5" PS="Ln:165, Col:5" A="W"/>
+				<Pos L="165" C="48" PS="Ln:165, Col:48" A="R"/>
+				<Pos L="170" C="83" PS="Ln:170, Col:83" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.low.tempDate" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="166" C="5" PS="Ln:166, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.tempAv" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="170" C="4" PS="Ln:170, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.heat.dataBuffer" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="176" C="15" PS="Ln:176, Col:15" A="R"/>
+				<Pos L="176" C="73" PS="Ln:176, Col:73" A="R"/>
+				<Pos L="183" C="6" PS="Ln:183, Col:6" A="W"/>
+				<Pos L="184" C="97" PS="Ln:184, Col:97" A="R"/>
+				<Pos L="186" C="50" PS="Ln:186, Col:50" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.heat.nbSamples" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="177" C="4" PS="Ln:177, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.heat.hoursTotal" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="178" C="4" PS="Ln:178, Col:4" A="W"/>
+				<Pos L="184" C="6" PS="Ln:184, Col:6" A="W"/>
+				<Pos L="184" C="52" PS="Ln:184, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.year.heat.hoursDate" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="186" C="5" PS="Ln:186, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.trend.day.dataBuffer" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="202" C="3" PS="Ln:202, Col:3" A="W"/>
+				<Pos L="207" C="14" PS="Ln:207, Col:14" A="R"/>
+				<Pos L="207" C="60" PS="Ln:207, Col:60" A="R"/>
+				<Pos L="207" C="105" PS="Ln:207, Col:105" A="R"/>
+				<Pos L="208" C="14" PS="Ln:208, Col:14" A="R"/>
+				<Pos L="208" C="62" PS="Ln:208, Col:62" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.cmd.updateDateTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="212" C="6" PS="Ln:212, Col:6" A="R"/>
+				<Pos L="227" C="3" PS="Ln:227, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.startTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="214" C="3" PS="Ln:214, Col:3" A="W"/>
+				<Pos L="230" C="51" PS="Ln:230, Col:51" A="R"/>
+				<Pos L="231" C="51" PS="Ln:231, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.startTime.hour" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="214" C="41" PS="Ln:214, Col:41" A="R"/>
+				<Pos L="230" C="3" PS="Ln:230, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.startTime.minute" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="214" C="76" PS="Ln:214, Col:76" A="R"/>
+				<Pos L="231" C="3" PS="Ln:231, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.endTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="215" C="3" PS="Ln:215, Col:3" A="W"/>
+				<Pos L="232" C="51" PS="Ln:232, Col:51" A="R"/>
+				<Pos L="233" C="51" PS="Ln:233, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.endTime.hour" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="215" C="41" PS="Ln:215, Col:41" A="R"/>
+				<Pos L="232" C="3" PS="Ln:232, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.endTime.minute" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="215" C="76" PS="Ln:215, Col:76" A="R"/>
+				<Pos L="233" C="3" PS="Ln:233, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.outOfHome.startDay" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="218" C="3" PS="Ln:218, Col:3" A="W"/>
+				<Pos L="236" C="77" PS="Ln:236, Col:77" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.outOfHome.startDate" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="218" C="60" PS="Ln:218, Col:60" A="R"/>
+				<Pos L="219" C="60" PS="Ln:219, Col:60" A="R"/>
+				<Pos L="237" C="3" PS="Ln:237, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.outOfHome.endDay" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="219" C="3" PS="Ln:219, Col:3" A="W"/>
+				<Pos L="238" C="77" PS="Ln:238, Col:77" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.hotwater.startTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="223" C="4" PS="Ln:223, Col:4" A="W"/>
+				<Pos L="243" C="68" PS="Ln:243, Col:68" A="R"/>
+				<Pos L="244" C="68" PS="Ln:244, Col:68" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.hotwater.startTime.hour" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="223" C="58" PS="Ln:223, Col:58" A="R"/>
+				<Pos L="243" C="4" PS="Ln:243, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.hotwater.startTime.minute" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="223" C="109" PS="Ln:223, Col:109" A="R"/>
+				<Pos L="244" C="4" PS="Ln:244, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.hotwater.endTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="224" C="4" PS="Ln:224, Col:4" A="W"/>
+				<Pos L="245" C="68" PS="Ln:245, Col:68" A="R"/>
+				<Pos L="246" C="68" PS="Ln:246, Col:68" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.hotwater.endTime.hour" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="224" C="58" PS="Ln:224, Col:58" A="R"/>
+				<Pos L="245" C="4" PS="Ln:245, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.hotwater.endTime.minute" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="224" C="109" PS="Ln:224, Col:109" A="R"/>
+				<Pos L="246" C="4" PS="Ln:246, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.outOfHome.endDate" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="239" C="3" PS="Ln:239, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.statusDatapointLoweringText.0" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="251" C="2" PS="Ln:251, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.heating.statusDatapointAlarmIndicator.0" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="252" C="2" PS="Ln:252, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.general.screenCleanTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="265" C="2" PS="Ln:265, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.cmd.doScreenShot" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="271" C="9" PS="Ln:271, Col:9" A="R"/>
+				<Pos L="287" C="5" PS="Ln:287, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.stop" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="252" C="54" PS="Ln:252, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.warning" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="252" C="69" PS="Ln:252, Col:69" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="hmi_sup.TEMP_TENDENCY_UP" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="86" C="42" PS="Ln:86, Col:42" A="R"/>
+				<Pos L="95" C="45" PS="Ln:95, Col:45" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.TEMP_TENDENCY_HYSTERESIS" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="85" C="62" PS="Ln:85, Col:62" A="R"/>
+				<Pos L="88" C="66" PS="Ln:88, Col:66" A="R"/>
+				<Pos L="94" C="68" PS="Ln:94, Col:68" A="R"/>
+				<Pos L="97" C="72" PS="Ln:97, Col:72" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.TEMP_TENDENCY_DOWN" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="89" C="42" PS="Ln:89, Col:42" A="R"/>
+				<Pos L="98" C="45" PS="Ln:98, Col:45" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.sWAIT_CMD" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="270" C="3" PS="Ln:270, Col:3" A="R"/>
+				<Pos L="288" C="16" PS="Ln:288, Col:16" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.sDO_SCREEN_SHOT" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="274" C="17" PS="Ln:274, Col:17" A="R"/>
+				<Pos L="278" C="3" PS="Ln:278, Col:3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.sDEINIT" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="281" C="16" PS="Ln:281, Col:16" A="R"/>
+				<Pos L="284" C="3" PS="Ln:284, Col:3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.PAGE_POWERUP" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="50" C="29" PS="Ln:50, Col:29" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.PAGE_SCREEN_CLEAN" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="255" C="29" PS="Ln:255, Col:29" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.PAGE_BMS_CFG" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="69" C="51" PS="Ln:69, Col:51" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.PAGE_HS_OVERVIEW" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="53" C="28" PS="Ln:53, Col:28" A="R"/>
+				<Pos L="106" C="52" PS="Ln:106, Col:52" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.ONE_DAY" Scope="Local" Type="TIME">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="108" C="39" PS="Ln:108, Col:39" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.DELAY_POWERUP_PAGE" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="52" C="27" PS="Ln:52, Col:27" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.YESTERDAY" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="25" C="17" PS="Ln:25, Col:17" A="R"/>
+				<Pos L="207" C="29" PS="Ln:207, Col:29" A="R"/>
+				<Pos L="207" C="120" PS="Ln:207, Col:120" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.TODAY" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="196" C="18" PS="Ln:196, Col:18" A="R"/>
+				<Pos L="197" C="21" PS="Ln:197, Col:21" A="R"/>
+				<Pos L="198" C="19" PS="Ln:198, Col:19" A="R"/>
+				<Pos L="199" C="24" PS="Ln:199, Col:24" A="R"/>
+				<Pos L="200" C="19" PS="Ln:200, Col:19" A="R"/>
+				<Pos L="202" C="18" PS="Ln:202, Col:18" A="R"/>
+				<Pos L="202" C="51" PS="Ln:202, Col:51" A="R"/>
+				<Pos L="207" C="75" PS="Ln:207, Col:75" A="R"/>
+				<Pos L="208" C="29" PS="Ln:208, Col:29" A="R"/>
+				<Pos L="208" C="77" PS="Ln:208, Col:77" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hmi_sup.SCREEN_CLEAN_TIME" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="262" C="23" PS="Ln:262, Col:23" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERR_FUB_BUSY" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="77" C="37" PS="Ln:77, Col:37" A="R"/>
+			</File>
+		</Const>
+		<Const Name="MAX_SEGMENT_INDEX" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="293" C="20" PS="Ln:293, Col:20" A="R"/>
+			</File>
+		</Const>
+		<Const Name="MAX_HOTWATER_TIME_INDEX" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="222" C="21" PS="Ln:222, Col:21" A="R"/>
+				<Pos L="242" C="21" PS="Ln:242, Col:21" A="R"/>
+			</File>
+		</Const>
+		<Const Name="DO_NAME_TREND_HEAT" Scope="Global" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="173" C="40" PS="Ln:173, Col:40" A="R"/>
+			</File>
+		</Const>
+		<Const Name="DO_NAME_TREND_TEMP_HIGH" Scope="Global" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="134" C="40" PS="Ln:134, Col:40" A="R"/>
+			</File>
+		</Const>
+		<Const Name="DO_NAME_TREND_TEMP_LOW" Scope="Global" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="152" C="40" PS="Ln:152, Col:40" A="R"/>
+			</File>
+		</Const>
+		<Const Name="MAX_TREND_YEAR_INDEX" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="104" C="24" PS="Ln:104, Col:24" A="R"/>
+			</File>
+		</Const>
+		<Const Name="MAX_SAMPLE_INDEX_YEAR" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="130" C="15" PS="Ln:130, Col:15" A="R"/>
+				<Pos L="138" C="49" PS="Ln:138, Col:49" A="R"/>
+				<Pos L="156" C="48" PS="Ln:156, Col:48" A="R"/>
+				<Pos L="177" C="50" PS="Ln:177, Col:50" A="R"/>
+			</File>
+		</Const>
+		<Const Name="MAX_SAMPLE_INDEX_DAY" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="25" C="41" PS="Ln:25, Col:41" A="R"/>
+				<Pos L="197" C="41" PS="Ln:197, Col:41" A="R"/>
+				<Pos L="198" C="39" PS="Ln:198, Col:39" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="DayOfYear" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="125" C="15" PS="Ln:125, Col:15"/>
+				<Pos L="148" C="92" PS="Ln:148, Col:92"/>
+				<Pos L="166" C="90" PS="Ln:166, Col:90"/>
+				<Pos L="186" C="93" PS="Ln:186, Col:93"/>
+				<Pos L="218" C="50" PS="Ln:218, Col:50"/>
+				<Pos L="219" C="50" PS="Ln:219, Col:50"/>
+			</File>
+		</Func>
+		<Func Name="IsLeapYear" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="130" C="52" PS="Ln:130, Col:52"/>
+			</File>
+		</Func>
+		<Func Name="GetTrendDatObjName" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="134" C="4" PS="Ln:134, Col:4"/>
+				<Pos L="152" C="4" PS="Ln:152, Col:4"/>
+				<Pos L="173" C="4" PS="Ln:173, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="DateOfDay" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="236" C="3" PS="Ln:236, Col:3"/>
+				<Pos L="238" C="3" PS="Ln:238, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="DatObjInfo" Lib="DataObj">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="135" C="4" PS="Ln:135, Col:4"/>
+				<Pos L="153" C="4" PS="Ln:153, Col:4"/>
+				<Pos L="174" C="4" PS="Ln:174, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="memset" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="137" C="4" PS="Ln:137, Col:4"/>
+				<Pos L="155" C="4" PS="Ln:155, Col:4"/>
+				<Pos L="176" C="4" PS="Ln:176, Col:4"/>
+				<Pos L="208" C="3" PS="Ln:208, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="70" C="3" PS="Ln:70, Col:3"/>
+				<Pos L="207" C="3" PS="Ln:207, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="strlen" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="271" C="44" PS="Ln:271, Col:44"/>
+			</File>
+		</Func>
+		<Func Name="DTGetTime" Lib="astime">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="107" C="4" PS="Ln:107, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="DTStructureGetTime" Lib="astime">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="66" C="2" PS="Ln:66, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="DTStructureSetTime" Lib="astime">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="76" C="3" PS="Ln:76, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="DT_TO_DTStructure" Lib="astime">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="108" C="4" PS="Ln:108, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="RTInfo" Lib="brsystem">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="22" C="2" PS="Ln:22, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="InitScreenShot" Lib="VcScrSht">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="272" C="15" PS="Ln:272, Col:15"/>
+			</File>
+		</Func>
+		<Func Name="DeInitScreenShot" Lib="VcScrSht">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="285" C="14" PS="Ln:285, Col:14"/>
+			</File>
+		</Func>
+		<Func Name="ScreenShot" Lib="VcScrSht">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/hmi_sup/hmi_sup.st">
+				<Pos L="279" C="14" PS="Ln:279, Col:14"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

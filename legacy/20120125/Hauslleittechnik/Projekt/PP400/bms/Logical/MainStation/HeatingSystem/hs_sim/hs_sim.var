@@ -1,0 +1,22 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: hs_sim
+ * File: hs_sim.var
+ * Author: asdemo
+ * Created: December 30, 2009
+ ********************************************************************
+ * Local variables of program hs_sim
+ ********************************************************************)
+VAR
+	fLCRPT2burner : LCRPT2;
+	fLCRPT2boiler : LCRPT2;
+	fLCRPT2livingroom : LCRPT2;
+	mixerBurner : REAL;
+	mixerBackFlow : REAL;
+	tempBackFlow : REAL;
+	fLCRPT2flow : LCRPT2;
+END_VAR
+VAR CONSTANT
+	SIM_ROOM_TEMP : REAL := 20.0;
+END_VAR

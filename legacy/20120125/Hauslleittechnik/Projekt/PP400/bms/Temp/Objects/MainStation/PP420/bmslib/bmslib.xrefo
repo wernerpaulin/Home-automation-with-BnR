@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.bmslib">
+	<Vars>
+	</Vars>
+	<Consts>
+		<Const Name="SEGMENT_WATCHDOG_TIME" Scope="Global" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="47" C="24" PS="Ln:47, Col:24" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERR_OK" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="16" C="28" PS="Ln:16, Col:28" A="R"/>
+				<Pos L="22" C="33" PS="Ln:22, Col:33" A="R"/>
+				<Pos L="28" C="30" PS="Ln:28, Col:30" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERR_FUB_BUSY" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="16" C="63" PS="Ln:16, Col:63" A="R"/>
+				<Pos L="19" C="30" PS="Ln:19, Col:30" A="R"/>
+				<Pos L="20" C="14" PS="Ln:20, Col:14" A="R"/>
+				<Pos L="39" C="12" PS="Ln:39, Col:12" A="R"/>
+			</File>
+		</Const>
+		<Const Name="doUSRROM" Scope="Global" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="17" C="113" PS="Ln:17, Col:113" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="IsLeapYear" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="76" C="6" PS="Ln:76, Col:6"/>
+				<Pos L="138" C="5" PS="Ln:138, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="DatObjCreate" Lib="DataObj">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="17" C="3" PS="Ln:17, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="DatObjWrite" Lib="DataObj">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="34" C="3" PS="Ln:34, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="DatObjInfo" Lib="DataObj">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="13" C="2" PS="Ln:13, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="itoa" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="121" C="2" PS="Ln:121, Col:2"/>
+				<Pos L="124" C="2" PS="Ln:124, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="memset" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="118" C="2" PS="Ln:118, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="strcat" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="122" C="2" PS="Ln:122, Col:2"/>
+				<Pos L="125" C="2" PS="Ln:125, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="strcpy" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/Libraries/bmslib/bmslib.st">
+				<Pos L="119" C="2" PS="Ln:119, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

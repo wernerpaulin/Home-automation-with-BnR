@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.28 SP01?>
+<VcMapping>
+  <Row Address="DS1" ObjectName="MainHM" KeyPriority="Lower Cyclic #8" Description="PP420" />
+  <Row Address="SL1.SS1.IF2.ST4" ObjectName="PW35" RotationAngle="0" KeyPriority="Lower Cyclic #8" Description="4PW035.E300-01" />
+</VcMapping>

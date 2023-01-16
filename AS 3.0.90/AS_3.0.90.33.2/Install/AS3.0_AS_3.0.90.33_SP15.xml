@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Info>
+  <Name>3.0.90.33 SP15</Name>
+  <Group>AS</Group>
+  <Version>3.0.90.33</Version>
+  <AsVersion>3.0.90.18</AsVersion>
+  <Description-en>AS Upgrade 3.0.90.33 SP15 &lt;V&gt;         </Description-en>
+  <Description-de>AS Upgrade 3.0.90.33 SP15 &lt;V&gt;         </Description-de>
+  <FileName>AS3.0_AS_3.0.90.33_SP15.exe</FileName>
+  <Size>64894027</Size>
+  <FileDate>04.03.2016 07:36:55</FileDate>
+  <Editions Standard="True" Fieldbus="False" FieldbusPro="False" />
+  <Dependencies />
+</Info>

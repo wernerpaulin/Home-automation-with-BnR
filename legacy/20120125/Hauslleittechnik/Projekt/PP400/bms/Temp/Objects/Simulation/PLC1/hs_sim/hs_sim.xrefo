@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<Crossref Scope="MainStation.HeatingSystem.hs_sim">
+	<Vars>
+		<Var Name="hs_sim.fLCRPT2burner" Scope="Local" Type="LCRPT2">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="47" C="2" PS="Ln:47, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.fLCRPT2burner.y" Scope="Local" Type="LCRPT2">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="48" C="37" PS="Ln:48, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.fLCRPT2boiler" Scope="Local" Type="LCRPT2">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="51" C="2" PS="Ln:51, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.fLCRPT2boiler.y" Scope="Local" Type="LCRPT2">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="52" C="39" PS="Ln:52, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.fLCRPT2livingroom" Scope="Local" Type="LCRPT2">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="63" C="2" PS="Ln:63, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.fLCRPT2livingroom.y" Scope="Local" Type="LCRPT2">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="64" C="40" PS="Ln:64, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.mixerBurner" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="55" C="2" PS="Ln:55, Col:2" A="W"/>
+				<Pos L="59" C="109" PS="Ln:59, Col:109" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.mixerBackFlow" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="56" C="2" PS="Ln:56, Col:2" A="W"/>
+				<Pos L="59" C="140" PS="Ln:59, Col:140" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.tempBackFlow" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="57" C="2" PS="Ln:57, Col:2" A="W"/>
+				<Pos L="58" C="2" PS="Ln:58, Col:2" A="W"/>
+				<Pos L="58" C="23" PS="Ln:58, Col:23" A="R"/>
+				<Pos L="59" C="125" PS="Ln:59, Col:125" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.fLCRPT2flow" Scope="Local" Type="LCRPT2">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="59" C="2" PS="Ln:59, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_sim.fLCRPT2flow.y" Scope="Local" Type="LCRPT2">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="60" C="34" PS="Ln:60, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempOutsideAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="30" C="2" PS="Ln:30, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.burner.tempAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="48" C="2" PS="Ln:48, Col:2" A="W"/>
+				<Pos L="51" C="104" PS="Ln:51, Col:104" A="R"/>
+				<Pos L="59" C="75" PS="Ln:59, Col:75" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.hotwater.tempAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="52" C="2" PS="Ln:52, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.sActMixer" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="55" C="19" PS="Ln:55, Col:19" A="R"/>
+				<Pos L="56" C="26" PS="Ln:56, Col:26" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempFlowAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="57" C="19" PS="Ln:57, Col:19" A="R"/>
+				<Pos L="60" C="2" PS="Ln:60, Col:2" A="W"/>
+				<Pos L="63" C="106" PS="Ln:63, Col:106" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempLivingroomAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="64" C="2" PS="Ln:64, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gSimulation.isActive" Scope="Global" Type="simulation_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="29" C="2" PS="Ln:29, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gSimulation.updatePID" Scope="Global" Type="simulation_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="32" C="2" PS="Ln:32, Col:2" A="W"/>
+				<Pos L="40" C="6" PS="Ln:40, Col:6" A="R"/>
+				<Pos L="41" C="3" PS="Ln:41, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gSimulation.kp" Scope="Global" Type="simulation_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="33" C="2" PS="Ln:33, Col:2" A="W"/>
+				<Pos L="42" C="34" PS="Ln:42, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gSimulation.tn" Scope="Global" Type="simulation_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="34" C="2" PS="Ln:34, Col:2" A="W"/>
+				<Pos L="43" C="34" PS="Ln:43, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.kp" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="42" C="3" PS="Ln:42, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.tn" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="43" C="3" PS="Ln:43, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doBurner" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="47" C="88" PS="Ln:47, Col:88" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doFlowPump" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="63" C="92" PS="Ln:63, Col:92" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doBoilerPump" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="51" C="88" PS="Ln:51, Col:88" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="hs_sim.SIM_ROOM_TEMP" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="47" C="123" PS="Ln:47, Col:123" A="R"/>
+				<Pos L="47" C="148" PS="Ln:47, Col:148" A="R"/>
+				<Pos L="51" C="137" PS="Ln:51, Col:137" A="R"/>
+				<Pos L="51" C="162" PS="Ln:51, Col:162" A="R"/>
+				<Pos L="58" C="37" PS="Ln:58, Col:37" A="R"/>
+				<Pos L="59" C="157" PS="Ln:59, Col:157" A="R"/>
+				<Pos L="59" C="182" PS="Ln:59, Col:182" A="R"/>
+				<Pos L="63" C="136" PS="Ln:63, Col:136" A="R"/>
+				<Pos L="63" C="161" PS="Ln:63, Col:161" A="R"/>
+			</File>
+		</Const>
+		<Const Name="BURNER_MAX_TEMP" Scope="Global" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="47" C="100" PS="Ln:47, Col:100" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="LCRPT2" Lib="LoopConR">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.st">
+				<Pos L="47" C="2" PS="Ln:47, Col:2"/>
+				<Pos L="51" C="2" PS="Ln:51, Col:2"/>
+				<Pos L="59" C="2" PS="Ln:59, Col:2"/>
+				<Pos L="63" C="2" PS="Ln:63, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

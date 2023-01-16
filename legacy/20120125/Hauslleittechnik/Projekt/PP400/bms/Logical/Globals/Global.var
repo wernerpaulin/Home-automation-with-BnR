@@ -1,0 +1,37 @@
+(********************************************************************
+ * COPYRIGHT --  WERNER PAULIN
+ ********************************************************************
+ * File: Global.var
+ * Author: paulinw
+ * Created: December 26, 2009
+ ********************************************************************
+ * Global variables of project bms
+ ********************************************************************)
+VAR RETAIN
+	gActData : actData_typ; (*actual data of BMS*)
+END_VAR
+VAR
+	gSimulation : simulation_typ := (0); (*simulation data*)
+	gCfg : cfg_typ := (0); (*includes validated recipe date to be used in other programs*)
+	gHMI : hmi_typ := (0); (*inculdes recipe data and other interface variables for HMI*)
+	gIrrigationNodeOk : BOOL := FALSE; (*indicator whether IO node for irrigation is connected*)
+	gHeatingNodeTemp1Ok : BOOL := FALSE; (*indicator whether IO node for heating is connected*)
+	gHeatingNodeTemp2Ok : BOOL := FALSE; (*indicator whether IO node for heating is connected*)
+	gHeatingNodeRelais1Ok : BOOL := FALSE; (*indicator whether IO node for heating is connected*)
+	gHeatingNodeRelais2Ok : BOOL := FALSE; (*indicator whether IO node for heating is connected*)
+END_VAR
+VAR CONSTANT
+	BMS_STATISTICS_DO_NAME : STRING[10] := 'bms_stat'; (*data object containing statistical data of BMS*)
+	MAX_SEGMENT_INDEX : UINT := 5; (*maximum segment index*)
+	MAX_HOTWATER_TIME_INDEX : UINT := 1; (*maximum time zone index for hot water schedule*)
+	DO_NAME_TREND_HEAT : STRING[10] := 'heat_'; (*dataobject name of burner temperature logging*)
+	DO_NAME_TREND_TEMP_HIGH : STRING[10] := 'temph_'; (*dataobject name of high temperature logging*)
+	DO_NAME_TREND_TEMP_LOW : STRING[10] := 'templ_'; (*dataobject name of low temperature logging*)
+	BURNER_MAX_SET_TEMP : REAL := 71.0; (*maximum allowed set value for temperature of burner*)
+	BURNER_MAX_TEMP : REAL := 85.0; (*maximum allowed temperature of burner*)
+	BOILER_MAX_TEMP : REAL := 80.0; (*maximum boiler temperature*)
+	MAX_TREND_YEAR_INDEX : UINT := 1; (*maximum year trends*)
+	MAX_SAMPLE_INDEX_YEAR : UINT := 365; (*maximum index of samples in a year*)
+	MAX_SAMPLE_INDEX_DAY : UINT := 359; (*maximum samples in a day*)
+	MAX_TREND_DAY_INDEX : UINT := 1; (*maximum day trends*)
+END_VAR

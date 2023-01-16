@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <PAGE_HS_DIAG ReferenceString="Source[local].Page[PAGE_HS_DIAG]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[txtHeatOnOff].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.doBurner]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[txtHeatOnOff].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.doBurner]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numBurnerTempAct].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.burner.tempAct]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numBurnerTempSet].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.burner.tempSet]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numFlowTempAct].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.tempFlowAct]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numFlowTempSet].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.tempFlowSet]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numFlowTempSet1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.sSetMixer]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[txtHeatOnOff1].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gActData.heating.enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[txtHeatOnOff1].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.doBurner]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numKp].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.kp]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numKp].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updatePID]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numKp1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tn]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_DIAG].Layer[Default].Control[numKp1].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.cmd.updatePID]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </PAGE_HS_DIAG>
+</VCXReferenceList>

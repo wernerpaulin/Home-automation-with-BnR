@@ -1,0 +1,8 @@
+\Logical\MainStation\HeatingSystem\hs_con\hs_con.var
+\Logical\MainStation\HeatingSystem\hs_con\hs_con.typ
+\Logical\MainStation\HeatingSystem\hs_sim\hs_sim.var
+\Logical\MainStation\IrrigationSystem\ip_con\ip_con.var
+\Logical\MainStation\rcp_cpy\rcp_cpy.var
+\Logical\MainStation\alarm\alarm.var
+\Logical\MainStation\hmi_sup\hmi_sup.var
+\Logical\MainStation\statistics\statistics.var

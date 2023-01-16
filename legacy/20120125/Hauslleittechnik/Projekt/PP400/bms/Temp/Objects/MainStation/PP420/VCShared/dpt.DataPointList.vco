@@ -1,0 +1,1718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="POBJ">
+      <Object Name="Local.Globals.gActData.heating.enable" ClsId="0x0" Version="0" TargetIndex="0" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.enable]" />
+      <Object Name="Local.Globals.gActData.heating.manSwitchedOff" ClsId="0x0" Version="0" TargetIndex="1" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.manSwitchedOff]" />
+      <Object Name="Local.Globals.gActData.heating.outOfHomeActive" ClsId="0x0" Version="0" TargetIndex="2" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.outOfHomeActive]" />
+      <Object Name="Local.Globals.gActData.heating.sActMixer" ClsId="0x0" Version="0" TargetIndex="3" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.sActMixer]" />
+      <Object Name="Local.Globals.gActData.heating.sSetMixer" ClsId="0x0" Version="0" TargetIndex="4" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.sSetMixer]" />
+      <Object Name="Local.Globals.gActData.heating.tempFlowAct" ClsId="0x0" Version="0" TargetIndex="5" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.tempFlowAct]" />
+      <Object Name="Local.Globals.gActData.heating.tempFlowSet" ClsId="0x0" Version="0" TargetIndex="6" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.tempFlowSet]" />
+      <Object Name="Local.Globals.gActData.heating.tempLivingroomAct" ClsId="0x0" Version="0" TargetIndex="7" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.tempLivingroomAct]" />
+      <Object Name="Local.Globals.gActData.heating.tempLivingroomSet" ClsId="0x0" Version="0" TargetIndex="8" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.tempLivingroomSet]" />
+      <Object Name="Local.Globals.gActData.heating.tempOutsideAct" ClsId="0x0" Version="0" TargetIndex="9" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.tempOutsideAct]" />
+      <Object Name="Local.Globals.gActData.heating.tempOutsideDayHigh" ClsId="0x0" Version="0" TargetIndex="10" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.tempOutsideDayHigh]" />
+      <Object Name="Local.Globals.gActData.heating.tempOutsideDayLow" ClsId="0x0" Version="0" TargetIndex="11" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.tempOutsideDayLow]" />
+      <Object Name="Local.Globals.gActData.heating.burner.tempAct" ClsId="0x0" Version="0" TargetIndex="12" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.burner.tempAct]" />
+      <Object Name="Local.Globals.gActData.heating.burner.tempSet" ClsId="0x0" Version="0" TargetIndex="13" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.burner.tempSet]" />
+      <Object Name="Local.Globals.gActData.heating.hotwater.enable" ClsId="0x0" Version="0" TargetIndex="14" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.hotwater.enable]" />
+      <Object Name="Local.Globals.gActData.heating.hotwater.tempAct" ClsId="0x0" Version="0" TargetIndex="15" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.heating.hotwater.tempAct]" />
+      <Object Name="Local.Globals.gActData.irrigation.tankLevel" ClsId="0x0" Version="0" TargetIndex="16" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.irrigation.tankLevel]" />
+      <Object Name="Local.Globals.gActData.irrigation.segment[0].switchOnRequest" ClsId="0x0" Version="0" TargetIndex="17" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.irrigation.segment[0].switchOnRequest]" />
+      <Object Name="Local.Globals.gActData.irrigation.segment[1].switchOnRequest" ClsId="0x0" Version="0" TargetIndex="18" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.irrigation.segment[1].switchOnRequest]" />
+      <Object Name="Local.Globals.gActData.irrigation.segment[2].switchOnRequest" ClsId="0x0" Version="0" TargetIndex="19" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.irrigation.segment[2].switchOnRequest]" />
+      <Object Name="Local.Globals.gActData.irrigation.segment[3].switchOnRequest" ClsId="0x0" Version="0" TargetIndex="20" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.irrigation.segment[3].switchOnRequest]" />
+      <Object Name="Local.Globals.gActData.irrigation.segment[4].switchOnRequest" ClsId="0x0" Version="0" TargetIndex="21" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.irrigation.segment[4].switchOnRequest]" />
+      <Object Name="Local.Globals.gActData.irrigation.segment[5].switchOnRequest" ClsId="0x0" Version="0" TargetIndex="22" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.irrigation.segment[5].switchOnRequest]" />
+      <Object Name="Local.Globals.gActData.statistics.heating.onTimeBoilerBump" ClsId="0x0" Version="0" TargetIndex="23" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeBoilerBump]" />
+      <Object Name="Local.Globals.gActData.statistics.heating.onTimeBurner" ClsId="0x0" Version="0" TargetIndex="24" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeBurner]" />
+      <Object Name="Local.Globals.gActData.statistics.heating.onTimeFlowPump" ClsId="0x0" Version="0" TargetIndex="25" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeFlowPump]" />
+      <Object Name="Local.Globals.gActData.statistics.irrigation.onTimePump" ClsId="0x0" Version="0" TargetIndex="26" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.onTimePump]" />
+      <Object Name="Local.Globals.gActData.statistics.irrigation.valve" ClsId="0x0" Version="0" TargetIndex="27" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve]" />
+      <Object Name="Local.Globals.gActData.statistics.irrigation.valve[0]" ClsId="0x0" Version="0" TargetIndex="28" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[0]]" />
+      <Object Name="Local.Globals.gActData.statistics.irrigation.valve[1]" ClsId="0x0" Version="0" TargetIndex="29" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[1]]" />
+      <Object Name="Local.Globals.gActData.statistics.irrigation.valve[2]" ClsId="0x0" Version="0" TargetIndex="30" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[2]]" />
+      <Object Name="Local.Globals.gActData.statistics.irrigation.valve[3]" ClsId="0x0" Version="0" TargetIndex="31" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[3]]" />
+      <Object Name="Local.Globals.gActData.statistics.irrigation.valve[4]" ClsId="0x0" Version="0" TargetIndex="32" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[4]]" />
+      <Object Name="Local.Globals.gActData.statistics.irrigation.valve[5]" ClsId="0x0" Version="0" TargetIndex="33" Type="DP" RefString="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[5]]" />
+      <Object Name="Local.Globals.gAlarm.ack" ClsId="0x0" Version="0" TargetIndex="34" Type="DP" RefString="Source[global].Variable[Local.Globals.gAlarm.ack]" />
+      <Object Name="Local.Globals.gAlarm.ackBlock" ClsId="0x0" Version="0" TargetIndex="35" Type="DP" RefString="Source[global].Variable[Local.Globals.gAlarm.ackBlock]" />
+      <Object Name="Local.Globals.gAlarm.request" ClsId="0x0" Version="0" TargetIndex="36" Type="DP" RefString="Source[global].Variable[Local.Globals.gAlarm.request]" />
+      <Object Name="Local.Globals.gHMI.cmd.setTime" ClsId="0x0" Version="0" TargetIndex="37" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.cmd.setTime]" />
+      <Object Name="Local.Globals.gHMI.cmd.updateDateTime" ClsId="0x0" Version="0" TargetIndex="38" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]" />
+      <Object Name="Local.Globals.gHMI.cmd.updatePID" ClsId="0x0" Version="0" TargetIndex="39" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.cmd.updatePID]" />
+      <Object Name="Local.Globals.gHMI.general.actPage" ClsId="0x0" Version="0" TargetIndex="40" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.general.actPage]" />
+      <Object Name="Local.Globals.gHMI.general.cmdNewPage" ClsId="0x0" Version="0" TargetIndex="41" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.general.cmdNewPage]" />
+      <Object Name="Local.Globals.gHMI.general.screenCleanTime" ClsId="0x0" Version="0" TargetIndex="42" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.general.screenCleanTime]" />
+      <Object Name="Local.Globals.gHMI.general.setPage" ClsId="0x0" Version="0" TargetIndex="43" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.general.setPage]" />
+      <Object Name="Local.Globals.gHMI.general.setTime.day" ClsId="0x0" Version="0" TargetIndex="44" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.general.setTime.day]" />
+      <Object Name="Local.Globals.gHMI.general.setTime.hour" ClsId="0x0" Version="0" TargetIndex="45" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.general.setTime.hour]" />
+      <Object Name="Local.Globals.gHMI.general.setTime.minute" ClsId="0x0" Version="0" TargetIndex="46" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.general.setTime.minute]" />
+      <Object Name="Local.Globals.gHMI.general.setTime.month" ClsId="0x0" Version="0" TargetIndex="47" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.general.setTime.month]" />
+      <Object Name="Local.Globals.gHMI.general.setTime.year" ClsId="0x0" Version="0" TargetIndex="48" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.general.setTime.year]" />
+      <Object Name="Local.Globals.gHMI.heating.statusDatapointAlarmIndicator" ClsId="0x0" Version="0" TargetIndex="49" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.statusDatapointAlarmIndicator]" />
+      <Object Name="Local.Globals.gHMI.heating.statusDatapointLoweringText" ClsId="0x0" Version="0" TargetIndex="50" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.statusDatapointLoweringText]" />
+      <Object Name="Local.Globals.gHMI.heating.tempLivingroomTendency" ClsId="0x0" Version="0" TargetIndex="51" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.tempLivingroomTendency]" />
+      <Object Name="Local.Globals.gHMI.heating.tempOutsideTendency" ClsId="0x0" Version="0" TargetIndex="52" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.tempOutsideTendency]" />
+      <Object Name="Local.Globals.gHMI.heating.endTime.hour" ClsId="0x0" Version="0" TargetIndex="53" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.endTime.hour]" />
+      <Object Name="Local.Globals.gHMI.heating.endTime.minute" ClsId="0x0" Version="0" TargetIndex="54" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.endTime.minute]" />
+      <Object Name="Local.Globals.gHMI.heating.hotwater.endTime[0].hour" ClsId="0x0" Version="0" TargetIndex="55" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[0].hour]" />
+      <Object Name="Local.Globals.gHMI.heating.hotwater.endTime[0].minute" ClsId="0x0" Version="0" TargetIndex="56" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[0].minute]" />
+      <Object Name="Local.Globals.gHMI.heating.hotwater.endTime[1].hour" ClsId="0x0" Version="0" TargetIndex="57" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[1].hour]" />
+      <Object Name="Local.Globals.gHMI.heating.hotwater.endTime[1].minute" ClsId="0x0" Version="0" TargetIndex="58" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[1].minute]" />
+      <Object Name="Local.Globals.gHMI.heating.hotwater.startTime[0].hour" ClsId="0x0" Version="0" TargetIndex="59" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[0].hour]" />
+      <Object Name="Local.Globals.gHMI.heating.hotwater.startTime[0].minute" ClsId="0x0" Version="0" TargetIndex="60" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[0].minute]" />
+      <Object Name="Local.Globals.gHMI.heating.hotwater.startTime[1].hour" ClsId="0x0" Version="0" TargetIndex="61" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[1].hour]" />
+      <Object Name="Local.Globals.gHMI.heating.hotwater.startTime[1].minute" ClsId="0x0" Version="0" TargetIndex="62" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[1].minute]" />
+      <Object Name="Local.Globals.gHMI.heating.outOfHome.endDate.day" ClsId="0x0" Version="0" TargetIndex="63" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.endDate.day]" />
+      <Object Name="Local.Globals.gHMI.heating.outOfHome.endDate.month" ClsId="0x0" Version="0" TargetIndex="64" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.endDate.month]" />
+      <Object Name="Local.Globals.gHMI.heating.outOfHome.startDate.day" ClsId="0x0" Version="0" TargetIndex="65" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.startDate.day]" />
+      <Object Name="Local.Globals.gHMI.heating.outOfHome.startDate.month" ClsId="0x0" Version="0" TargetIndex="66" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.startDate.month]" />
+      <Object Name="Local.Globals.gHMI.heating.startTime.hour" ClsId="0x0" Version="0" TargetIndex="67" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.startTime.hour]" />
+      <Object Name="Local.Globals.gHMI.heating.startTime.minute" ClsId="0x0" Version="0" TargetIndex="68" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.heating.startTime.minute]" />
+      <Object Name="Local.Globals.gHMI.recipe.ctrl.load" ClsId="0x0" Version="0" TargetIndex="69" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.load]" />
+      <Object Name="Local.Globals.gHMI.recipe.ctrl.loadOk" ClsId="0x0" Version="0" TargetIndex="70" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.loadOk]" />
+      <Object Name="Local.Globals.gHMI.recipe.ctrl.nameIndex" ClsId="0x0" Version="0" TargetIndex="71" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.nameIndex]" />
+      <Object Name="Local.Globals.gHMI.recipe.ctrl.save" ClsId="0x0" Version="0" TargetIndex="72" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.save]" />
+      <Object Name="Local.Globals.gHMI.recipe.ctrl.saveOk" ClsId="0x0" Version="0" TargetIndex="73" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.saveOk]" />
+      <Object Name="Local.Globals.gHMI.recipe.data.heating.kp" ClsId="0x0" Version="0" TargetIndex="74" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.kp]" />
+      <Object Name="Local.Globals.gHMI.recipe.data.heating.tempFlowSetOffset" ClsId="0x0" Version="0" TargetIndex="75" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempFlowSetOffset]" />
+      <Object Name="Local.Globals.gHMI.recipe.data.heating.tempLivingroomSet" ClsId="0x0" Version="0" TargetIndex="76" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempLivingroomSet]" />
+      <Object Name="Local.Globals.gHMI.recipe.data.heating.tempLowOffset" ClsId="0x0" Version="0" TargetIndex="77" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempLowOffset]" />
+      <Object Name="Local.Globals.gHMI.recipe.data.heating.tempManOffset" ClsId="0x0" Version="0" TargetIndex="78" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempManOffset]" />
+      <Object Name="Local.Globals.gHMI.recipe.data.heating.tn" ClsId="0x0" Version="0" TargetIndex="79" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tn]" />
+      <Object Name="Local.Globals.gHMI.recipe.data.heating.hotwater.tempSet" ClsId="0x0" Version="0" TargetIndex="80" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.hotwater.tempSet]" />
+      <Object Name="Local.Globals.gHMI.trend.day[0].dataBuffer" ClsId="0x0" Version="0" TargetIndex="81" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.day[0].dataBuffer]" />
+      <Object Name="Local.Globals.gHMI.trend.day[0].nbSamples" ClsId="0x0" Version="0" TargetIndex="82" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.day[0].nbSamples]" />
+      <Object Name="Local.Globals.gHMI.trend.day[1].dataBuffer" ClsId="0x0" Version="0" TargetIndex="83" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.day[1].dataBuffer]" />
+      <Object Name="Local.Globals.gHMI.trend.day[1].nbSamples" ClsId="0x0" Version="0" TargetIndex="84" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.day[1].nbSamples]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].tempAv" ClsId="0x0" Version="0" TargetIndex="85" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].tempAv]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].update" ClsId="0x0" Version="0" TargetIndex="86" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].update]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].date.day" ClsId="0x0" Version="0" TargetIndex="87" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.day]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].date.month" ClsId="0x0" Version="0" TargetIndex="88" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.month]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].date.year" ClsId="0x0" Version="0" TargetIndex="89" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.year]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].heat.dataBuffer" ClsId="0x0" Version="0" TargetIndex="90" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.dataBuffer]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].heat.enable" ClsId="0x0" Version="0" TargetIndex="91" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.enable]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].heat.hoursDate" ClsId="0x0" Version="0" TargetIndex="92" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.hoursDate]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].heat.hoursTotal" ClsId="0x0" Version="0" TargetIndex="93" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.hoursTotal]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].heat.nbSamples" ClsId="0x0" Version="0" TargetIndex="94" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.nbSamples]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].heat.statusDatapoint" ClsId="0x0" Version="0" TargetIndex="95" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.statusDatapoint]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].high.dataBuffer" ClsId="0x0" Version="0" TargetIndex="96" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.dataBuffer]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].high.enable" ClsId="0x0" Version="0" TargetIndex="97" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.enable]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].high.nbSamples" ClsId="0x0" Version="0" TargetIndex="98" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.nbSamples]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].high.statusDatapoint" ClsId="0x0" Version="0" TargetIndex="99" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.statusDatapoint]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].high.tempAv" ClsId="0x0" Version="0" TargetIndex="100" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.tempAv]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].high.tempDate" ClsId="0x0" Version="0" TargetIndex="101" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.tempDate]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].low.dataBuffer" ClsId="0x0" Version="0" TargetIndex="102" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.dataBuffer]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].low.enable" ClsId="0x0" Version="0" TargetIndex="103" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.enable]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].low.nbSamples" ClsId="0x0" Version="0" TargetIndex="104" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.nbSamples]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].low.statusDatapoint" ClsId="0x0" Version="0" TargetIndex="105" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.statusDatapoint]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].low.tempAv" ClsId="0x0" Version="0" TargetIndex="106" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.tempAv]" />
+      <Object Name="Local.Globals.gHMI.trend.year[0].low.tempDate" ClsId="0x0" Version="0" TargetIndex="107" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.tempDate]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].tempAv" ClsId="0x0" Version="0" TargetIndex="108" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].tempAv]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].update" ClsId="0x0" Version="0" TargetIndex="109" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].update]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].date.day" ClsId="0x0" Version="0" TargetIndex="110" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.day]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].date.month" ClsId="0x0" Version="0" TargetIndex="111" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.month]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].date.year" ClsId="0x0" Version="0" TargetIndex="112" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.year]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].heat.dataBuffer" ClsId="0x0" Version="0" TargetIndex="113" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.dataBuffer]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].heat.enable" ClsId="0x0" Version="0" TargetIndex="114" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.enable]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].heat.hoursDate" ClsId="0x0" Version="0" TargetIndex="115" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.hoursDate]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].heat.hoursTotal" ClsId="0x0" Version="0" TargetIndex="116" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.hoursTotal]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].heat.nbSamples" ClsId="0x0" Version="0" TargetIndex="117" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.nbSamples]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].heat.statusDatapoint" ClsId="0x0" Version="0" TargetIndex="118" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.statusDatapoint]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].high.dataBuffer" ClsId="0x0" Version="0" TargetIndex="119" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.dataBuffer]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].high.enable" ClsId="0x0" Version="0" TargetIndex="120" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.enable]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].high.nbSamples" ClsId="0x0" Version="0" TargetIndex="121" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.nbSamples]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].high.statusDatapoint" ClsId="0x0" Version="0" TargetIndex="122" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.statusDatapoint]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].high.tempAv" ClsId="0x0" Version="0" TargetIndex="123" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.tempAv]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].high.tempDate" ClsId="0x0" Version="0" TargetIndex="124" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.tempDate]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].low.dataBuffer" ClsId="0x0" Version="0" TargetIndex="125" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.dataBuffer]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].low.enable" ClsId="0x0" Version="0" TargetIndex="126" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.enable]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].low.nbSamples" ClsId="0x0" Version="0" TargetIndex="127" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.nbSamples]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].low.statusDatapoint" ClsId="0x0" Version="0" TargetIndex="128" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.statusDatapoint]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].low.tempAv" ClsId="0x0" Version="0" TargetIndex="129" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.tempAv]" />
+      <Object Name="Local.Globals.gHMI.trend.year[1].low.tempDate" ClsId="0x0" Version="0" TargetIndex="130" Type="DP" RefString="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.tempDate]" />
+      <Object Name="Local.Globals.doBurner" ClsId="0x0" Version="0" TargetIndex="131" Type="DP" RefString="Source[global].Variable[Local.Globals.doBurner]" />
+      <Object Name="Local.Globals.doIrrigPump" ClsId="0x0" Version="0" TargetIndex="132" Type="DP" RefString="Source[global].Variable[Local.Globals.doIrrigPump]" />
+      <Object Name="Local.Globals.doIrrigValve1" ClsId="0x0" Version="0" TargetIndex="133" Type="DP" RefString="Source[global].Variable[Local.Globals.doIrrigValve1]" />
+      <Object Name="Local.Globals.doIrrigValve2" ClsId="0x0" Version="0" TargetIndex="134" Type="DP" RefString="Source[global].Variable[Local.Globals.doIrrigValve2]" />
+      <Object Name="Local.Globals.doIrrigValve3" ClsId="0x0" Version="0" TargetIndex="135" Type="DP" RefString="Source[global].Variable[Local.Globals.doIrrigValve3]" />
+      <Object Name="Local.Globals.doIrrigValve4" ClsId="0x0" Version="0" TargetIndex="136" Type="DP" RefString="Source[global].Variable[Local.Globals.doIrrigValve4]" />
+      <Object Name="Local.Globals.doIrrigValve5" ClsId="0x0" Version="0" TargetIndex="137" Type="DP" RefString="Source[global].Variable[Local.Globals.doIrrigValve5]" />
+      <Object Name="Local.Globals.doIrrigValve6" ClsId="0x0" Version="0" TargetIndex="138" Type="DP" RefString="Source[global].Variable[Local.Globals.doIrrigValve6]" />
+      <Object Name="Local.MainStation.HeatingSystem.hs_con.fLCRSlimPID.Y" ClsId="0x0" Version="0" TargetIndex="139" Type="DP" RefString="Source[global].Variable[Local.MainStation.HeatingSystem.hs_con.fLCRSlimPID.Y]" />
+      <Object Name="Local.MainStation.HeatingSystem.hs_con.fLCRSlimPID.e" ClsId="0x0" Version="0" TargetIndex="140" Type="DP" RefString="Source[global].Variable[Local.MainStation.HeatingSystem.hs_con.fLCRSlimPID.e]" />
+      <Object Name="Local.MainStation.HeatingSystem.hs_con.fLCRSlimPID.status" ClsId="0x0" Version="0" TargetIndex="141" Type="DP" RefString="Source[global].Variable[Local.MainStation.HeatingSystem.hs_con.fLCRSlimPID.status]" />
+      <Object Name="DPV" ClsId="0x100" Version="1" Type="DPM" RefString="Source[global].DPV[]">
+        <Byte Name="TaskPrior">200</Byte>
+        <Byte Name="Reserved">0</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <UInt32 Name="DPCount">142</UInt32>
+        <Group Name="Globals.gActData.heating.enable">
+          <UInt32 Name="DPID">0</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">0</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.manSwitchedOff">
+          <UInt32 Name="DPID">1</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">1</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.outOfHomeActive">
+          <UInt32 Name="DPID">2</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">2</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.sActMixer">
+          <UInt32 Name="DPID">3</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">3</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Percentage]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Percentage].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.sSetMixer">
+          <UInt32 Name="DPID">4</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">4</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Percentage]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Percentage].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.tempFlowAct">
+          <UInt32 Name="DPID">5</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">5</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.tempFlowSet">
+          <UInt32 Name="DPID">6</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">6</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.tempLivingroomAct">
+          <UInt32 Name="DPID">7</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">7</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.tempLivingroomSet">
+          <UInt32 Name="DPID">8</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">8</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.tempOutsideAct">
+          <UInt32 Name="DPID">9</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">9</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.tempOutsideDayHigh">
+          <UInt32 Name="DPID">10</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">10</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.tempOutsideDayLow">
+          <UInt32 Name="DPID">11</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">11</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.burner.tempAct">
+          <UInt32 Name="DPID">12</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">12</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.burner.tempSet">
+          <UInt32 Name="DPID">13</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">13</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.hotwater.enable">
+          <UInt32 Name="DPID">14</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">14</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.heating.hotwater.tempAct">
+          <UInt32 Name="DPID">15</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">15</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.irrigation.tankLevel">
+          <UInt32 Name="DPID">16</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">16</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.irrigation.segment[0].switchOnRequest">
+          <UInt32 Name="DPID">17</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">17</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.irrigation.segment[1].switchOnRequest">
+          <UInt32 Name="DPID">18</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">18</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.irrigation.segment[2].switchOnRequest">
+          <UInt32 Name="DPID">19</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">19</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.irrigation.segment[3].switchOnRequest">
+          <UInt32 Name="DPID">20</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">20</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.irrigation.segment[4].switchOnRequest">
+          <UInt32 Name="DPID">21</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">21</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.irrigation.segment[5].switchOnRequest">
+          <UInt32 Name="DPID">22</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">22</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.heating.onTimeBoilerBump">
+          <UInt32 Name="DPID">23</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">23</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.heating.onTimeBurner">
+          <UInt32 Name="DPID">24</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">24</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.heating.onTimeFlowPump">
+          <UInt32 Name="DPID">25</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">25</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.irrigation.onTimePump">
+          <UInt32 Name="DPID">26</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">26</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.irrigation.valve">
+          <UInt32 Name="DPID">27</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">27</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.irrigation.valve[0]">
+          <UInt32 Name="DPID">28</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">28</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.irrigation.valve[1]">
+          <UInt32 Name="DPID">29</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">29</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.irrigation.valve[2]">
+          <UInt32 Name="DPID">30</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">30</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.irrigation.valve[3]">
+          <UInt32 Name="DPID">31</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">31</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.irrigation.valve[4]">
+          <UInt32 Name="DPID">32</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">32</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gActData.statistics.irrigation.valve[5]">
+          <UInt32 Name="DPID">33</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">33</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gAlarm.ack">
+          <UInt32 Name="DPID">34</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">34</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gAlarm.ackBlock">
+          <UInt32 Name="DPID">35</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">35</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gAlarm.request">
+          <UInt32 Name="DPID">36</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">36</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.cmd.setTime">
+          <UInt32 Name="DPID">37</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">37</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.cmd.updateDateTime">
+          <UInt32 Name="DPID">38</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">38</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">16</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.cmd.updatePID">
+          <UInt32 Name="DPID">39</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">39</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.general.actPage">
+          <UInt32 Name="DPID">40</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">40</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.general.cmdNewPage">
+          <UInt32 Name="DPID">41</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">41</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">8</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.general.screenCleanTime">
+          <UInt32 Name="DPID">42</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">42</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.general.setPage">
+          <UInt32 Name="DPID">43</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">43</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.general.setTime.day">
+          <UInt32 Name="DPID">44</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">44</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.general.setTime.hour">
+          <UInt32 Name="DPID">45</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">45</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.general.setTime.minute">
+          <UInt32 Name="DPID">46</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">46</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.general.setTime.month">
+          <UInt32 Name="DPID">47</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">47</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.general.setTime.year">
+          <UInt32 Name="DPID">48</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">48</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.statusDatapointAlarmIndicator">
+          <UInt32 Name="DPID">49</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">49</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.statusDatapointLoweringText">
+          <UInt32 Name="DPID">50</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">50</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.tempLivingroomTendency">
+          <UInt32 Name="DPID">51</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">51</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.tempOutsideTendency">
+          <UInt32 Name="DPID">52</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">52</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.endTime.hour">
+          <UInt32 Name="DPID">53</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">53</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.endTime.minute">
+          <UInt32 Name="DPID">54</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">54</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.hotwater.endTime[0].hour">
+          <UInt32 Name="DPID">55</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">55</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.hotwater.endTime[0].minute">
+          <UInt32 Name="DPID">56</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">56</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.hotwater.endTime[1].hour">
+          <UInt32 Name="DPID">57</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">57</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.hotwater.endTime[1].minute">
+          <UInt32 Name="DPID">58</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">58</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.hotwater.startTime[0].hour">
+          <UInt32 Name="DPID">59</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">59</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.hotwater.startTime[0].minute">
+          <UInt32 Name="DPID">60</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">60</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.hotwater.startTime[1].hour">
+          <UInt32 Name="DPID">61</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">61</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.hotwater.startTime[1].minute">
+          <UInt32 Name="DPID">62</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">62</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.outOfHome.endDate.day">
+          <UInt32 Name="DPID">63</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">63</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.outOfHome.endDate.month">
+          <UInt32 Name="DPID">64</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">64</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.outOfHome.startDate.day">
+          <UInt32 Name="DPID">65</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">65</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.outOfHome.startDate.month">
+          <UInt32 Name="DPID">66</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">66</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.startTime.hour">
+          <UInt32 Name="DPID">67</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">67</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.heating.startTime.minute">
+          <UInt32 Name="DPID">68</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">68</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.ctrl.load">
+          <UInt32 Name="DPID">69</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">69</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.ctrl.loadOk">
+          <UInt32 Name="DPID">70</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">70</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.ctrl.nameIndex">
+          <UInt32 Name="DPID">71</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">71</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">10</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.ctrl.save">
+          <UInt32 Name="DPID">72</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">72</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.ctrl.saveOk">
+          <UInt32 Name="DPID">73</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">73</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.data.heating.kp">
+          <UInt32 Name="DPID">74</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">74</UInt16>
+          <Reference Name="UG" Type="UG">None</Reference>
+          <Reference Name="UGPLC" Type="UNIT">None</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.data.heating.tempFlowSetOffset">
+          <UInt32 Name="DPID">75</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">75</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.data.heating.tempLivingroomSet">
+          <UInt32 Name="DPID">76</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">76</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.data.heating.tempLowOffset">
+          <UInt32 Name="DPID">77</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">77</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.data.heating.tempManOffset">
+          <UInt32 Name="DPID">78</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">78</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.data.heating.tn">
+          <UInt32 Name="DPID">79</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">79</UInt16>
+          <Reference Name="UG" Type="UG">None</Reference>
+          <Reference Name="UGPLC" Type="UNIT">None</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.recipe.data.heating.hotwater.tempSet">
+          <UInt32 Name="DPID">80</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">80</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.day[0].dataBuffer">
+          <UInt32 Name="DPID">81</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">81</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.day[0].nbSamples">
+          <UInt32 Name="DPID">82</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">82</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.day[1].dataBuffer">
+          <UInt32 Name="DPID">83</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">83</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.day[1].nbSamples">
+          <UInt32 Name="DPID">84</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">84</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].tempAv">
+          <UInt32 Name="DPID">85</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">85</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].update">
+          <UInt32 Name="DPID">86</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">86</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">3</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].date.day">
+          <UInt32 Name="DPID">87</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">87</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].date.month">
+          <UInt32 Name="DPID">88</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">88</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].date.year">
+          <UInt32 Name="DPID">89</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">89</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].heat.dataBuffer">
+          <UInt32 Name="DPID">90</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">90</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].heat.enable">
+          <UInt32 Name="DPID">91</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">91</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].heat.hoursDate">
+          <UInt32 Name="DPID">92</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">92</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].heat.hoursTotal">
+          <UInt32 Name="DPID">93</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">93</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].heat.nbSamples">
+          <UInt32 Name="DPID">94</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">94</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].heat.statusDatapoint">
+          <UInt32 Name="DPID">95</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">95</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].high.dataBuffer">
+          <UInt32 Name="DPID">96</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">96</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].high.enable">
+          <UInt32 Name="DPID">97</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">97</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].high.nbSamples">
+          <UInt32 Name="DPID">98</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">98</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].high.statusDatapoint">
+          <UInt32 Name="DPID">99</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">99</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].high.tempAv">
+          <UInt32 Name="DPID">100</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">100</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].high.tempDate">
+          <UInt32 Name="DPID">101</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">101</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].low.dataBuffer">
+          <UInt32 Name="DPID">102</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">102</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].low.enable">
+          <UInt32 Name="DPID">103</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">103</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].low.nbSamples">
+          <UInt32 Name="DPID">104</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">104</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].low.statusDatapoint">
+          <UInt32 Name="DPID">105</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">105</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].low.tempAv">
+          <UInt32 Name="DPID">106</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">106</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[0].low.tempDate">
+          <UInt32 Name="DPID">107</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">107</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].tempAv">
+          <UInt32 Name="DPID">108</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">108</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].update">
+          <UInt32 Name="DPID">109</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">109</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">3</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].date.day">
+          <UInt32 Name="DPID">110</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">110</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].date.month">
+          <UInt32 Name="DPID">111</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">111</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].date.year">
+          <UInt32 Name="DPID">112</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">112</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].heat.dataBuffer">
+          <UInt32 Name="DPID">113</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">113</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].heat.enable">
+          <UInt32 Name="DPID">114</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">114</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].heat.hoursDate">
+          <UInt32 Name="DPID">115</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">115</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].heat.hoursTotal">
+          <UInt32 Name="DPID">116</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">116</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].heat.nbSamples">
+          <UInt32 Name="DPID">117</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">117</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].heat.statusDatapoint">
+          <UInt32 Name="DPID">118</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">118</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].high.dataBuffer">
+          <UInt32 Name="DPID">119</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">119</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].high.enable">
+          <UInt32 Name="DPID">120</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">120</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].high.nbSamples">
+          <UInt32 Name="DPID">121</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">121</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].high.statusDatapoint">
+          <UInt32 Name="DPID">122</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">122</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].high.tempAv">
+          <UInt32 Name="DPID">123</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">123</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].high.tempDate">
+          <UInt32 Name="DPID">124</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">124</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].low.dataBuffer">
+          <UInt32 Name="DPID">125</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">125</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].low.enable">
+          <UInt32 Name="DPID">126</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">126</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].low.nbSamples">
+          <UInt32 Name="DPID">127</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">127</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].low.statusDatapoint">
+          <UInt32 Name="DPID">128</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">128</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].low.tempAv">
+          <UInt32 Name="DPID">129</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">129</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+        <Group Name="Globals.gHMI.trend.year[1].low.tempDate">
+          <UInt32 Name="DPID">130</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">130</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Temperatures]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Temperatures].Unit[$OneToOne]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.doBurner">
+          <UInt32 Name="DPID">131</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">131</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">2</UInt16>
+        </Group>
+        <Group Name="Globals.doIrrigPump">
+          <UInt32 Name="DPID">132</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">132</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">4</UInt16>
+        </Group>
+        <Group Name="Globals.doIrrigValve1">
+          <UInt32 Name="DPID">133</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">133</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.doIrrigValve2">
+          <UInt32 Name="DPID">134</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">134</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.doIrrigValve3">
+          <UInt32 Name="DPID">135</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">135</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.doIrrigValve4">
+          <UInt32 Name="DPID">136</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">136</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.doIrrigValve5">
+          <UInt32 Name="DPID">137</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">137</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Globals.doIrrigValve6">
+          <UInt32 Name="DPID">138</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">138</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="MainStation.HeatingSystem.hs_con.fLCRSlimPID.Y">
+          <UInt32 Name="DPID">139</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">139</UInt16>
+          <Reference Name="UG" Type="UG">None</Reference>
+          <Reference Name="UGPLC" Type="UNIT">None</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="MainStation.HeatingSystem.hs_con.fLCRSlimPID.e">
+          <UInt32 Name="DPID">140</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">140</UInt16>
+          <Reference Name="UG" Type="UG">None</Reference>
+          <Reference Name="UGPLC" Type="UNIT">None</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="MainStation.HeatingSystem.hs_con.fLCRSlimPID.status">
+          <UInt32 Name="DPID">141</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[Local]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">141</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">0</UInt16>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

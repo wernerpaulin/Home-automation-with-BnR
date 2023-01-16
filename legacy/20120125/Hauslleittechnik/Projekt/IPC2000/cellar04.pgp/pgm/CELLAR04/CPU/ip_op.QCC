@@ -1,0 +1,15 @@
+[FileList]
+\pgm\cellar04\cpu\ip_op.c
+\library\dataobj\m68k\libdataobj.a
+\library\astime\m68k\astime.h
+\library\astime\m68k\libastime.a
+\library\brsystem\m68k\brsystem.h
+\library\brsystem\m68k\libbrsystem.a
+\pgm\cellar04\cpu\bms_global.h
+\pgm\cellar04\cpu\vctrend.h
+\pgm\cellar04\cpu\bms_gn.h
+\pgm\cellar04\cpu\alarm.h
+\pgm\cellar04\cpu\bms_io.h
+
+[IncludeList]
+\pgm\cellar04\cpu

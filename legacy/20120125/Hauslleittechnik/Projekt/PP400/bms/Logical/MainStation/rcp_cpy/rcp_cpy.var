@@ -1,0 +1,25 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: rcp_cpy
+ * File: rcp_cpy.var
+ * Author: paulinw
+ * Created: December 26, 2009
+ ********************************************************************
+ * Local variables of program rcp_cpy
+ ********************************************************************)
+VAR
+	RECIPE_FILE_NAME_1 : STRING[10] := 'konfig_1';
+	RECIPE_FILE_NAME_2 : STRING[10] := 'konfig_2';
+	fDatObjInfo : DatObjInfo;
+	fDatObjRead : DatObjRead;
+	index : UINT;
+	fDatObjUpdate : DatObjUpdate;
+	actPicOld : UINT;
+	newPage : BOOL;
+END_VAR
+VAR CONSTANT
+	OK_FLAG_INVISIBLE : USINT := 0;
+	OK_FLAG_ERROR : USINT := 2;
+	OK_FLAG_OK : USINT := 1;
+END_VAR

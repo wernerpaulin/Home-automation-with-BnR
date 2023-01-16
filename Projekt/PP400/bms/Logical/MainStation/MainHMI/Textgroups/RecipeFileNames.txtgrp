@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="RecipeFileNames">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="de">
+    <Text ID="94864" Value="rcp_def"/>
+    <Text ID="94865" Value="konfig_1"/>
+    <Text ID="94866" Value="konfig_2"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="94864" Value="0"/>
+    <Index ID="94865" Value="1"/>
+    <Index ID="94866" Value="2"/>
+  </IndexMap>
+</TextGroup>

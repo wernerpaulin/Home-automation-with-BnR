@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.25?>
+<Library xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>VcScrSht.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="Visapi" />
+    <Dependency ObjectName="FileIO" />
+  </Dependencies>
+</Library>

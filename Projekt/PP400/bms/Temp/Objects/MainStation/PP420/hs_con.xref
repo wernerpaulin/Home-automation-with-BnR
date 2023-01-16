@@ -1,0 +1,1232 @@
+<?xml version="1.0"?>
+<Crossref Scope="MainStation.HeatingSystem.hs_con">
+	<Vars>
+		<Var Name="hs_con.fHyst2pBurner" Scope="Local" Type="Hyst2p">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="270" C="2" PS="Ln:270, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fHyst2pBurner.y" Scope="Local" Type="Hyst2p">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="271" C="14" PS="Ln:271, Col:14" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fHyst2pLivingRoom" Scope="Local" Type="Hyst2p">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="106" C="2" PS="Ln:106, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fHyst2pLivingRoom.y" Scope="Local" Type="Hyst2p">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="107" C="29" PS="Ln:107, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fGetTrendDatObjNameHighTemp" Scope="Local" Type="GetTrendDatObjName">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="317" C="3" PS="Ln:317, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fGetTrendDatObjNameHighTemp.datObjName" Scope="Local" Type="GetTrendDatObjName">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="318" C="42" PS="Ln:318, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fGetTrendDatObjNameLowTemp" Scope="Local" Type="GetTrendDatObjName">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="332" C="3" PS="Ln:332, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fGetTrendDatObjNameLowTemp.datObjName" Scope="Local" Type="GetTrendDatObjName">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="333" C="41" PS="Ln:333, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fLCRCurveByPoints" Scope="Local" Type="LCRCurveByPoints">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="76" C="3" PS="Ln:76, Col:3" A="RW"/>
+				<Pos L="78" C="3" PS="Ln:78, Col:3" A="RW"/>
+				<Pos L="80" C="3" PS="Ln:80, Col:3" A="RW"/>
+				<Pos L="82" C="3" PS="Ln:82, Col:3" A="RW"/>
+				<Pos L="84" C="3" PS="Ln:84, Col:3" A="RW"/>
+				<Pos L="141" C="2" PS="Ln:141, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fLCRCurveByPoints.y" Scope="Local" Type="LCRCurveByPoints">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="77" C="40" PS="Ln:77, Col:40" A="R"/>
+				<Pos L="79" C="38" PS="Ln:79, Col:38" A="R"/>
+				<Pos L="81" C="35" PS="Ln:81, Col:35" A="R"/>
+				<Pos L="83" C="38" PS="Ln:83, Col:38" A="R"/>
+				<Pos L="85" C="41" PS="Ln:85, Col:41" A="R"/>
+				<Pos L="142" C="38" PS="Ln:142, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.index" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="228" C="8" PS="Ln:228, Col:8" A="W"/>
+				<Pos L="229" C="57" PS="Ln:229, Col:57" A="R"/>
+				<Pos L="229" C="116" PS="Ln:229, Col:116" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.minRuntimeTimerBurner" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="275" C="7" PS="Ln:275, Col:7" A="R"/>
+				<Pos L="275" C="39" PS="Ln:275, Col:39" A="R"/>
+				<Pos L="277" C="10" PS="Ln:277, Col:10" A="R"/>
+				<Pos L="278" C="4" PS="Ln:278, Col:4" A="W"/>
+				<Pos L="281" C="4" PS="Ln:281, Col:4" A="W"/>
+				<Pos L="281" C="29" PS="Ln:281, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fLCRSlimPID.enable" Scope="Local" Type="LCRSlimPID">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="126" C="38" PS="Ln:126, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fLCRSlimPID" Scope="Local" Type="LCRSlimPID">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="145" C="2" PS="Ln:145, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fLCRSlimPID.Y" Scope="Local" Type="LCRSlimPID">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="146" C="32" PS="Ln:146, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fRTInfo" Scope="Local" Type="RTInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="23" C="2" PS="Ln:23, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fRTInfo.cycle_time" Scope="Local" Type="RTInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="24" C="10" PS="Ln:24, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.dayMinute" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="90" C="2" PS="Ln:90, Col:2" A="W"/>
+				<Pos L="95" C="9" PS="Ln:95, Col:9" A="R"/>
+				<Pos L="95" C="52" PS="Ln:95, Col:52" A="R"/>
+				<Pos L="150" C="6" PS="Ln:150, Col:6" A="R"/>
+				<Pos L="229" C="9" PS="Ln:229, Col:9" A="R"/>
+				<Pos L="229" C="70" PS="Ln:229, Col:70" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.dmyTabEntry.x" Scope="Local" Type="lcrCurveByPoints_TabEntry_type">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="26" C="2" PS="Ln:26, Col:2" A="W"/>
+				<Pos L="26" C="19" PS="Ln:26, Col:19" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.dmyTabEntry" Scope="Local" Type="lcrCurveByPoints_TabEntry_type">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="30" C="66" PS="Ln:30, Col:66" A="R"/>
+				<Pos L="35" C="69" PS="Ln:35, Col:69" A="R"/>
+				<Pos L="40" C="68" PS="Ln:40, Col:68" A="R"/>
+				<Pos L="45" C="62" PS="Ln:45, Col:62" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.cntLoadOld" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="56" C="2" PS="Ln:56, Col:2" A="W"/>
+				<Pos L="120" C="6" PS="Ln:120, Col:6" A="R"/>
+				<Pos L="122" C="4" PS="Ln:122, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.cycT" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="24" C="2" PS="Ln:24, Col:2" A="W"/>
+				<Pos L="48" C="93" PS="Ln:48, Col:93" A="R"/>
+				<Pos L="207" C="41" PS="Ln:207, Col:41" A="R"/>
+				<Pos L="281" C="53" PS="Ln:281, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjInfo" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="28" C="2" PS="Ln:28, Col:2" A="RW"/>
+				<Pos L="33" C="2" PS="Ln:33, Col:2" A="RW"/>
+				<Pos L="38" C="2" PS="Ln:38, Col:2" A="RW"/>
+				<Pos L="43" C="2" PS="Ln:43, Col:2" A="RW"/>
+				<Pos L="357" C="2" PS="Ln:357, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjInfo.pDatObjMem" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="29" C="24" PS="Ln:29, Col:24" A="R"/>
+				<Pos L="34" C="27" PS="Ln:34, Col:27" A="R"/>
+				<Pos L="39" C="26" PS="Ln:39, Col:26" A="R"/>
+				<Pos L="44" C="16" PS="Ln:44, Col:16" A="R"/>
+				<Pos L="360" C="35" PS="Ln:360, Col:35" A="R"/>
+				<Pos L="361" C="46" PS="Ln:361, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjInfo.len" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="30" C="41" PS="Ln:30, Col:41" A="R"/>
+				<Pos L="35" C="44" PS="Ln:35, Col:44" A="R"/>
+				<Pos L="40" C="43" PS="Ln:40, Col:43" A="R"/>
+				<Pos L="45" C="37" PS="Ln:45, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjInfo.status" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="359" C="6" PS="Ln:359, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateYearTempLow.status" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="331" C="108" PS="Ln:331, Col:108" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateYearTempLow" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="333" C="3" PS="Ln:333, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fGetTrendDatObjNameHeat" Scope="Local" Type="GetTrendDatObjName">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="345" C="3" PS="Ln:345, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fGetTrendDatObjNameHeat.datObjName" Scope="Local" Type="GetTrendDatObjName">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="346" C="38" PS="Ln:346, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateYearHeat.status" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="344" C="108" PS="Ln:344, Col:108" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateYearHeat" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="346" C="3" PS="Ln:346, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateYearTempHigh.status" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="316" C="108" PS="Ln:316, Col:108" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateYearTempHigh" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="318" C="3" PS="Ln:318, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.mixerRefTime" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="49" C="2" PS="Ln:49, Col:2" A="W"/>
+				<Pos L="208" C="24" PS="Ln:208, Col:24" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.pHeatCurve" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="44" C="2" PS="Ln:44, Col:2" A="W"/>
+				<Pos L="141" C="104" PS="Ln:141, Col:104" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.pLinDataInsideSensor" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="39" C="2" PS="Ln:39, Col:2" A="W"/>
+				<Pos L="84" C="160" PS="Ln:84, Col:160" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.oldMinute" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="67" C="6" PS="Ln:67, Col:6" A="R"/>
+				<Pos L="69" C="3" PS="Ln:69, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.nbPointsOutsideSensorLin" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="35" C="2" PS="Ln:35, Col:2" A="W"/>
+				<Pos L="82" C="121" PS="Ln:82, Col:121" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.newMinute" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="68" C="3" PS="Ln:68, Col:3" A="W"/>
+				<Pos L="71" C="3" PS="Ln:71, Col:3" A="W"/>
+				<Pos L="299" C="98" PS="Ln:299, Col:98" A="R"/>
+				<Pos L="302" C="98" PS="Ln:302, Col:98" A="R"/>
+				<Pos L="305" C="98" PS="Ln:305, Col:98" A="R"/>
+				<Pos L="316" C="7" PS="Ln:316, Col:7" A="R"/>
+				<Pos L="319" C="10" PS="Ln:319, Col:10" A="R"/>
+				<Pos L="331" C="7" PS="Ln:331, Col:7" A="R"/>
+				<Pos L="334" C="10" PS="Ln:334, Col:10" A="R"/>
+				<Pos L="341" C="82" PS="Ln:341, Col:82" A="R"/>
+				<Pos L="344" C="7" PS="Ln:344, Col:7" A="R"/>
+				<Pos L="347" C="10" PS="Ln:347, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.pLinDataOutsideSensor" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="34" C="2" PS="Ln:34, Col:2" A="W"/>
+				<Pos L="82" C="160" PS="Ln:82, Col:160" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.tempPIDrequest" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="134" C="3" PS="Ln:134, Col:3" A="W"/>
+				<Pos L="137" C="3" PS="Ln:137, Col:3" A="W"/>
+				<Pos L="145" C="153" PS="Ln:145, Col:153" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.yearDay" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="89" C="2" PS="Ln:89, Col:2" A="W"/>
+				<Pos L="92" C="67" PS="Ln:92, Col:67" A="R"/>
+				<Pos L="92" C="119" PS="Ln:92, Col:119" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.tempLCRSlimPIDpara.Kp" Scope="Local" Type="lcrslimpid_par_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="127" C="3" PS="Ln:127, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.tempLCRSlimPIDpara.Tn" Scope="Local" Type="lcrslimpid_par_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="128" C="3" PS="Ln:128, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.tempLCRSlimPIDpara.Kfbk" Scope="Local" Type="lcrslimpid_par_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="129" C="3" PS="Ln:129, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.tempLCRSlimPIDpara.Tv" Scope="Local" Type="lcrslimpid_par_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="130" C="3" PS="Ln:130, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.tempLCRSlimPIDpara.Y_max" Scope="Local" Type="lcrslimpid_par_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="131" C="3" PS="Ln:131, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.tempLCRSlimPIDpara.Y_min" Scope="Local" Type="lcrslimpid_par_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="132" C="3" PS="Ln:132, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.tempLCRSlimPIDpara" Scope="Local" Type="lcrslimpid_par_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="145" C="181" PS="Ln:145, Col:181" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="63" C="14" PS="Ln:63, Col:14" A="R"/>
+				<Pos L="63" C="47" PS="Ln:63, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.outOfHome.startDay" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="92" C="78" PS="Ln:92, Col:78" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.outOfHome.endDay" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="92" C="130" PS="Ln:92, Col:130" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.tempLivingroomSet" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="93" C="41" PS="Ln:93, Col:41" A="R"/>
+				<Pos L="96" C="41" PS="Ln:96, Col:41" A="R"/>
+				<Pos L="99" C="41" PS="Ln:99, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.tempLowOffset" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="93" C="77" PS="Ln:93, Col:77" A="R"/>
+				<Pos L="96" C="77" PS="Ln:96, Col:77" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.tempManOffset" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="93" C="109" PS="Ln:93, Col:109" A="R"/>
+				<Pos L="96" C="109" PS="Ln:96, Col:109" A="R"/>
+				<Pos L="99" C="77" PS="Ln:99, Col:77" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.startTime" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="95" C="21" PS="Ln:95, Col:21" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.endTime" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="95" C="64" PS="Ln:95, Col:64" A="R"/>
+				<Pos L="150" C="18" PS="Ln:150, Col:18" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.kp" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="127" C="31" PS="Ln:127, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.tn" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="128" C="31" PS="Ln:128, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.tempFlowSetOffset" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="142" C="60" PS="Ln:142, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.hotwater.tempSet" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="219" C="3" PS="Ln:219, Col:3" A="W"/>
+				<Pos L="235" C="90" PS="Ln:235, Col:90" A="R"/>
+				<Pos L="248" C="45" PS="Ln:248, Col:45" A="R"/>
+				<Pos L="256" C="41" PS="Ln:256, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.hotwater.startTime" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="229" C="22" PS="Ln:229, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.rcpData.heating.hotwater.endTime" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="229" C="83" PS="Ln:229, Col:83" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.sStepMixer" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="48" C="2" PS="Ln:48, Col:2" A="W"/>
+				<Pos L="189" C="63" PS="Ln:189, Col:63" A="R"/>
+				<Pos L="198" C="64" PS="Ln:198, Col:64" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.nbPointsHeatCurve" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="45" C="2" PS="Ln:45, Col:2" A="W"/>
+				<Pos L="141" C="72" PS="Ln:141, Col:72" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.pLinDataHeatSensor" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="29" C="2" PS="Ln:29, Col:2" A="W"/>
+				<Pos L="76" C="160" PS="Ln:76, Col:160" A="R"/>
+				<Pos L="78" C="160" PS="Ln:78, Col:160" A="R"/>
+				<Pos L="80" C="160" PS="Ln:80, Col:160" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.mixerRefTimer" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="50" C="2" PS="Ln:50, Col:2" A="W"/>
+				<Pos L="172" C="5" PS="Ln:172, Col:5" A="W"/>
+				<Pos L="207" C="4" PS="Ln:207, Col:4" A="W"/>
+				<Pos L="207" C="25" PS="Ln:207, Col:25" A="R"/>
+				<Pos L="208" C="8" PS="Ln:208, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.nbPointsInsideSensorLin" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="40" C="2" PS="Ln:40, Col:2" A="W"/>
+				<Pos L="84" C="121" PS="Ln:84, Col:121" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.nbPointsHeatSensorLin" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="30" C="2" PS="Ln:30, Col:2" A="W"/>
+				<Pos L="76" C="121" PS="Ln:76, Col:121" A="R"/>
+				<Pos L="78" C="121" PS="Ln:78, Col:121" A="R"/>
+				<Pos L="80" C="121" PS="Ln:80, Col:121" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.dayOfYearFromDate" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="354" C="2" PS="Ln:354, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.date" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="354" C="44" PS="Ln:354, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.dayOfYear" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="356" C="2" PS="Ln:356, Col:2" A="W"/>
+				<Pos L="356" C="34" PS="Ln:356, Col:34" A="R"/>
+				<Pos L="360" C="61" PS="Ln:360, Col:61" A="R"/>
+				<Pos L="361" C="72" PS="Ln:361, Col:72" A="R"/>
+				<Pos L="364" C="104" PS="Ln:364, Col:104" A="R"/>
+				<Pos L="372" C="115" PS="Ln:372, Col:115" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.name" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="357" C="40" PS="Ln:357, Col:40" A="R"/>
+				<Pos L="364" C="40" PS="Ln:364, Col:40" A="R"/>
+				<Pos L="372" C="40" PS="Ln:372, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.tempAct" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="360" C="14" PS="Ln:360, Col:14" A="R"/>
+				<Pos L="360" C="96" PS="Ln:360, Col:96" A="R"/>
+				<Pos L="360" C="124" PS="Ln:360, Col:124" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.heatingHoursDayAct" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="361" C="14" PS="Ln:361, Col:14" A="R"/>
+				<Pos L="361" C="107" PS="Ln:361, Col:107" A="R"/>
+				<Pos L="361" C="146" PS="Ln:361, Col:146" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.cmdTempSet" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="363" C="7" PS="Ln:363, Col:7" A="R"/>
+				<Pos L="367" C="5" PS="Ln:367, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.tempSet" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="364" C="74" PS="Ln:364, Col:74" A="R"/>
+				<Pos L="364" C="172" PS="Ln:364, Col:172" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.cmdHeatingHoursDaySet" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="371" C="7" PS="Ln:371, Col:7" A="R"/>
+				<Pos L="375" C="5" PS="Ln:375, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.trendDebug.heatingHoursDaySet" Scope="Local" Type="trendDebug_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="372" C="74" PS="Ln:372, Col:74" A="R"/>
+				<Pos L="372" C="183" PS="Ln:372, Col:183" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateTempDebug" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="364" C="4" PS="Ln:364, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateTempDebug.status" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="366" C="11" PS="Ln:366, Col:11" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateHeatDebug" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="372" C="4" PS="Ln:372, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.fDatObjUpdateHeatDebug.status" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="374" C="11" PS="Ln:374, Col:11" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.sMixer" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="51" C="2" PS="Ln:51, Col:2" A="W"/>
+				<Pos L="165" C="7" PS="Ln:165, Col:7" A="R"/>
+				<Pos L="173" C="5" PS="Ln:173, Col:5" A="W"/>
+				<Pos L="179" C="6" PS="Ln:179, Col:6" A="W"/>
+				<Pos L="181" C="6" PS="Ln:181, Col:6" A="W"/>
+				<Pos L="191" C="8" PS="Ln:191, Col:8" A="W"/>
+				<Pos L="200" C="8" PS="Ln:200, Col:8" A="W"/>
+				<Pos L="210" C="5" PS="Ln:210, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.oldHeatingEnable" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="109" C="43" PS="Ln:109, Col:43" A="R"/>
+				<Pos L="112" C="2" PS="Ln:112, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hs_con.sHotwater" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="54" C="2" PS="Ln:54, Col:2" A="W"/>
+				<Pos L="221" C="7" PS="Ln:221, Col:7" A="R"/>
+				<Pos L="236" C="5" PS="Ln:236, Col:5" A="W"/>
+				<Pos L="242" C="5" PS="Ln:242, Col:5" A="W"/>
+				<Pos L="249" C="5" PS="Ln:249, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.minute" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="67" C="19" PS="Ln:67, Col:19" A="R"/>
+				<Pos L="69" C="16" PS="Ln:69, Col:16" A="R"/>
+				<Pos L="90" C="49" PS="Ln:90, Col:49" A="R"/>
+				<Pos L="171" C="46" PS="Ln:171, Col:46" A="R"/>
+				<Pos L="316" C="68" PS="Ln:316, Col:68" A="R"/>
+				<Pos L="319" C="70" PS="Ln:319, Col:70" A="R"/>
+				<Pos L="331" C="68" PS="Ln:331, Col:68" A="R"/>
+				<Pos L="334" C="70" PS="Ln:334, Col:70" A="R"/>
+				<Pos L="344" C="68" PS="Ln:344, Col:68" A="R"/>
+				<Pos L="347" C="70" PS="Ln:347, Col:70" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.hotwater.tempAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="77" C="3" PS="Ln:77, Col:3" A="W"/>
+				<Pos L="235" C="54" PS="Ln:235, Col:54" A="R"/>
+				<Pos L="241" C="43" PS="Ln:241, Col:43" A="R"/>
+				<Pos L="248" C="8" PS="Ln:248, Col:8" A="R"/>
+				<Pos L="290" C="7" PS="Ln:290, Col:7" A="R"/>
+				<Pos L="394" C="6" PS="Ln:394, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.burner.tempAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="79" C="3" PS="Ln:79, Col:3" A="W"/>
+				<Pos L="152" C="7" PS="Ln:152, Col:7" A="R"/>
+				<Pos L="241" C="8" PS="Ln:241, Col:8" A="R"/>
+				<Pos L="270" C="24" PS="Ln:270, Col:24" A="R"/>
+				<Pos L="382" C="6" PS="Ln:382, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempFlowAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="81" C="3" PS="Ln:81, Col:3" A="W"/>
+				<Pos L="145" C="112" PS="Ln:145, Col:112" A="R"/>
+				<Pos L="152" C="41" PS="Ln:152, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempOutsideAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="83" C="3" PS="Ln:83, Col:3" A="W"/>
+				<Pos L="141" C="25" PS="Ln:141, Col:25" A="R"/>
+				<Pos L="159" C="6" PS="Ln:159, Col:6" A="R"/>
+				<Pos L="312" C="9" PS="Ln:312, Col:9" A="R"/>
+				<Pos L="313" C="42" PS="Ln:313, Col:42" A="R"/>
+				<Pos L="327" C="9" PS="Ln:327, Col:9" A="R"/>
+				<Pos L="328" C="41" PS="Ln:328, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempLivingroomAct" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="85" C="3" PS="Ln:85, Col:3" A="W"/>
+				<Pos L="106" C="28" PS="Ln:106, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="89" C="23" PS="Ln:89, Col:23" A="R"/>
+				<Pos L="318" C="153" PS="Ln:318, Col:153" A="R"/>
+				<Pos L="333" C="150" PS="Ln:333, Col:150" A="R"/>
+				<Pos L="346" C="146" PS="Ln:346, Col:146" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.hour" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="90" C="15" PS="Ln:90, Col:15" A="R"/>
+				<Pos L="171" C="9" PS="Ln:171, Col:9" A="R"/>
+				<Pos L="316" C="30" PS="Ln:316, Col:30" A="R"/>
+				<Pos L="319" C="33" PS="Ln:319, Col:33" A="R"/>
+				<Pos L="331" C="30" PS="Ln:331, Col:30" A="R"/>
+				<Pos L="334" C="33" PS="Ln:334, Col:33" A="R"/>
+				<Pos L="344" C="30" PS="Ln:344, Col:30" A="R"/>
+				<Pos L="347" C="33" PS="Ln:347, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.outOfHomeActive" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="92" C="20" PS="Ln:92, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempLivingroomSet" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="93" C="3" PS="Ln:93, Col:3" A="W"/>
+				<Pos L="96" C="3" PS="Ln:96, Col:3" A="W"/>
+				<Pos L="99" C="3" PS="Ln:99, Col:3" A="W"/>
+				<Pos L="106" C="72" PS="Ln:106, Col:72" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.loweringActive" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="94" C="3" PS="Ln:94, Col:3" A="W"/>
+				<Pos L="97" C="3" PS="Ln:97, Col:3" A="W"/>
+				<Pos L="100" C="3" PS="Ln:100, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.enable" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="107" C="2" PS="Ln:107, Col:2" A="W"/>
+				<Pos L="109" C="6" PS="Ln:109, Col:6" A="R"/>
+				<Pos L="112" C="22" PS="Ln:112, Col:22" A="R"/>
+				<Pos L="116" C="3" PS="Ln:116, Col:3" A="W"/>
+				<Pos L="145" C="25" PS="Ln:145, Col:25" A="R"/>
+				<Pos L="158" C="16" PS="Ln:158, Col:16" A="R"/>
+				<Pos L="255" C="89" PS="Ln:255, Col:89" A="R"/>
+				<Pos L="259" C="6" PS="Ln:259, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.manSwitchedOff" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="115" C="6" PS="Ln:115, Col:6" A="R"/>
+				<Pos L="149" C="6" PS="Ln:149, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempFlowSet" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="142" C="2" PS="Ln:142, Col:2" A="W"/>
+				<Pos L="145" C="77" PS="Ln:145, Col:77" A="R"/>
+				<Pos L="255" C="41" PS="Ln:255, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.sSetMixer" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="146" C="2" PS="Ln:146, Col:2" A="W"/>
+				<Pos L="154" C="3" PS="Ln:154, Col:3" A="W"/>
+				<Pos L="177" C="12" PS="Ln:177, Col:12" A="R"/>
+				<Pos L="178" C="10" PS="Ln:178, Col:10" A="R"/>
+				<Pos L="190" C="38" PS="Ln:190, Col:38" A="R"/>
+				<Pos L="199" C="38" PS="Ln:199, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.hotwater.enable" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="151" C="6" PS="Ln:151, Col:6" A="R"/>
+				<Pos L="227" C="4" PS="Ln:227, Col:4" A="W"/>
+				<Pos L="230" C="6" PS="Ln:230, Col:6" A="W"/>
+				<Pos L="235" C="8" PS="Ln:235, Col:8" A="R"/>
+				<Pos L="256" C="89" PS="Ln:256, Col:89" A="R"/>
+				<Pos L="259" C="42" PS="Ln:259, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.sActMixer" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="177" C="41" PS="Ln:177, Col:41" A="R"/>
+				<Pos L="178" C="39" PS="Ln:178, Col:39" A="R"/>
+				<Pos L="189" C="4" PS="Ln:189, Col:4" A="W"/>
+				<Pos L="189" C="34" PS="Ln:189, Col:34" A="R"/>
+				<Pos L="190" C="8" PS="Ln:190, Col:8" A="R"/>
+				<Pos L="198" C="4" PS="Ln:198, Col:4" A="W"/>
+				<Pos L="198" C="35" PS="Ln:198, Col:35" A="R"/>
+				<Pos L="199" C="8" PS="Ln:199, Col:8" A="R"/>
+				<Pos L="209" C="5" PS="Ln:209, Col:5" A="W"/>
+				<Pos L="215" C="2" PS="Ln:215, Col:2" A="W"/>
+				<Pos L="215" C="40" PS="Ln:215, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.wday" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="218" C="6" PS="Ln:218, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.burner.tempSet" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="255" C="2" PS="Ln:255, Col:2" A="W"/>
+				<Pos L="260" C="3" PS="Ln:260, Col:3" A="W"/>
+				<Pos L="260" C="38" PS="Ln:260, Col:38" A="R"/>
+				<Pos L="262" C="3" PS="Ln:262, Col:3" A="W"/>
+				<Pos L="267" C="2" PS="Ln:267, Col:2" A="W"/>
+				<Pos L="267" C="41" PS="Ln:267, Col:41" A="R"/>
+				<Pos L="270" C="65" PS="Ln:270, Col:65" A="R"/>
+				<Pos L="388" C="6" PS="Ln:388, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.statistics.heating.onTimeBurner" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="299" C="3" PS="Ln:299, Col:3" A="W"/>
+				<Pos L="299" C="51" PS="Ln:299, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.statistics.heating.onTimeFlowPump" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="302" C="3" PS="Ln:302, Col:3" A="W"/>
+				<Pos L="302" C="51" PS="Ln:302, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.statistics.heating.onTimeBoilerBump" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="305" C="3" PS="Ln:305, Col:3" A="W"/>
+				<Pos L="305" C="51" PS="Ln:305, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempOutsideDayHigh" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="310" C="6" PS="Ln:310, Col:6" A="R"/>
+				<Pos L="311" C="3" PS="Ln:311, Col:3" A="W"/>
+				<Pos L="312" C="43" PS="Ln:312, Col:43" A="R"/>
+				<Pos L="313" C="3" PS="Ln:313, Col:3" A="W"/>
+				<Pos L="318" C="96" PS="Ln:318, Col:96" A="R"/>
+				<Pos L="318" C="223" PS="Ln:318, Col:223" A="R"/>
+				<Pos L="320" C="3" PS="Ln:320, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.year" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="317" C="80" PS="Ln:317, Col:80" A="R"/>
+				<Pos L="332" C="78" PS="Ln:332, Col:78" A="R"/>
+				<Pos L="345" C="71" PS="Ln:345, Col:71" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.tempOutsideDayLow" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="325" C="6" PS="Ln:325, Col:6" A="R"/>
+				<Pos L="326" C="3" PS="Ln:326, Col:3" A="W"/>
+				<Pos L="327" C="43" PS="Ln:327, Col:43" A="R"/>
+				<Pos L="328" C="3" PS="Ln:328, Col:3" A="W"/>
+				<Pos L="333" C="94" PS="Ln:333, Col:94" A="R"/>
+				<Pos L="333" C="220" PS="Ln:333, Col:220" A="R"/>
+				<Pos L="335" C="3" PS="Ln:335, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gActData.heating.burner.heatHoursDay" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="341" C="3" PS="Ln:341, Col:3" A="W"/>
+				<Pos L="341" C="43" PS="Ln:341, Col:43" A="R"/>
+				<Pos L="346" C="88" PS="Ln:346, Col:88" A="R"/>
+				<Pos L="346" C="216" PS="Ln:346, Col:216" A="R"/>
+				<Pos L="348" C="3" PS="Ln:348, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gSimulation.isActive" Scope="Global" Type="simulation_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="75" C="6" PS="Ln:75, Col:6" A="R"/>
+				<Pos L="274" C="6" PS="Ln:274, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.isValid" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="62" C="6" PS="Ln:62, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="63" C="28" PS="Ln:63, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.ctrl.cntLoad" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="56" C="16" PS="Ln:56, Col:16" A="R"/>
+				<Pos L="120" C="20" PS="Ln:120, Col:20" A="R"/>
+				<Pos L="122" C="18" PS="Ln:122, Col:18" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.cmd.updatePID" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="110" C="4" PS="Ln:110, Col:4" A="W"/>
+				<Pos L="121" C="3" PS="Ln:121, Col:3" A="W"/>
+				<Pos L="126" C="6" PS="Ln:126, Col:6" A="R"/>
+				<Pos L="135" C="3" PS="Ln:135, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHeatingNodeTemp1Ok" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="400" C="54" PS="Ln:400, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHeatingNodeTemp2Ok" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="400" C="78" PS="Ln:400, Col:78" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHeatingNodeRelais1Ok" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="400" C="102" PS="Ln:400, Col:102" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHeatingNodeRelais2Ok" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="400" C="128" PS="Ln:400, Col:128" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiTempBurner" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="78" C="47" PS="Ln:78, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiTempFlow" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="80" C="47" PS="Ln:80, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiTempOutside" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="82" C="47" PS="Ln:82, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiTempLivingroom" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="84" C="47" PS="Ln:84, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiTempBoiler" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="76" C="47" PS="Ln:76, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doBurner" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="271" C="2" PS="Ln:271, Col:2" A="W"/>
+				<Pos L="276" C="4" PS="Ln:276, Col:4" A="W"/>
+				<Pos L="277" C="60" PS="Ln:277, Col:60" A="R"/>
+				<Pos L="280" C="7" PS="Ln:280, Col:7" A="R"/>
+				<Pos L="287" C="3" PS="Ln:287, Col:3" A="W"/>
+				<Pos L="298" C="6" PS="Ln:298, Col:6" A="R"/>
+				<Pos L="340" C="6" PS="Ln:340, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doFlowPump" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="153" C="3" PS="Ln:153, Col:3" A="W"/>
+				<Pos L="158" C="2" PS="Ln:158, Col:2" A="W"/>
+				<Pos L="160" C="3" PS="Ln:160, Col:3" A="W"/>
+				<Pos L="288" C="3" PS="Ln:288, Col:3" A="W"/>
+				<Pos L="301" C="6" PS="Ln:301, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doBoilerPump" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="224" C="4" PS="Ln:224, Col:4" A="W"/>
+				<Pos L="247" C="4" PS="Ln:247, Col:4" A="W"/>
+				<Pos L="291" C="4" PS="Ln:291, Col:4" A="W"/>
+				<Pos L="293" C="4" PS="Ln:293, Col:4" A="W"/>
+				<Pos L="304" C="6" PS="Ln:304, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doMixerOpen" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="168" C="4" PS="Ln:168, Col:4" A="W"/>
+				<Pos L="187" C="4" PS="Ln:187, Col:4" A="W"/>
+				<Pos L="196" C="4" PS="Ln:196, Col:4" A="W"/>
+				<Pos L="205" C="4" PS="Ln:205, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doMixerClose" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="169" C="4" PS="Ln:169, Col:4" A="W"/>
+				<Pos L="188" C="4" PS="Ln:188, Col:4" A="W"/>
+				<Pos L="197" C="4" PS="Ln:197, Col:4" A="W"/>
+				<Pos L="206" C="4" PS="Ln:206, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.stop" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="145" C="57" PS="Ln:145, Col:57" A="R"/>
+				<Pos L="286" C="6" PS="Ln:286, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.request" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="383" C="3" PS="Ln:383, Col:3" A="W"/>
+				<Pos L="385" C="3" PS="Ln:385, Col:3" A="W"/>
+				<Pos L="389" C="3" PS="Ln:389, Col:3" A="W"/>
+				<Pos L="391" C="3" PS="Ln:391, Col:3" A="W"/>
+				<Pos L="395" C="3" PS="Ln:395, Col:3" A="W"/>
+				<Pos L="397" C="3" PS="Ln:397, Col:3" A="W"/>
+				<Pos L="400" C="2" PS="Ln:400, Col:2" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="hs_con.BMS_LIN_INSIDE_DO_NAME" Scope="Local" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="38" C="40" PS="Ln:38, Col:40" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.BMS_LIN_HEAT_DO_NAME" Scope="Local" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="28" C="40" PS="Ln:28, Col:40" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.BURNER_TEMP_SET_OFFSET" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="260" C="72" PS="Ln:260, Col:72" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.BMS_HEATING_CURVE" Scope="Local" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="43" C="40" PS="Ln:43, Col:40" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.BURNER_TEMP_POS_HYSTERESIS" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="270" C="107" PS="Ln:270, Col:107" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.BURNER_TEMP_NEG_HYSTERESIS" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="270" C="144" PS="Ln:270, Col:144" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.BURNER_PARALLEL_RESISTANCE" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="78" C="77" PS="Ln:78, Col:77" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.BURNER_MIN_RUNTIME" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="275" C="63" PS="Ln:275, Col:63" A="R"/>
+				<Pos L="277" C="35" PS="Ln:277, Col:35" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.HOTWATER_TEMP_LEGION_DISTINCTION" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="219" C="39" PS="Ln:219, Col:39" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.BMS_LIN_OUTSIDE_DO_NAME" Scope="Local" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="33" C="40" PS="Ln:33, Col:40" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.BOILER_PARALLEL_RESISTANCE" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="76" C="77" PS="Ln:76, Col:77" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.LIVING_ROOM_TEMP_NEG_HYSTERESIS" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="106" C="159" PS="Ln:106, Col:159" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.INSIDE_PARALLEL_RESISTANCE" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="84" C="77" PS="Ln:84, Col:77" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.LIVING_ROOM_TEMP_POS_HYSTERESIS" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="106" C="117" PS="Ln:106, Col:117" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.MIXER_FULLY_OPEN_TIME" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="48" C="26" PS="Ln:48, Col:26" A="R"/>
+				<Pos L="49" C="33" PS="Ln:49, Col:33" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.MIXER_FULLY_OPEN_POSITION" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="48" C="50" PS="Ln:48, Col:50" A="R"/>
+				<Pos L="131" C="31" PS="Ln:131, Col:31" A="R"/>
+				<Pos L="215" C="72" PS="Ln:215, Col:72" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.MIXER_ZERO_WINDOW" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="177" C="71" PS="Ln:177, Col:71" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.CRITICAL_FREEZING_OUTSIDE_TEMP" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="159" C="41" PS="Ln:159, Col:41" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.PID_HEATING_I_MAX" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="129" C="31" PS="Ln:129, Col:31" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.FLOW_PARALLEL_RESISTANCE" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="80" C="77" PS="Ln:80, Col:77" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.OUTSIDE_PARALLEL_RESISTANCE" Scope="Local" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="82" C="77" PS="Ln:82, Col:77" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.sMIXER_STANDBY" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="167" C="3" PS="Ln:167, Col:3" A="R"/>
+				<Pos L="191" C="18" PS="Ln:191, Col:18" A="R"/>
+				<Pos L="200" C="18" PS="Ln:200, Col:18" A="R"/>
+				<Pos L="210" C="15" PS="Ln:210, Col:15" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.sMIXER_REFERENCE" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="51" C="19" PS="Ln:51, Col:19" A="R"/>
+				<Pos L="173" C="22" PS="Ln:173, Col:22" A="R"/>
+				<Pos L="204" C="3" PS="Ln:204, Col:3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.sMIXER_OPEN" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="179" C="16" PS="Ln:179, Col:16" A="R"/>
+				<Pos L="186" C="3" PS="Ln:186, Col:3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.sMIXER_CLOSE" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="181" C="16" PS="Ln:181, Col:16" A="R"/>
+				<Pos L="195" C="3" PS="Ln:195, Col:3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.sHOTWATER_STANDBY" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="54" C="15" PS="Ln:54, Col:15" A="R"/>
+				<Pos L="223" C="3" PS="Ln:223, Col:3" A="R"/>
+				<Pos L="249" C="18" PS="Ln:249, Col:18" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.sHOTWATER_WAIT_BURNER_HOT" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="236" C="18" PS="Ln:236, Col:18" A="R"/>
+				<Pos L="240" C="3" PS="Ln:240, Col:3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="hs_con.sHOTWATER_WAIT_HOTWATER_READY" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="242" C="18" PS="Ln:242, Col:18" A="R"/>
+				<Pos L="246" C="3" PS="Ln:246, Col:3" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERR_FUB_BUSY" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="316" C="143" PS="Ln:316, Col:143" A="R"/>
+				<Pos L="331" C="142" PS="Ln:331, Col:142" A="R"/>
+				<Pos L="344" C="139" PS="Ln:344, Col:139" A="R"/>
+				<Pos L="366" C="44" PS="Ln:366, Col:44" A="R"/>
+				<Pos L="374" C="44" PS="Ln:374, Col:44" A="R"/>
+			</File>
+		</Const>
+		<Const Name="LCRSLIMPID_REQU_OFF" Scope="Global" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="137" C="31" PS="Ln:137, Col:31" A="R"/>
+			</File>
+		</Const>
+		<Const Name="LCRSLIMPID_REQU_READ_PARAS" Scope="Global" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="134" C="31" PS="Ln:134, Col:31" A="R"/>
+			</File>
+		</Const>
+		<Const Name="MAX_HOTWATER_TIME_INDEX" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="228" C="22" PS="Ln:228, Col:22" A="R"/>
+			</File>
+		</Const>
+		<Const Name="DO_NAME_TREND_HEAT" Scope="Global" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="345" C="43" PS="Ln:345, Col:43" A="R"/>
+			</File>
+		</Const>
+		<Const Name="DO_NAME_TREND_TEMP_HIGH" Scope="Global" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="317" C="47" PS="Ln:317, Col:47" A="R"/>
+			</File>
+		</Const>
+		<Const Name="DO_NAME_TREND_TEMP_LOW" Scope="Global" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="332" C="46" PS="Ln:332, Col:46" A="R"/>
+			</File>
+		</Const>
+		<Const Name="BURNER_MAX_SET_TEMP" Scope="Global" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="267" C="74" PS="Ln:267, Col:74" A="R"/>
+				<Pos L="388" C="41" PS="Ln:388, Col:41" A="R"/>
+			</File>
+		</Const>
+		<Const Name="BURNER_MAX_TEMP" Scope="Global" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="382" C="41" PS="Ln:382, Col:41" A="R"/>
+			</File>
+		</Const>
+		<Const Name="BOILER_MAX_TEMP" Scope="Global" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="290" C="43" PS="Ln:290, Col:43" A="R"/>
+				<Pos L="394" C="43" PS="Ln:394, Col:43" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+		<Enum Name="ALARM_HEATING_BURNER_TEMP_HIGH" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="383" C="18" PS="Ln:383, Col:18" A="R"/>
+				<Pos L="385" C="18" PS="Ln:385, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_HEATING_BOILER_TEMP_HIGH" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="395" C="18" PS="Ln:395, Col:18" A="R"/>
+				<Pos L="397" C="18" PS="Ln:397, Col:18" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_HEATING_NODE_CON_ERROR" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="400" C="17" PS="Ln:400, Col:17" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_HEATING_BURNER_TEMP_LIMIT" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="389" C="18" PS="Ln:389, Col:18" A="R"/>
+				<Pos L="391" C="18" PS="Ln:391, Col:18" A="R"/>
+			</File>
+		</Enum>
+	</Enums>
+	<Funcs>
+		<Func Name="DatObjUpdate" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="318" C="3" PS="Ln:318, Col:3"/>
+				<Pos L="333" C="3" PS="Ln:333, Col:3"/>
+				<Pos L="346" C="3" PS="Ln:346, Col:3"/>
+				<Pos L="364" C="4" PS="Ln:364, Col:4"/>
+				<Pos L="372" C="4" PS="Ln:372, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="DayOfYear" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="89" C="13" PS="Ln:89, Col:13"/>
+				<Pos L="318" C="143" PS="Ln:318, Col:143"/>
+				<Pos L="333" C="140" PS="Ln:333, Col:140"/>
+				<Pos L="346" C="136" PS="Ln:346, Col:136"/>
+				<Pos L="354" C="34" PS="Ln:354, Col:34"/>
+			</File>
+		</Func>
+		<Func Name="Hyst2p" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="106" C="2" PS="Ln:106, Col:2"/>
+				<Pos L="270" C="2" PS="Ln:270, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="GetTrendDatObjName" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="317" C="3" PS="Ln:317, Col:3"/>
+				<Pos L="332" C="3" PS="Ln:332, Col:3"/>
+				<Pos L="345" C="3" PS="Ln:345, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="DatObjInfo" Lib="DataObj">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="28" C="2" PS="Ln:28, Col:2"/>
+				<Pos L="33" C="2" PS="Ln:33, Col:2"/>
+				<Pos L="38" C="2" PS="Ln:38, Col:2"/>
+				<Pos L="43" C="2" PS="Ln:43, Col:2"/>
+				<Pos L="357" C="2" PS="Ln:357, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="63" C="3" PS="Ln:63, Col:3"/>
+				<Pos L="360" C="3" PS="Ln:360, Col:3"/>
+				<Pos L="361" C="3" PS="Ln:361, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="RTInfo" Lib="brsystem">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="23" C="2" PS="Ln:23, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="LCRCurveByPoints" Lib="LoopConR">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="76" C="3" PS="Ln:76, Col:3"/>
+				<Pos L="78" C="3" PS="Ln:78, Col:3"/>
+				<Pos L="80" C="3" PS="Ln:80, Col:3"/>
+				<Pos L="82" C="3" PS="Ln:82, Col:3"/>
+				<Pos L="84" C="3" PS="Ln:84, Col:3"/>
+				<Pos L="141" C="2" PS="Ln:141, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="LCRSlimPID" Lib="LoopConR">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/HeatingSystem/hs_con/hs_con.st">
+				<Pos L="145" C="2" PS="Ln:145, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

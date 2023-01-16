@@ -1,0 +1,15 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: Alarms.var
+ * Author: paulinw
+ * Created: December 26, 2009
+ ********************************************************************
+ * Global variables of project bms
+ ********************************************************************)
+VAR
+	gAlarm : alarm_typ := (0); (*alarm data*)
+END_VAR
+VAR CONSTANT
+	NB_ALARMS : ALARMS := ALARM_MAX;
+END_VAR

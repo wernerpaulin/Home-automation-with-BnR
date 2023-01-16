@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <TrendDataYearTempLow_Curve2 ReferenceString="Source[local].Control[TrendDataYearTempLow_Curve2]">
+      <Connection>
+         <Property ReferenceString="Source[local].Trend[TrendYearTemp].Control[TrendDataYearTempHigh_Curve1].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.statusDatapoint]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Trend[TrendYearTemp].Control[TrendDataYearTempLow_Curve1].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.statusDatapoint]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Trend[TrendYearTemp].Control[TrendDataYearTempHigh_Curve2].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.statusDatapoint]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Trend[TrendYearTemp].Control[TrendDataYearTempLow_Curve2].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.statusDatapoint]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </TrendDataYearTempLow_Curve2>
+</VCXReferenceList>

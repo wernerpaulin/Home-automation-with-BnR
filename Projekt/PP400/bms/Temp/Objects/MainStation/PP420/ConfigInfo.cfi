@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.25?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass Name="Cyclic#1">
+    <Task Name="hs_con" Disable="false" Source="MainStation.HeatingSystem.hs_con">
+      <File Path="Z:\Hauslleittechnik\Projekt\PP400\bms\Logical\MainStation\HeatingSystem\hs_con\hs_con.var" />
+      <File Path="Z:\Hauslleittechnik\Projekt\PP400\bms\Logical\MainStation\HeatingSystem\hs_con\hs_con.typ" />
+    </Task>
+    <Task Name="ip_con" Disable="false" Source="MainStation.IrrigationSystem.ip_con">
+      <File Path="Z:\Hauslleittechnik\Projekt\PP400\bms\Logical\MainStation\IrrigationSystem\ip_con\ip_con.var" />
+    </Task>
+    <Task Name="hmi_sup" Disable="false" Source="MainStation.hmi_sup">
+      <File Path="Z:\Hauslleittechnik\Projekt\PP400\bms\Logical\MainStation\hmi_sup\hmi_sup.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass Name="Cyclic#2">
+    <Task Name="rcp_cpy" Disable="false" Source="MainStation.rcp_cpy">
+      <File Path="Z:\Hauslleittechnik\Projekt\PP400\bms\Logical\MainStation\rcp_cpy\rcp_cpy.var" />
+    </Task>
+    <Task Name="alarm" Disable="false" Source="MainStation.alarm">
+      <File Path="Z:\Hauslleittechnik\Projekt\PP400\bms\Logical\MainStation\alarm\alarm.var" />
+    </Task>
+    <Task Name="statistics" Disable="false" Source="MainStation.statistics">
+      <File Path="Z:\Hauslleittechnik\Projekt\PP400\bms\Logical\MainStation\statistics\statistics.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass Name="Cyclic#3" />
+  <TaskClass Name="Cyclic#4" />
+  <TaskClass Name="Cyclic#5" />
+  <TaskClass Name="Cyclic#6" />
+  <TaskClass Name="Cyclic#7" />
+  <TaskClass Name="Cyclic#8" />
+  <TaskClass Name="Cyclic#1" />
+  <TaskClass Name="Cyclic#2" />
+  <TaskClass Name="Cyclic#3" />
+  <TaskClass Name="Cyclic#4" />
+  <TaskClass Name="Cyclic#5" />
+  <TaskClass Name="Cyclic#6" />
+  <TaskClass Name="Cyclic#7" />
+  <TaskClass Name="Cyclic#8" />
+</ConfigInfo>

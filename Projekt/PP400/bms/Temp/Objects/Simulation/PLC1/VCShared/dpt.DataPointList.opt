@@ -1,0 +1,21 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="Z:/Hauslleittechnik/Projekt/PP400/bms\Physical\MainStation\PP420\Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="hs_con" Source="MainStation.HeatingSystem.hs_con.prg" />
+      <Task Name="ip_con" Source="MainStation.IrrigationSystem.ip_con.prg" />
+      <Task Name="hmi_sup" Source="MainStation.hmi_sup.prg" />
+      <Task Name="rcp_cpy" Source="MainStation.rcp_cpy.prg" />
+      <Task Name="alarm" Source="MainStation.alarm.prg" />
+      <Task Name="statistics" Source="MainStation.statistics.prg" />
+    </Xml>
+  </BuildOption>
+  <BuildOption>
+    <SourceFile Value="Z:\Hauslleittechnik\Projekt\PP400\bms\Physical\Simulation\PLC1\SimulationOnly.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="hs_sim" Source="MainStation.HeatingSystem.hs_sim.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

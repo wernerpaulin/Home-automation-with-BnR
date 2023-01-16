@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/LoopConR/LoopConR.fun
+$(AS_PROJECT_PATH)/Logical/MainStation/HeatingSystem/hs_sim/hs_sim.var
+$(AS_PROJECT_PATH)/Logical/Globals/Global.var
+$(AS_PROJECT_PATH)/Logical/Globals/Global.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.typ
+$(AS_PROJECT_PATH)/Logical/Globals/IO.var

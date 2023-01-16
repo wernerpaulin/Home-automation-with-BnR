@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.25?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">heat_02.br</Object>
+    <Object Type="File">heat_03.br</Object>
+    <Object Type="File">heat_04.br</Object>
+    <Object Type="File">heat_05.br</Object>
+    <Object Type="File">heat_06.br</Object>
+    <Object Type="File">heat_07.br</Object>
+    <Object Type="File">heat_09.br</Object>
+    <Object Type="File">temph05.br</Object>
+    <Object Type="File">temph_02.br</Object>
+    <Object Type="File">temph_03.br</Object>
+    <Object Type="File">temph_04.br</Object>
+    <Object Type="File">temph_05.br</Object>
+    <Object Type="File">temph_06.br</Object>
+    <Object Type="File">temph_07.br</Object>
+    <Object Type="File">temph_08.br</Object>
+    <Object Type="File">temph_09.br</Object>
+    <Object Type="File">templ05.br</Object>
+    <Object Type="File">templ_02.br</Object>
+    <Object Type="File">templ_03.br</Object>
+    <Object Type="File">templ_04.br</Object>
+    <Object Type="File">templ_05.br</Object>
+    <Object Type="File">templ_06.br</Object>
+    <Object Type="File">templ_07.br</Object>
+    <Object Type="File">templ_08.br</Object>
+    <Object Type="File">templ_09.br</Object>
+    <Object Type="File">temph_10.br</Object>
+    <Object Type="File">heat_10.br</Object>
+    <Object Type="File">templ_10.br</Object>
+  </Objects>
+</Package>

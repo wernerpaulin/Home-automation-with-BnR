@@ -1,0 +1,91 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: hs_con
+ * File: hs_con.var
+ * Author: asdemo
+ * Created: December 27, 2009
+ ********************************************************************
+ * Local variables of program hs_con
+ ********************************************************************)
+VAR
+	fHyst2pBurner : Hyst2p;
+	fHyst2pLivingRoom : Hyst2p;
+	fGetTrendDatObjNameHighTemp : GetTrendDatObjName;
+	fGetTrendDatObjNameLowTemp : GetTrendDatObjName;
+	fLCRCurveByPoints : LCRCurveByPoints;
+	index : UINT;
+	minRuntimeTimerBurner : UDINT;
+	fLCRSlimPID : LCRSlimPID;
+	fRTInfo : RTInfo;
+	dayMinute : UDINT;
+	dmyTabEntry : lcrCurveByPoints_TabEntry_type;
+	cntLoadOld : USINT;
+	cycT : UDINT;
+	fDatObjInfo : DatObjInfo;
+	fDatObjUpdateYearTempLow : DatObjUpdate;
+	fGetTrendDatObjNameHeat : GetTrendDatObjName;
+	fDatObjUpdateYearHeat : DatObjUpdate;
+	fDatObjUpdateYearTempHigh : DatObjUpdate;
+	mixerRefTime : UDINT;
+	pHeatCurve : UDINT;
+	pLinDataInsideSensor : UDINT;
+	oldMinute : USINT;
+	nbPointsOutsideSensorLin : UINT;
+	newMinute : BOOL;
+	pLinDataOutsideSensor : UDINT;
+	tempPIDrequest : UDINT;
+	yearDay : UDINT;
+	tempLCRSlimPIDpara : lcrslimpid_par_typ;
+	rcpData : rcpData_typ;
+	sStepMixer : REAL;
+	nbPointsHeatCurve : UINT;
+	pLinDataHeatSensor : UDINT;
+	mixerRefTimer : UDINT;
+	nbPointsInsideSensorLin : UINT;
+	nbPointsHeatSensorLin : UINT;
+	trendDebug : trendDebug_typ := (0);
+END_VAR
+VAR CONSTANT
+	BMS_LIN_INSIDE_DO_NAME : STRING[10] := 'lin_in'; (*linearisation of inside temperature sensors*)
+	BMS_LIN_HEAT_DO_NAME : STRING[10] := 'lin_heat'; (*linearisation of heating sensors*)
+	BURNER_TEMP_SET_OFFSET : REAL := 5.0; (*Offset to set temperature to make sure heat is transported away from the burner*)
+	BMS_HEATING_CURVE : STRING[10] := 'heatcurv'; (*relation between outside temperature and flow temperature*)
+	BURNER_TEMP_POS_HYSTERESIS : REAL := 0.0; (*tolerance of burner temperature*)
+	BURNER_TEMP_NEG_HYSTERESIS : REAL := 2.0; (*tolerance of burner temperature*)
+	BURNER_PARALLEL_RESISTANCE : REAL := 4696.8; (*exact value of parallel restance used with NTC*)
+	BURNER_MIN_RUNTIME : UDINT := 60000; (*minimum runtime of burner once switch on in ms*)
+	HOTWATER_TEMP_LEGION_DISTINCTION : REAL := 65.0; (*hotwater set temperature for legionella distinction*)
+	BMS_LIN_OUTSIDE_DO_NAME : STRING[10] := 'lin_out'; (*linearisation of outside temperature sensors*)
+	BOILER_PARALLEL_RESISTANCE : REAL := 4715.8; (*exact value of parallel restance used with NTC*)
+	LIVING_ROOM_TEMP_NEG_HYSTERESIS : REAL := 0.1; (*negative tolerance for living room temperature*)
+	INSIDE_PARALLEL_RESISTANCE : REAL := 4651.1; (*exact value of parallel restance used with NTC*)
+	LIVING_ROOM_TEMP_POS_HYSTERESIS : REAL := 0.3; (*positive tolerance for living room temperature*)
+	MIXER_FULLY_OPEN_TIME : REAL := 118.0; (*time it takes to open the mixer fully*)
+	MIXER_FULLY_OPEN_POSITION : REAL := 100.0; (*maximum position of mixer*)
+	MIXER_ZERO_WINDOW : REAL := 0.9; (*don't move the mixer within this window in order to avoid lag errors*)
+	CRITICAL_FREEZING_OUTSIDE_TEMP : REAL := 2.0; (*below this temperature heating water pipes may freeze on spots close to outside walls*)
+	PID_HEATING_I_MAX : REAL := 100.0; (*anti windup of heating PID controller*)
+	FLOW_PARALLEL_RESISTANCE : REAL := 4649.0; (*exact value of parallel restance used with NTC*)
+	OUTSIDE_PARALLEL_RESISTANCE : REAL := 4692.2; (*exact value of parallel restance used with NTC*)
+END_VAR
+VAR
+	fDatObjUpdateTempDebug : DatObjUpdate;
+	fDatObjUpdateHeatDebug : DatObjUpdate;
+	sMixer : UINT;
+END_VAR
+VAR CONSTANT
+	sMIXER_STANDBY : UINT := 0;
+	sMIXER_REFERENCE : UINT := 30;
+	sMIXER_OPEN : UINT := 10;
+	sMIXER_CLOSE : UINT := 20;
+END_VAR
+VAR
+	oldHeatingEnable : BOOL;
+	sHotwater : UINT;
+END_VAR
+VAR CONSTANT
+	sHOTWATER_STANDBY : UINT := 0;
+	sHOTWATER_WAIT_BURNER_HOT : UINT := 10;
+	sHOTWATER_WAIT_HOTWATER_READY : UINT := 20;
+END_VAR

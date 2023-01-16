@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 2.5.0.7?>
+<ChannelConfiguration xmlns="http://www.br-automation.com/AR/IO"><Module ID="SL1.SS1" Hardware="3IF797.9-1"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="1" Type="UDINT"/><Parameter ID="ModuleAddress" Value="1" Type="UDINT"/><Parameter ID="Slot" Value="1" Type="UDINT"/></LegacyAddressInfo><Channel ID="IF2.NodeSwitch" Position="1" FromVersion="B2.85" Description-de="Node Schalter" Description-en="Node switch" Ext="/HW" Address="0" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Node" Device="IF2">
+		</Channel>
+		<Channel ID="IF3.CycleCount" Position="100" FromVersion="I2.85" Description-de="Anzahl der Buszyklen" Description-en="Number of bus cycles" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.BreakCount" Position="101" FromVersion="I2.85" Description-de="Anzahl der Buszyklen mit gesetztem Break-Signal" Description-en="Number of bus cycles with set break signal" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.Nettime" Position="103" FromVersion="I2.90" Description-de="Zeitstempel bei dem der aktuelle Inputframe gestartet wurde [Âµs]" Description-en="Timestamp when the current input frame was started  [Âµs]" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.SyncErrorCount" Position="105" FromVersion="I2.85" Description-de="Anzahl der fehlerhaften synchronen Frames" Description-en="Number of failed synchronous frames" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.SyncSramErrorCount" Position="106" FromVersion="I2.85" Description-de="Anzahl der Speicherzugriffsfehler beim synchronen Frame (Overflow/Underrun)" Description-en="Number of memory access errors within synchronous frame (overflow/underrun)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.SyncBusyErrorCount" Position="107" FromVersion="I2.85" Description-de="Anzahl der nicht versendeten synchronen Frames (Sender nicht bereit)" Description-en="Number of not sent synchronous frames (sender not ready)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.SyncNoRxErrorCount" Position="108" FromVersion="I2.85" Description-de="Anzahl der nicht empfangenen synchronen Frames (Timeout)" Description-en="Number of not received synchronous frames (timeout)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.SyncFormatErrorCount" Position="109" FromVersion="I2.85" Description-de="Anzahl der zerstÃ¶rten synchronen Frames" Description-en="Number of faulty synchronous frames" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.SyncPendingErrorCount" Position="110" FromVersion="I2.85" Description-de="Anzahl der synchronen Frames, die nicht versendet werden konnten, weil gerade ein anderer empfangen wurde" Description-en="Number of synchronous frames which could not be sent because of receiving a frame" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.AsyncErrorCount" Position="112" FromVersion="I2.85" Description-de="Anzahl der fehlerhaften asynchronen Frames" Description-en="Number of failed asynchronous frames" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.AsyncSramErrorCount" Position="113" FromVersion="I2.85" Description-de="Anzahl der Speicherzugriffsfehler beim asynchronen Frame (Overflow/Underrun)" Description-en="Number of memory access errors within asynchronous frame (overflow/underrun)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.AsyncBusyErrorCount" Position="114" FromVersion="I2.85" Description-de="Anzahl der nicht versendeten asynchronen Frames (Sender nicht bereit)" Description-en="Number of not sent asynchronous frames (sender not ready)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.AsyncNoRxErrorCount" Position="115" FromVersion="I2.85" Description-de="Anzahl der nicht empfangenen asynchronen Frames (Timeout)" Description-en="Number of not received asynchronous frames (timeout)" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.AsyncFormatErrorCount" Position="116" FromVersion="I2.85" Description-de="Anzahl der zerstÃ¶rten asynchronen Frames" Description-en="Number of faulty asynchronous frames" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.AsyncPendingErrorCount" Position="117" FromVersion="I2.85" Description-de="Anzahl der asynchronen Frames, die nicht versendet werden konnten, weil gerade ein anderer empfangen wurde" Description-en="Number of asynchronous frames which could not be sent because of receiving a frame" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+		<Channel ID="IF3.DMALateOutputErrorCount" Position="118" FromVersion="G2.93" Description-de="Anzahl der Zyklen in denen der Output-DMA-Zugriff zu spÃ¤t gestartet wurde" Description-en="Number of cycles when DMA for cyclic outputs was too late" Ext="/INFO" Direction="IN" Type="DINT">
+		</Channel>
+	</Module><Module ID="$root" Hardware="4PP420.1043-75"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="4" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/></LegacyAddressInfo><Channel ID="SerialNumber" Position="1" Description-de="Seriennummer" Description-en="Serial number" Ext="/HW" Address="0" Direction="IN" Type="UDINT" ChannelType="SerialNumber">
+		</Channel>
+		<Channel ID="ModuleID" Position="2" FromVersion="C2.94" Description-de="Module ID" Description-en="Modul ID" Ext="/HW" Address="1" Direction="IN" Type="UINT" ChannelType="GenericFuncCall" Function="mtcxGetDeviceId">
+		</Channel>
+		<Channel ID="PowerOnCycles" Position="10" FromVersion="C2.94" Description-de="Einschaltzyklen des PC" Description-en="PowerOnCycles of PC" Ext="/HW" Address="2" Direction="IN" Type="UDINT" ChannelType="GenericFuncCall" Function="mtcxGetPowerOnCycles">
+		</Channel>
+		<Channel ID="OperatingHoursPP" Position="11" FromVersion="C2.94" Description-de="Betriebsstunden des PP [h]" Description-en="Operating hours of PP [h]" Ext="/HW" Address="3" Direction="IN" Type="UDINT" ChannelType="GenericFuncCall" Function="mtcxGetOperatingHoursPC" CyclicUpdate="1">
+		</Channel>
+		<Channel ID="BatteryStatusCPU" Position="20" Description-de="Batterie Status CPU (0 = Batterie leer oder nicht vorhanden, 1 = Batterie OK)" Description-en="Battery status CPU (0 = battery low or missing, 1 = battery ok,)" Ext="/HW" Address="4" Direction="IN" Type="USINT" ChannelType="Battery" BatteryDetectionMethod="1" Ordinal="2">
+		</Channel>
+		<Channel ID="TemperatureCPU" Position="30" Description-de="Temperatur CPU [1/10°C]" Description-en="Temperature CPU [1/10°C]" Ext="/HW" Address="5" Direction="IN" Type="UINT" ChannelType="Temp" Ordinal="1">
+		</Channel>
+		<Channel ID="TemperatureENV" Position="31" Description-de="Temperatur Kuehlblech [1/10°C]" Description-en="Temperature cooling plate [1/10°C]" Ext="/HW" Address="6" Direction="IN" Type="UINT" ChannelType="Temp" Ordinal="2">
+		</Channel>
+		<Channel ID="SystemTime" Position="40" FromVersion="I2.90" Description-de="Systemzeit beim Start des aktuellen Taskklassenzyklus [µs]" Description-en="System time at the start of the current task cycle [µs]" Ext="/HW" Address="7" Direction="IN" Type="DINT" ChannelType="SystemTime">
+		</Channel>
+		<Channel ID="IF5.NodeSwitch" Position="1" Description-de="Node Schalter" Description-en="Node switch" Ext="/HW" Address="8" Direction="IN" Type="USINT" ChannelType="Node" Device="PCI.IF5">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST3.SL1.SS1" Hardware="7AT324.7" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="2" Type="UDINT"/><Parameter ID="ModuleAddress" Value="1" Type="UDINT"/><Parameter ID="Slot" Value="1" Type="UDINT"/><Parameter ID="BusType" Value="CANIO"/><Parameter ID="Bus" Value="1" Type="UDINT"/><Parameter ID="Node" Value="3" Type="UDINT"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="Resistor01" Position="3" Description-de="Widerstandsmessung, 2-Leiteranschluss" Description-en="Resistance measurement, 2-wire connection" Address="0" Direction="IN" Type="UINT" Sig_Temp_1_4995_Ohm="1" Sig_Temp_1_2497_Ohm="1">
+		</Channel>
+		<Channel ID="Resistor02" Position="5" Description-de="Widerstandsmessung, 2-Leiteranschluss" Description-en="Resistance measurement, 2-wire connection" Address="2" Direction="IN" Type="UINT" Sig_Temp_1_4995_Ohm="1" Sig_Temp_1_2497_Ohm="1">
+		</Channel>
+		<Channel ID="Resistor03" Position="7" Description-de="Widerstandsmessung, 2-Leiteranschluss" Description-en="Resistance measurement, 2-wire connection" Address="4" Direction="IN" Type="UINT" Sig_Temp_1_4995_Ohm="1" Sig_Temp_1_2497_Ohm="1">
+		</Channel>
+		<Channel ID="Resistor04" Position="9" Description-de="Widerstandsmessung, 2-Leiteranschluss" Description-en="Resistance measurement, 2-wire connection" Address="6" Direction="IN" Type="UINT" Sig_Temp_1_4995_Ohm="1" Sig_Temp_1_2497_Ohm="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST3.SL1.SS2" Hardware="7AT324.7" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="2" Type="UDINT"/><Parameter ID="ModuleAddress" Value="1" Type="UDINT"/><Parameter ID="Slot" Value="2" Type="UDINT"/><Parameter ID="BaseOffset" Value="32" Type="UDINT"/><Parameter ID="BusType" Value="CANIO"/><Parameter ID="Bus" Value="1" Type="UDINT"/><Parameter ID="Node" Value="3" Type="UDINT"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="Resistor01" Position="3" Description-de="Widerstandsmessung, 2-Leiteranschluss" Description-en="Resistance measurement, 2-wire connection" Address="0" Direction="IN" Type="UINT" Sig_Temp_1_4995_Ohm="1" Sig_Temp_1_2497_Ohm="1">
+		</Channel>
+		<Channel ID="Resistor02" Position="5" Description-de="Widerstandsmessung, 2-Leiteranschluss" Description-en="Resistance measurement, 2-wire connection" Address="2" Direction="IN" Type="UINT" Sig_Temp_1_4995_Ohm="1" Sig_Temp_1_2497_Ohm="1">
+		</Channel>
+		<Channel ID="Resistor03" Position="7" Description-de="Widerstandsmessung, 2-Leiteranschluss" Description-en="Resistance measurement, 2-wire connection" Address="4" Direction="IN" Type="UINT" Sig_Temp_1_4995_Ohm="1" Sig_Temp_1_2497_Ohm="1">
+		</Channel>
+		<Channel ID="Resistor04" Position="9" Description-de="Widerstandsmessung, 2-Leiteranschluss" Description-en="Resistance measurement, 2-wire connection" Address="6" Direction="IN" Type="UINT" Sig_Temp_1_4995_Ohm="1" Sig_Temp_1_2497_Ohm="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST3.SL2" Hardware="7DO721.7" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="2" Type="UDINT"/><Parameter ID="ModuleAddress" Value="2" Type="UDINT"/><Parameter ID="BusType" Value="CANIO"/><Parameter ID="Bus" Value="1" Type="UDINT"/><Parameter ID="Node" Value="3" Type="UDINT"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalOutput01" Position="2" Description-de="Relais, 24 VDC / 240 VAC / 4 A, Wechsler" Description-en="Relay, 24 VDC / 240 VAC / 4 A, change-over" Address="0" BitOffset="0" Direction="OUT" Type="BOOL" Sig_Dig_240VAC_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput02" Position="3" Description-de="Relais, 24 VDC / 240 VAC / 4 A, Wechsler" Description-en="Relay, 24 VDC / 240 VAC / 4 A, change-over" Address="0" BitOffset="1" Direction="OUT" Type="BOOL" Sig_Dig_240VAC_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput03" Position="4" Description-de="Relais, 24 VDC / 240 VAC / 4 A, Wechsler" Description-en="Relay, 24 VDC / 240 VAC / 4 A, change-over" Address="0" BitOffset="2" Direction="OUT" Type="BOOL" Sig_Dig_240VAC_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput04" Position="5" Description-de="Relais, 24 VDC / 240 VAC / 4 A, Wechsler" Description-en="Relay, 24 VDC / 240 VAC / 4 A, change-over" Address="0" BitOffset="3" Direction="OUT" Type="BOOL" Sig_Dig_240VAC_24VDC="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST3.SL3" Hardware="7DO721.7" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="2" Type="UDINT"/><Parameter ID="ModuleAddress" Value="3" Type="UDINT"/><Parameter ID="BusType" Value="CANIO"/><Parameter ID="Bus" Value="1" Type="UDINT"/><Parameter ID="Node" Value="3" Type="UDINT"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1">
+		</Channel>
+		<Channel ID="DigitalOutput01" Position="2" Description-de="Relais, 24 VDC / 240 VAC / 4 A, Wechsler" Description-en="Relay, 24 VDC / 240 VAC / 4 A, change-over" Address="0" BitOffset="0" Direction="OUT" Type="BOOL" Sig_Dig_240VAC_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput02" Position="3" Description-de="Relais, 24 VDC / 240 VAC / 4 A, Wechsler" Description-en="Relay, 24 VDC / 240 VAC / 4 A, change-over" Address="0" BitOffset="1" Direction="OUT" Type="BOOL" Sig_Dig_240VAC_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput03" Position="4" Description-de="Relais, 24 VDC / 240 VAC / 4 A, Wechsler" Description-en="Relay, 24 VDC / 240 VAC / 4 A, change-over" Address="0" BitOffset="2" Direction="OUT" Type="BOOL" Sig_Dig_240VAC_24VDC="1">
+		</Channel>
+		<Channel ID="DigitalOutput04" Position="5" Description-de="Relais, 24 VDC / 240 VAC / 4 A, Wechsler" Description-en="Relay, 24 VDC / 240 VAC / 4 A, change-over" Address="0" BitOffset="3" Direction="OUT" Type="BOOL" Sig_Dig_240VAC_24VDC="1">
+		</Channel>
+	</Module><Module ID="SL1.SS1.IF2.ST2" Hardware="7CX408.501" Simulatable="true"><LegacyAddressInfo><Parameter ID="PLCFamily" Value="2" Type="UDINT"/><Parameter ID="ModuleAddress" Value="0" Type="UDINT"/><Parameter ID="BusType" Value="CANIO"/><Parameter ID="Bus" Value="1" Type="UDINT"/><Parameter ID="Node" Value="2" Type="UDINT"/></LegacyAddressInfo><Channel ID="ModuleOk" Position="1" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="ModuleOk">
+		</Channel>
+		<Channel ID="DigitalInput01" Position="2" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="1" BitOffset="0" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput01">
+		</Channel>
+		<Channel ID="DigitalInput02" Position="3" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="1" BitOffset="1" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput02">
+		</Channel>
+		<Channel ID="DigitalInput03" Position="4" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="1" BitOffset="2" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput03">
+		</Channel>
+		<Channel ID="DigitalInput04" Position="5" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="1" BitOffset="3" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput04">
+		</Channel>
+		<Channel ID="DigitalInput05" Position="6" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="1" BitOffset="4" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput05">
+		</Channel>
+		<Channel ID="DigitalInput06" Position="7" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="1" BitOffset="5" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput06">
+		</Channel>
+		<Channel ID="DigitalInput07" Position="8" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="1" BitOffset="6" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput07">
+		</Channel>
+		<Channel ID="DigitalInput08" Position="9" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="1" BitOffset="7" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput08">
+		</Channel>
+		<Channel ID="DigitalInput09" Position="10" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="2" BitOffset="0" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput09">
+		</Channel>
+		<Channel ID="DigitalInput10" Position="11" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="2" BitOffset="1" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput10">
+		</Channel>
+		<Channel ID="DigitalInput11" Position="12" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="2" BitOffset="2" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput11">
+		</Channel>
+		<Channel ID="DigitalInput12" Position="13" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="2" BitOffset="3" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput12">
+		</Channel>
+		<Channel ID="DigitalInput13" Position="14" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="2" BitOffset="4" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput13">
+		</Channel>
+		<Channel ID="DigitalInput14" Position="15" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="2" BitOffset="5" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput14">
+		</Channel>
+		<Channel ID="DigitalInput15" Position="16" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="2" BitOffset="6" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput15">
+		</Channel>
+		<Channel ID="DigitalInput16" Position="17" Description-de="24 VDC, &lt;2 ms Schaltverzoegerung, Sink" Description-en="24 VDC, &lt;2 ms switching delay, sink" Address="2" BitOffset="7" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalInput16">
+		</Channel>
+		<Channel ID="DigitalOutput01" Position="18" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="1" BitOffset="0" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput01">
+		</Channel>
+		<Channel ID="DigitalOutput02" Position="19" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="1" BitOffset="1" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput02">
+		</Channel>
+		<Channel ID="DigitalOutput03" Position="20" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="1" BitOffset="2" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput03">
+		</Channel>
+		<Channel ID="DigitalOutput04" Position="21" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="1" BitOffset="3" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput04">
+		</Channel>
+		<Channel ID="DigitalOutput05" Position="22" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="1" BitOffset="4" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput05">
+		</Channel>
+		<Channel ID="DigitalOutput06" Position="23" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="1" BitOffset="5" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput06">
+		</Channel>
+		<Channel ID="DigitalOutput07" Position="24" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="1" BitOffset="6" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput07">
+		</Channel>
+		<Channel ID="DigitalOutput08" Position="25" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="1" BitOffset="7" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput08">
+		</Channel>
+		<Channel ID="DigitalOutput09" Position="26" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="2" BitOffset="0" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput09">
+		</Channel>
+		<Channel ID="DigitalOutput10" Position="27" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="2" BitOffset="1" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput10">
+		</Channel>
+		<Channel ID="DigitalOutput11" Position="28" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="2" BitOffset="2" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput11">
+		</Channel>
+		<Channel ID="DigitalOutput12" Position="29" Description-de="24 VDC / 0,4 A, Source" Description-en="24 VDC / 0.4 A, source" Address="2" BitOffset="3" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput12">
+		</Channel>
+		<Channel ID="DigitalOutput13" Position="30" Description-de="24 VDC / 2 A, Source" Description-en="24 VDC / 2 A, source" Address="2" BitOffset="4" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput13">
+		</Channel>
+		<Channel ID="DigitalOutput14" Position="31" Description-de="24 VDC / 2 A, Source" Description-en="24 VDC / 2 A, source" Address="2" BitOffset="5" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput14">
+		</Channel>
+		<Channel ID="DigitalOutput15" Position="32" Description-de="24 VDC / 2 A, Source" Description-en="24 VDC / 2 A, source" Address="2" BitOffset="6" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput15">
+		</Channel>
+		<Channel ID="DigitalOutput16" Position="33" Description-de="24 VDC / 2 A, Source" Description-en="24 VDC / 2 A, source" Address="2" BitOffset="7" Direction="OUT" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="DigitalOutput16">
+		</Channel>
+		<Channel ID="OverCurrent01" Position="61" Description-de="Strom Kanal 13 und Kanal 14 (1 = &gt;4 A)" Description-en="Current channel 13 and channel 14 (1 = &gt;4 A)" Ext="/ACC16BIT" Address="96" BitOffset="13" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="OverCurrent01">
+		</Channel>
+		<Channel ID="OverCurrent02" Position="62" Description-de="Strom Kanal 15 und Kanal 16 (1 = &gt;4 A)" Description-en="Current channel 15 and channel 16 (1 = &gt;4 A)" Ext="/ACC16BIT" Address="96" BitOffset="14" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="OverCurrent02">
+		</Channel>
+		<Channel ID="InputPowerSupply" Position="63" Description-de="Status Versorgungsspannung Eingaenge (0 = DC OK)" Description-en="Status power supply inputs (0 = DC OK)" Ext="/ACC16BIT" Address="96" BitOffset="12" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="InputPowerSupply">
+		</Channel>
+		<Channel ID="OutputPowerSupply" Position="64" Description-de="Status Versorgungsspannung Ausgaenge (0 = DC OK)" Description-en="Status power supply outputs (0 = DC OK)" Ext="/ACC16BIT" Address="96" BitOffset="15" Direction="IN" Type="BOOL" DelegationResource="SL1.IO" DelegationChannel="OutputPowerSupply">
+		</Channel>
+	</Module></ChannelConfiguration>

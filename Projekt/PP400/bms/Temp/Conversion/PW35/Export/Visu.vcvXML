@@ -1,0 +1,80 @@
+<VARIABLES>
+	<VARIABLE Name="gActData.heating.tempOutsideAct">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="FLOAT"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="0"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="gActData.irrigation.segment[0].switchOnRequest">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BIT"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="0"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="gActData.irrigation.segment[1].switchOnRequest">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BIT"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="0"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="gActData.irrigation.segment[2].switchOnRequest">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BIT"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="0"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="gActData.irrigation.segment[3].switchOnRequest">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BIT"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="0"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="gActData.irrigation.segment[4].switchOnRequest">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BIT"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="0"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="gActData.irrigation.segment[5].switchOnRequest">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BIT"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="0"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="hmi_sup:ledControl[1]">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BYTE"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="6"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="hmi_sup:ledControl[2]">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BYTE"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="6"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="hmi_sup:ledControl[0]">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BYTE"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="6"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="hmi_sup:ledControl[3]">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BYTE"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="6"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="hmi_sup:ledControl[4]">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BYTE"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="6"/>
+		</PROPERTIES>
+	</VARIABLE>
+	<VARIABLE Name="hmi_sup:ledControl[5]">
+		<PROPERTIES>
+			<PROPERTY P_NAME="PLC_TYPE" VALUE="BYTE"/>
+			<PROPERTY P_NAME="LENGTH" VALUE="6"/>
+		</PROPERTIES>
+	</VARIABLE>
+</VARIABLES>

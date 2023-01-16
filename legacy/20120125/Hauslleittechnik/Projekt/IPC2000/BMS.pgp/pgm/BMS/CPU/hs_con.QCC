@@ -1,0 +1,15 @@
+[FileList]
+\pgm\bms\cpu\hs_con.c
+\pgm\bms\cpu\pid.c
+\pgm\bms\cpu\bms_gn.h
+\pgm\bms\cpu\bms_io.h
+\pgm\bms\cpu\bms_global.h
+\library\dataobj\i386\libdataobj.a
+\library\bms_aux\i386\libbms_aux.a
+\library\brsystem\i386\libbrsystem.a
+\library\canio\i386\libcanio.a
+\library\vctrend\i386\libvctrend.a
+\library\visapi\i386\libvisapi.a
+
+[IncludeList]
+\pgm\bms\cpu

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <AlarmBMS ReferenceString="Source[global].AlarmGroup[AS1.AlarmBMS]">
+      <Connection>
+         <Property ReferenceString="Source[global].AlarmGroup[AS1.AlarmBMS].Property[AlarmImage]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gAlarm.request]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </AlarmBMS>
+</VCXReferenceList>

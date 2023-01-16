@@ -1,0 +1,1049 @@
+<?xml version = "1.0"?>
+<?Profiler Version = 1.0?>
+<?xml-stylesheet type="text/xsl" href="Profiler.xsl"?>
+<!--Profiler generated XML File-->
+<Profiler TITLE="Profiler Results" AUTHOR="BuR AutomationStudio: Profiler">
+	<Definition CONTENT="Definition Module">
+		<Profiler>2</Profiler>
+		<LogEvent Event="0x00000007">
+			<EventType>Task switch</EventType>
+			<EventType>IRQ handler</EventType>
+			<EventType>Cyclic tasks</EventType>
+		</LogEvent>
+		<LogMode Mode="0x00000000">Logging until buffer is full</LogMode>
+		<BufferSize>102400</BufferSize>
+		<AddDataSize>0</AddDataSize>
+	</Definition>
+	<Data>
+		<Header CONTENT="Data Module: Header">
+			<Version>2</Version>
+			<StartOffset>0</StartOffset>
+			<StopOffset>6399</StopOffset>
+			<ProfileState>6</ProfileState>
+			<ObjectCnt>83</ObjectCnt>
+			<DataCnt>6400</DataCnt>
+			<TicksPerUsec>1.000</TicksPerUsec>
+			<Time>
+				<Year>2005</Year>
+				<Month>12</Month>
+				<Day>08</Day>
+				<Reserve>4</Reserve>
+				<Hour>17</Hour>
+				<Minute>40</Minute>
+				<Second>42</Second>
+				<Millisec>306</Millisec>
+			</Time>
+		</Header>
+		<ProfiledObj CONTENT="Data Module: ProfilesObjects">
+			<Library>
+			</Library>
+			<Objects>
+				<ProfObject ObjectId="0x01d58d6c">
+					<ObjectName>Cyclic #1</ObjectName>
+					<ObjectPriority>230</ObjectPriority>
+					<StackSize>8076</StackSize>
+					<StackFree>7756</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d56b38">
+					<ObjectName>Cyclic #2</ObjectName>
+					<ObjectPriority>218</ObjectPriority>
+					<StackSize>8076</StackSize>
+					<StackFree>7756</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d54904">
+					<ObjectName>Cyclic #3</ObjectName>
+					<ObjectPriority>200</ObjectPriority>
+					<StackSize>8076</StackSize>
+					<StackFree>7024</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d526d0">
+					<ObjectName>Cyclic #4</ObjectName>
+					<ObjectPriority>198</ObjectPriority>
+					<StackSize>8076</StackSize>
+					<StackFree>7816</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d5049c">
+					<ObjectName>Cyclic #5</ObjectName>
+					<ObjectPriority>196</ObjectPriority>
+					<StackSize>8076</StackSize>
+					<StackFree>6604</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d4e268">
+					<ObjectName>Cyclic #6</ObjectName>
+					<ObjectPriority>194</ObjectPriority>
+					<StackSize>8076</StackSize>
+					<StackFree>7868</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d4c034">
+					<ObjectName>Cyclic #7</ObjectName>
+					<ObjectPriority>192</ObjectPriority>
+					<StackSize>8076</StackSize>
+					<StackFree>7816</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>Cyclic #8</ObjectName>
+					<ObjectPriority>190</ObjectPriority>
+					<StackSize>8076</StackSize>
+					<StackFree>7860</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>tExcTask</ObjectName>
+					<ObjectPriority>255</ObjectPriority>
+					<StackSize>7988</StackSize>
+					<StackFree>7768</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>tDcacheUpd</ObjectName>
+					<ObjectPriority>5</ObjectPriority>
+					<StackSize>4880</StackSize>
+					<StackFree>4568</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>tNetTask</ObjectName>
+					<ObjectPriority>205</ObjectPriority>
+					<StackSize>9988</StackSize>
+					<StackFree>9044</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>tPortmapd</ObjectName>
+					<ObjectPriority>155</ObjectPriority>
+					<StackSize>4988</StackSize>
+					<StackFree>4448</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>tWdbTask</ObjectName>
+					<ObjectPriority>252</ObjectPriority>
+					<StackSize>3976</StackSize>
+					<StackFree>3412</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>tBAR_RTK</ObjectName>
+					<ObjectPriority>55</ObjectPriority>
+					<StackSize>2988</StackSize>
+					<StackFree>1020</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>RtcSync</ObjectName>
+					<ObjectPriority>5</ObjectPriority>
+					<StackSize>3980</StackSize>
+					<StackFree>3664</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>ROOT</ObjectName>
+					<ObjectPriority>100</ObjectPriority>
+					<StackSize>16268</StackSize>
+					<StackFree>10820</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>NvFlushHandler</ObjectName>
+					<ObjectPriority>85</ObjectPriority>
+					<StackSize>3972</StackSize>
+					<StackFree>1840</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>ArException</ObjectName>
+					<ObjectPriority>254</ObjectPriority>
+					<StackSize>3976</StackSize>
+					<StackFree>3804</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>ARRegNvHandler</ObjectName>
+					<ObjectPriority>85</ObjectPriority>
+					<StackSize>3972</StackSize>
+					<StackFree>2292</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>tFtpdTask</ObjectName>
+					<ObjectPriority>200</ObjectPriority>
+					<StackSize>11988</StackSize>
+					<StackFree>11700</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>DatObjAlloc</ObjectName>
+					<ObjectPriority>79</ObjectPriority>
+					<StackSize>3976</StackSize>
+					<StackFree>3712</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>IF3</ObjectName>
+					<ObjectPriority>224</ObjectPriority>
+					<StackSize>3984</StackSize>
+					<StackFree>3512</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>tDhcpsTask</ObjectName>
+					<ObjectPriority>75</ObjectPriority>
+					<StackSize>4988</StackSize>
+					<StackFree>2496</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>FileIO</ObjectName>
+					<ObjectPriority>90</ObjectPriority>
+					<StackSize>6104</StackSize>
+					<StackFree>5680</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>sysman</ObjectName>
+					<ObjectPriority>220</ObjectPriority>
+					<StackSize>3980</StackSize>
+					<StackFree>2676</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>sysserv</ObjectName>
+					<ObjectPriority>89</ObjectPriority>
+					<StackSize>3980</StackSize>
+					<StackFree>2780</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>applader</ObjectName>
+					<ObjectPriority>80</ObjectPriority>
+					<StackSize>16264</StackSize>
+					<StackFree>15072</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>cs_brmod</ObjectName>
+					<ObjectPriority>87</ObjectPriority>
+					<StackSize>3308</StackSize>
+					<StackFree>2284</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>dbtracer</ObjectName>
+					<ObjectPriority>86</ObjectPriority>
+					<StackSize>3308</StackSize>
+					<StackFree>2848</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>profiler</ObjectName>
+					<ObjectPriority>86</ObjectPriority>
+					<StackSize>3976</StackSize>
+					<StackFree>2680</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>canio</ObjectName>
+					<ObjectPriority>235</ObjectPriority>
+					<StackSize>3980</StackSize>
+					<StackFree>3236</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>dhcp</ObjectName>
+					<ObjectPriority>50</ObjectPriority>
+					<StackSize>3980</StackSize>
+					<StackFree>3172</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>inaiqdrv</ObjectName>
+					<ObjectPriority>88</ObjectPriority>
+					<StackSize>8072</StackSize>
+					<StackFree>6696</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>lociqdrv</ObjectName>
+					<ObjectPriority>88</ObjectPriority>
+					<StackSize>8072</StackSize>
+					<StackFree>7240</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>isaiqdrv</ObjectName>
+					<ObjectPriority>88</ObjectPriority>
+					<StackSize>8072</StackSize>
+					<StackFree>7200</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>hmi</ObjectName>
+					<ObjectPriority>82</ObjectPriority>
+					<StackSize>35888</StackSize>
+					<StackFree>32324</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>arou</ObjectName>
+					<ObjectPriority>90</ObjectPriority>
+					<StackSize>3980</StackSize>
+					<StackFree>3264</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>KeyManager_hmi</ObjectName>
+					<ObjectPriority>87</ObjectPriority>
+					<StackSize>19876</StackSize>
+					<StackFree>19116</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>_TEVCYCLIC_01d47998_000186a0</ObjectName>
+					<ObjectPriority>83</ObjectPriority>
+					<StackSize>884</StackSize>
+					<StackFree>632</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>_TEVCYCLIC_01d47998_000f4240</ObjectName>
+					<ObjectPriority>83</ObjectPriority>
+					<StackSize>884</StackSize>
+					<StackFree>604</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>t2</ObjectName>
+					<ObjectPriority>95</ObjectPriority>
+					<StackSize>3984</StackSize>
+					<StackFree>3148</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>SfEvHandler_4f</ObjectName>
+					<ObjectPriority>222</ObjectPriority>
+					<StackSize>3972</StackSize>
+					<StackFree>3568</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>_TEVCYCLIC_01d2c888_0000c350</ObjectName>
+					<ObjectPriority>88</ObjectPriority>
+					<StackSize>884</StackSize>
+					<StackFree>580</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>PI_WRITE</ObjectName>
+					<ObjectPriority>60</ObjectPriority>
+					<StackSize>19880</StackSize>
+					<StackFree>19632</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>t3</ObjectName>
+					<ObjectPriority>95</ObjectPriority>
+					<StackSize>3984</StackSize>
+					<StackFree>3768</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>SfEvHandler_71</ObjectName>
+					<ObjectPriority>222</ObjectPriority>
+					<StackSize>3972</StackSize>
+					<StackFree>3744</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>FBEthReceive</ObjectName>
+					<ObjectPriority>94</ObjectPriority>
+					<StackSize>16260</StackSize>
+					<StackFree>15156</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>FBEthSend</ObjectName>
+					<ObjectPriority>93</ObjectPriority>
+					<StackSize>16264</StackSize>
+					<StackFree>14964</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>TKIdleFiller</ObjectName>
+					<ObjectPriority>3</ObjectPriority>
+					<StackSize>900</StackSize>
+					<StackFree>584</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>IoSchedulerMain</ObjectName>
+					<ObjectPriority>253</ObjectPriority>
+					<StackSize>3972</StackSize>
+					<StackFree>3588</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>t4</ObjectName>
+					<ObjectPriority>253</ObjectPriority>
+					<StackSize>912</StackSize>
+					<StackFree>584</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>_TEVCYCLIC_01d31d04_00002710</ObjectName>
+					<ObjectPriority>91</ObjectPriority>
+					<StackSize>884</StackSize>
+					<StackFree>556</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>_TEVCYCLIC_01d5f408_0000c350</ObjectName>
+					<ObjectPriority>89</ObjectPriority>
+					<StackSize>884</StackSize>
+					<StackFree>576</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>_TEVCYCLIC_01d5d1d4_0000c350</ObjectName>
+					<ObjectPriority>89</ObjectPriority>
+					<StackSize>884</StackSize>
+					<StackFree>576</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>_TEVCYCLIC_01d5afa0_0000c350</ObjectName>
+					<ObjectPriority>89</ObjectPriority>
+					<StackSize>884</StackSize>
+					<StackFree>604</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>InaEvChk</ObjectName>
+					<ObjectPriority>79</ObjectPriority>
+					<StackSize>3976</StackSize>
+					<StackFree>3256</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>_TEVCYCLIC_01bc1668_00002710</ObjectName>
+					<ObjectPriority>80</ObjectPriority>
+					<StackSize>884</StackSize>
+					<StackFree>580</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>_TEVCYCLIC_01d6063c_000186a0</ObjectName>
+					<ObjectPriority>51</ObjectPriority>
+					<StackSize>884</StackSize>
+					<StackFree>640</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>t1</ObjectName>
+					<ObjectPriority>225</ObjectPriority>
+					<StackSize>888</StackSize>
+					<StackFree>772</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+				<ProfObject ObjectId="0x01d49e00">
+					<ObjectName>IDLE</ObjectName>
+					<ObjectPriority>1</ObjectPriority>
+					<StackSize>1932</StackSize>
+					<StackFree>1892</StackFree>
+					<StackSizeSV>0</StackSizeSV>
+					<StackFreeSV>0</StackFreeSV>
+				</ProfObject>
+			</Objects>
+		</ProfiledObj>
+		<Logging CONTENT="Data Module: Logging">
+			<Entries>
+			</Entries>
+		</Logging>
+	</Data>
+	<Interpretation CONTENT="Logging Results">
+		<Version>2</Version>
+		<Calculation>
+			<Result>
+				<ObjectName>Cyclic #3</ObjectName>
+				<ObjectType>System task: Cyclic #3</ObjectType>
+				<CallCnt>29</CallCnt>
+				<NettoMaxTime>910.00</NettoMaxTime>
+				<NettoMinTime>863.00</NettoMinTime>
+				<NettoAverageTime>872.41</NettoAverageTime>
+				<BruttoMaxTime>1034.00</BruttoMaxTime>
+				<BruttoMinTime>863.00</BruttoMinTime>
+				<BruttoAverageTime>893.55</BruttoAverageTime>
+				<CpuUsage>1.75</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>ip_con</ObjectName>
+				<ObjectType>Cyclic task: Cyclic #3</ObjectType>
+				<CallCnt>29</CallCnt>
+				<NettoMaxTime>64.00</NettoMaxTime>
+				<NettoMinTime>62.00</NettoMinTime>
+				<NettoAverageTime>62.76</NettoAverageTime>
+				<BruttoMaxTime>64.00</BruttoMaxTime>
+				<BruttoMinTime>62.00</BruttoMinTime>
+				<BruttoAverageTime>62.76</BruttoAverageTime>
+				<CpuUsage>0.13</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>mp_bms</ObjectName>
+				<ObjectType>Cyclic task: Cyclic #3</ObjectType>
+				<CallCnt>29</CallCnt>
+				<NettoMaxTime>225.00</NettoMaxTime>
+				<NettoMinTime>222.00</NettoMinTime>
+				<NettoAverageTime>223.38</NettoAverageTime>
+				<BruttoMaxTime>225.00</BruttoMaxTime>
+				<BruttoMinTime>222.00</BruttoMinTime>
+				<BruttoAverageTime>223.38</BruttoAverageTime>
+				<CpuUsage>0.45</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>rcp_cpy</ObjectName>
+				<ObjectType>Cyclic task: Cyclic #3</ObjectType>
+				<CallCnt>29</CallCnt>
+				<NettoMaxTime>163.00</NettoMaxTime>
+				<NettoMinTime>161.00</NettoMinTime>
+				<NettoAverageTime>161.90</NettoAverageTime>
+				<BruttoMaxTime>163.00</BruttoMaxTime>
+				<BruttoMinTime>161.00</BruttoMinTime>
+				<BruttoAverageTime>161.90</BruttoAverageTime>
+				<CpuUsage>0.32</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>hs_con</ObjectName>
+				<ObjectType>Cyclic task: Cyclic #3</ObjectType>
+				<CallCnt>29</CallCnt>
+				<NettoMaxTime>218.00</NettoMaxTime>
+				<NettoMinTime>216.00</NettoMinTime>
+				<NettoAverageTime>217.21</NettoAverageTime>
+				<BruttoMaxTime>218.00</BruttoMaxTime>
+				<BruttoMinTime>216.00</BruttoMinTime>
+				<BruttoAverageTime>217.21</BruttoAverageTime>
+				<CpuUsage>0.44</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>Cyclic #5</ObjectName>
+				<ObjectType>System task: Cyclic #5</ObjectType>
+				<CallCnt>7</CallCnt>
+				<NettoMaxTime>576.00</NettoMaxTime>
+				<NettoMinTime>524.00</NettoMinTime>
+				<NettoAverageTime>553.00</NettoAverageTime>
+				<BruttoMaxTime>690.00</BruttoMaxTime>
+				<BruttoMinTime>524.00</BruttoMinTime>
+				<BruttoAverageTime>618.71</BruttoAverageTime>
+				<CpuUsage>0.27</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>alarm</ObjectName>
+				<ObjectType>Cyclic task: Cyclic #5</ObjectType>
+				<CallCnt>7</CallCnt>
+				<NettoMaxTime>35.00</NettoMaxTime>
+				<NettoMinTime>33.00</NettoMinTime>
+				<NettoAverageTime>34.14</NettoAverageTime>
+				<BruttoMaxTime>35.00</BruttoMaxTime>
+				<BruttoMinTime>33.00</BruttoMinTime>
+				<BruttoAverageTime>34.14</BruttoAverageTime>
+				<CpuUsage>0.02</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>scrsht</ObjectName>
+				<ObjectType>Cyclic task: Cyclic #5</ObjectType>
+				<CallCnt>7</CallCnt>
+				<NettoMaxTime>15.00</NettoMaxTime>
+				<NettoMinTime>14.00</NettoMinTime>
+				<NettoAverageTime>14.29</NettoAverageTime>
+				<BruttoMaxTime>15.00</BruttoMaxTime>
+				<BruttoMinTime>14.00</BruttoMinTime>
+				<BruttoAverageTime>14.29</BruttoAverageTime>
+				<CpuUsage>0.01</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>hmi_con</ObjectName>
+				<ObjectType>Cyclic task: Cyclic #5</ObjectType>
+				<CallCnt>7</CallCnt>
+				<NettoMaxTime>207.00</NettoMaxTime>
+				<NettoMinTime>205.00</NettoMinTime>
+				<NettoAverageTime>206.14</NettoAverageTime>
+				<BruttoMaxTime>207.00</BruttoMaxTime>
+				<BruttoMinTime>205.00</BruttoMinTime>
+				<BruttoAverageTime>206.14</BruttoAverageTime>
+				<CpuUsage>0.10</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>rep_com</ObjectName>
+				<ObjectType>Cyclic task: Cyclic #5</ObjectType>
+				<CallCnt>7</CallCnt>
+				<NettoMaxTime>145.00</NettoMaxTime>
+				<NettoMinTime>144.00</NettoMinTime>
+				<NettoAverageTime>144.29</NettoAverageTime>
+				<BruttoMaxTime>145.00</BruttoMaxTime>
+				<BruttoMinTime>144.00</BruttoMinTime>
+				<BruttoAverageTime>144.29</BruttoAverageTime>
+				<CpuUsage>0.07</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>tDcacheUpd</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>6</CallCnt>
+				<NettoMaxTime>236.00</NettoMaxTime>
+				<NettoMinTime>235.00</NettoMinTime>
+				<NettoAverageTime>235.50</NettoAverageTime>
+				<BruttoMaxTime>236.00</BruttoMaxTime>
+				<BruttoMinTime>235.00</BruttoMinTime>
+				<BruttoAverageTime>235.50</BruttoAverageTime>
+				<CpuUsage>0.10</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>tNetTask</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>58</CallCnt>
+				<NettoMaxTime>469.00</NettoMaxTime>
+				<NettoMinTime>51.00</NettoMinTime>
+				<NettoAverageTime>213.47</NettoAverageTime>
+				<BruttoMaxTime>560.00</BruttoMaxTime>
+				<BruttoMinTime>51.00</BruttoMinTime>
+				<BruttoAverageTime>228.84</BruttoAverageTime>
+				<CpuUsage>0.86</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>ROOT</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>145</CallCnt>
+				<NettoMaxTime>49.00</NettoMaxTime>
+				<NettoMinTime>31.00</NettoMinTime>
+				<NettoAverageTime>35.37</NettoAverageTime>
+				<BruttoMaxTime>49.00</BruttoMaxTime>
+				<BruttoMinTime>31.00</BruttoMinTime>
+				<BruttoAverageTime>35.37</BruttoAverageTime>
+				<CpuUsage>0.35</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>IF3</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>24</CallCnt>
+				<NettoMaxTime>144.00</NettoMaxTime>
+				<NettoMinTime>70.00</NettoMinTime>
+				<NettoAverageTime>96.08</NettoAverageTime>
+				<BruttoMaxTime>243.00</BruttoMaxTime>
+				<BruttoMinTime>70.00</BruttoMinTime>
+				<BruttoAverageTime>112.50</BruttoAverageTime>
+				<CpuUsage>0.16</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>sysman</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>145</CallCnt>
+				<NettoMaxTime>280.00</NettoMaxTime>
+				<NettoMinTime>90.00</NettoMinTime>
+				<NettoAverageTime>135.57</NettoAverageTime>
+				<BruttoMaxTime>280.00</BruttoMaxTime>
+				<BruttoMinTime>90.00</BruttoMinTime>
+				<BruttoAverageTime>135.57</BruttoAverageTime>
+				<CpuUsage>1.36</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>cs_brmod</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>16</CallCnt>
+				<NettoMaxTime>618.00</NettoMaxTime>
+				<NettoMinTime>430.00</NettoMinTime>
+				<NettoAverageTime>566.31</NettoAverageTime>
+				<BruttoMaxTime>2993.00</BruttoMaxTime>
+				<BruttoMinTime>699.00</BruttoMinTime>
+				<BruttoAverageTime>1629.94</BruttoAverageTime>
+				<CpuUsage>0.63</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>profiler</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>1</CallCnt>
+				<NettoMaxTime>354.00</NettoMaxTime>
+				<NettoMinTime>354.00</NettoMinTime>
+				<NettoAverageTime>354.00</NettoAverageTime>
+				<BruttoMaxTime>1531.00</BruttoMaxTime>
+				<BruttoMinTime>1531.00</BruttoMinTime>
+				<BruttoAverageTime>1531.00</BruttoAverageTime>
+				<CpuUsage>0.02</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>canio</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>144</CallCnt>
+				<NettoMaxTime>232.00</NettoMaxTime>
+				<NettoMinTime>35.00</NettoMinTime>
+				<NettoAverageTime>52.06</NettoAverageTime>
+				<BruttoMaxTime>232.00</BruttoMaxTime>
+				<BruttoMinTime>35.00</BruttoMinTime>
+				<BruttoAverageTime>52.06</BruttoAverageTime>
+				<CpuUsage>0.52</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>dhcp</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>15</CallCnt>
+				<NettoMaxTime>46.00</NettoMaxTime>
+				<NettoMinTime>44.00</NettoMinTime>
+				<NettoAverageTime>44.73</NettoAverageTime>
+				<BruttoMaxTime>46.00</BruttoMaxTime>
+				<BruttoMinTime>44.00</BruttoMinTime>
+				<BruttoAverageTime>44.73</BruttoAverageTime>
+				<CpuUsage>0.05</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>inaiqdrv</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>28</CallCnt>
+				<NettoMaxTime>178.00</NettoMaxTime>
+				<NettoMinTime>113.00</NettoMinTime>
+				<NettoAverageTime>122.68</NettoAverageTime>
+				<BruttoMaxTime>324.00</BruttoMaxTime>
+				<BruttoMinTime>113.00</BruttoMinTime>
+				<BruttoAverageTime>127.89</BruttoAverageTime>
+				<CpuUsage>0.24</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>lociqdrv</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>28</CallCnt>
+				<NettoMaxTime>34.00</NettoMaxTime>
+				<NettoMinTime>32.00</NettoMinTime>
+				<NettoAverageTime>33.18</NettoAverageTime>
+				<BruttoMaxTime>34.00</BruttoMaxTime>
+				<BruttoMinTime>32.00</BruttoMinTime>
+				<BruttoAverageTime>33.18</BruttoAverageTime>
+				<CpuUsage>0.06</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>isaiqdrv</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>28</CallCnt>
+				<NettoMaxTime>36.00</NettoMaxTime>
+				<NettoMinTime>34.00</NettoMinTime>
+				<NettoAverageTime>34.71</NettoAverageTime>
+				<BruttoMaxTime>36.00</BruttoMaxTime>
+				<BruttoMinTime>34.00</BruttoMinTime>
+				<BruttoAverageTime>34.71</BruttoAverageTime>
+				<CpuUsage>0.07</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>hmi</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>17</CallCnt>
+				<NettoMaxTime>3570.00</NettoMaxTime>
+				<NettoMinTime>1482.00</NettoMinTime>
+				<NettoAverageTime>2480.65</NettoAverageTime>
+				<BruttoMaxTime>4411.00</BruttoMaxTime>
+				<BruttoMinTime>1802.00</BruttoMinTime>
+				<BruttoAverageTime>3200.65</BruttoAverageTime>
+				<CpuUsage>2.92</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>arou</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>181</CallCnt>
+				<NettoMaxTime>427.00</NettoMaxTime>
+				<NettoMinTime>51.00</NettoMinTime>
+				<NettoAverageTime>130.55</NettoAverageTime>
+				<BruttoMaxTime>2454.00</BruttoMaxTime>
+				<BruttoMinTime>51.00</BruttoMinTime>
+				<BruttoAverageTime>254.09</BruttoAverageTime>
+				<CpuUsage>1.64</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>KeyManager_hmi</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>28</CallCnt>
+				<NettoMaxTime>62.00</NettoMaxTime>
+				<NettoMinTime>56.00</NettoMinTime>
+				<NettoAverageTime>58.32</NettoAverageTime>
+				<BruttoMaxTime>62.00</BruttoMaxTime>
+				<BruttoMinTime>56.00</BruttoMinTime>
+				<BruttoAverageTime>58.32</BruttoAverageTime>
+				<CpuUsage>0.11</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>_TEVCYCLIC_01d47998_000186a0</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>16</CallCnt>
+				<NettoMaxTime>64.00</NettoMaxTime>
+				<NettoMinTime>37.00</NettoMinTime>
+				<NettoAverageTime>44.81</NettoAverageTime>
+				<BruttoMaxTime>1445186.00</BruttoMaxTime>
+				<BruttoMinTime>37.00</BruttoMinTime>
+				<BruttoAverageTime>90364.94</BruttoAverageTime>
+				<CpuUsage>0.05</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>_TEVCYCLIC_01d47998_000f4240</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>2</CallCnt>
+				<NettoMaxTime>51.00</NettoMaxTime>
+				<NettoMinTime>51.00</NettoMinTime>
+				<NettoAverageTime>51.00</NettoAverageTime>
+				<BruttoMaxTime>51.00</BruttoMaxTime>
+				<BruttoMinTime>51.00</BruttoMinTime>
+				<BruttoAverageTime>51.00</BruttoAverageTime>
+				<CpuUsage>0.01</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>_TEVCYCLIC_01d2c888_0000c350</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>28</CallCnt>
+				<NettoMaxTime>54.00</NettoMaxTime>
+				<NettoMinTime>44.00</NettoMinTime>
+				<NettoAverageTime>45.64</NettoAverageTime>
+				<BruttoMaxTime>54.00</BruttoMaxTime>
+				<BruttoMinTime>44.00</BruttoMinTime>
+				<BruttoAverageTime>45.64</BruttoAverageTime>
+				<CpuUsage>0.09</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>FBEthReceive</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>24</CallCnt>
+				<NettoMaxTime>250.00</NettoMaxTime>
+				<NettoMinTime>172.00</NettoMinTime>
+				<NettoAverageTime>191.67</NettoAverageTime>
+				<BruttoMaxTime>406.00</BruttoMaxTime>
+				<BruttoMinTime>172.00</BruttoMinTime>
+				<BruttoAverageTime>215.00</BruttoAverageTime>
+				<CpuUsage>0.32</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>FBEthSend</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>24</CallCnt>
+				<NettoMaxTime>573.00</NettoMaxTime>
+				<NettoMinTime>463.00</NettoMinTime>
+				<NettoAverageTime>525.29</NettoAverageTime>
+				<BruttoMaxTime>958.00</BruttoMaxTime>
+				<BruttoMinTime>552.00</BruttoMinTime>
+				<BruttoAverageTime>721.04</BruttoAverageTime>
+				<CpuUsage>0.87</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>TKIdleFiller</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>1</CallCnt>
+				<NettoMaxTime>38026.00</NettoMaxTime>
+				<NettoMinTime>38026.00</NettoMinTime>
+				<NettoAverageTime>38026.00</NettoAverageTime>
+				<BruttoMaxTime>1423881.00</BruttoMaxTime>
+				<BruttoMinTime>1423881.00</BruttoMinTime>
+				<BruttoAverageTime>1423881.00</BruttoAverageTime>
+				<CpuUsage>2.63</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>IoSchedulerMain</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>1446</CallCnt>
+				<NettoMaxTime>126.00</NettoMaxTime>
+				<NettoMinTime>31.00</NettoMinTime>
+				<NettoAverageTime>46.39</NettoAverageTime>
+				<BruttoMaxTime>196.00</BruttoMaxTime>
+				<BruttoMinTime>31.00</BruttoMinTime>
+				<BruttoAverageTime>46.62</BruttoAverageTime>
+				<CpuUsage>4.64</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>t4</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>1446</CallCnt>
+				<NettoMaxTime>65.00</NettoMaxTime>
+				<NettoMinTime>29.00</NettoMinTime>
+				<NettoAverageTime>36.57</NettoAverageTime>
+				<BruttoMaxTime>122.00</BruttoMaxTime>
+				<BruttoMinTime>29.00</BruttoMinTime>
+				<BruttoAverageTime>36.66</BruttoAverageTime>
+				<CpuUsage>3.66</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>_TEVCYCLIC_01d31d04_00002710</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>145</CallCnt>
+				<NettoMaxTime>66.00</NettoMaxTime>
+				<NettoMinTime>34.00</NettoMinTime>
+				<NettoAverageTime>40.66</NettoAverageTime>
+				<BruttoMaxTime>196.00</BruttoMaxTime>
+				<BruttoMinTime>34.00</BruttoMinTime>
+				<BruttoAverageTime>41.55</BruttoAverageTime>
+				<CpuUsage>0.41</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>_TEVCYCLIC_01d5f408_0000c350</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>28</CallCnt>
+				<NettoMaxTime>57.00</NettoMaxTime>
+				<NettoMinTime>38.00</NettoMinTime>
+				<NettoAverageTime>41.43</NettoAverageTime>
+				<BruttoMaxTime>57.00</BruttoMaxTime>
+				<BruttoMinTime>38.00</BruttoMinTime>
+				<BruttoAverageTime>41.43</BruttoAverageTime>
+				<CpuUsage>0.08</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>_TEVCYCLIC_01d5d1d4_0000c350</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>28</CallCnt>
+				<NettoMaxTime>36.00</NettoMaxTime>
+				<NettoMinTime>35.00</NettoMinTime>
+				<NettoAverageTime>35.82</NettoAverageTime>
+				<BruttoMaxTime>36.00</BruttoMaxTime>
+				<BruttoMinTime>35.00</BruttoMinTime>
+				<BruttoAverageTime>35.82</BruttoAverageTime>
+				<CpuUsage>0.07</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>_TEVCYCLIC_01d5afa0_0000c350</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>28</CallCnt>
+				<NettoMaxTime>39.00</NettoMaxTime>
+				<NettoMinTime>37.00</NettoMinTime>
+				<NettoAverageTime>37.89</NettoAverageTime>
+				<BruttoMaxTime>39.00</BruttoMaxTime>
+				<BruttoMinTime>37.00</BruttoMinTime>
+				<BruttoAverageTime>37.89</BruttoAverageTime>
+				<CpuUsage>0.07</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>InaEvChk</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>145</CallCnt>
+				<NettoMaxTime>45.00</NettoMaxTime>
+				<NettoMinTime>34.00</NettoMinTime>
+				<NettoAverageTime>38.58</NettoAverageTime>
+				<BruttoMaxTime>45.00</BruttoMaxTime>
+				<BruttoMinTime>34.00</BruttoMinTime>
+				<BruttoAverageTime>38.58</BruttoAverageTime>
+				<CpuUsage>0.39</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>_TEVCYCLIC_01bc1668_00002710</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>145</CallCnt>
+				<NettoMaxTime>83.00</NettoMaxTime>
+				<NettoMinTime>35.00</NettoMinTime>
+				<NettoAverageTime>40.92</NettoAverageTime>
+				<BruttoMaxTime>199.00</BruttoMaxTime>
+				<BruttoMinTime>35.00</BruttoMinTime>
+				<BruttoAverageTime>41.72</BruttoAverageTime>
+				<CpuUsage>0.41</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>_TEVCYCLIC_01d6063c_000186a0</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>15</CallCnt>
+				<NettoMaxTime>44.00</NettoMaxTime>
+				<NettoMinTime>41.00</NettoMinTime>
+				<NettoAverageTime>42.60</NettoAverageTime>
+				<BruttoMaxTime>44.00</BruttoMaxTime>
+				<BruttoMinTime>41.00</BruttoMinTime>
+				<BruttoAverageTime>42.60</BruttoAverageTime>
+				<CpuUsage>0.04</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>Interrupt 9</ObjectName>
+				<ObjectType>Interrupt</ObjectType>
+				<CallCnt>48</CallCnt>
+				<NettoMaxTime>91.00</NettoMaxTime>
+				<NettoMinTime>57.00</NettoMinTime>
+				<NettoAverageTime>65.77</NettoAverageTime>
+				<BruttoMaxTime>91.00</BruttoMaxTime>
+				<BruttoMinTime>57.00</BruttoMinTime>
+				<BruttoAverageTime>65.77</BruttoAverageTime>
+				<CpuUsage>0.22</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>Interrupt 10</ObjectName>
+				<ObjectType>Interrupt</ObjectType>
+				<CallCnt>24</CallCnt>
+				<NettoMaxTime>147.00</NettoMaxTime>
+				<NettoMinTime>100.00</NettoMinTime>
+				<NettoAverageTime>125.29</NettoAverageTime>
+				<BruttoMaxTime>147.00</BruttoMaxTime>
+				<BruttoMinTime>100.00</BruttoMinTime>
+				<BruttoAverageTime>125.29</BruttoAverageTime>
+				<CpuUsage>0.21</CpuUsage>
+			</Result>
+			<Result>
+				<ObjectName>IDLE</ObjectName>
+				<ObjectType>System task</ObjectType>
+				<CallCnt>1</CallCnt>
+				<NettoMaxTime>1080026.00</NettoMaxTime>
+				<NettoMinTime>1080026.00</NettoMinTime>
+				<NettoAverageTime>1080026.00</NettoAverageTime>
+				<BruttoMaxTime>1441268.00</BruttoMaxTime>
+				<BruttoMinTime>1441268.00</BruttoMinTime>
+				<BruttoAverageTime>1441268.00</BruttoAverageTime>
+				<CpuUsage>74.73</CpuUsage>
+			</Result>
+		</Calculation>
+	</Interpretation>
+</Profiler>

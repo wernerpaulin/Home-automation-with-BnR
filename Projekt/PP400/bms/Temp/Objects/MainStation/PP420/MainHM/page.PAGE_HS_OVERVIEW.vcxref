@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <PAGE_HS_OVERVIEW ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendYear2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.year]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendYear2].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].update]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendMonth2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.month]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendMonth2].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].update]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearTempHigh2].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendDay2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.day]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendDay2].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].update]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHigh2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.tempDate]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendLow2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.tempDate]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHeat2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.hoursDate]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendAv2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].tempAv]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearTempLow2].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearHeat2].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHeatTot2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.hoursTotal]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendYear1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.year]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendYear1].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].update]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendMonth1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.month]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendMonth1].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].update]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearTempHigh1].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendDay1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.day]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendDay1].Property[CompletionDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].update]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHigh1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.tempDate]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendLow1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.tempDate]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHeat1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.hoursDate]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendAv1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].tempAv]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearTempLow1].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[chkTrendYearHeat1].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.enable]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[PAGE_HS_OVERVIEW].Layer[Default].Control[numTrendHeatTot1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.hoursTotal]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </PAGE_HS_OVERVIEW>
+</VCXReferenceList>

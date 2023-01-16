@@ -1,0 +1,13 @@
+(********************************************************************
+ * COPYRIGHT --  WERNER PAULIN
+ ********************************************************************
+ * Library: bmslib
+ * File: bmslib.var
+ * Author: paulinw
+ * Created: December 27, 2009
+ ********************************************************************
+ * Constants of library bmslib
+ ********************************************************************)
+VAR CONSTANT
+	SEGMENT_WATCHDOG_TIME : UDINT := 45; (*maximum time a segment can be switched on*)
+END_VAR

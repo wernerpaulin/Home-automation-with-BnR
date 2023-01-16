@@ -1,0 +1,5 @@
+[Watch]
+0=gActData.trend.year[yearIndex].heatingHoursTot
+1=dayIndex
+2=yearIndex
+3=gActData.trend.year[yearIndex].heatingHoursTot

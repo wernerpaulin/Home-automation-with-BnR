@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataSource Name="Internal">
+  <Property Name="TextGroup" Value="None" />
+  <DataPointInfo Name="Internal" />
+</DataSource>

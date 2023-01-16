@@ -1,0 +1,36 @@
+WATCH Ver=2.00 PLCName=BMS CPUName=CPU TaskName=rep_com 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=3 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand
+                      cmdRemotePanelInit                                     UINT    0 "                                                               0"    0    6    1   10    1    0
+                             connInfoAUX                            imaInfoStruct    0 "                                                               *"    0  100    1    0    1    1
+                        connectionStatus                                     UINT    0 "                                                               1"    1    6    1   10    0    0
+                       commandClearError                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                                 errorNr                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                       errorSectionRowNr                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                        errorSectionName                               STRING(80)    0 "                                                              ''"    1    9    1    1    0    0
+                             errorString                               STRING(80)    0 "                                                              ''"    1    9    1    1    0    0
+                              connInfoPV                            imaInfoStruct    0 "                                                               *"    0  100    1    0    1    1
+                        connectionStatus                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                       commandClearError                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                                 errorNr                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                       errorSectionRowNr                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                        errorSectionName                               STRING(80)    0 "                                                              ''"    1    9    1    1    0    0
+                             errorString                               STRING(80)    0 "                                                              ''"    1    9    1    1    0    0
+                             enableClose                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0
+                               errorInfo                            imaInfoStruct    0 "                                                               *"    0  100    1    0    1    1
+                        connectionStatus                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                       commandClearError                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                                 errorNr                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                       errorSectionRowNr                                     UINT    0 "                                                               0"    1    6    1   10    0    0
+                        errorSectionName                               STRING(80)    0 "                                                              ''"    1    9    1    1    0    0
+                             errorString                               STRING(80)    0 "                                                              ''"    1    9    1    1    0    0
+                               initTimer                                    UDINT    0 "                                                               0"    0    7    1   10    1    0
+                                 newHour                                    USINT    0 "                                                               0"    0    5    1   10    1    0
+                               newMinute                                    USINT    0 "                                                               0"    0    5    1   10    1    0
+                                 oldHour                                    USINT    0 "                                                              22"    0    5    1   10    1    0
+                               oldMinute                                    USINT    0 "                                                              21"    0    5    1   10    1    0
+                             pDatObjName                                    UDINT    0 "                                                        31572854"    0    7    1   10    1    0
+                               stationId                                    UDINT    0 "                                                        30397108"    0    7    1   10    1    0
+                             statusClose                                     UINT    0 "                                                               0"    0    6    1   10    1    0
+                              statusComm                                     UINT    0 "                                                               0"    0    6    1   10    1    0
+                              statusInit                                     UINT    0 "                                                               0"    0    6    1   10    1    0

@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/bmslib/bmslib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.var
+$(AS_PROJECT_PATH)/Logical/Libraries/bmslib/bmslib.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.var

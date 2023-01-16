@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.25?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="heating system controller">hs_con</Object>
+    <Object Type="Program" Language="IEC" Description="simulation of heating system">hs_sim</Object>
+    <Object Type="DataObject" Language="Simple">heatcurv</Object>
+    <Object Type="DataObject" Language="Simple">lin_heat</Object>
+    <Object Type="DataObject" Language="Simple">lin_in</Object>
+    <Object Type="DataObject" Language="Simple">lin_out</Object>
+  </Objects>
+</Package>

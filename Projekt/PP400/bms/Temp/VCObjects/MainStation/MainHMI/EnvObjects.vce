@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<EnvironmentSettings xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Visual_Components_Frames>
+    <Property Name="ActiveFrame" Value="0"/>
+    <Property Name="SaveFrameLimit" Value="4"/>
+    <Property Name="ShowCmd" Value="3"/>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="PAGE_SDM"/>
+      <Property Name="ParentObjectType" Value="Page"/>
+      <Property Name="ShowCmd" Value="1"/>
+      <Property Name="WndPosBottom" Value="717"/>
+      <Property Name="WndPosLeft" Value="176"/>
+      <Property Name="WndPosRight" Value="546"/>
+      <Property Name="WndPosTop" Value="232"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="32"/>
+          <Property Name="Scalecx" Value="4"/>
+          <Property Name="Scalecy" Value="4"/>
+          <Property Name="ScrollPositionX" Value="0"/>
+          <Property Name="ScrollPositionY" Value="0"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="536870912"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="16384"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="262144"/>
+        </View>
+      </Views>
+    </Frame>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="PAGE_SCREEN_CLEAN"/>
+      <Property Name="ParentObjectType" Value="Page"/>
+      <Property Name="ShowCmd" Value="1"/>
+      <Property Name="WndPosBottom" Value="688"/>
+      <Property Name="WndPosLeft" Value="154"/>
+      <Property Name="WndPosRight" Value="524"/>
+      <Property Name="WndPosTop" Value="203"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="32"/>
+          <Property Name="Scalecx" Value="4"/>
+          <Property Name="Scalecy" Value="4"/>
+          <Property Name="ScrollPositionX" Value="0"/>
+          <Property Name="ScrollPositionY" Value="0"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="536870912"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="16384"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="262144"/>
+        </View>
+      </Views>
+    </Frame>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="PAGE_POWERUP"/>
+      <Property Name="ParentObjectType" Value="Page"/>
+      <Property Name="ShowCmd" Value="1"/>
+      <Property Name="WndPosBottom" Value="659"/>
+      <Property Name="WndPosLeft" Value="132"/>
+      <Property Name="WndPosRight" Value="502"/>
+      <Property Name="WndPosTop" Value="174"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="32"/>
+          <Property Name="Scalecx" Value="4"/>
+          <Property Name="Scalecy" Value="4"/>
+          <Property Name="ScrollPositionX" Value="0"/>
+          <Property Name="ScrollPositionY" Value="0"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="536870912"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="16384"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="262144"/>
+        </View>
+      </Views>
+    </Frame>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="PAGE_IS_CFG"/>
+      <Property Name="ParentObjectType" Value="Page"/>
+      <Property Name="ShowCmd" Value="1"/>
+      <Property Name="WndPosBottom" Value="630"/>
+      <Property Name="WndPosLeft" Value="110"/>
+      <Property Name="WndPosRight" Value="480"/>
+      <Property Name="WndPosTop" Value="145"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="32"/>
+          <Property Name="Scalecx" Value="4"/>
+          <Property Name="Scalecy" Value="4"/>
+          <Property Name="ScrollPositionX" Value="0"/>
+          <Property Name="ScrollPositionY" Value="0"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="536870912"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="16384"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="262144"/>
+        </View>
+      </Views>
+    </Frame>
+  </Visual_Components_Frames>
+  <StyleSheets>
+    <Property Name="ActiveStyleSheet" Value="Color"/>
+  </StyleSheets>
+  <Languages>
+    <Property Name="ActiveLanguage" Value="de"/>
+  </Languages>
+  <VisualComponentOptions>
+    <Property Name="AllowTextClipboard" Value="1"/>
+    <Property Name="DefaultFont" Value="DefaultFont"/>
+    <Property Name="ExtGraphicEditor" Value="C:\Program Files\Paint.NET\PaintDotNet.exe"/>
+  </VisualComponentOptions>
+</EnvironmentSettings>

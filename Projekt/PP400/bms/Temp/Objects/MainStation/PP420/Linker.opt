@@ -1,0 +1,7 @@
+alarm	-o "$(AS_CPU_PATH)/alarm/a.out" "$(AS_CPU_PATH)/alarm/alarm.o"  -G V4.1.1  -specs=I386specs -Wl,-q,-T,SG4.x -nostdlib "-Wl,$(AS_GNU_INST_PATH)/i386-elf/lib/libasiec.a" -T SG4
+bmslib	-o "$(AS_CPU_PATH)/bmslib/a.out" "$(AS_CPU_PATH)/bmslib/bmslib.o"  -G V4.1.1  -specs=I386specs -Wl,-q,-T,SG4.x -nostdlib "-Wl,$(AS_GNU_INST_PATH)/i386-elf/lib/libasiec.a" -T SG4
+rcp_cpy	-o "$(AS_CPU_PATH)/rcp_cpy/a.out" "$(AS_CPU_PATH)/rcp_cpy/rcp_cpy.o"  -G V4.1.1  -specs=I386specs -Wl,-q,-T,SG4.x -nostdlib "-Wl,$(AS_GNU_INST_PATH)/i386-elf/lib/libasiec.a" -T SG4
+hs_con	-o "$(AS_CPU_PATH)/hs_con/a.out" "$(AS_CPU_PATH)/hs_con/hs_con.o"  -G V4.1.1  -specs=I386specs -Wl,-q,-T,SG4.x -nostdlib "-Wl,$(AS_GNU_INST_PATH)/i386-elf/lib/libasiec.a" -T SG4
+statistics	-o "$(AS_CPU_PATH)/statistics/a.out" "$(AS_CPU_PATH)/statistics/statistics.o"  -G V4.1.1  -specs=I386specs -Wl,-q,-T,SG4.x -nostdlib "-Wl,$(AS_GNU_INST_PATH)/i386-elf/lib/libasiec.a" -T SG4
+ip_con	-o "$(AS_CPU_PATH)/ip_con/a.out" "$(AS_CPU_PATH)/ip_con/ip_con.o"  -G V4.1.1  -specs=I386specs -Wl,-q,-T,SG4.x -nostdlib "-Wl,$(AS_GNU_INST_PATH)/i386-elf/lib/libasiec.a" -T SG4
+hmi_sup	-o "$(AS_CPU_PATH)/hmi_sup/a.out" "$(AS_CPU_PATH)/hmi_sup/hmi_sup.o"  -G V4.1.1  -specs=I386specs -Wl,-q,-T,SG4.x -nostdlib "-Wl,$(AS_GNU_INST_PATH)/i386-elf/lib/libasiec.a" -T SG4

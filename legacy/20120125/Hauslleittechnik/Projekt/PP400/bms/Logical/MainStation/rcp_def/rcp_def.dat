@@ -1,0 +1,35 @@
+(********************************************************************
+ * COPYRIGHT -- WERNER PAULIN
+ ********************************************************************
+ * Data object: rcp_def
+ * File: rcp_def.dat
+ * Author: paulinw
+ * Created: December 26, 2009
+ ********************************************************************
+ * Data object file: rcp_def.dat
+ ********************************************************************
+ * History:
+ * Version	Date		Author		Comment
+ * V1.00	26.12.10	W. Paulin	created
+ ********************************************************************)
+(* IMPORTANT: MAINTAIN 32bit ALIGNMENT!!! *)
+; HEATING SYSTEM
+0000000360, ; rcpData_typ.heating.startTime						/* (UDINT)   start time of heating [min] */
+0000001350, ; rcpData_typ.heating.endTime						/* (UDINT)   end time of heating [min]   */
+0000000001, ; rcpData_typ.heating.outOfHome.startDay			/* (UDINT)   out of home begin [day]     */
+0000000002, ; rcpData_typ.heating.outOfHome.endDay				/* (UDINT)   out of home end [day]     */
+20.0,       ; rcpData_typ.heating.tempLivingroomSet				/* (REAL)    living room set temperature [?C]  */
+00.0,       ; rcpData_typ.heating.tempManOffset					/* (REAL)    manual offset to living room set temperature [°C] */
+-2.0,       ; rcpData_typ.heating.tempLowOffset					/* (REAL)    lowering offset to living room set temperature [°C] */
+0.0,		; rcpData_typ.heating.tempFlowSetOffset				/* (REAL)    offset to flow set temperature [°C] */
+04.0,       ; rcpData_typ.heating.kp							/* (REAL)    kp of heating controller */
+200.0,      ; rcpData_typ.heating.tn							/* (REAL)    tn of heating controller */
+; HOT WATER
+0000000450, ; rcpData_typ.heating.hotwater.startTime[0]			/* (UDINT)   start time of hot water [min] */
+0000000990, ; rcpData_typ.heating.hotwater.startTime[1]			/* (UDINT)   start time of hot water [min] */
+0000000480, ; rcpData_typ.heating.hotwater.endTime[0]			/* (UDINT)   start time of hot water [min] */
+0000001050, ; rcpData_typ.heating.hotwater.endTime[1]			/* (UDINT)   start time of hot water [min] */
+60.0,       ; rcpData_typ.heating.hotwater.tempSet				/* (REAL)    boiler set temperature [?C]  */
+; IRRIGATION PLANT
+; tbd...
+

@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio Version=3.0?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="MainStation"/><ConfigurationFiles xmlns="" ConfigurationName="Simulation"><ConfigurationFile Placement="\Logical\notizen.dat,,2,44,0,1,-1,-1,-1,-1,2,24,1184,595"/><ConfigurationFile Placement="\Logical\History.dat,,2,44,0,1,-1,-1,-1,-1,2,24,1184,595"/></ConfigurationFiles><ConfigurationFiles xmlns="" ConfigurationName="MainStation"><ConfigurationFile Placement="\Logical\History.dat,,2,44,0,1,-1,-1,-1,-1,2,24,1184,645"/></ConfigurationFiles></Project>

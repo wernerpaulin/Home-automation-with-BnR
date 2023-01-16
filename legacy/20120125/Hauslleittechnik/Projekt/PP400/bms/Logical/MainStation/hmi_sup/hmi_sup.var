@@ -1,0 +1,87 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: hmi_sup
+ * File: hmi_sup.var
+ * Author: asdemo
+ * Created: December 27, 2009
+ ********************************************************************
+ * Local variables of program hmi_sup
+ ********************************************************************)
+VAR
+	yearIndex : UINT;
+	tempOutsideActOld : REAL;
+	tempLivingroomActOld : REAL;
+END_VAR
+VAR CONSTANT
+	TEMP_TENDENCY_UP : USINT := 1; (*temperature is rising*)
+	TEMP_TENDENCY_HYSTERESIS : REAL := 0.1; (*hysteresis for temperature tendency generation*)
+	TEMP_TENDENCY_DOWN : USINT := 0; (*temperature is falling*)
+	sWAIT_CMD : UINT := 0;
+END_VAR
+VAR
+	status : UDINT;
+	sScrSht : UINT;
+END_VAR
+VAR CONSTANT
+	sDO_SCREEN_SHOT : UINT := 10;
+	sDEINIT : UINT := 20;
+END_VAR
+VAR
+	pagePowerUpTimer : UDINT;
+END_VAR
+(* PAGE_HS_DIAG : USINT := 12; *)
+(* PAGE_IS_OVERVIEW : USINT := 20; *)
+(* PAGE_HS_CFG : USINT := 11; *)
+VAR CONSTANT
+	PAGE_POWERUP : USINT := 0; (*page: power up*)
+	PAGE_SCREEN_CLEAN : USINT := 1;
+	PAGE_BMS_CFG : USINT := 2;
+	PAGE_HS_OVERVIEW : USINT := 10; (*page: heating system overview*)
+END_VAR
+VAR CONSTANT
+	ONE_DAY : TIME := T#86400000ms; (*one day in milliseconds*)
+END_VAR
+VAR
+	oldMinute : USINT;
+	newPage : BOOL;
+	newMinute : BOOL;
+	nbDays : UINT;
+	hScrSht : UDINT;
+	fRTInfo : RTInfo;
+	fileScrSht : STRING[10];
+	fGetTrendDatObjName : GetTrendDatObjName;
+	fDTStructureSetTime : DTStructureSetTime;
+	fDTStructureGetTime : DTStructureGetTime;
+	fDTGetTime : DTGetTime;
+	fDatObjInfo : DatObjInfo;
+END_VAR
+VAR CONSTANT
+	DELAY_POWERUP_PAGE : UINT := 1500; (*time delay to switch from power up page to heating system overview*)
+END_VAR
+VAR
+	dayIndex : UINT;
+	cycT : UDINT;
+	cmdNewPageOld : UINT;
+	actPicOld : UINT;
+	bufferElementREAL : REFERENCE TO ARRAY[0..365] OF REAL;
+	bufferElementUDINT : REFERENCE TO ARRAY[0..365] OF UDINT;
+	cntMinute : USINT;
+	new4Minute : BOOL;
+END_VAR
+VAR CONSTANT
+	YESTERDAY : USINT := 0; (*buffer index containing data of yesterday*)
+	TODAY : USINT := 1; (*buffer index containing data of today*)
+END_VAR
+VAR
+	fDateOfDay : DateOfDay;
+	index : UINT;
+END_VAR
+VAR CONSTANT
+	SCREEN_CLEAN_TIME : UDINT := 30000;
+END_VAR
+VAR
+	screenCleanTimer : UDINT;
+	pageBeforeScreenClean : UINT;
+	ledControl : ARRAY[0..5] OF USINT;
+END_VAR

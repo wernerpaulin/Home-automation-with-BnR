@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="PAGE_HS_CFG">
+  <Property Name="BackColor" Value="255"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="11"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="640"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[Global]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Global"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <Layer Name="Frames">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="640"/>
+      <Property Name="Z-Order" Value="1"/>
+      <TextGroup>
+        <TextLayer LanguageId="de">
+          <Text ID="94358" Value="Heizung"/>
+          <Text ID="94849" Value="Warmwasser"/>
+          <Text ID="94860" Value="Statistik"/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="94358" Value="0"/>
+          <Index ID="94849" Value="2"/>
+          <Index ID="94860" Value="3"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001001" Name="shpHeatLower">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="247"/>
+          <Property Name="Height" Value="334"/>
+          <Property Name="Left" Value="34"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="74"/>
+          <Property Name="Width" Value="293"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatingHeader">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="250"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_greyDark]"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="34"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="53"/>
+          <Property Name="Width" Value="293"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="pointHeatLeft">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="34"/>
+          <Property Name="EndY" Value="53"/>
+          <Property Name="ForeColor" Value="251"/>
+          <Property Name="StartX" Value="34"/>
+          <Property Name="StartY" Value="53"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="pointHeatRight">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="326"/>
+          <Property Name="EndY" Value="53"/>
+          <Property Name="ForeColor" Value="251"/>
+          <Property Name="StartX" Value="326"/>
+          <Property Name="StartY" Value="53"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatLower1">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="247"/>
+          <Property Name="Height" Value="161"/>
+          <Property Name="Left" Value="341"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="74"/>
+          <Property Name="Width" Value="264"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHotwaterHeader1">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="250"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_greyDark]"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="341"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="2"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="53"/>
+          <Property Name="Width" Value="264"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="pointHeatLeft1">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="341"/>
+          <Property Name="EndY" Value="53"/>
+          <Property Name="ForeColor" Value="251"/>
+          <Property Name="StartX" Value="341"/>
+          <Property Name="StartY" Value="53"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="pointHeatRight1">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="604"/>
+          <Property Name="EndY" Value="53"/>
+          <Property Name="ForeColor" Value="251"/>
+          <Property Name="StartX" Value="604"/>
+          <Property Name="StartY" Value="53"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatLower2">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="247"/>
+          <Property Name="Height" Value="137"/>
+          <Property Name="Left" Value="341"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="271"/>
+          <Property Name="Width" Value="264"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHotwaterHeader2">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="250"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_greyDark]"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="21"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="341"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="3"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="250"/>
+          <Property Name="Width" Value="264"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="pointHeatLeft2">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="341"/>
+          <Property Name="EndY" Value="250"/>
+          <Property Name="ForeColor" Value="251"/>
+          <Property Name="StartX" Value="341"/>
+          <Property Name="StartY" Value="250"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="pointHeatRight2">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="604"/>
+          <Property Name="EndY" Value="250"/>
+          <Property Name="ForeColor" Value="251"/>
+          <Property Name="StartX" Value="604"/>
+          <Property Name="StartY" Value="250"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="incFileNameListIndex">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000162">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="MaxValue" Value="1"/>
+              <Property Name="MinValue" Value="0"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Repeat" Value="False"/>
+              <Property Name="StepValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.nameIndex]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="decFileNameListIndex">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000162">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="MaxValue" Value="1"/>
+              <Property Name="MinValue" Value="0"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Repeat" Value="False"/>
+              <Property Name="StepValue" Value="-1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.nameIndex]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="640"/>
+      <Property Name="Z-Order" Value="2"/>
+      <TextGroup>
+        <TextLayer LanguageId="de">
+          <Text ID="94480" Value="Betriebsmodus:"/>
+          <Text ID="94481" Value="Zeit:"/>
+          <Text ID="94482" Value=":"/>
+          <Text ID="94484" Value=":"/>
+          <Text ID="94485" Value="Wohnzimmer:"/>
+          <Text ID="94717" Value="Absenkung:"/>
+          <Text ID="94720" Value="Ausser Haus:"/>
+          <Text ID="94730" Value="."/>
+          <Text ID="94731" Value="."/>
+          <Text ID="94847" Value="."/>
+          <Text ID="94848" Value="."/>
+          <Text ID="94851" Value="Vormittag:"/>
+          <Text ID="94852" Value=":"/>
+          <Text ID="94853" Value=":"/>
+          <Text ID="94854" Value="Nachmittag:"/>
+          <Text ID="94855" Value=":"/>
+          <Text ID="94856" Value=":"/>
+          <Text ID="94857" Value="Boiler Soll:"/>
+          <Text ID="94859" Value="Boiler Ist:"/>
+          <Text ID="95026" Value="Boiler Pumpe:"/>
+          <Text ID="95027" Value="Vorlauf Pumpe:"/>
+          <Text ID="95028" Value="Brenner:"/>
+          <Text ID="96437" Value="Absenkung aktiv!"/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="94480" Value="1"/>
+          <Index ID="94481" Value="2"/>
+          <Index ID="94482" Value="3"/>
+          <Index ID="94484" Value="5"/>
+          <Index ID="94485" Value="6"/>
+          <Index ID="94717" Value="7"/>
+          <Index ID="94720" Value="10"/>
+          <Index ID="94730" Value="9"/>
+          <Index ID="94731" Value="11"/>
+          <Index ID="94847" Value="12"/>
+          <Index ID="94848" Value="13"/>
+          <Index ID="94851" Value="15"/>
+          <Index ID="94852" Value="16"/>
+          <Index ID="94853" Value="17"/>
+          <Index ID="94854" Value="18"/>
+          <Index ID="94855" Value="19"/>
+          <Index ID="94856" Value="20"/>
+          <Index ID="94857" Value="21"/>
+          <Index ID="94859" Value="23"/>
+          <Index ID="95026" Value="31"/>
+          <Index ID="95027" Value="32"/>
+          <Index ID="95028" Value="33"/>
+          <Index ID="96437" Value="36"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="txtHeatModeAct">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_grey]"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.manSwitchedOff]"/>
+          <Property Name="Left" Value="206"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[SummerWinter]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="210"/>
+          <Property Name="Width" Value="113"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatMode">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="39"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="1"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="215"/>
+          <Property Name="Width" Value="98"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTime">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="101"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="2"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="Width" Value="36"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="170"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="3"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatTimeFrom">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="145"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="87"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatOnOff">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.enable]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[OnOff]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="165"/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.enable]"/>
+          <Property Name="Left" Value="230"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[OnOff]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="57"/>
+          <Property Name="Width" Value="93"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep1">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="241"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatTimeTo">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="216"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="87"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="lineHeatTime">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="212"/>
+          <Property Name="EndY" Value="99"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StartX" Value="203"/>
+          <Property Name="StartY" Value="99"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatTimeHour">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="146"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="23"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="6"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.startTime.hour]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatTimeMin">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="174"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="59"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="30"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.startTime.minute]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatTimeHour1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="217"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="23"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="22"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.endTime.hour]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatTimeMin1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="245"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="59"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="30"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.endTime.minute]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatMode1">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="39"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="6"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="143"/>
+          <Property Name="Width" Value="98"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numLivingroomTempSet">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="207"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="22"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="141"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Left"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.tempLivingroomSet]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="51"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatLowering">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="42"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="7"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="377"/>
+          <Property Name="Width" Value="98"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatLowering">
+          <Property Name="Border" Value="Source[local].Border[Flat_orange]"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="145"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="0"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="-10"/>
+          <Property Name="SimulationValue" Value="-2"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="374"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Left"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempLowOffset]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatModeAct1">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_grey]"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.outOfHomeActive]"/>
+          <Property Name="Left" Value="208"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[ActiveInactive]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="319"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtOutOfHome">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="39"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="10"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="271"/>
+          <Property Name="Width" Value="98"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="168"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="9"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="270"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatTimeFrom1">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="145"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="269"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep3">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="239"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="11"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="270"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatTimeTo1">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="216"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="269"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="lineHeatTime1">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="212"/>
+          <Property Name="EndY" Value="281"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StartX" Value="203"/>
+          <Property Name="StartY" Value="281"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatTimeHour2">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="146"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="31"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="2"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="270"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.startDate.day]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="22"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatTimeMin2">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="172"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="12"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="270"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.startDate.month]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="22"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatTimeHour3">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="217"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="31"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="6"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="270"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.endDate.day]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="22"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatTimeMin3">
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="243"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="12"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="4"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="270"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.endDate.month]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="22"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep4">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="194"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="12"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="270"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep5">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="265"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="13"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="270"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHotwaterOnOff">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.hotwater.enable]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[OnOff]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="165"/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.hotwater.enable]"/>
+          <Property Name="Left" Value="509"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[OnOff]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="56"/>
+          <Property Name="Width" Value="93"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHotwaterTime1">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="379"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="15"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="92"/>
+          <Property Name="Width" Value="71"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep6">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="483"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="16"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatTimeFrom2">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="458"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="89"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep7">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="17"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatTimeTo2">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="529"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="89"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="lineHeatTime2">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="525"/>
+          <Property Name="EndY" Value="101"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StartX" Value="516"/>
+          <Property Name="StartY" Value="101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHotwaterTimeHour1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="459"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="23"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="6"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[0].hour]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHotwaterTimeMin1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="487"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="59"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="30"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[0].minute]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHotwaterTimeHour2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="530"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="23"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="22"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[0].hour]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHotwaterTimeMin2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="558"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="59"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="30"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[0].minute]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHotwaterTime2">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="368"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="18"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="127"/>
+          <Property Name="Width" Value="82"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep8">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="483"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="19"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="125"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatTimeFrom3">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="458"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="124"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatTimeSep9">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="20"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="125"/>
+          <Property Name="Width" Value="4"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="shpHeatTimeTo3">
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="ForeColor" Value="253"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="529"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="124"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="lineHeatTime3">
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="525"/>
+          <Property Name="EndY" Value="136"/>
+          <Property Name="LineWidth" Value="2"/>
+          <Property Name="StartX" Value="516"/>
+          <Property Name="StartY" Value="136"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHotwaterTimeHour3">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="459"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="23"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="6"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="125"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[1].hour]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHotwaterTimeMin3">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="487"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="59"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="30"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="125"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[1].minute]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHotwaterTimeHour4">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="530"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="23"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="22"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="125"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[1].hour]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHotwaterTimeMin4">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="558"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="59"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIntegerDigits" Value="2"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="30"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="125"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[1].minute]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHotwaterTempSet">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="358"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="21"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="163"/>
+          <Property Name="Width" Value="92"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numHeatLowering1">
+          <Property Name="Border" Value="Source[local].Border[Flat_orange]"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="Left" Value="458"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="80"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="60"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="160"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Left"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.hotwater.tempSet]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHeatMode2">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="23"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="199"/>
+          <Property Name="Width" Value="97"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numLivingroomTempSet1">
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="458"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="60"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="195"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Left"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.hotwater.tempAct]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtStatBoilerPump">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="347"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="31"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="325"/>
+          <Property Name="Width" Value="103"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numLivingroomTempSet2">
+          <Property Name="AddFractionDigits" Value="-1"/>
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="458"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="600000"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="321"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Left"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeBoilerBump]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtStatFlowPump">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="345"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="32"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="360"/>
+          <Property Name="Width" Value="105"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numLivingroomTempSet3">
+          <Property Name="AddFractionDigits" Value="-1"/>
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="458"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="1200000"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="356"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Left"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeFlowPump]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtStatBurner">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="346"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="33"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="292"/>
+          <Property Name="Width" Value="104"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numLivingroomTempSet4">
+          <Property Name="AddFractionDigits" Value="-1"/>
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="458"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="600000"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="288"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Left"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeBurner]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="54"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="cmdTempPlus">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Plus_32]"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="52"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="267"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="128"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[incLivingroomTempSet]"/>
+          <Property Name="Width" Value="52"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="cmdTempMinus">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Minus_32]"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="52"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="145"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="128"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[decLivingroomTempSet]"/>
+          <Property Name="Width" Value="52"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="cmdToggleHeatMode">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[HeatingMode]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="52"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="144"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[HeatingMode]"/>
+          <Property Name="PressedBitmapIndex" Value="1"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="198"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[toggleHeatMode]"/>
+          <Property Name="Width" Value="52"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="cmdToggleOutOfHome">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[OutOfHome]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="52"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="145"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[OutOfHome]"/>
+          <Property Name="PressedBitmapIndex" Value="1"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="305"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[toggleOutOfHome]"/>
+          <Property Name="Width" Value="52"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtLoweringText">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="ForeColor" Value="51"/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="98"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.heating.statusDatapointLoweringText]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="36"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="56"/>
+          <Property Name="Width" Value="118"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="toggleHeatMode">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.manSwitchedOff]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="incLivingroomTempSet">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000162">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="MaxValue" Value="4"/>
+              <Property Name="MinValue" Value="-4"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Repeat" Value="False"/>
+              <Property Name="StepValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempManOffset]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="decLivingroomTempSet">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000162">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="MaxValue" Value="4"/>
+              <Property Name="MinValue" Value="-4"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Repeat" Value="True"/>
+              <Property Name="StepValue" Value="-1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempManOffset]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="toggleOutOfHome">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gActData.heating.outOfHomeActive]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="cmdRcpSave">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.save]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatTimeHour]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatLowering]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatTimeMin]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatLowering]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatTimeHour1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour3]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatTimeMin1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin3]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatLowering]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatTimeHour2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatLowering]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatTimeMin2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatLowering]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatTimeHour3]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatLowering]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatTimeMin3]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatLowering]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHotwaterTimeHour1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatLowering1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHotwaterTimeMin1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHeatLowering1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHotwaterTimeHour2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHotwaterTimeMin2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHotwaterTimeHour3]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatLowering1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHotwaterTimeMin3]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatLowering1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHotwaterTimeHour4]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatLowering1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHotwaterTimeMin4]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatLowering1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[numHeatLowering1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour3]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour1]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin1]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[numLivingroomTempSet]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[numHeatLowering]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour2]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin2]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[numHeatTimeHour3]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[Default].Control[numHeatTimeMin3]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour1]"/>
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin1]"/>
+    <TabSeqItem Index="12" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour2]"/>
+    <TabSeqItem Index="13" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin2]"/>
+    <TabSeqItem Index="14" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour3]"/>
+    <TabSeqItem Index="15" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin3]"/>
+    <TabSeqItem Index="16" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeHour4]"/>
+    <TabSeqItem Index="17" Value="Source[embedded].Layer[Default].Control[numHotwaterTimeMin4]"/>
+    <TabSeqItem Index="18" Value="Source[embedded].Layer[Default].Control[numHeatLowering1]"/>
+    <TabSeqItem Index="19" Value="Source[embedded].Layer[Default].Control[numLivingroomTempSet1]"/>
+    <TabSeqItem Index="20" Value="Source[embedded].Layer[Default].Control[numLivingroomTempSet2]"/>
+    <TabSeqItem Index="21" Value="Source[embedded].Layer[Default].Control[numLivingroomTempSet3]"/>
+    <TabSeqItem Index="22" Value="Source[embedded].Layer[Default].Control[numLivingroomTempSet4]"/>
+  </TabSequence>
+</Page>

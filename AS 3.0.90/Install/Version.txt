@@ -1,0 +1,15 @@
+[Version]
+OrderingNumber=1A4000.02-300
+Revision=90.0031
+DiskNumber=AS_3.0.90.31_DVD
+
+Product=B&R Automation Studio
+
+Version=AS_3.0.90.31
+Date=10.03.2015 10:36
+
+DiskType=DVDROM
+DiskSize=4.7 GB
+
+Language=English
+DiskName=AS_3.0.90.31_DVD

@@ -1,0 +1,45 @@
+
+
+Sat May 22 14:05:20 2010
+AR000 registration found!
+  Bernecker & Rainer 
+
+
+
+Sat May 22 14:05:20 2010
+COMMAND_COLDSTART
+InstanceName : 01caf9a70cb65110
+
+WorkingPath :
+Z:\Hauslleittechnik\Projekt\PP400\bms\Temp\Simulation\Simulation\PLC1\
+
+COMMAND_COLDSTART
+Version : V3.00
+
+
+
+Sat May 22 14:05:23 2010
+COMMAND_TERMINATE
+
+
+Sat May 22 14:05:24 2010
+
+
+Sat May 22 14:05:24 2010
+COMMAND_COLDSTART
+Version : V3.00
+
+
+
+Sat May 22 14:06:33 2010
+COMMAND_TERMINATE
+
+
+Sat May 22 14:06:34 2010
+
+
+Sat May 22 14:06:34 2010
+COMMAND_TERMINATE
+
+
+Sat May 22 14:06:34 2010

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.25?>
+<BuildOptions>
+  <Project>
+    <IECNamingConvention>true</IECNamingConvention>
+    <IecKeywordsAsStructureMembers>false</IecKeywordsAsStructureMembers>
+    <IecExtendedConstants>true</IecExtendedConstants>
+    <ProjectLogicalDirectory>Z:\Hauslleittechnik\Projekt\PP400\bms\Logical\</ProjectLogicalDirectory>
+    <ProjectTempDirectory>Z:\Hauslleittechnik\Projekt\PP400\bms\Temp\</ProjectTempDirectory>
+    <ASVersion>3.0.80.25</ASVersion>
+    <Edition>Standard</Edition>
+    <CrossReference>true</CrossReference>
+    <ActiveConfiguration>MainStation</ActiveConfiguration>
+    <CreateAnsiCDeclarations>false</CreateAnsiCDeclarations>
+    <GccVersion>V4.1.1</GccVersion>
+  </Project>
+  <Config Name="MainStation">
+    <Target>SG4</Target>
+    <PermanentAnalogMemory>0</PermanentAnalogMemory>
+    <PermanentDigitalMemory>0</PermanentDigitalMemory>
+    <GccVersion>V4.1.1</GccVersion>
+    <ActivateSdm>true</ActivateSdm>
+    <WebServer>true</WebServer>
+  </Config>
+  <Config Name="Simulation">
+    <Target>SG4</Target>
+    <PermanentAnalogMemory>0</PermanentAnalogMemory>
+    <PermanentDigitalMemory>0</PermanentDigitalMemory>
+    <GccVersion>V4.1.1</GccVersion>
+    <ActivateSdm>true</ActivateSdm>
+    <WebServer>true</WebServer>
+  </Config>
+  <CiR />
+</BuildOptions>

@@ -1,0 +1,10 @@
+<TEXT_GROUPS>
+	<TEXT_GROUP NAME="on_off" ID="65535">
+		<TEXT_ITEM ID="0">
+			<LANG_VALUE LANG="Default" TEXT="aus"/>
+		</TEXT_ITEM>
+		<TEXT_ITEM ID="1">
+			<LANG_VALUE LANG="Default" TEXT="ein"/>
+		</TEXT_ITEM>
+	</TEXT_GROUP>
+</TEXT_GROUPS>

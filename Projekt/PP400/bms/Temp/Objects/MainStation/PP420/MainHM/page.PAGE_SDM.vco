@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="PAGE_SDMFrames" TargetIndex="Source[local].Page[PAGE_SDM].Layer[Frames]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ" />
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="incFileNameListIndex" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[incFileNameListIndex]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">354</UInt32>
+              <UInt32 Name="ActionDataSize">44</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="StepValue">1</Double>
+              <Double Name="MinValue">0</Double>
+              <Double Name="MaxValue">1</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.nameIndex]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Repeat">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="decFileNameListIndex" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[decFileNameListIndex]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">354</UInt32>
+              <UInt32 Name="ActionDataSize">44</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="StepValue">-1</Double>
+              <Double Name="MinValue">0</Double>
+              <Double Name="MaxValue">1</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.nameIndex]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Repeat">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="Frames" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[PAGE_SDM].Layer[Frames]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">0</UInt32>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Layers">
+    <Folder Name="PAGE_SDMDefault" TargetIndex="Source[local].Page[PAGE_SDM].Layer[Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="HTMLView_SDM" ClsId="0x1014" Version="1" Type="CTRL" RefString="Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]">
+            <UInt32 Name="Left">10</UInt32>
+            <UInt32 Name="Top">33</UInt32>
+            <UInt32 Name="Right">629</UInt32>
+            <UInt32 Name="Bottom">373</UInt32>
+            <UInt32 Name="ValueDatapoint">4294967295</UInt32>
+            <UInt32 Name="CurrentURLDatapoint">4294967295</UInt32>
+            <UInt32 Name="ChangeURLDatapoint">4294967295</UInt32>
+            <UInt32 Name="CurrentTitleDatapoint">4294967295</UInt32>
+            <Reference Name="DefaultURLs" Type="TG">Source[local].TextGroup[WebFiles]</Reference>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001014].StyleClass[HTMLView]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">251</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[PAGE_SDM].Layer[Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">1</UInt32>
+          <Reference Name="HTMLView_SDM" Type="CTRL">Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="PAGE_SDM" ClsId="0x400" Version="1" TargetIndex="4" Type="PAGE" RefString="Source[local].Page[PAGE_SDM]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]</Reference>
+        <UInt32 Name="LayerCount">3</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[default]</Reference>
+          <UInt16 Name="StyleTableSize">12</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="BackColor">
+            <UInt16 Name="Offset">32</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">255</UInt32>
+          </Group>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Layer[Global]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Page[PAGE_SDM].Layer[Frames]</Reference>
+        <Reference Name="FormLayer2" Type="LAY">Source[local].Page[PAGE_SDM].Layer[Default]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">1</UInt32>
+          <Group Name="Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[PAGE_SDM].Layer[Default].Control[HTMLView_SDM]</Reference>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

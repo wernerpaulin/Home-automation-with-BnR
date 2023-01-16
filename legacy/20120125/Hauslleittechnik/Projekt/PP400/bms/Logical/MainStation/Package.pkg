@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.80.28 SP01?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="Heating System Control">HeatingSystem</Object>
+    <Object Type="Package" Description="Irrigation System Control">IrrigationSystem</Object>
+    <Object Type="DataObject" Language="Simple" Description="default receipe">rcp_def</Object>
+    <Object Type="Program" Language="IEC" Description="Receipe Handling">rcp_cpy</Object>
+    <Object Type="Program" Language="IEC" Description="alarm handling">alarm</Object>
+    <Object Type="Program" Language="IEC" Description="HMI support">hmi_sup</Object>
+    <Object Type="Program" Language="IEC" Description="statistical processing">statistics</Object>
+    <Object Type="DataObject" Language="Vc" Description="640x480 (VGA)">MainHMI</Object>
+  </Objects>
+</Package>

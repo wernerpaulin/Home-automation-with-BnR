@@ -1,0 +1,8 @@
+[FileList]
+\pgm\bms\cpu\rcp_cpy.c
+\library\dataobj\i386\libdataobj.a
+\pgm\bms\cpu\bms_gn.h
+\library\brsystem\i386\libbrsystem.a
+
+[IncludeList]
+\pgm\bms\cpu

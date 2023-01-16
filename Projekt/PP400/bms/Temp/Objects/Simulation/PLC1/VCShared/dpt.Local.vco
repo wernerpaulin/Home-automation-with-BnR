@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="Local" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[Local]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[Local]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <UInt32 Name="PVCount">142</UInt32>
+          <UInt32 Name="ImageSize">12000</UInt32>
+          <Table Name="Variables" Cols="5">
+            <TableHeader>
+              <Column Name="PVID" />
+              <Column Name="PVType" />
+              <Column Name="PVOffset" />
+              <Column Name="PVDim" />
+              <Column Name="PVName" />
+            </TableHeader>
+            <Group Name="gActData.heating.enable">
+              <UInt16 Name="ID">0</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">0</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">0</Int32>
+            </Group>
+            <Group Name="gActData.heating.manSwitchedOff">
+              <UInt16 Name="ID">1</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">1</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">24</Int32>
+            </Group>
+            <Group Name="gActData.heating.outOfHomeActive">
+              <UInt16 Name="ID">2</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">2</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">56</Int32>
+            </Group>
+            <Group Name="gActData.heating.sActMixer">
+              <UInt16 Name="ID">3</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">3</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">89</Int32>
+            </Group>
+            <Group Name="gActData.heating.sSetMixer">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">7</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">116</Int32>
+            </Group>
+            <Group Name="gActData.heating.tempFlowAct">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">11</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">143</Int32>
+            </Group>
+            <Group Name="gActData.heating.tempFlowSet">
+              <UInt16 Name="ID">6</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">15</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">172</Int32>
+            </Group>
+            <Group Name="gActData.heating.tempLivingroomAct">
+              <UInt16 Name="ID">7</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">19</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">201</Int32>
+            </Group>
+            <Group Name="gActData.heating.tempLivingroomSet">
+              <UInt16 Name="ID">8</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">23</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">236</Int32>
+            </Group>
+            <Group Name="gActData.heating.tempOutsideAct">
+              <UInt16 Name="ID">9</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">27</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">271</Int32>
+            </Group>
+            <Group Name="gActData.heating.tempOutsideDayHigh">
+              <UInt16 Name="ID">10</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">31</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">303</Int32>
+            </Group>
+            <Group Name="gActData.heating.tempOutsideDayLow">
+              <UInt16 Name="ID">11</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">35</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">339</Int32>
+            </Group>
+            <Group Name="gActData.heating.burner.tempAct">
+              <UInt16 Name="ID">12</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">39</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">374</Int32>
+            </Group>
+            <Group Name="gActData.heating.burner.tempSet">
+              <UInt16 Name="ID">13</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">43</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">406</Int32>
+            </Group>
+            <Group Name="gActData.heating.hotwater.enable">
+              <UInt16 Name="ID">14</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">47</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">438</Int32>
+            </Group>
+            <Group Name="gActData.heating.hotwater.tempAct">
+              <UInt16 Name="ID">15</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">48</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">471</Int32>
+            </Group>
+            <Group Name="gActData.irrigation.tankLevel">
+              <UInt16 Name="ID">16</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">52</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">505</Int32>
+            </Group>
+            <Group Name="gActData.irrigation.segment[0].switchOnRequest">
+              <UInt16 Name="ID">17</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">54</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">535</Int32>
+            </Group>
+            <Group Name="gActData.irrigation.segment[1].switchOnRequest">
+              <UInt16 Name="ID">18</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">55</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">582</Int32>
+            </Group>
+            <Group Name="gActData.irrigation.segment[2].switchOnRequest">
+              <UInt16 Name="ID">19</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">56</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">629</Int32>
+            </Group>
+            <Group Name="gActData.irrigation.segment[3].switchOnRequest">
+              <UInt16 Name="ID">20</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">57</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">676</Int32>
+            </Group>
+            <Group Name="gActData.irrigation.segment[4].switchOnRequest">
+              <UInt16 Name="ID">21</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">58</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">723</Int32>
+            </Group>
+            <Group Name="gActData.irrigation.segment[5].switchOnRequest">
+              <UInt16 Name="ID">22</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">59</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">770</Int32>
+            </Group>
+            <Group Name="gActData.statistics.heating.onTimeBoilerBump">
+              <UInt16 Name="ID">23</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">60</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">817</Int32>
+            </Group>
+            <Group Name="gActData.statistics.heating.onTimeBurner">
+              <UInt16 Name="ID">24</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">64</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">862</Int32>
+            </Group>
+            <Group Name="gActData.statistics.heating.onTimeFlowPump">
+              <UInt16 Name="ID">25</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">68</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">903</Int32>
+            </Group>
+            <Group Name="gActData.statistics.irrigation.onTimePump">
+              <UInt16 Name="ID">26</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">72</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">946</Int32>
+            </Group>
+            <Group Name="gActData.statistics.irrigation.valve">
+              <UInt16 Name="ID">27</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">76</UInt32>
+              <UInt32 Name="PVDim">6</UInt32>
+              <Int32 Name="Offset">988</Int32>
+            </Group>
+            <Group Name="gActData.statistics.irrigation.valve[0]">
+              <UInt16 Name="ID">28</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">100</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1025</Int32>
+            </Group>
+            <Group Name="gActData.statistics.irrigation.valve[1]">
+              <UInt16 Name="ID">29</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">104</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1065</Int32>
+            </Group>
+            <Group Name="gActData.statistics.irrigation.valve[2]">
+              <UInt16 Name="ID">30</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">108</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1105</Int32>
+            </Group>
+            <Group Name="gActData.statistics.irrigation.valve[3]">
+              <UInt16 Name="ID">31</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">112</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1145</Int32>
+            </Group>
+            <Group Name="gActData.statistics.irrigation.valve[4]">
+              <UInt16 Name="ID">32</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">116</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1185</Int32>
+            </Group>
+            <Group Name="gActData.statistics.irrigation.valve[5]">
+              <UInt16 Name="ID">33</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">120</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1225</Int32>
+            </Group>
+            <Group Name="gAlarm.ack">
+              <UInt16 Name="ID">34</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">124</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1265</Int32>
+            </Group>
+            <Group Name="gAlarm.ackBlock">
+              <UInt16 Name="ID">35</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">125</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1276</Int32>
+            </Group>
+            <Group Name="gAlarm.request">
+              <UInt16 Name="ID">36</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">126</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1292</Int32>
+            </Group>
+            <Group Name="gHMI.cmd.setTime">
+              <UInt16 Name="ID">37</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">127</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1307</Int32>
+            </Group>
+            <Group Name="gHMI.cmd.updateDateTime">
+              <UInt16 Name="ID">38</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">128</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1324</Int32>
+            </Group>
+            <Group Name="gHMI.cmd.updatePID">
+              <UInt16 Name="ID">39</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">129</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1348</Int32>
+            </Group>
+            <Group Name="gHMI.general.actPage">
+              <UInt16 Name="ID">40</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">130</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1367</Int32>
+            </Group>
+            <Group Name="gHMI.general.cmdNewPage">
+              <UInt16 Name="ID">41</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">132</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1388</Int32>
+            </Group>
+            <Group Name="gHMI.general.screenCleanTime">
+              <UInt16 Name="ID">42</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">134</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1412</Int32>
+            </Group>
+            <Group Name="gHMI.general.setPage">
+              <UInt16 Name="ID">43</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">138</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1441</Int32>
+            </Group>
+            <Group Name="gHMI.general.setTime.day">
+              <UInt16 Name="ID">44</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">140</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1462</Int32>
+            </Group>
+            <Group Name="gHMI.general.setTime.hour">
+              <UInt16 Name="ID">45</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">141</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1487</Int32>
+            </Group>
+            <Group Name="gHMI.general.setTime.minute">
+              <UInt16 Name="ID">46</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">142</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1513</Int32>
+            </Group>
+            <Group Name="gHMI.general.setTime.month">
+              <UInt16 Name="ID">47</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">143</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1541</Int32>
+            </Group>
+            <Group Name="gHMI.general.setTime.year">
+              <UInt16 Name="ID">48</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">144</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1568</Int32>
+            </Group>
+            <Group Name="gHMI.heating.statusDatapointAlarmIndicator">
+              <UInt16 Name="ID">49</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">146</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1594</Int32>
+            </Group>
+            <Group Name="gHMI.heating.statusDatapointLoweringText">
+              <UInt16 Name="ID">50</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">148</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1637</Int32>
+            </Group>
+            <Group Name="gHMI.heating.tempLivingroomTendency">
+              <UInt16 Name="ID">51</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">150</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1678</Int32>
+            </Group>
+            <Group Name="gHMI.heating.tempOutsideTendency">
+              <UInt16 Name="ID">52</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">151</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1714</Int32>
+            </Group>
+            <Group Name="gHMI.heating.endTime.hour">
+              <UInt16 Name="ID">53</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">152</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1747</Int32>
+            </Group>
+            <Group Name="gHMI.heating.endTime.minute">
+              <UInt16 Name="ID">54</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">153</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1773</Int32>
+            </Group>
+            <Group Name="gHMI.heating.hotwater.endTime[0].hour">
+              <UInt16 Name="ID">55</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">154</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1801</Int32>
+            </Group>
+            <Group Name="gHMI.heating.hotwater.endTime[0].minute">
+              <UInt16 Name="ID">56</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">155</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1839</Int32>
+            </Group>
+            <Group Name="gHMI.heating.hotwater.endTime[1].hour">
+              <UInt16 Name="ID">57</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">156</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1879</Int32>
+            </Group>
+            <Group Name="gHMI.heating.hotwater.endTime[1].minute">
+              <UInt16 Name="ID">58</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">157</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1917</Int32>
+            </Group>
+            <Group Name="gHMI.heating.hotwater.startTime[0].hour">
+              <UInt16 Name="ID">59</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">158</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1957</Int32>
+            </Group>
+            <Group Name="gHMI.heating.hotwater.startTime[0].minute">
+              <UInt16 Name="ID">60</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">159</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">1997</Int32>
+            </Group>
+            <Group Name="gHMI.heating.hotwater.startTime[1].hour">
+              <UInt16 Name="ID">61</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">160</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2039</Int32>
+            </Group>
+            <Group Name="gHMI.heating.hotwater.startTime[1].minute">
+              <UInt16 Name="ID">62</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">161</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2079</Int32>
+            </Group>
+            <Group Name="gHMI.heating.outOfHome.endDate.day">
+              <UInt16 Name="ID">63</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">162</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2121</Int32>
+            </Group>
+            <Group Name="gHMI.heating.outOfHome.endDate.month">
+              <UInt16 Name="ID">64</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">163</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2156</Int32>
+            </Group>
+            <Group Name="gHMI.heating.outOfHome.startDate.day">
+              <UInt16 Name="ID">65</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">164</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2193</Int32>
+            </Group>
+            <Group Name="gHMI.heating.outOfHome.startDate.month">
+              <UInt16 Name="ID">66</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">165</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2230</Int32>
+            </Group>
+            <Group Name="gHMI.heating.startTime.hour">
+              <UInt16 Name="ID">67</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">166</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2269</Int32>
+            </Group>
+            <Group Name="gHMI.heating.startTime.minute">
+              <UInt16 Name="ID">68</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">167</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2297</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.ctrl.load">
+              <UInt16 Name="ID">69</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">168</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2327</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.ctrl.loadOk">
+              <UInt16 Name="ID">70</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">169</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2349</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.ctrl.nameIndex">
+              <UInt16 Name="ID">71</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">170</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2373</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.ctrl.save">
+              <UInt16 Name="ID">72</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">172</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2400</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.ctrl.saveOk">
+              <UInt16 Name="ID">73</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">173</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2422</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.data.heating.kp">
+              <UInt16 Name="ID">74</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">174</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2446</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.data.heating.tempFlowSetOffset">
+              <UInt16 Name="ID">75</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">178</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2474</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.data.heating.tempLivingroomSet">
+              <UInt16 Name="ID">76</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">182</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2517</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.data.heating.tempLowOffset">
+              <UInt16 Name="ID">77</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">186</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2560</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.data.heating.tempManOffset">
+              <UInt16 Name="ID">78</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">190</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2599</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.data.heating.tn">
+              <UInt16 Name="ID">79</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">194</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2638</Int32>
+            </Group>
+            <Group Name="gHMI.recipe.data.heating.hotwater.tempSet">
+              <UInt16 Name="ID">80</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">198</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2666</Int32>
+            </Group>
+            <Group Name="gHMI.trend.day[0].dataBuffer">
+              <UInt16 Name="ID">81</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">202</UInt32>
+              <UInt32 Name="PVDim">360</UInt32>
+              <Int32 Name="Offset">2708</Int32>
+            </Group>
+            <Group Name="gHMI.trend.day[0].nbSamples">
+              <UInt16 Name="ID">82</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">1642</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2737</Int32>
+            </Group>
+            <Group Name="gHMI.trend.day[1].dataBuffer">
+              <UInt16 Name="ID">83</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">1646</UInt32>
+              <UInt32 Name="PVDim">360</UInt32>
+              <Int32 Name="Offset">2765</Int32>
+            </Group>
+            <Group Name="gHMI.trend.day[1].nbSamples">
+              <UInt16 Name="ID">84</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">3086</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2794</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].tempAv">
+              <UInt16 Name="ID">85</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">3090</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2822</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].update">
+              <UInt16 Name="ID">86</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">3094</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2848</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].date.day">
+              <UInt16 Name="ID">87</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">3095</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2874</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].date.month">
+              <UInt16 Name="ID">88</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">3096</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2902</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].date.year">
+              <UInt16 Name="ID">89</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">3097</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2932</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].heat.dataBuffer">
+              <UInt16 Name="ID">90</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">3099</UInt32>
+              <UInt32 Name="PVDim">366</UInt32>
+              <Int32 Name="Offset">2961</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].heat.enable">
+              <UInt16 Name="ID">91</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">4563</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">2996</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].heat.hoursDate">
+              <UInt16 Name="ID">92</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">4564</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3027</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].heat.hoursTotal">
+              <UInt16 Name="ID">93</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">4568</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3061</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].heat.nbSamples">
+              <UInt16 Name="ID">94</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">4572</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3096</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].heat.statusDatapoint">
+              <UInt16 Name="ID">95</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">4576</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3130</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].high.dataBuffer">
+              <UInt16 Name="ID">96</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">4578</UInt32>
+              <UInt32 Name="PVDim">366</UInt32>
+              <Int32 Name="Offset">3170</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].high.enable">
+              <UInt16 Name="ID">97</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">6042</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3205</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].high.nbSamples">
+              <UInt16 Name="ID">98</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">6043</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3236</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].high.statusDatapoint">
+              <UInt16 Name="ID">99</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">6047</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3270</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].high.tempAv">
+              <UInt16 Name="ID">100</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">6049</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3310</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].high.tempDate">
+              <UInt16 Name="ID">101</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">6053</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3341</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].low.dataBuffer">
+              <UInt16 Name="ID">102</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">6057</UInt32>
+              <UInt32 Name="PVDim">366</UInt32>
+              <Int32 Name="Offset">3374</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].low.enable">
+              <UInt16 Name="ID">103</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">7521</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3408</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].low.nbSamples">
+              <UInt16 Name="ID">104</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">7522</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3438</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].low.statusDatapoint">
+              <UInt16 Name="ID">105</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">7526</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3471</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].low.tempAv">
+              <UInt16 Name="ID">106</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">7528</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3510</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[0].low.tempDate">
+              <UInt16 Name="ID">107</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">7532</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3540</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].tempAv">
+              <UInt16 Name="ID">108</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">7536</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3572</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].update">
+              <UInt16 Name="ID">109</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">7540</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3598</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].date.day">
+              <UInt16 Name="ID">110</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">7541</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3624</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].date.month">
+              <UInt16 Name="ID">111</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">7542</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3652</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].date.year">
+              <UInt16 Name="ID">112</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">7543</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3682</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].heat.dataBuffer">
+              <UInt16 Name="ID">113</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">7545</UInt32>
+              <UInt32 Name="PVDim">366</UInt32>
+              <Int32 Name="Offset">3711</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].heat.enable">
+              <UInt16 Name="ID">114</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">9009</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3746</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].heat.hoursDate">
+              <UInt16 Name="ID">115</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">9010</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3777</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].heat.hoursTotal">
+              <UInt16 Name="ID">116</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">9014</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3811</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].heat.nbSamples">
+              <UInt16 Name="ID">117</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">9018</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3846</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].heat.statusDatapoint">
+              <UInt16 Name="ID">118</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">9022</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3880</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].high.dataBuffer">
+              <UInt16 Name="ID">119</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">9024</UInt32>
+              <UInt32 Name="PVDim">366</UInt32>
+              <Int32 Name="Offset">3920</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].high.enable">
+              <UInt16 Name="ID">120</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">10488</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3955</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].high.nbSamples">
+              <UInt16 Name="ID">121</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">10489</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">3986</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].high.statusDatapoint">
+              <UInt16 Name="ID">122</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">10493</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4020</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].high.tempAv">
+              <UInt16 Name="ID">123</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">10495</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4060</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].high.tempDate">
+              <UInt16 Name="ID">124</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">10499</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4091</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].low.dataBuffer">
+              <UInt16 Name="ID">125</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">10503</UInt32>
+              <UInt32 Name="PVDim">366</UInt32>
+              <Int32 Name="Offset">4124</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].low.enable">
+              <UInt16 Name="ID">126</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11967</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4158</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].low.nbSamples">
+              <UInt16 Name="ID">127</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">11968</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4188</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].low.statusDatapoint">
+              <UInt16 Name="ID">128</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">11972</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4221</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].low.tempAv">
+              <UInt16 Name="ID">129</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">11974</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4260</Int32>
+            </Group>
+            <Group Name="gHMI.trend.year[1].low.tempDate">
+              <UInt16 Name="ID">130</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">11978</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4290</Int32>
+            </Group>
+            <Group Name="doBurner">
+              <UInt16 Name="ID">131</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11982</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4322</Int32>
+            </Group>
+            <Group Name="doIrrigPump">
+              <UInt16 Name="ID">132</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11983</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4331</Int32>
+            </Group>
+            <Group Name="doIrrigValve1">
+              <UInt16 Name="ID">133</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11984</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4343</Int32>
+            </Group>
+            <Group Name="doIrrigValve2">
+              <UInt16 Name="ID">134</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11985</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4357</Int32>
+            </Group>
+            <Group Name="doIrrigValve3">
+              <UInt16 Name="ID">135</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11986</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4371</Int32>
+            </Group>
+            <Group Name="doIrrigValve4">
+              <UInt16 Name="ID">136</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11987</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4385</Int32>
+            </Group>
+            <Group Name="doIrrigValve5">
+              <UInt16 Name="ID">137</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11988</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4399</Int32>
+            </Group>
+            <Group Name="doIrrigValve6">
+              <UInt16 Name="ID">138</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11989</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4413</Int32>
+            </Group>
+            <Group Name="hs_con:fLCRSlimPID.Y">
+              <UInt16 Name="ID">139</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">11990</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4427</Int32>
+            </Group>
+            <Group Name="hs_con:fLCRSlimPID.e">
+              <UInt16 Name="ID">140</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">11994</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4448</Int32>
+            </Group>
+            <Group Name="hs_con:fLCRSlimPID.status">
+              <UInt16 Name="ID">141</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">11998</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Int32 Name="Offset">4469</Int32>
+            </Group>
+          </Table>
+          <Binary Name="Name" Encoding="Base64">Z0FjdERhdGEuaGVhdGluZy5lbmFibGUAZ0FjdERhdGEuaGVhdGluZy5tYW5Td2l0Y2hlZE9mZgBnQWN0RGF0YS5oZWF0aW5nLm91dE9mSG9tZUFjdGl2ZQBnQWN0RGF0YS5oZWF0aW5nLnNBY3RNaXhlcgBnQWN0RGF0YS5oZWF0aW5nLnNTZXRNaXhlcgBnQWN0RGF0YS5oZWF0aW5nLnRlbXBGbG93QWN0AGdBY3REYXRhLmhlYXRpbmcudGVtcEZsb3dTZXQAZ0FjdERhdGEuaGVhdGluZy50ZW1wTGl2aW5ncm9vbUFjdABnQWN0RGF0YS5oZWF0aW5nLnRlbXBMaXZpbmdyb29tU2V0AGdBY3REYXRhLmhlYXRpbmcudGVtcE91dHNpZGVBY3QAZ0FjdERhdGEuaGVhdGluZy50ZW1wT3V0c2lkZURheUhpZ2gAZ0FjdERhdGEuaGVhdGluZy50ZW1wT3V0c2lkZURheUxvdwBnQWN0RGF0YS5oZWF0aW5nLmJ1cm5lci50ZW1wQWN0AGdBY3REYXRhLmhlYXRpbmcuYnVybmVyLnRlbXBTZXQAZ0FjdERhdGEuaGVhdGluZy5ob3R3YXRlci5lbmFibGUAZ0FjdERhdGEuaGVhdGluZy5ob3R3YXRlci50ZW1wQWN0AGdBY3REYXRhLmlycmlnYXRpb24udGFua0xldmVsAGdBY3REYXRhLmlycmlnYXRpb24uc2VnbWVudFswXS5zd2l0Y2hPblJlcXVlc3QAZ0FjdERhdGEuaXJyaWdhdGlvbi5zZWdtZW50WzFdLnN3aXRjaE9uUmVxdWVzdABnQWN0RGF0YS5pcnJpZ2F0aW9uLnNlZ21lbnRbMl0uc3dpdGNoT25SZXF1ZXN0AGdBY3REYXRhLmlycmlnYXRpb24uc2VnbWVudFszXS5zd2l0Y2hPblJlcXVlc3QAZ0FjdERhdGEuaXJyaWdhdGlvbi5zZWdtZW50WzRdLnN3aXRjaE9uUmVxdWVzdABnQWN0RGF0YS5pcnJpZ2F0aW9uLnNlZ21lbnRbNV0uc3dpdGNoT25SZXF1ZXN0AGdBY3REYXRhLnN0YXRpc3RpY3MuaGVhdGluZy5vblRpbWVCb2lsZXJCdW1wAGdBY3REYXRhLnN0YXRpc3RpY3MuaGVhdGluZy5vblRpbWVCdXJuZXIAZ0FjdERhdGEuc3RhdGlzdGljcy5oZWF0aW5nLm9uVGltZUZsb3dQdW1wAGdBY3REYXRhLnN0YXRpc3RpY3MuaXJyaWdhdGlvbi5vblRpbWVQdW1wAGdBY3REYXRhLnN0YXRpc3RpY3MuaXJyaWdhdGlvbi52YWx2ZQBnQWN0RGF0YS5zdGF0aXN0aWNzLmlycmlnYXRpb24udmFsdmVbMF0AZ0FjdERhdGEuc3RhdGlzdGljcy5pcnJpZ2F0aW9uLnZhbHZlWzFdAGdBY3REYXRhLnN0YXRpc3RpY3MuaXJyaWdhdGlvbi52YWx2ZVsyXQBnQWN0RGF0YS5zdGF0aXN0aWNzLmlycmlnYXRpb24udmFsdmVbM10AZ0FjdERhdGEuc3RhdGlzdGljcy5pcnJpZ2F0aW9uLnZhbHZlWzRdAGdBY3REYXRhLnN0YXRpc3RpY3MuaXJyaWdhdGlvbi52YWx2ZVs1XQBnQWxhcm0uYWNrAGdBbGFybS5hY2tCbG9jawBnQWxhcm0ucmVxdWVzdABnSE1JLmNtZC5zZXRUaW1lAGdITUkuY21kLnVwZGF0ZURhdGVUaW1lAGdITUkuY21kLnVwZGF0ZVBJRABnSE1JLmdlbmVyYWwuYWN0UGFnZQBnSE1JLmdlbmVyYWwuY21kTmV3UGFnZQBnSE1JLmdlbmVyYWwuc2NyZWVuQ2xlYW5UaW1lAGdITUkuZ2VuZXJhbC5zZXRQYWdlAGdITUkuZ2VuZXJhbC5zZXRUaW1lLmRheQBnSE1JLmdlbmVyYWwuc2V0VGltZS5ob3VyAGdITUkuZ2VuZXJhbC5zZXRUaW1lLm1pbnV0ZQBnSE1JLmdlbmVyYWwuc2V0VGltZS5tb250aABnSE1JLmdlbmVyYWwuc2V0VGltZS55ZWFyAGdITUkuaGVhdGluZy5zdGF0dXNEYXRhcG9pbnRBbGFybUluZGljYXRvcgBnSE1JLmhlYXRpbmcuc3RhdHVzRGF0YXBvaW50TG93ZXJpbmdUZXh0AGdITUkuaGVhdGluZy50ZW1wTGl2aW5ncm9vbVRlbmRlbmN5AGdITUkuaGVhdGluZy50ZW1wT3V0c2lkZVRlbmRlbmN5AGdITUkuaGVhdGluZy5lbmRUaW1lLmhvdXIAZ0hNSS5oZWF0aW5nLmVuZFRpbWUubWludXRlAGdITUkuaGVhdGluZy5ob3R3YXRlci5lbmRUaW1lWzBdLmhvdXIAZ0hNSS5oZWF0aW5nLmhvdHdhdGVyLmVuZFRpbWVbMF0ubWludXRlAGdITUkuaGVhdGluZy5ob3R3YXRlci5lbmRUaW1lWzFdLmhvdXIAZ0hNSS5oZWF0aW5nLmhvdHdhdGVyLmVuZFRpbWVbMV0ubWludXRlAGdITUkuaGVhdGluZy5ob3R3YXRlci5zdGFydFRpbWVbMF0uaG91cgBnSE1JLmhlYXRpbmcuaG90d2F0ZXIuc3RhcnRUaW1lWzBdLm1pbnV0ZQBnSE1JLmhlYXRpbmcuaG90d2F0ZXIuc3RhcnRUaW1lWzFdLmhvdXIAZ0hNSS5oZWF0aW5nLmhvdHdhdGVyLnN0YXJ0VGltZVsxXS5taW51dGUAZ0hNSS5oZWF0aW5nLm91dE9mSG9tZS5lbmREYXRlLmRheQBnSE1JLmhlYXRpbmcub3V0T2ZIb21lLmVuZERhdGUubW9udGgAZ0hNSS5oZWF0aW5nLm91dE9mSG9tZS5zdGFydERhdGUuZGF5AGdITUkuaGVhdGluZy5vdXRPZkhvbWUuc3RhcnREYXRlLm1vbnRoAGdITUkuaGVhdGluZy5zdGFydFRpbWUuaG91cgBnSE1JLmhlYXRpbmcuc3RhcnRUaW1lLm1pbnV0ZQBnSE1JLnJlY2lwZS5jdHJsLmxvYWQAZ0hNSS5yZWNpcGUuY3RybC5sb2FkT2sAZ0hNSS5yZWNpcGUuY3RybC5uYW1lSW5kZXgAZ0hNSS5yZWNpcGUuY3RybC5zYXZlAGdITUkucmVjaXBlLmN0cmwuc2F2ZU9rAGdITUkucmVjaXBlLmRhdGEuaGVhdGluZy5rcABnSE1JLnJlY2lwZS5kYXRhLmhlYXRpbmcudGVtcEZsb3dTZXRPZmZzZXQAZ0hNSS5yZWNpcGUuZGF0YS5oZWF0aW5nLnRlbXBMaXZpbmdyb29tU2V0AGdITUkucmVjaXBlLmRhdGEuaGVhdGluZy50ZW1wTG93T2Zmc2V0AGdITUkucmVjaXBlLmRhdGEuaGVhdGluZy50ZW1wTWFuT2Zmc2V0AGdITUkucmVjaXBlLmRhdGEuaGVhdGluZy50bgBnSE1JLnJlY2lwZS5kYXRhLmhlYXRpbmcuaG90d2F0ZXIudGVtcFNldABnSE1JLnRyZW5kLmRheVswXS5kYXRhQnVmZmVyAGdITUkudHJlbmQuZGF5WzBdLm5iU2FtcGxlcwBnSE1JLnRyZW5kLmRheVsxXS5kYXRhQnVmZmVyAGdITUkudHJlbmQuZGF5WzFdLm5iU2FtcGxlcwBnSE1JLnRyZW5kLnllYXJbMF0udGVtcEF2AGdITUkudHJlbmQueWVhclswXS51cGRhdGUAZ0hNSS50cmVuZC55ZWFyWzBdLmRhdGUuZGF5AGdITUkudHJlbmQueWVhclswXS5kYXRlLm1vbnRoAGdITUkudHJlbmQueWVhclswXS5kYXRlLnllYXIAZ0hNSS50cmVuZC55ZWFyWzBdLmhlYXQuZGF0YUJ1ZmZlcgBnSE1JLnRyZW5kLnllYXJbMF0uaGVhdC5lbmFibGUAZ0hNSS50cmVuZC55ZWFyWzBdLmhlYXQuaG91cnNEYXRlAGdITUkudHJlbmQueWVhclswXS5oZWF0LmhvdXJzVG90YWwAZ0hNSS50cmVuZC55ZWFyWzBdLmhlYXQubmJTYW1wbGVzAGdITUkudHJlbmQueWVhclswXS5oZWF0LnN0YXR1c0RhdGFwb2ludABnSE1JLnRyZW5kLnllYXJbMF0uaGlnaC5kYXRhQnVmZmVyAGdITUkudHJlbmQueWVhclswXS5oaWdoLmVuYWJsZQBnSE1JLnRyZW5kLnllYXJbMF0uaGlnaC5uYlNhbXBsZXMAZ0hNSS50cmVuZC55ZWFyWzBdLmhpZ2guc3RhdHVzRGF0YXBvaW50AGdITUkudHJlbmQueWVhclswXS5oaWdoLnRlbXBBdgBnSE1JLnRyZW5kLnllYXJbMF0uaGlnaC50ZW1wRGF0ZQBnSE1JLnRyZW5kLnllYXJbMF0ubG93LmRhdGFCdWZmZXIAZ0hNSS50cmVuZC55ZWFyWzBdLmxvdy5lbmFibGUAZ0hNSS50cmVuZC55ZWFyWzBdLmxvdy5uYlNhbXBsZXMAZ0hNSS50cmVuZC55ZWFyWzBdLmxvdy5zdGF0dXNEYXRhcG9pbnQAZ0hNSS50cmVuZC55ZWFyWzBdLmxvdy50ZW1wQXYAZ0hNSS50cmVuZC55ZWFyWzBdLmxvdy50ZW1wRGF0ZQBnSE1JLnRyZW5kLnllYXJbMV0udGVtcEF2AGdITUkudHJlbmQueWVhclsxXS51cGRhdGUAZ0hNSS50cmVuZC55ZWFyWzFdLmRhdGUuZGF5AGdITUkudHJlbmQueWVhclsxXS5kYXRlLm1vbnRoAGdITUkudHJlbmQueWVhclsxXS5kYXRlLnllYXIAZ0hNSS50cmVuZC55ZWFyWzFdLmhlYXQuZGF0YUJ1ZmZlcgBnSE1JLnRyZW5kLnllYXJbMV0uaGVhdC5lbmFibGUAZ0hNSS50cmVuZC55ZWFyWzFdLmhlYXQuaG91cnNEYXRlAGdITUkudHJlbmQueWVhclsxXS5oZWF0LmhvdXJzVG90YWwAZ0hNSS50cmVuZC55ZWFyWzFdLmhlYXQubmJTYW1wbGVzAGdITUkudHJlbmQueWVhclsxXS5oZWF0LnN0YXR1c0RhdGFwb2ludABnSE1JLnRyZW5kLnllYXJbMV0uaGlnaC5kYXRhQnVmZmVyAGdITUkudHJlbmQueWVhclsxXS5oaWdoLmVuYWJsZQBnSE1JLnRyZW5kLnllYXJbMV0uaGlnaC5uYlNhbXBsZXMAZ0hNSS50cmVuZC55ZWFyWzFdLmhpZ2guc3RhdHVzRGF0YXBvaW50AGdITUkudHJlbmQueWVhclsxXS5oaWdoLnRlbXBBdgBnSE1JLnRyZW5kLnllYXJbMV0uaGlnaC50ZW1wRGF0ZQBnSE1JLnRyZW5kLnllYXJbMV0ubG93LmRhdGFCdWZmZXIAZ0hNSS50cmVuZC55ZWFyWzFdLmxvdy5lbmFibGUAZ0hNSS50cmVuZC55ZWFyWzFdLmxvdy5uYlNhbXBsZXMAZ0hNSS50cmVuZC55ZWFyWzFdLmxvdy5zdGF0dXNEYXRhcG9pbnQAZ0hNSS50cmVuZC55ZWFyWzFdLmxvdy50ZW1wQXYAZ0hNSS50cmVuZC55ZWFyWzFdLmxvdy50ZW1wRGF0ZQBkb0J1cm5lcgBkb0lycmlnUHVtcABkb0lycmlnVmFsdmUxAGRvSXJyaWdWYWx2ZTIAZG9JcnJpZ1ZhbHZlMwBkb0lycmlnVmFsdmU0AGRvSXJyaWdWYWx2ZTUAZG9JcnJpZ1ZhbHZlNgBoc19jb246ZkxDUlNsaW1QSUQuWQBoc19jb246ZkxDUlNsaW1QSUQuZQBoc19jb246ZkxDUlNsaW1QSUQuc3RhdHVzAA==</Binary>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

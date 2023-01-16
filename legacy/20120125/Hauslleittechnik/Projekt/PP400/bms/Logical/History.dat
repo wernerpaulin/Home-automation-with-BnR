@@ -1,0 +1,29 @@
+08.05.2010:
+- erste Installation, Inbetriebnahme
+
+22.05.2010:
+- automatische Übernahme der Reglerparameter
+- Brenner-Solltemperatur auf 71°C begrenzen
+- Legionellen-Temperatur auf 65°C
+- Brenner-Alarm auf 85°C
+- Brennerhysterese auf +0°C und -2°C
+- Minimale Brennerlaufzeit auf 60000ms (1 min)
+- Brenner bei Übertemperatur mit Boiler kühlen wenn (Boiler < 80°C)
+- horizontale Gitternetzlinien für Tagestemperatur-Trend
+- Color-Datenpunkt für Regler eingeschaltet korrigiert
+- neue Mixer-Statemachine damit es nicht zum Flackern der I/Os kommt wenn nahe am Toleranzband
+
+02.06.2010:
+- updatePID immer wenn Heizung eingeschalten wird, da LCRslimPID die Reglerparameter verliert?
+- Heizkurve im 10° und 15!° Bereich um ca. 5° angehoben
+
+03.07.2010:
+- Statemachine für Warmwasser-Heizung:
+	- Scharf im Zeitfenster
+	- Wenn Entscheidung getroffen -> heizen bis Temperatur erreicht
+	- Boiler-Pumpe erst einschaltung wenn Brenner-Temperatur nur mehr 5° unter Boiler-Soll ist
+	- bei Legionellenabtötung wird rcpPar-Parameter überladen
+- Neue Reglereinstellungen: Kp = 4 statt 6, Tn = 200 stat 180
+- tempFlowSetOffset wird auf 0 begrenzt um negative Temperature an heissen Tagen zu vermeiden
+- Hotspots für Bewässerung neu angeordnet: Blumenhang verschoben, doppelter Hotspot für Grander
+

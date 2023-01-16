@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="SummerWinter">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="de">
+    <Text ID="94366" Value="Sommerbetrieb"/>
+    <Text ID="94367" Value="Winterbetrieb"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="94366" Value="1"/>
+    <Index ID="94367" Value="0"/>
+  </IndexMap>
+</TextGroup>

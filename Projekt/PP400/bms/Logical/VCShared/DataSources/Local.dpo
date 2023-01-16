@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<DataPoints xmlns="http://br-automation.co.at/AS/VC/Project" Name="Local">
+  <Property Name="DefaultUpdateTime" Value="200"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="TextGroup" Value="None"/>
+  <Folder Name="Globals">
+    <Property Name="Description" Value=""/>
+    <Property Name="FolderType" Value="Package"/>
+    <DataPoint Name="doBurner">
+      <Property Name="DataPointConnections" Value="2"/>
+      <Property Name="DataType" Value="BOOL"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="TargetType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+    </DataPoint>
+    <DataPoint Name="doIrrigPump">
+      <Property Name="DataPointConnections" Value="4"/>
+      <Property Name="DataType" Value="BOOL"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="TargetType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+    </DataPoint>
+    <DataPoint Name="doIrrigValve1">
+      <Property Name="DataPointConnections" Value="1"/>
+      <Property Name="DataType" Value="BOOL"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="TargetType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+    </DataPoint>
+    <DataPoint Name="doIrrigValve2">
+      <Property Name="DataPointConnections" Value="1"/>
+      <Property Name="DataType" Value="BOOL"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="TargetType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+    </DataPoint>
+    <DataPoint Name="doIrrigValve3">
+      <Property Name="DataPointConnections" Value="1"/>
+      <Property Name="DataType" Value="BOOL"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="TargetType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+    </DataPoint>
+    <DataPoint Name="doIrrigValve4">
+      <Property Name="DataPointConnections" Value="1"/>
+      <Property Name="DataType" Value="BOOL"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="TargetType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+    </DataPoint>
+    <DataPoint Name="doIrrigValve5">
+      <Property Name="DataPointConnections" Value="1"/>
+      <Property Name="DataType" Value="BOOL"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="TargetType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+    </DataPoint>
+    <DataPoint Name="doIrrigValve6">
+      <Property Name="DataPointConnections" Value="1"/>
+      <Property Name="DataType" Value="BOOL"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="TargetType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+    </DataPoint>
+    <Folder Name="gActData">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <Folder Name="heating">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <Folder Name="burner">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="tempAct">
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="SCALED"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="TargetType" Value="REAL"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="tempSet">
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="SCALED"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="TargetType" Value="REAL"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+        </Folder>
+        <DataPoint Name="enable">
+          <Property Name="DataPointConnections" Value="2"/>
+          <Property Name="DataType" Value="BOOL"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <Folder Name="hotwater">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="enable">
+            <Property Name="DataPointConnections" Value="2"/>
+            <Property Name="DataType" Value="BOOL"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="BOOL"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="tempAct">
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="SCALED"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="TargetType" Value="REAL"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+        </Folder>
+        <DataPoint Name="manSwitchedOff">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="BOOL"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="outOfHomeActive">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="BOOL"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="sActMixer">
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="DataPointConnections" Value="0"/>
+          <Property Name="DataType" Value="SCALED"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="TargetType" Value="REAL"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Percentage]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="sSetMixer">
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="SCALED"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="TargetType" Value="REAL"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Percentage]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="tempFlowAct">
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="SCALED"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="TargetType" Value="REAL"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="tempFlowSet">
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="SCALED"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="TargetType" Value="REAL"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="tempLivingroomAct">
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="SCALED"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="TargetType" Value="REAL"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="tempLivingroomSet">
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="SCALED"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="TargetType" Value="REAL"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="tempOutsideAct">
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="SCALED"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="TargetType" Value="REAL"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="tempOutsideDayHigh">
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="DataPointConnections" Value="0"/>
+          <Property Name="DataType" Value="SCALED"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="TargetType" Value="REAL"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="tempOutsideDayLow">
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="DataPointConnections" Value="0"/>
+          <Property Name="DataType" Value="SCALED"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="TargetType" Value="REAL"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+      </Folder>
+      <Folder Name="irrigation">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <Folder Name="segment">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct[6]"/>
+          <Folder Name="segment[0]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="switchOnRequest">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="BOOL"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="segment[1]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="switchOnRequest">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="BOOL"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="segment[2]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="switchOnRequest">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="BOOL"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="segment[3]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="switchOnRequest">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="BOOL"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="segment[4]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="switchOnRequest">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="BOOL"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="segment[5]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="switchOnRequest">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="BOOL"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+        </Folder>
+        <DataPoint Name="tankLevel">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="INTEGER"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="UINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+      </Folder>
+      <Folder Name="statistics">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <Folder Name="heating">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="onTimeBoilerBump">
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="SCALED"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="TargetType" Value="UDINT"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="onTimeBurner">
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="SCALED"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="TargetType" Value="UDINT"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="onTimeFlowPump">
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="SCALED"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="TargetType" Value="UDINT"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+        </Folder>
+        <Folder Name="irrigation">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="onTimePump">
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="SCALED"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="TargetType" Value="UDINT"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="valve">
+            <Property Name="DataPointConnections" Value="0"/>
+            <Property Name="DataType" Value="INTEGER[6]"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="UDINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+            <DataPoint Name="valve[0]">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="UDINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="valve[1]">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="UDINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="valve[2]">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="UDINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="valve[3]">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="UDINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="valve[4]">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="UDINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="valve[5]">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="UDINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </DataPoint>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="gAlarm">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <DataPoint Name="ack">
+        <Property Name="DataPointConnections" Value="0"/>
+        <Property Name="DataType" Value="BOOL[1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="TargetType" Value="BOOL"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+      </DataPoint>
+      <DataPoint Name="ackBlock">
+        <Property Name="DataPointConnections" Value="1"/>
+        <Property Name="DataType" Value="BOOL"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="TargetType" Value="BOOL"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+      </DataPoint>
+      <DataPoint Name="request">
+        <Property Name="DataPointConnections" Value="1"/>
+        <Property Name="DataType" Value="BOOL[1]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="TargetType" Value="BOOL"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+      </DataPoint>
+    </Folder>
+    <Folder Name="gHMI">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <Folder Name="cmd">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="setTime">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="BOOL"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="updateDateTime">
+          <Property Name="DataPointConnections" Value="16"/>
+          <Property Name="DataType" Value="BOOL"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="updatePID">
+          <Property Name="DataPointConnections" Value="2"/>
+          <Property Name="DataType" Value="BOOL"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+      </Folder>
+      <Folder Name="general">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="actPage">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="INTEGER"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="UINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="cmdNewPage">
+          <Property Name="DataPointConnections" Value="8"/>
+          <Property Name="DataType" Value="INTEGER"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="UINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="screenCleanTime">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="INTEGER"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="UDINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="setPage">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="INTEGER"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="UINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <Folder Name="setTime">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="day">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="hour">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="minute">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="month">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="year">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="UINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+        </Folder>
+      </Folder>
+      <Folder Name="heating">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <Folder Name="endTime">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="hour">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="minute">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+        </Folder>
+        <Folder Name="hotwater">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <Folder Name="endTime">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct[2]"/>
+            <Folder Name="endTime[0]">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="hour">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="minute">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <Folder Name="endTime[1]">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="hour">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="minute">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+          </Folder>
+          <Folder Name="startTime">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct[2]"/>
+            <Folder Name="startTime[0]">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="hour">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="minute">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <Folder Name="startTime[1]">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="hour">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="minute">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="outOfHome">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <Folder Name="endDate">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="day">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="USINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="month">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="USINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="startDate">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="day">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="USINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="month">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="USINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+        </Folder>
+        <Folder Name="startTime">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="hour">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="minute">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+        </Folder>
+        <DataPoint Name="statusDatapointAlarmIndicator">
+          <Property Name="DataPointConnections" Value="2"/>
+          <Property Name="DataType" Value="INTEGER"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="UINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="statusDatapointLoweringText">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="INTEGER"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="UINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="tempLivingroomTendency">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="INTEGER"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="USINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+        <DataPoint Name="tempOutsideTendency">
+          <Property Name="DataPointConnections" Value="1"/>
+          <Property Name="DataType" Value="INTEGER"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="TargetType" Value="USINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+        </DataPoint>
+      </Folder>
+      <Folder Name="recipe">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <Folder Name="ctrl">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="load">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="BOOL"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="BOOL"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="loadOk">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="nameIndex">
+            <Property Name="DataPointConnections" Value="10"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="UINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="save">
+            <Property Name="DataPointConnections" Value="2"/>
+            <Property Name="DataType" Value="BOOL"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="BOOL"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="saveOk">
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="USINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+        </Folder>
+        <Folder Name="data">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <Folder Name="heating">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <Folder Name="hotwater">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="tempSet">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <DataPoint Name="kp">
+              <Property Name="DPLimit" Value="None"/>
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="SCALED"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="None"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="None"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="tempFlowSetOffset">
+              <Property Name="DPLimit" Value="Default"/>
+              <Property Name="DataPointConnections" Value="0"/>
+              <Property Name="DataType" Value="SCALED"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="None"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="tempLivingroomSet">
+              <Property Name="DPLimit" Value="Default"/>
+              <Property Name="DataPointConnections" Value="0"/>
+              <Property Name="DataType" Value="SCALED"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="None"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="tempLowOffset">
+              <Property Name="DPLimit" Value="Default"/>
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="SCALED"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="None"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="tempManOffset">
+              <Property Name="DPLimit" Value="Default"/>
+              <Property Name="DataPointConnections" Value="2"/>
+              <Property Name="DataType" Value="SCALED"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="None"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="tn">
+              <Property Name="DPLimit" Value="None"/>
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="SCALED"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="None"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="None"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="trend">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <Folder Name="day">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct[2]"/>
+          <Folder Name="day[0]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="dataBuffer">
+              <Property Name="DPLimit" Value="Default"/>
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="SCALED[360]"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="Default"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="nbSamples">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="UDINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="day[1]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="dataBuffer">
+              <Property Name="DPLimit" Value="Default"/>
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="SCALED[360]"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="None"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="nbSamples">
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="INTEGER"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="UDINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+        </Folder>
+        <Folder Name="year">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct[2]"/>
+          <Folder Name="year[0]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <Folder Name="date">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="day">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="month">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="year">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <Folder Name="heat">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="dataBuffer">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED[366]"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="Default"/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="enable">
+                <Property Name="DataPointConnections" Value="2"/>
+                <Property Name="DataType" Value="BOOL"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="BOOL"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="hoursDate">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="hoursTotal">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="nbSamples">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="statusDatapoint">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <Folder Name="high">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="dataBuffer">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED[366]"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="enable">
+                <Property Name="DataPointConnections" Value="2"/>
+                <Property Name="DataType" Value="BOOL"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="BOOL"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="nbSamples">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="statusDatapoint">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="tempAv">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="0"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="tempDate">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <Folder Name="low">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="dataBuffer">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED[366]"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="enable">
+                <Property Name="DataPointConnections" Value="2"/>
+                <Property Name="DataType" Value="BOOL"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="BOOL"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="nbSamples">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="statusDatapoint">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="tempAv">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="0"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="tempDate">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <DataPoint Name="tempAv">
+              <Property Name="DPLimit" Value="Default"/>
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="SCALED"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="None"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="update">
+              <Property Name="DataPointConnections" Value="3"/>
+              <Property Name="DataType" Value="BOOL"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="year[1]">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <Folder Name="date">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="day">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="month">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="USINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="year">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <Folder Name="heat">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="dataBuffer">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED[366]"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="Default"/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="enable">
+                <Property Name="DataPointConnections" Value="2"/>
+                <Property Name="DataType" Value="BOOL"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="BOOL"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="hoursDate">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="hoursTotal">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="nbSamples">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="statusDatapoint">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <Folder Name="high">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="dataBuffer">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED[366]"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="enable">
+                <Property Name="DataPointConnections" Value="2"/>
+                <Property Name="DataType" Value="BOOL"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="BOOL"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="nbSamples">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="statusDatapoint">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="tempAv">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="0"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="tempDate">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <Folder Name="low">
+              <Property Name="Description" Value=""/>
+              <Property Name="FolderType" Value="Struct"/>
+              <DataPoint Name="dataBuffer">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED[366]"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="enable">
+                <Property Name="DataPointConnections" Value="2"/>
+                <Property Name="DataType" Value="BOOL"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="BOOL"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="nbSamples">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UDINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="statusDatapoint">
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="INTEGER"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="TargetType" Value="UINT"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="tempAv">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="0"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+              <DataPoint Name="tempDate">
+                <Property Name="DPLimit" Value="Default"/>
+                <Property Name="DataPointConnections" Value="1"/>
+                <Property Name="DataType" Value="SCALED"/>
+                <Property Name="Description" Value=""/>
+                <Property Name="PLCUnit" Value="None"/>
+                <Property Name="TargetType" Value="REAL"/>
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+                <Property Name="UpdateTime" Value="Default"/>
+                <Property Name="UserID" Value="None"/>
+              </DataPoint>
+            </Folder>
+            <DataPoint Name="tempAv">
+              <Property Name="DPLimit" Value="Default"/>
+              <Property Name="DataPointConnections" Value="1"/>
+              <Property Name="DataType" Value="SCALED"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCUnit" Value="None"/>
+              <Property Name="TargetType" Value="REAL"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+            <DataPoint Name="update">
+              <Property Name="DataPointConnections" Value="3"/>
+              <Property Name="DataType" Value="BOOL"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="TargetType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+            </DataPoint>
+          </Folder>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="MainStation">
+    <Property Name="Description" Value=""/>
+    <Property Name="FolderType" Value="Package"/>
+    <Folder Name="HeatingSystem">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Package"/>
+      <Folder Name="hs_con">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Program"/>
+        <Folder Name="fLCRSlimPID">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="Y">
+            <Property Name="DPLimit" Value="None"/>
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="SCALED"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="TargetType" Value="REAL"/>
+            <Property Name="UnitGroup" Value="None"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="e">
+            <Property Name="DPLimit" Value="None"/>
+            <Property Name="DataPointConnections" Value="1"/>
+            <Property Name="DataType" Value="SCALED"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="TargetType" Value="REAL"/>
+            <Property Name="UnitGroup" Value="None"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+          <DataPoint Name="status">
+            <Property Name="DataPointConnections" Value="0"/>
+            <Property Name="DataType" Value="INTEGER"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="TargetType" Value="UINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+          </DataPoint>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</DataPoints>

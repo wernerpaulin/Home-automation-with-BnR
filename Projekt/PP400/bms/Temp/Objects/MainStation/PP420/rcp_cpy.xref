@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<Crossref Scope="MainStation.rcp_cpy">
+	<Vars>
+		<Var Name="rcp_cpy.RECIPE_FILE_NAME_1" Scope="Local" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="51" C="45" PS="Ln:51, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.RECIPE_FILE_NAME_2" Scope="Local" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="53" C="45" PS="Ln:53, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.fDatObjInfo" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="60" C="3" PS="Ln:60, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.fDatObjInfo.status" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="63" C="7" PS="Ln:63, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.fDatObjInfo.ident" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="64" C="39" PS="Ln:64, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.fDatObjRead" Scope="Local" Type="DatObjRead">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="64" C="5" PS="Ln:64, Col:5" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.fDatObjRead.status" Scope="Local" Type="DatObjRead">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="66" C="8" PS="Ln:66, Col:8" A="R"/>
+				<Pos L="68" C="9" PS="Ln:68, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.index" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="127" C="7" PS="Ln:127, Col:7" A="W"/>
+				<Pos L="128" C="48" PS="Ln:128, Col:48" A="R"/>
+				<Pos L="128" C="95" PS="Ln:128, Col:95" A="R"/>
+				<Pos L="128" C="157" PS="Ln:128, Col:157" A="R"/>
+				<Pos L="129" C="46" PS="Ln:129, Col:46" A="R"/>
+				<Pos L="129" C="93" PS="Ln:129, Col:93" A="R"/>
+				<Pos L="129" C="155" PS="Ln:129, Col:155" A="R"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.fDatObjUpdate" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="95" C="3" PS="Ln:95, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.fDatObjUpdate.status" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="96" C="7" PS="Ln:96, Col:7" A="R"/>
+				<Pos L="98" C="8" PS="Ln:98, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.actPicOld" Scope="Local" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="33" C="6" PS="Ln:33, Col:6" A="R"/>
+				<Pos L="38" C="2" PS="Ln:38, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="rcp_cpy.newPage" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="34" C="3" PS="Ln:34, Col:3" A="W"/>
+				<Pos L="36" C="3" PS="Ln:36, Col:3" A="W"/>
+				<Pos L="41" C="6" PS="Ln:41, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="69" C="40" PS="Ln:69, Col:40" A="R"/>
+				<Pos L="95" C="70" PS="Ln:95, Col:70" A="R"/>
+				<Pos L="95" C="134" PS="Ln:95, Col:134" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.isValid" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="109" C="3" PS="Ln:109, Col:3" A="W"/>
+				<Pos L="133" C="3" PS="Ln:133, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.startTime" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="112" C="44" PS="Ln:112, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.endTime" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="113" C="41" PS="Ln:113, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.outOfHome.startDay" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="115" C="50" PS="Ln:115, Col:50" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.outOfHome.endDay" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="116" C="48" PS="Ln:116, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.tempLivingroomSet" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="118" C="49" PS="Ln:118, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.tempManOffset" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="119" C="46" PS="Ln:119, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.tempLowOffset" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="120" C="46" PS="Ln:120, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.tempFlowSetOffset" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="121" C="49" PS="Ln:121, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.kp" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="123" C="38" PS="Ln:123, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.tn" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="124" C="38" PS="Ln:124, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.hotwater.startTime" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="128" C="58" PS="Ln:128, Col:58" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.hotwater.endTime" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="129" C="58" PS="Ln:129, Col:58" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data.heating.hotwater.tempSet" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="131" C="48" PS="Ln:131, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.ctrl.name" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="26" C="13" PS="Ln:26, Col:13" A="R"/>
+				<Pos L="49" C="14" PS="Ln:49, Col:14" A="R"/>
+				<Pos L="51" C="14" PS="Ln:51, Col:14" A="R"/>
+				<Pos L="53" C="14" PS="Ln:53, Col:14" A="R"/>
+				<Pos L="55" C="14" PS="Ln:55, Col:14" A="R"/>
+				<Pos L="60" C="41" PS="Ln:60, Col:41" A="R"/>
+				<Pos L="88" C="52" PS="Ln:88, Col:52" A="R"/>
+				<Pos L="95" C="30" PS="Ln:95, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.ctrl.load" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="27" C="2" PS="Ln:27, Col:2" A="W"/>
+				<Pos L="59" C="6" PS="Ln:59, Col:6" A="R"/>
+				<Pos L="76" C="5" PS="Ln:76, Col:5" A="W"/>
+				<Pos L="81" C="4" PS="Ln:81, Col:4" A="W"/>
+				<Pos L="108" C="6" PS="Ln:108, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.general.actPage" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="33" C="19" PS="Ln:33, Col:19" A="R"/>
+				<Pos L="38" C="15" PS="Ln:38, Col:15" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.ctrl.loadOk" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="42" C="3" PS="Ln:42, Col:3" A="W"/>
+				<Pos L="71" C="6" PS="Ln:71, Col:6" A="W"/>
+				<Pos L="74" C="6" PS="Ln:74, Col:6" A="W"/>
+				<Pos L="82" C="4" PS="Ln:82, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.ctrl.saveOk" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="43" C="3" PS="Ln:43, Col:3" A="W"/>
+				<Pos L="90" C="3" PS="Ln:90, Col:3" A="W"/>
+				<Pos L="100" C="5" PS="Ln:100, Col:5" A="W"/>
+				<Pos L="103" C="4" PS="Ln:103, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.ctrl.nameIndex" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="48" C="6" PS="Ln:48, Col:6" A="R"/>
+				<Pos L="50" C="9" PS="Ln:50, Col:9" A="R"/>
+				<Pos L="52" C="9" PS="Ln:52, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="64" C="91" PS="Ln:64, Col:91" A="R"/>
+				<Pos L="64" C="124" PS="Ln:64, Col:124" A="R"/>
+				<Pos L="69" C="17" PS="Ln:69, Col:17" A="R"/>
+				<Pos L="69" C="59" PS="Ln:69, Col:59" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.ctrl.cntLoad" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="73" C="6" PS="Ln:73, Col:6" A="W"/>
+				<Pos L="73" C="34" PS="Ln:73, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.ctrl.save" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="84" C="3" PS="Ln:84, Col:3" A="W"/>
+				<Pos L="88" C="6" PS="Ln:88, Col:6" A="R"/>
+				<Pos L="89" C="4" PS="Ln:89, Col:4" A="W"/>
+				<Pos L="94" C="6" PS="Ln:94, Col:6" A="R"/>
+				<Pos L="102" C="4" PS="Ln:102, Col:4" A="W"/>
+				<Pos L="108" C="42" PS="Ln:108, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.startTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="112" C="3" PS="Ln:112, Col:3" A="W"/>
+				<Pos L="112" C="85" PS="Ln:112, Col:85" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.endTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="113" C="3" PS="Ln:113, Col:3" A="W"/>
+				<Pos L="113" C="80" PS="Ln:113, Col:80" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.outOfHome.startDay" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="115" C="3" PS="Ln:115, Col:3" A="W"/>
+				<Pos L="115" C="98" PS="Ln:115, Col:98" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.outOfHome.endDay" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="116" C="3" PS="Ln:116, Col:3" A="W"/>
+				<Pos L="116" C="95" PS="Ln:116, Col:95" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.tempLivingroomSet" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="118" C="3" PS="Ln:118, Col:3" A="W"/>
+				<Pos L="118" C="96" PS="Ln:118, Col:96" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.tempManOffset" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="119" C="3" PS="Ln:119, Col:3" A="W"/>
+				<Pos L="119" C="90" PS="Ln:119, Col:90" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.tempLowOffset" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="120" C="3" PS="Ln:120, Col:3" A="W"/>
+				<Pos L="120" C="90" PS="Ln:120, Col:90" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.tempFlowSetOffset" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="121" C="3" PS="Ln:121, Col:3" A="W"/>
+				<Pos L="121" C="96" PS="Ln:121, Col:96" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.kp" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="123" C="3" PS="Ln:123, Col:3" A="W"/>
+				<Pos L="123" C="74" PS="Ln:123, Col:74" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.tn" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="124" C="3" PS="Ln:124, Col:3" A="W"/>
+				<Pos L="124" C="74" PS="Ln:124, Col:74" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.hotwater.startTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="128" C="4" PS="Ln:128, Col:4" A="W"/>
+				<Pos L="128" C="113" PS="Ln:128, Col:113" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.hotwater.endTime" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="129" C="4" PS="Ln:129, Col:4" A="W"/>
+				<Pos L="129" C="113" PS="Ln:129, Col:113" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gHMI.recipe.data.heating.hotwater.tempSet" Scope="Global" Type="hmi_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="131" C="3" PS="Ln:131, Col:3" A="W"/>
+				<Pos L="131" C="94" PS="Ln:131, Col:94" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.request" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="70" C="6" PS="Ln:70, Col:6" A="W"/>
+				<Pos L="80" C="4" PS="Ln:80, Col:4" A="W"/>
+				<Pos L="99" C="5" PS="Ln:99, Col:5" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="rcp_cpy.OK_FLAG_INVISIBLE" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="42" C="30" PS="Ln:42, Col:30" A="R"/>
+				<Pos L="43" C="30" PS="Ln:43, Col:30" A="R"/>
+			</File>
+		</Const>
+		<Const Name="rcp_cpy.OK_FLAG_ERROR" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="71" C="33" PS="Ln:71, Col:33" A="R"/>
+				<Pos L="82" C="31" PS="Ln:82, Col:31" A="R"/>
+				<Pos L="90" C="30" PS="Ln:90, Col:30" A="R"/>
+				<Pos L="100" C="32" PS="Ln:100, Col:32" A="R"/>
+			</File>
+		</Const>
+		<Const Name="rcp_cpy.OK_FLAG_OK" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="74" C="33" PS="Ln:74, Col:33" A="R"/>
+				<Pos L="103" C="31" PS="Ln:103, Col:31" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERR_OK" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="68" C="31" PS="Ln:68, Col:31" A="R"/>
+				<Pos L="98" C="32" PS="Ln:98, Col:32" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERR_FUB_BUSY" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="66" C="30" PS="Ln:66, Col:30" A="R"/>
+				<Pos L="96" C="31" PS="Ln:96, Col:31" A="R"/>
+			</File>
+		</Const>
+		<Const Name="MAX_HOTWATER_TIME_INDEX" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="127" C="21" PS="Ln:127, Col:21" A="R"/>
+			</File>
+		</Const>
+		<Const Name="BOILER_MAX_TEMP" Scope="Global" Type="REAL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="131" C="141" PS="Ln:131, Col:141" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+		<Enum Name="ALARM_RECIPE_READ" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="70" C="21" PS="Ln:70, Col:21" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_RECIPE_WRITE" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="99" C="20" PS="Ln:99, Col:20" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="ALARM_RECIPE_NAME_INV" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="80" C="19" PS="Ln:80, Col:19" A="R"/>
+			</File>
+		</Enum>
+	</Enums>
+	<Funcs>
+		<Func Name="DatObjUpdate" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="95" C="3" PS="Ln:95, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="DatObjRead" Lib="DataObj">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="64" C="5" PS="Ln:64, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="DatObjInfo" Lib="DataObj">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="60" C="3" PS="Ln:60, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="69" C="6" PS="Ln:69, Col:6"/>
+			</File>
+		</Func>
+		<Func Name="strcpy" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="26" C="2" PS="Ln:26, Col:2"/>
+				<Pos L="49" C="3" PS="Ln:49, Col:3"/>
+				<Pos L="51" C="3" PS="Ln:51, Col:3"/>
+				<Pos L="53" C="3" PS="Ln:53, Col:3"/>
+				<Pos L="55" C="3" PS="Ln:55, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="strcmp" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/rcp_cpy/rcp_cpy.st">
+				<Pos L="88" C="41" PS="Ln:88, Col:41"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

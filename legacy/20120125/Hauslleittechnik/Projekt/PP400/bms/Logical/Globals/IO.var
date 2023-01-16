@@ -1,0 +1,34 @@
+(********************************************************************
+ * COPYRIGHT --  WERNER PAULIN
+ ********************************************************************
+ * File: IO.var
+ * Author: paulinw
+ * Created: December 27, 2009
+ ********************************************************************
+ * Global variables of project bms
+ ********************************************************************)
+(*Irrigation sysem I/Os*)
+VAR
+	diTankLevelHigh : BOOL := FALSE; (*tank level indicator high*)
+	diTankLevelLow : BOOL := FALSE; (*tank level indicator low*)
+	doIrrigValve1 : BOOL := FALSE; (*valve on/off*)
+	doIrrigValve2 : BOOL := FALSE; (*valve on/off*)
+	doIrrigValve3 : BOOL := FALSE; (*valve on/off*)
+	doIrrigValve4 : BOOL := FALSE; (*valve on/off*)
+	doIrrigValve5 : BOOL := FALSE; (*valve on/off*)
+	doIrrigValve6 : BOOL := FALSE; (*valve on/off*)
+	doIrrigPump : BOOL := FALSE; (*valve on/off*)
+END_VAR
+(*Heating system I/Os*)
+VAR
+	aiTempBurner : UINT; (*raw value of temperature sensor: burner*)
+	aiTempFlow : UINT; (*raw value of temperature sensor: flow temperature*)
+	aiTempOutside : UINT; (*raw value of temperature sensor: outside*)
+	aiTempLivingroom : UINT; (*raw value of temperature sensor: livingroom*)
+	aiTempBoiler : UINT; (*raw value of temperature sensor: boiler*)
+	doBurner : BOOL := FALSE; (*burner on/off*)
+	doFlowPump : BOOL := FALSE; (*flow pump on/off*)
+	doBoilerPump : BOOL := FALSE; (*boiler pump on/off*)
+	doMixerOpen : BOOL := FALSE; (*open mixer*)
+	doMixerClose : BOOL := FALSE; (*close mixer*)
+END_VAR

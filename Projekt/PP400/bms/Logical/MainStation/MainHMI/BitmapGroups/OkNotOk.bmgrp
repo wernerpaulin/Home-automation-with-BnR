@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="OkNotOk">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="13"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="835" Value="Source[local].Bitmap[ok_ico]"/>
+    <BitmapRef ID="836" Value="Source[local].Bitmap[not_ok_ico]"/>
+    <BitmapRef ID="837" Value="Source[local].Bitmap[blank24_ico]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="835" Value="1"/>
+    <Index ID="836" Value="2"/>
+    <Index ID="837" Value="0"/>
+  </IndexMap>
+</BitmapGroup>

@@ -1,0 +1,215 @@
+<KEY_SETTINGS>
+	<VISUAL_OBJECT TYPE="Panel">
+		<KEYS>
+			<PROPERTY P_NAME="KEYCOUNT" VALUE="26"/>
+			<KEY INDEX="0">
+				<PROPERTY P_NAME="NAME" VALUE="S0"/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS>
+					<LEVEL ID="0">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="1">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="2">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="3">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+				</KEYLEVELS>
+			</KEY>
+			<KEY INDEX="1">
+				<PROPERTY P_NAME="NAME" VALUE="S1"/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS>
+					<LEVEL ID="0">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="1">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="2">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="3">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+				</KEYLEVELS>
+			</KEY>
+			<KEY INDEX="2">
+				<PROPERTY P_NAME="NAME" VALUE="S2"/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS>
+					<LEVEL ID="0">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="1">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="2">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="3">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+				</KEYLEVELS>
+			</KEY>
+			<KEY INDEX="3">
+				<PROPERTY P_NAME="NAME" VALUE="S3"/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS>
+					<LEVEL ID="0">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="1">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="2">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="3">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+				</KEYLEVELS>
+			</KEY>
+			<KEY INDEX="4">
+				<PROPERTY P_NAME="NAME" VALUE="S4"/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS>
+					<LEVEL ID="0">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="1">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="2">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="3">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+				</KEYLEVELS>
+			</KEY>
+			<KEY INDEX="5">
+				<PROPERTY P_NAME="NAME" VALUE="S5"/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS>
+					<LEVEL ID="0">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="1">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="2">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+					<LEVEL ID="3">
+						<PROPERTY P_NAME="TYPE" VALUE="FunctionKey"/>
+					</LEVEL>
+				</KEYLEVELS>
+			</KEY>
+			<KEY INDEX="6">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="7">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="8">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="9">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="1"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="10">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="11">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="12">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="13">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="14">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="15">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="16">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="17">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="18">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="19">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="20">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="21">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="22">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="23">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="24">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+			<KEY INDEX="25">
+				<PROPERTY P_NAME="NAME" VALUE=""/>
+				<PROPERTY P_NAME="LEDKEY" VALUE="0"/>
+				<KEYLEVELS/>
+			</KEY>
+		</KEYS>
+	</VISUAL_OBJECT>
+</KEY_SETTINGS>

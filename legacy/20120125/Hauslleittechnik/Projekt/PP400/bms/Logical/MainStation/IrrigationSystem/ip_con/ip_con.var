@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: ip_con
+ * File: ip_con.var
+ * Author: asdemo
+ * Created: December 27, 2009
+ ********************************************************************
+ * Local variables of program ip_con
+ ********************************************************************)
+VAR
+	cycT : UDINT;
+	fRTInfo : RTInfo;
+	oldMinute : USINT;
+	newMinute : BOOL;
+	rcpData : rcpData_typ;
+	IrrigValveMgr1 : IrrigValveMgr;
+	IrrigValveMgr2 : IrrigValveMgr;
+	IrrigValveMgr3 : IrrigValveMgr;
+	IrrigValveMgr4 : IrrigValveMgr;
+	IrrigValveMgr5 : IrrigValveMgr;
+	IrrigValveMgr6 : IrrigValveMgr;
+END_VAR

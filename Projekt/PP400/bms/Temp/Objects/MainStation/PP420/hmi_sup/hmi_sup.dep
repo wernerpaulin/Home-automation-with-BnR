@@ -1,0 +1,12 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/bmslib/bmslib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/VcScrSht/VcScrSht.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
+$(AS_PROJECT_PATH)/Logical/MainStation/hmi_sup/hmi_sup.var
+$(AS_PROJECT_PATH)/Logical/Globals/Global.var
+$(AS_PROJECT_PATH)/Logical/Globals/Global.typ
+$(AS_PROJECT_PATH)/Logical/Globals/Alarms.var
+$(AS_PROJECT_PATH)/Logical/Globals/Alarms.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.var

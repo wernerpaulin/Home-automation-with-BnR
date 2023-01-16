@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Crossref Scope="MainStation.statistics">
+	<Vars>
+		<Var Name="statistics.fDatObjInfo" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="23" C="2" PS="Ln:23, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="statistics.fDatObjInfo.status" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="24" C="6" PS="Ln:24, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="statistics.fDatObjInfo.ident" Scope="Local" Type="DatObjInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="25" C="37" PS="Ln:25, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="statistics.oldHour" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="32" C="6" PS="Ln:32, Col:6" A="R"/>
+				<Pos L="35" C="2" PS="Ln:35, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="statistics.cmdWriteStatistics" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="33" C="3" PS="Ln:33, Col:3" A="W"/>
+				<Pos L="37" C="6" PS="Ln:37, Col:6" A="R"/>
+				<Pos L="41" C="4" PS="Ln:41, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="statistics.fDatObjUpdate" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="38" C="4" PS="Ln:38, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="statistics.fDatObjUpdate.status" Scope="Local" Type="DatObjUpdate">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="40" C="7" PS="Ln:40, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="statistics.fDatObjRead" Scope="Local" Type="DatObjRead">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="25" C="3" PS="Ln:25, Col:3" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="gActData.statistics" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="25" C="89" PS="Ln:25, Col:89" A="R"/>
+				<Pos L="25" C="125" PS="Ln:25, Col:125" A="R"/>
+				<Pos L="38" C="69" PS="Ln:38, Col:69" A="R"/>
+				<Pos L="38" C="143" PS="Ln:38, Col:143" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.hour" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="32" C="17" PS="Ln:32, Col:17" A="R"/>
+				<Pos L="32" C="50" PS="Ln:32, Col:50" A="R"/>
+				<Pos L="35" C="13" PS="Ln:35, Col:13" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="ERR_OK" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="24" C="27" PS="Ln:24, Col:27" A="R"/>
+			</File>
+		</Const>
+		<Const Name="ERR_FUB_BUSY" Scope="Global" Type="UINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="40" C="31" PS="Ln:40, Col:31" A="R"/>
+			</File>
+		</Const>
+		<Const Name="BMS_STATISTICS_DO_NAME" Scope="Global" Type="STRING[10]">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="23" C="40" PS="Ln:23, Col:40" A="R"/>
+				<Pos L="38" C="31" PS="Ln:38, Col:31" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="DatObjUpdate" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="38" C="4" PS="Ln:38, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="DatObjRead" Lib="DataObj">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="25" C="3" PS="Ln:25, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="DatObjInfo" Lib="DataObj">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/statistics/statistics.st">
+				<Pos L="23" C="2" PS="Ln:23, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

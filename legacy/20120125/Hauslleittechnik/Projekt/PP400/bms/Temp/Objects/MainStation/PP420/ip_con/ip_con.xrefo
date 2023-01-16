@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<Crossref Scope="MainStation.IrrigationSystem.ip_con">
+	<Vars>
+		<Var Name="ip_con.cycT" Scope="Local" Type="UDINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="22" C="2" PS="Ln:22, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.fRTInfo" Scope="Local" Type="RTInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="21" C="2" PS="Ln:21, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.fRTInfo.cycle_time" Scope="Local" Type="RTInfo">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="22" C="10" PS="Ln:22, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.oldMinute" Scope="Local" Type="USINT">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="28" C="6" PS="Ln:28, Col:6" A="R"/>
+				<Pos L="30" C="3" PS="Ln:30, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.newMinute" Scope="Local" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="29" C="3" PS="Ln:29, Col:3" A="W"/>
+				<Pos L="32" C="3" PS="Ln:32, Col:3" A="W"/>
+				<Pos L="41" C="30" PS="Ln:41, Col:30" A="R"/>
+				<Pos L="42" C="30" PS="Ln:42, Col:30" A="R"/>
+				<Pos L="43" C="30" PS="Ln:43, Col:30" A="R"/>
+				<Pos L="44" C="30" PS="Ln:44, Col:30" A="R"/>
+				<Pos L="45" C="30" PS="Ln:45, Col:30" A="R"/>
+				<Pos L="46" C="30" PS="Ln:46, Col:30" A="R"/>
+				<Pos L="88" C="92" PS="Ln:88, Col:92" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.rcpData" Scope="Local" Type="rcpData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="37" C="14" PS="Ln:37, Col:14" A="R"/>
+				<Pos L="37" C="47" PS="Ln:37, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr1" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="41" C="2" PS="Ln:41, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr1.pumpRequest" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="49" C="17" PS="Ln:49, Col:17" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr2" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="42" C="2" PS="Ln:42, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr2.pumpRequest" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="50" C="8" PS="Ln:50, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr3" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="43" C="2" PS="Ln:43, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr3.pumpRequest" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="51" C="8" PS="Ln:51, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr4" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="44" C="2" PS="Ln:44, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr4.pumpRequest" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="52" C="8" PS="Ln:52, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr5" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="45" C="2" PS="Ln:45, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr5.pumpRequest" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="53" C="8" PS="Ln:53, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr6" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="46" C="2" PS="Ln:46, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="ip_con.IrrigValveMgr6.pumpRequest" Scope="Local" Type="IrrigValveMgr">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="54" C="8" PS="Ln:54, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.minute" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="28" C="19" PS="Ln:28, Col:19" A="R"/>
+				<Pos L="30" C="16" PS="Ln:30, Col:16" A="R"/>
+				<Pos L="69" C="8" PS="Ln:69, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.irrigation.segment.switchOnRequest" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="41" C="60" PS="Ln:41, Col:60" A="R"/>
+				<Pos L="42" C="60" PS="Ln:42, Col:60" A="R"/>
+				<Pos L="43" C="60" PS="Ln:43, Col:60" A="R"/>
+				<Pos L="44" C="60" PS="Ln:44, Col:60" A="R"/>
+				<Pos L="45" C="60" PS="Ln:45, Col:60" A="R"/>
+				<Pos L="46" C="60" PS="Ln:46, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.wday" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="57" C="6" PS="Ln:57, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.general.time.hour" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="58" C="6" PS="Ln:58, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.statistics.irrigation.valve" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="80" C="2" PS="Ln:80, Col:2" A="W"/>
+				<Pos L="80" C="45" PS="Ln:80, Col:45" A="R"/>
+				<Pos L="81" C="2" PS="Ln:81, Col:2" A="W"/>
+				<Pos L="81" C="45" PS="Ln:81, Col:45" A="R"/>
+				<Pos L="82" C="2" PS="Ln:82, Col:2" A="W"/>
+				<Pos L="82" C="45" PS="Ln:82, Col:45" A="R"/>
+				<Pos L="83" C="2" PS="Ln:83, Col:2" A="W"/>
+				<Pos L="83" C="45" PS="Ln:83, Col:45" A="R"/>
+				<Pos L="84" C="2" PS="Ln:84, Col:2" A="W"/>
+				<Pos L="84" C="45" PS="Ln:84, Col:45" A="R"/>
+				<Pos L="85" C="2" PS="Ln:85, Col:2" A="W"/>
+				<Pos L="85" C="45" PS="Ln:85, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.statistics.irrigation.onTimePump" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="88" C="3" PS="Ln:88, Col:3" A="W"/>
+				<Pos L="88" C="48" PS="Ln:88, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gActData.irrigation.tankLevel" Scope="Global" Type="actData_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="93" C="3" PS="Ln:93, Col:3" A="W"/>
+				<Pos L="95" C="3" PS="Ln:95, Col:3" A="W"/>
+				<Pos L="97" C="3" PS="Ln:97, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.isValid" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="36" C="6" PS="Ln:36, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCfg.data" Scope="Global" Type="cfg_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="37" C="28" PS="Ln:37, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gIrrigationNodeOk" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="101" C="57" PS="Ln:101, Col:57" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diTankLevelHigh" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="92" C="6" PS="Ln:92, Col:6" A="R"/>
+				<Pos L="94" C="9" PS="Ln:94, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diTankLevelLow" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="92" C="35" PS="Ln:92, Col:35" A="R"/>
+				<Pos L="94" C="39" PS="Ln:94, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve1" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="41" C="117" PS="Ln:41, Col:117" A="R"/>
+				<Pos L="62" C="3" PS="Ln:62, Col:3" A="W"/>
+				<Pos L="70" C="8" PS="Ln:70, Col:8" A="W"/>
+				<Pos L="80" C="95" PS="Ln:80, Col:95" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve2" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="42" C="117" PS="Ln:42, Col:117" A="R"/>
+				<Pos L="63" C="3" PS="Ln:63, Col:3" A="W"/>
+				<Pos L="71" C="8" PS="Ln:71, Col:8" A="W"/>
+				<Pos L="81" C="95" PS="Ln:81, Col:95" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve3" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="43" C="117" PS="Ln:43, Col:117" A="R"/>
+				<Pos L="64" C="3" PS="Ln:64, Col:3" A="W"/>
+				<Pos L="72" C="8" PS="Ln:72, Col:8" A="W"/>
+				<Pos L="82" C="95" PS="Ln:82, Col:95" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve4" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="44" C="117" PS="Ln:44, Col:117" A="R"/>
+				<Pos L="65" C="3" PS="Ln:65, Col:3" A="W"/>
+				<Pos L="73" C="8" PS="Ln:73, Col:8" A="W"/>
+				<Pos L="83" C="95" PS="Ln:83, Col:95" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve5" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="45" C="117" PS="Ln:45, Col:117" A="R"/>
+				<Pos L="66" C="3" PS="Ln:66, Col:3" A="W"/>
+				<Pos L="74" C="8" PS="Ln:74, Col:8" A="W"/>
+				<Pos L="84" C="95" PS="Ln:84, Col:95" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve6" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="46" C="117" PS="Ln:46, Col:117" A="R"/>
+				<Pos L="67" C="3" PS="Ln:67, Col:3" A="W"/>
+				<Pos L="75" C="8" PS="Ln:75, Col:8" A="W"/>
+				<Pos L="85" C="95" PS="Ln:85, Col:95" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigPump" Scope="Global" Type="BOOL">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="49" C="2" PS="Ln:49, Col:2" A="W"/>
+				<Pos L="59" C="6" PS="Ln:59, Col:6" A="R"/>
+				<Pos L="87" C="6" PS="Ln:87, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAlarm.request" Scope="Global" Type="alarm_typ">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="101" C="2" PS="Ln:101, Col:2" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+		<Enum Name="ALARM_IRRIGATION_NODE_CON_ERROR" Scope="Global" Type="ALARMS">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="101" C="17" PS="Ln:101, Col:17" A="R"/>
+			</File>
+		</Enum>
+	</Enums>
+	<Funcs>
+		<Func Name="IrrigValveMgr" Lib="bmslib">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="41" C="2" PS="Ln:41, Col:2"/>
+				<Pos L="42" C="2" PS="Ln:42, Col:2"/>
+				<Pos L="43" C="2" PS="Ln:43, Col:2"/>
+				<Pos L="44" C="2" PS="Ln:44, Col:2"/>
+				<Pos L="45" C="2" PS="Ln:45, Col:2"/>
+				<Pos L="46" C="2" PS="Ln:46, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="37" C="3" PS="Ln:37, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="RTInfo" Lib="brsystem">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/IrrigationSystem/ip_con/ip_con.st">
+				<Pos L="21" C="2" PS="Ln:21, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

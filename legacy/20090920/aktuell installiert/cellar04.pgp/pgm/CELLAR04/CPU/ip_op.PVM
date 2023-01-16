@@ -1,0 +1,35 @@
+WATCH Ver=2.00 PLCName=CELLAR04 CPUName=CPU TaskName=ip_op 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand
+                                 newMode                                 USINT[6]    0 "                                                               *"    0    5    6    0    1    1
+                              newMode[0]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                              newMode[1]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                              newMode[2]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                              newMode[3]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                              newMode[4]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                              newMode[5]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                                    mode                                 USINT[6]    0 "                                                               *"    0    5    6    0    1    1
+                                 mode[0]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                                 mode[1]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                                 mode[2]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                                 mode[3]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                                 mode[4]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                                 mode[5]                                    USINT    0 "                                                               0"    1    5    1   10    1    0
+                              gHMIrcpPar                               rcpPar_typ    0 "                                                               *"    0  100    1    0    0    1
+                              irrigation                     rcpParIrrigation_typ    0 "                                                               *"    1  100    1    0    0    1
+                                 segment                     rcpParSegment_typ[6]    0 "                                                               *"    2  100    6    0    0    1
+                              segment[0]                        rcpParSegment_typ    0 "                                                               *"    3  100    1    0    0    1
+                                    mode                                    UDINT    0 "                                                               0"    4    7    1   10    0    0
+                              segment[1]                        rcpParSegment_typ    0 "                                                               *"    3  100    1    0    0    1
+                                    mode                                    UDINT    0 "                                                               0"    4    7    1   10    0    0
+                              segment[2]                        rcpParSegment_typ    0 "                                                               *"    3  100    1    0    0    1
+                                    mode                                    UDINT    0 "                                                               0"    4    7    1   10    0    0
+                              segment[3]                        rcpParSegment_typ    0 "                                                               *"    3  100    1    0    0    1
+                                    mode                                    UDINT    0 "                                                               0"    4    7    1   10    0    0
+                              segment[4]                        rcpParSegment_typ    0 "                                                               *"    3  100    1    0    0    1
+                                    mode                                    UDINT    0 "                                                               0"    4    7    1   10    0    0
+                              segment[5]                        rcpParSegment_typ    0 "                                                               *"    3  100    1    0    0    1
+                                    mode                                    UDINT    0 "                                                               0"    4    7    1   10    0    0
+                                gActData                              actData_typ    0 "                                                               *"    0  100    1    0    0    1
+                              irrigation                    actDataIrrigation_typ    0 "                                                               *"    1  100    1    0    0    1
+                               tankLevel                                     UINT    0 "                                                               9"    2    6    1   10    0    0

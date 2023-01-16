@@ -1,0 +1,2208 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VCXReferenceDPList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <DataSource Name="Local">
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.enable]">
+         <Name>enable</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.enable" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.enable" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.enable" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.manSwitchedOff]">
+         <Name>manSwitchedOff</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.manSwitchedOff" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.manSwitchedOff" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.manSwitchedOff" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.outOfHomeActive]">
+         <Name>outOfHomeActive</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.outOfHomeActive" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.outOfHomeActive" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.outOfHomeActive" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.sActMixer]">
+         <Name>sActMixer</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.sActMixer" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.sActMixer" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.sActMixer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.sSetMixer]">
+         <Name>sSetMixer</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.sSetMixer" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.sSetMixer" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.sSetMixer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.tempFlowAct]">
+         <Name>tempFlowAct</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempFlowAct" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.tempFlowAct" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.tempFlowAct" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.tempFlowSet]">
+         <Name>tempFlowSet</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempFlowSet" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.tempFlowSet" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.tempFlowSet" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.tempLivingroomAct]">
+         <Name>tempLivingroomAct</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempLivingroomAct" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.tempLivingroomAct" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.tempLivingroomAct" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.tempLivingroomSet]">
+         <Name>tempLivingroomSet</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempLivingroomSet" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.tempLivingroomSet" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.tempLivingroomSet" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.tempOutsideAct]">
+         <Name>tempOutsideAct</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempOutsideAct" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.tempOutsideAct" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.tempOutsideAct" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.tempOutsideDayHigh]">
+         <Name>tempOutsideDayHigh</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempOutsideDayHigh" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.tempOutsideDayHigh" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.tempOutsideDayHigh" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.tempOutsideDayLow]">
+         <Name>tempOutsideDayLow</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempOutsideDayLow" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.tempOutsideDayLow" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.tempOutsideDayLow" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.burner.tempAct]">
+         <Name>tempAct</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="burner.tempAct" DSFolderType="Struct" />
+            <Scope Name="heating.burner.tempAct" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.burner.tempAct" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.burner.tempAct" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.burner.tempSet]">
+         <Name>tempSet</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="burner.tempSet" DSFolderType="Struct" />
+            <Scope Name="heating.burner.tempSet" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.burner.tempSet" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.burner.tempSet" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.hotwater.enable]">
+         <Name>enable</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="hotwater.enable" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.enable" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.hotwater.enable" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.hotwater.enable" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.heating.hotwater.tempAct]">
+         <Name>tempAct</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="hotwater.tempAct" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.tempAct" DSFolderType="Struct" />
+            <Scope Name="gActData.heating.hotwater.tempAct" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.heating.hotwater.tempAct" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.irrigation.tankLevel]">
+         <Name>tankLevel</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="irrigation.tankLevel" DSFolderType="Struct" />
+            <Scope Name="gActData.irrigation.tankLevel" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.irrigation.tankLevel" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.irrigation.segment[0].switchOnRequest]">
+         <Name>switchOnRequest</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="segment[0].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="segment[0].switchOnRequest" DSFolderType="StructArray" />
+            <Scope Name="irrigation.segment[0].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="gActData.irrigation.segment[0].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.irrigation.segment[0].switchOnRequest" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.irrigation.segment[1].switchOnRequest]">
+         <Name>switchOnRequest</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="segment[1].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="segment[1].switchOnRequest" DSFolderType="StructArray" />
+            <Scope Name="irrigation.segment[1].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="gActData.irrigation.segment[1].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.irrigation.segment[1].switchOnRequest" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.irrigation.segment[2].switchOnRequest]">
+         <Name>switchOnRequest</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="segment[2].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="segment[2].switchOnRequest" DSFolderType="StructArray" />
+            <Scope Name="irrigation.segment[2].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="gActData.irrigation.segment[2].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.irrigation.segment[2].switchOnRequest" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.irrigation.segment[3].switchOnRequest]">
+         <Name>switchOnRequest</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="segment[3].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="segment[3].switchOnRequest" DSFolderType="StructArray" />
+            <Scope Name="irrigation.segment[3].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="gActData.irrigation.segment[3].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.irrigation.segment[3].switchOnRequest" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.irrigation.segment[4].switchOnRequest]">
+         <Name>switchOnRequest</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="segment[4].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="segment[4].switchOnRequest" DSFolderType="StructArray" />
+            <Scope Name="irrigation.segment[4].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="gActData.irrigation.segment[4].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.irrigation.segment[4].switchOnRequest" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.irrigation.segment[5].switchOnRequest]">
+         <Name>switchOnRequest</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="segment[5].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="segment[5].switchOnRequest" DSFolderType="StructArray" />
+            <Scope Name="irrigation.segment[5].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="gActData.irrigation.segment[5].switchOnRequest" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.irrigation.segment[5].switchOnRequest" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeBoilerBump]">
+         <Name>onTimeBoilerBump</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.onTimeBoilerBump" DSFolderType="Struct" />
+            <Scope Name="statistics.heating.onTimeBoilerBump" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.heating.onTimeBoilerBump" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.heating.onTimeBoilerBump" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeBurner]">
+         <Name>onTimeBurner</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.onTimeBurner" DSFolderType="Struct" />
+            <Scope Name="statistics.heating.onTimeBurner" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.heating.onTimeBurner" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.heating.onTimeBurner" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.heating.onTimeFlowPump]">
+         <Name>onTimeFlowPump</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.onTimeFlowPump" DSFolderType="Struct" />
+            <Scope Name="statistics.heating.onTimeFlowPump" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.heating.onTimeFlowPump" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.heating.onTimeFlowPump" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.onTimePump]">
+         <Name>onTimePump</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="irrigation.onTimePump" DSFolderType="Struct" />
+            <Scope Name="statistics.irrigation.onTimePump" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.irrigation.onTimePump" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.irrigation.onTimePump" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve]">
+         <Name>valve</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER[6]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="irrigation.valve" DSFolderType="Struct" />
+            <Scope Name="statistics.irrigation.valve" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.irrigation.valve" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.irrigation.valve" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[0]]">
+         <Name>valve[0]</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType>INTEGER[6]</ArrayType>
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="irrigation.valve[0]" DSFolderType="Struct" />
+            <Scope Name="statistics.irrigation.valve[0]" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.irrigation.valve[0]" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.irrigation.valve[0]" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[1]]">
+         <Name>valve[1]</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType>INTEGER[6]</ArrayType>
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="irrigation.valve[1]" DSFolderType="Struct" />
+            <Scope Name="statistics.irrigation.valve[1]" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.irrigation.valve[1]" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.irrigation.valve[1]" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[2]]">
+         <Name>valve[2]</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType>INTEGER[6]</ArrayType>
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="irrigation.valve[2]" DSFolderType="Struct" />
+            <Scope Name="statistics.irrigation.valve[2]" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.irrigation.valve[2]" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.irrigation.valve[2]" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[3]]">
+         <Name>valve[3]</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType>INTEGER[6]</ArrayType>
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="irrigation.valve[3]" DSFolderType="Struct" />
+            <Scope Name="statistics.irrigation.valve[3]" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.irrigation.valve[3]" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.irrigation.valve[3]" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[4]]">
+         <Name>valve[4]</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType>INTEGER[6]</ArrayType>
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="irrigation.valve[4]" DSFolderType="Struct" />
+            <Scope Name="statistics.irrigation.valve[4]" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.irrigation.valve[4]" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.irrigation.valve[4]" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gActData.statistics.irrigation.valve[5]]">
+         <Name>valve[5]</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType>INTEGER[6]</ArrayType>
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="irrigation.valve[5]" DSFolderType="Struct" />
+            <Scope Name="statistics.irrigation.valve[5]" DSFolderType="Struct" />
+            <Scope Name="gActData.statistics.irrigation.valve[5]" DSFolderType="Struct" />
+            <Scope Name="Globals.gActData.statistics.irrigation.valve[5]" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gAlarm.ack]">
+         <Name>ack</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL[1]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="gAlarm.ack" DSFolderType="Struct" />
+            <Scope Name="Globals.gAlarm.ack" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gAlarm.ackBlock]">
+         <Name>ackBlock</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="gAlarm.ackBlock" DSFolderType="Struct" />
+            <Scope Name="Globals.gAlarm.ackBlock" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gAlarm.request]">
+         <Name>request</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL[1]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="gAlarm.request" DSFolderType="Struct" />
+            <Scope Name="Globals.gAlarm.request" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.cmd.setTime]">
+         <Name>setTime</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="cmd.setTime" DSFolderType="Struct" />
+            <Scope Name="gHMI.cmd.setTime" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.cmd.setTime" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.cmd.updateDateTime]">
+         <Name>updateDateTime</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="cmd.updateDateTime" DSFolderType="Struct" />
+            <Scope Name="gHMI.cmd.updateDateTime" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.cmd.updateDateTime" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.cmd.updatePID]">
+         <Name>updatePID</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="cmd.updatePID" DSFolderType="Struct" />
+            <Scope Name="gHMI.cmd.updatePID" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.cmd.updatePID" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.general.actPage]">
+         <Name>actPage</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="general.actPage" DSFolderType="Struct" />
+            <Scope Name="gHMI.general.actPage" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.general.actPage" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.general.cmdNewPage]">
+         <Name>cmdNewPage</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="general.cmdNewPage" DSFolderType="Struct" />
+            <Scope Name="gHMI.general.cmdNewPage" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.general.cmdNewPage" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.general.screenCleanTime]">
+         <Name>screenCleanTime</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="general.screenCleanTime" DSFolderType="Struct" />
+            <Scope Name="gHMI.general.screenCleanTime" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.general.screenCleanTime" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.general.setPage]">
+         <Name>setPage</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="general.setPage" DSFolderType="Struct" />
+            <Scope Name="gHMI.general.setPage" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.general.setPage" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.general.setTime.day]">
+         <Name>day</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="setTime.day" DSFolderType="Struct" />
+            <Scope Name="general.setTime.day" DSFolderType="Struct" />
+            <Scope Name="gHMI.general.setTime.day" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.general.setTime.day" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.general.setTime.hour]">
+         <Name>hour</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="setTime.hour" DSFolderType="Struct" />
+            <Scope Name="general.setTime.hour" DSFolderType="Struct" />
+            <Scope Name="gHMI.general.setTime.hour" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.general.setTime.hour" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.general.setTime.minute]">
+         <Name>minute</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="setTime.minute" DSFolderType="Struct" />
+            <Scope Name="general.setTime.minute" DSFolderType="Struct" />
+            <Scope Name="gHMI.general.setTime.minute" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.general.setTime.minute" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.general.setTime.month]">
+         <Name>month</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="setTime.month" DSFolderType="Struct" />
+            <Scope Name="general.setTime.month" DSFolderType="Struct" />
+            <Scope Name="gHMI.general.setTime.month" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.general.setTime.month" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.general.setTime.year]">
+         <Name>year</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="setTime.year" DSFolderType="Struct" />
+            <Scope Name="general.setTime.year" DSFolderType="Struct" />
+            <Scope Name="gHMI.general.setTime.year" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.general.setTime.year" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.statusDatapointAlarmIndicator]">
+         <Name>statusDatapointAlarmIndicator</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.statusDatapointAlarmIndicator" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.statusDatapointAlarmIndicator" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.statusDatapointAlarmIndicator" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.statusDatapointLoweringText]">
+         <Name>statusDatapointLoweringText</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.statusDatapointLoweringText" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.statusDatapointLoweringText" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.statusDatapointLoweringText" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.tempLivingroomTendency]">
+         <Name>tempLivingroomTendency</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempLivingroomTendency" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.tempLivingroomTendency" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.tempLivingroomTendency" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.tempOutsideTendency]">
+         <Name>tempOutsideTendency</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempOutsideTendency" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.tempOutsideTendency" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.tempOutsideTendency" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.endTime.hour]">
+         <Name>hour</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="endTime.hour" DSFolderType="Struct" />
+            <Scope Name="heating.endTime.hour" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.endTime.hour" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.endTime.hour" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.endTime.minute]">
+         <Name>minute</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="endTime.minute" DSFolderType="Struct" />
+            <Scope Name="heating.endTime.minute" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.endTime.minute" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.endTime.minute" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[0].hour]">
+         <Name>hour</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="endTime[0].hour" DSFolderType="Struct" />
+            <Scope Name="endTime[0].hour" DSFolderType="StructArray" />
+            <Scope Name="hotwater.endTime[0].hour" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.endTime[0].hour" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.hotwater.endTime[0].hour" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.hotwater.endTime[0].hour" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[0].minute]">
+         <Name>minute</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="endTime[0].minute" DSFolderType="Struct" />
+            <Scope Name="endTime[0].minute" DSFolderType="StructArray" />
+            <Scope Name="hotwater.endTime[0].minute" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.endTime[0].minute" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.hotwater.endTime[0].minute" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.hotwater.endTime[0].minute" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[1].hour]">
+         <Name>hour</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="endTime[1].hour" DSFolderType="Struct" />
+            <Scope Name="endTime[1].hour" DSFolderType="StructArray" />
+            <Scope Name="hotwater.endTime[1].hour" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.endTime[1].hour" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.hotwater.endTime[1].hour" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.hotwater.endTime[1].hour" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.endTime[1].minute]">
+         <Name>minute</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="endTime[1].minute" DSFolderType="Struct" />
+            <Scope Name="endTime[1].minute" DSFolderType="StructArray" />
+            <Scope Name="hotwater.endTime[1].minute" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.endTime[1].minute" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.hotwater.endTime[1].minute" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.hotwater.endTime[1].minute" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[0].hour]">
+         <Name>hour</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="startTime[0].hour" DSFolderType="Struct" />
+            <Scope Name="startTime[0].hour" DSFolderType="StructArray" />
+            <Scope Name="hotwater.startTime[0].hour" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.startTime[0].hour" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.hotwater.startTime[0].hour" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.hotwater.startTime[0].hour" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[0].minute]">
+         <Name>minute</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="startTime[0].minute" DSFolderType="Struct" />
+            <Scope Name="startTime[0].minute" DSFolderType="StructArray" />
+            <Scope Name="hotwater.startTime[0].minute" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.startTime[0].minute" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.hotwater.startTime[0].minute" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.hotwater.startTime[0].minute" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[1].hour]">
+         <Name>hour</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="startTime[1].hour" DSFolderType="Struct" />
+            <Scope Name="startTime[1].hour" DSFolderType="StructArray" />
+            <Scope Name="hotwater.startTime[1].hour" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.startTime[1].hour" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.hotwater.startTime[1].hour" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.hotwater.startTime[1].hour" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.hotwater.startTime[1].minute]">
+         <Name>minute</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="startTime[1].minute" DSFolderType="Struct" />
+            <Scope Name="startTime[1].minute" DSFolderType="StructArray" />
+            <Scope Name="hotwater.startTime[1].minute" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.startTime[1].minute" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.hotwater.startTime[1].minute" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.hotwater.startTime[1].minute" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.endDate.day]">
+         <Name>day</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="endDate.day" DSFolderType="Struct" />
+            <Scope Name="outOfHome.endDate.day" DSFolderType="Struct" />
+            <Scope Name="heating.outOfHome.endDate.day" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.outOfHome.endDate.day" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.outOfHome.endDate.day" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.endDate.month]">
+         <Name>month</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="endDate.month" DSFolderType="Struct" />
+            <Scope Name="outOfHome.endDate.month" DSFolderType="Struct" />
+            <Scope Name="heating.outOfHome.endDate.month" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.outOfHome.endDate.month" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.outOfHome.endDate.month" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.startDate.day]">
+         <Name>day</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="startDate.day" DSFolderType="Struct" />
+            <Scope Name="outOfHome.startDate.day" DSFolderType="Struct" />
+            <Scope Name="heating.outOfHome.startDate.day" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.outOfHome.startDate.day" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.outOfHome.startDate.day" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.outOfHome.startDate.month]">
+         <Name>month</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="startDate.month" DSFolderType="Struct" />
+            <Scope Name="outOfHome.startDate.month" DSFolderType="Struct" />
+            <Scope Name="heating.outOfHome.startDate.month" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.outOfHome.startDate.month" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.outOfHome.startDate.month" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.startTime.hour]">
+         <Name>hour</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="startTime.hour" DSFolderType="Struct" />
+            <Scope Name="heating.startTime.hour" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.startTime.hour" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.startTime.hour" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.heating.startTime.minute]">
+         <Name>minute</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="startTime.minute" DSFolderType="Struct" />
+            <Scope Name="heating.startTime.minute" DSFolderType="Struct" />
+            <Scope Name="gHMI.heating.startTime.minute" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.heating.startTime.minute" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.load]">
+         <Name>load</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="ctrl.load" DSFolderType="Struct" />
+            <Scope Name="recipe.ctrl.load" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.ctrl.load" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.ctrl.load" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.loadOk]">
+         <Name>loadOk</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="ctrl.loadOk" DSFolderType="Struct" />
+            <Scope Name="recipe.ctrl.loadOk" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.ctrl.loadOk" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.ctrl.loadOk" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.nameIndex]">
+         <Name>nameIndex</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="ctrl.nameIndex" DSFolderType="Struct" />
+            <Scope Name="recipe.ctrl.nameIndex" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.ctrl.nameIndex" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.ctrl.nameIndex" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.save]">
+         <Name>save</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="ctrl.save" DSFolderType="Struct" />
+            <Scope Name="recipe.ctrl.save" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.ctrl.save" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.ctrl.save" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.ctrl.saveOk]">
+         <Name>saveOk</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="ctrl.saveOk" DSFolderType="Struct" />
+            <Scope Name="recipe.ctrl.saveOk" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.ctrl.saveOk" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.ctrl.saveOk" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.kp]">
+         <Name>kp</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.kp" DSFolderType="Struct" />
+            <Scope Name="data.heating.kp" DSFolderType="Struct" />
+            <Scope Name="recipe.data.heating.kp" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.data.heating.kp" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.data.heating.kp" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempFlowSetOffset]">
+         <Name>tempFlowSetOffset</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempFlowSetOffset" DSFolderType="Struct" />
+            <Scope Name="data.heating.tempFlowSetOffset" DSFolderType="Struct" />
+            <Scope Name="recipe.data.heating.tempFlowSetOffset" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.data.heating.tempFlowSetOffset" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.data.heating.tempFlowSetOffset" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempLivingroomSet]">
+         <Name>tempLivingroomSet</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempLivingroomSet" DSFolderType="Struct" />
+            <Scope Name="data.heating.tempLivingroomSet" DSFolderType="Struct" />
+            <Scope Name="recipe.data.heating.tempLivingroomSet" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.data.heating.tempLivingroomSet" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.data.heating.tempLivingroomSet" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempLowOffset]">
+         <Name>tempLowOffset</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempLowOffset" DSFolderType="Struct" />
+            <Scope Name="data.heating.tempLowOffset" DSFolderType="Struct" />
+            <Scope Name="recipe.data.heating.tempLowOffset" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.data.heating.tempLowOffset" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.data.heating.tempLowOffset" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tempManOffset]">
+         <Name>tempManOffset</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tempManOffset" DSFolderType="Struct" />
+            <Scope Name="data.heating.tempManOffset" DSFolderType="Struct" />
+            <Scope Name="recipe.data.heating.tempManOffset" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.data.heating.tempManOffset" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.data.heating.tempManOffset" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.tn]">
+         <Name>tn</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heating.tn" DSFolderType="Struct" />
+            <Scope Name="data.heating.tn" DSFolderType="Struct" />
+            <Scope Name="recipe.data.heating.tn" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.data.heating.tn" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.data.heating.tn" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.recipe.data.heating.hotwater.tempSet]">
+         <Name>tempSet</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="hotwater.tempSet" DSFolderType="Struct" />
+            <Scope Name="heating.hotwater.tempSet" DSFolderType="Struct" />
+            <Scope Name="data.heating.hotwater.tempSet" DSFolderType="Struct" />
+            <Scope Name="recipe.data.heating.hotwater.tempSet" DSFolderType="Struct" />
+            <Scope Name="gHMI.recipe.data.heating.hotwater.tempSet" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.recipe.data.heating.hotwater.tempSet" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.day[0].dataBuffer]">
+         <Name>dataBuffer</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED[360]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="day[0].dataBuffer" DSFolderType="Struct" />
+            <Scope Name="day[0].dataBuffer" DSFolderType="StructArray" />
+            <Scope Name="trend.day[0].dataBuffer" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.day[0].dataBuffer" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.day[0].dataBuffer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.day[0].nbSamples]">
+         <Name>nbSamples</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="day[0].nbSamples" DSFolderType="Struct" />
+            <Scope Name="day[0].nbSamples" DSFolderType="StructArray" />
+            <Scope Name="trend.day[0].nbSamples" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.day[0].nbSamples" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.day[0].nbSamples" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.day[1].dataBuffer]">
+         <Name>dataBuffer</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED[360]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="day[1].dataBuffer" DSFolderType="Struct" />
+            <Scope Name="day[1].dataBuffer" DSFolderType="StructArray" />
+            <Scope Name="trend.day[1].dataBuffer" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.day[1].dataBuffer" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.day[1].dataBuffer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.day[1].nbSamples]">
+         <Name>nbSamples</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="day[1].nbSamples" DSFolderType="Struct" />
+            <Scope Name="day[1].nbSamples" DSFolderType="StructArray" />
+            <Scope Name="trend.day[1].nbSamples" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.day[1].nbSamples" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.day[1].nbSamples" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].tempAv]">
+         <Name>tempAv</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="year[0].tempAv" DSFolderType="Struct" />
+            <Scope Name="year[0].tempAv" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].tempAv" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].tempAv" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].tempAv" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].update]">
+         <Name>update</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="year[0].update" DSFolderType="Struct" />
+            <Scope Name="year[0].update" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].update" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].update" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].update" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.day]">
+         <Name>day</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="date.day" DSFolderType="Struct" />
+            <Scope Name="year[0].date.day" DSFolderType="Struct" />
+            <Scope Name="year[0].date.day" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].date.day" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].date.day" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].date.day" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.month]">
+         <Name>month</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="date.month" DSFolderType="Struct" />
+            <Scope Name="year[0].date.month" DSFolderType="Struct" />
+            <Scope Name="year[0].date.month" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].date.month" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].date.month" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].date.month" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].date.year]">
+         <Name>year</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="date.year" DSFolderType="Struct" />
+            <Scope Name="year[0].date.year" DSFolderType="Struct" />
+            <Scope Name="year[0].date.year" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].date.year" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].date.year" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].date.year" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.dataBuffer]">
+         <Name>dataBuffer</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED[366]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.dataBuffer" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].heat.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].heat.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].heat.dataBuffer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.enable]">
+         <Name>enable</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.enable" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.enable" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.enable" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].heat.enable" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].heat.enable" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].heat.enable" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.hoursDate]">
+         <Name>hoursDate</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.hoursDate" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.hoursDate" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.hoursDate" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].heat.hoursDate" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].heat.hoursDate" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].heat.hoursDate" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.hoursTotal]">
+         <Name>hoursTotal</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.hoursTotal" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.hoursTotal" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.hoursTotal" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].heat.hoursTotal" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].heat.hoursTotal" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].heat.hoursTotal" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.nbSamples]">
+         <Name>nbSamples</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.nbSamples" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].heat.nbSamples" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].heat.nbSamples" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].heat.nbSamples" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].heat.statusDatapoint]">
+         <Name>statusDatapoint</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[0].heat.statusDatapoint" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].heat.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].heat.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].heat.statusDatapoint" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.dataBuffer]">
+         <Name>dataBuffer</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED[366]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[0].high.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[0].high.dataBuffer" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].high.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].high.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].high.dataBuffer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.enable]">
+         <Name>enable</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.enable" DSFolderType="Struct" />
+            <Scope Name="year[0].high.enable" DSFolderType="Struct" />
+            <Scope Name="year[0].high.enable" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].high.enable" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].high.enable" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].high.enable" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.nbSamples]">
+         <Name>nbSamples</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[0].high.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[0].high.nbSamples" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].high.nbSamples" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].high.nbSamples" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].high.nbSamples" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.statusDatapoint]">
+         <Name>statusDatapoint</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[0].high.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[0].high.statusDatapoint" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].high.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].high.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].high.statusDatapoint" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.tempAv]">
+         <Name>tempAv</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.tempAv" DSFolderType="Struct" />
+            <Scope Name="year[0].high.tempAv" DSFolderType="Struct" />
+            <Scope Name="year[0].high.tempAv" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].high.tempAv" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].high.tempAv" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].high.tempAv" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].high.tempDate]">
+         <Name>tempDate</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.tempDate" DSFolderType="Struct" />
+            <Scope Name="year[0].high.tempDate" DSFolderType="Struct" />
+            <Scope Name="year[0].high.tempDate" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].high.tempDate" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].high.tempDate" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].high.tempDate" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.dataBuffer]">
+         <Name>dataBuffer</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED[366]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[0].low.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[0].low.dataBuffer" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].low.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].low.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].low.dataBuffer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.enable]">
+         <Name>enable</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.enable" DSFolderType="Struct" />
+            <Scope Name="year[0].low.enable" DSFolderType="Struct" />
+            <Scope Name="year[0].low.enable" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].low.enable" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].low.enable" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].low.enable" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.nbSamples]">
+         <Name>nbSamples</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[0].low.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[0].low.nbSamples" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].low.nbSamples" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].low.nbSamples" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].low.nbSamples" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.statusDatapoint]">
+         <Name>statusDatapoint</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[0].low.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[0].low.statusDatapoint" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].low.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].low.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].low.statusDatapoint" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.tempAv]">
+         <Name>tempAv</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.tempAv" DSFolderType="Struct" />
+            <Scope Name="year[0].low.tempAv" DSFolderType="Struct" />
+            <Scope Name="year[0].low.tempAv" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].low.tempAv" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].low.tempAv" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].low.tempAv" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[0].low.tempDate]">
+         <Name>tempDate</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.tempDate" DSFolderType="Struct" />
+            <Scope Name="year[0].low.tempDate" DSFolderType="Struct" />
+            <Scope Name="year[0].low.tempDate" DSFolderType="StructArray" />
+            <Scope Name="trend.year[0].low.tempDate" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[0].low.tempDate" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[0].low.tempDate" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].tempAv]">
+         <Name>tempAv</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="year[1].tempAv" DSFolderType="Struct" />
+            <Scope Name="year[1].tempAv" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].tempAv" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].tempAv" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].tempAv" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].update]">
+         <Name>update</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="year[1].update" DSFolderType="Struct" />
+            <Scope Name="year[1].update" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].update" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].update" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].update" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.day]">
+         <Name>day</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="date.day" DSFolderType="Struct" />
+            <Scope Name="year[1].date.day" DSFolderType="Struct" />
+            <Scope Name="year[1].date.day" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].date.day" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].date.day" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].date.day" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.month]">
+         <Name>month</Name>
+         <Scope>Global</Scope>
+         <TargetType>USINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="date.month" DSFolderType="Struct" />
+            <Scope Name="year[1].date.month" DSFolderType="Struct" />
+            <Scope Name="year[1].date.month" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].date.month" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].date.month" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].date.month" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].date.year]">
+         <Name>year</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="date.year" DSFolderType="Struct" />
+            <Scope Name="year[1].date.year" DSFolderType="Struct" />
+            <Scope Name="year[1].date.year" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].date.year" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].date.year" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].date.year" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.dataBuffer]">
+         <Name>dataBuffer</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED[366]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.dataBuffer" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].heat.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].heat.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].heat.dataBuffer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.enable]">
+         <Name>enable</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.enable" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.enable" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.enable" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].heat.enable" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].heat.enable" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].heat.enable" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.hoursDate]">
+         <Name>hoursDate</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.hoursDate" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.hoursDate" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.hoursDate" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].heat.hoursDate" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].heat.hoursDate" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].heat.hoursDate" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.hoursTotal]">
+         <Name>hoursTotal</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.hoursTotal" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.hoursTotal" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.hoursTotal" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].heat.hoursTotal" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].heat.hoursTotal" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].heat.hoursTotal" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.nbSamples]">
+         <Name>nbSamples</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.nbSamples" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].heat.nbSamples" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].heat.nbSamples" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].heat.nbSamples" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].heat.statusDatapoint]">
+         <Name>statusDatapoint</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="heat.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[1].heat.statusDatapoint" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].heat.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].heat.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].heat.statusDatapoint" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.dataBuffer]">
+         <Name>dataBuffer</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED[366]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[1].high.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[1].high.dataBuffer" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].high.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].high.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].high.dataBuffer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.enable]">
+         <Name>enable</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.enable" DSFolderType="Struct" />
+            <Scope Name="year[1].high.enable" DSFolderType="Struct" />
+            <Scope Name="year[1].high.enable" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].high.enable" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].high.enable" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].high.enable" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.nbSamples]">
+         <Name>nbSamples</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[1].high.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[1].high.nbSamples" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].high.nbSamples" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].high.nbSamples" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].high.nbSamples" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.statusDatapoint]">
+         <Name>statusDatapoint</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[1].high.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[1].high.statusDatapoint" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].high.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].high.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].high.statusDatapoint" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.tempAv]">
+         <Name>tempAv</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.tempAv" DSFolderType="Struct" />
+            <Scope Name="year[1].high.tempAv" DSFolderType="Struct" />
+            <Scope Name="year[1].high.tempAv" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].high.tempAv" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].high.tempAv" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].high.tempAv" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].high.tempDate]">
+         <Name>tempDate</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="high.tempDate" DSFolderType="Struct" />
+            <Scope Name="year[1].high.tempDate" DSFolderType="Struct" />
+            <Scope Name="year[1].high.tempDate" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].high.tempDate" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].high.tempDate" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].high.tempDate" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.dataBuffer]">
+         <Name>dataBuffer</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED[366]</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[1].low.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="year[1].low.dataBuffer" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].low.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].low.dataBuffer" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].low.dataBuffer" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.enable]">
+         <Name>enable</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.enable" DSFolderType="Struct" />
+            <Scope Name="year[1].low.enable" DSFolderType="Struct" />
+            <Scope Name="year[1].low.enable" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].low.enable" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].low.enable" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].low.enable" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.nbSamples]">
+         <Name>nbSamples</Name>
+         <Scope>Global</Scope>
+         <TargetType>UDINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[1].low.nbSamples" DSFolderType="Struct" />
+            <Scope Name="year[1].low.nbSamples" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].low.nbSamples" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].low.nbSamples" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].low.nbSamples" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.statusDatapoint]">
+         <Name>statusDatapoint</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[1].low.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="year[1].low.statusDatapoint" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].low.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].low.statusDatapoint" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].low.statusDatapoint" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.tempAv]">
+         <Name>tempAv</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.tempAv" DSFolderType="Struct" />
+            <Scope Name="year[1].low.tempAv" DSFolderType="Struct" />
+            <Scope Name="year[1].low.tempAv" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].low.tempAv" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].low.tempAv" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].low.tempAv" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.gHMI.trend.year[1].low.tempDate]">
+         <Name>tempDate</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="low.tempDate" DSFolderType="Struct" />
+            <Scope Name="year[1].low.tempDate" DSFolderType="Struct" />
+            <Scope Name="year[1].low.tempDate" DSFolderType="StructArray" />
+            <Scope Name="trend.year[1].low.tempDate" DSFolderType="Struct" />
+            <Scope Name="gHMI.trend.year[1].low.tempDate" DSFolderType="Struct" />
+            <Scope Name="Globals.gHMI.trend.year[1].low.tempDate" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.doBurner]">
+         <Name>doBurner</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Globals.doBurner" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.doIrrigPump]">
+         <Name>doIrrigPump</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Globals.doIrrigPump" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.doIrrigValve1]">
+         <Name>doIrrigValve1</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Globals.doIrrigValve1" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.doIrrigValve2]">
+         <Name>doIrrigValve2</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Globals.doIrrigValve2" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.doIrrigValve3]">
+         <Name>doIrrigValve3</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Globals.doIrrigValve3" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.doIrrigValve4]">
+         <Name>doIrrigValve4</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Globals.doIrrigValve4" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.doIrrigValve5]">
+         <Name>doIrrigValve5</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Globals.doIrrigValve5" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.Globals.doIrrigValve6]">
+         <Name>doIrrigValve6</Name>
+         <Scope>Global</Scope>
+         <TargetType>BOOL</TargetType>
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Globals.doIrrigValve6" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.MainStation.HeatingSystem.hs_con.fLCRSlimPID.Y]">
+         <Name>Y</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="fLCRSlimPID.Y" DSFolderType="Struct" />
+            <Scope Name="hs_con.fLCRSlimPID.Y" DSFolderType="Program" />
+            <Scope Name="HeatingSystem.hs_con.fLCRSlimPID.Y" DSFolderType="Package" />
+            <Scope Name="MainStation.HeatingSystem.hs_con.fLCRSlimPID.Y" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.MainStation.HeatingSystem.hs_con.fLCRSlimPID.e]">
+         <Name>e</Name>
+         <Scope>Global</Scope>
+         <TargetType>REAL</TargetType>
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="fLCRSlimPID.e" DSFolderType="Struct" />
+            <Scope Name="hs_con.fLCRSlimPID.e" DSFolderType="Program" />
+            <Scope Name="HeatingSystem.hs_con.fLCRSlimPID.e" DSFolderType="Package" />
+            <Scope Name="MainStation.HeatingSystem.hs_con.fLCRSlimPID.e" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Local.MainStation.HeatingSystem.hs_con.fLCRSlimPID.status]">
+         <Name>status</Name>
+         <Scope>Global</Scope>
+         <TargetType>UINT</TargetType>
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="fLCRSlimPID.status" DSFolderType="Struct" />
+            <Scope Name="hs_con.fLCRSlimPID.status" DSFolderType="Program" />
+            <Scope Name="HeatingSystem.hs_con.fLCRSlimPID.status" DSFolderType="Package" />
+            <Scope Name="MainStation.HeatingSystem.hs_con.fLCRSlimPID.status" DSFolderType="Package" />
+         </ReferenceDescription>
+      </DataPoint>
+   </DataSource>
+</VCXReferenceDPList>

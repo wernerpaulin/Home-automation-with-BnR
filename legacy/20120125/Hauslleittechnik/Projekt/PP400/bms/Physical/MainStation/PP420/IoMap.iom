@@ -1,0 +1,35 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: IoMap.iom
+ * Author: asdemo
+ * Created: December 29, 2009
+ ********************************************************************
+ * IO mapping file
+ ********************************************************************)
+VAR_CONFIG
+	diTankLevelHigh AT %IX.SL1.SS1.IF2.ST2.DigitalInput03;
+	diTankLevelLow AT %IX.SL1.SS1.IF2.ST2.DigitalInput04;
+	doIrrigValve1 AT %QX.SL1.SS1.IF2.ST2.DigitalOutput01; (*Rasenregner*)
+	doIrrigValve2 AT %QX.SL1.SS1.IF2.ST2.DigitalOutput02; (*Beide Grander*)
+	doIrrigValve3 AT %QX.SL1.SS1.IF2.ST2.DigitalOutput03; (*Gemüse - oben*)
+	doIrrigValve4 AT %QX.SL1.SS1.IF2.ST2.DigitalOutput04; (*Gemüse - mitte*)
+	doIrrigValve5 AT %QX.SL1.SS1.IF2.ST2.DigitalOutput05; (*Gemüse - unten*)
+	doIrrigValve6 AT %QX.SL1.SS1.IF2.ST2.DigitalOutput06; (*Blumenhang*)
+	doIrrigPump AT %QX.SL1.SS1.IF2.ST2.DigitalOutput08;
+	aiTempBoiler AT %IW.SL1.SS1.IF2.ST3.SL1.SS1.Resistor01;
+	aiTempBurner AT %IW.SL1.SS1.IF2.ST3.SL1.SS1.Resistor02;
+	aiTempFlow AT %IW.SL1.SS1.IF2.ST3.SL1.SS1.Resistor03;
+	aiTempOutside AT %IW.SL1.SS1.IF2.ST3.SL1.SS1.Resistor04;
+	aiTempLivingroom AT %IW.SL1.SS1.IF2.ST3.SL1.SS2.Resistor01;
+	doBurner AT %QX.SL1.SS1.IF2.ST3.SL2.DigitalOutput01;
+	doFlowPump AT %QX.SL1.SS1.IF2.ST3.SL2.DigitalOutput02;
+	doBoilerPump AT %QX.SL1.SS1.IF2.ST3.SL2.DigitalOutput03;
+	doMixerOpen AT %QX.SL1.SS1.IF2.ST3.SL3.DigitalOutput01;
+	doMixerClose AT %QX.SL1.SS1.IF2.ST3.SL3.DigitalOutput02;
+	gIrrigationNodeOk AT %IX.SL1.SS1.IF2.ST2.ModuleOk;
+	gHeatingNodeTemp1Ok AT %IX.SL1.SS1.IF2.ST3.SL1.SS1.ModuleOk;
+	gHeatingNodeTemp2Ok AT %IX.SL1.SS1.IF2.ST3.SL1.SS2.ModuleOk;
+	gHeatingNodeRelais1Ok AT %IX.SL1.SS1.IF2.ST3.SL2.ModuleOk;
+	gHeatingNodeRelais2Ok AT %IX.SL1.SS1.IF2.ST3.SL3.ModuleOk;
+END_VAR

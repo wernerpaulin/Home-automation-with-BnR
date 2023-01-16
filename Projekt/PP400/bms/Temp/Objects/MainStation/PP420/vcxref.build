@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VCXReferenceBuildData>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <BuildData Name="MainHM">
+      <VCObjectName>MainHM</VCObjectName>
+      <VCObjectPath>Z:/Hauslleittechnik/Projekt/PP400/bms/Temp/Objects/MainStation/PP420/MainHM/</VCObjectPath>
+      <VCProjectPath>Z:/Hauslleittechnik/Projekt/PP400/bms/Logical/MainStation/MainHMI/VCObject.vc</VCProjectPath>
+      <VCSharedName>VCShared</VCSharedName>
+      <VCSharedPath>Z:/Hauslleittechnik/Projekt/PP400/bms/Temp/Objects/MainStation/PP420/VCShared/</VCSharedPath>
+   </BuildData>
+</VCXReferenceBuildData>

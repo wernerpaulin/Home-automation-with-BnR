@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0?>
+<Crossref Scope="" Desc="" xmlns="http://br-automation.co.at/AS/Crossreference">
+	<Vars>
+		<Var Name="doFlowPump" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="26" PS=" Ln:26" A="R" O="%QX.SL1.SS1.IF2.ST3.SL2.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="aiTempOutside" Scope="Global" Type="UINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="23" PS=" Ln:23" A="W" O="%IW.SL1.SS1.IF2.ST3.SL1.SS1.Resistor04"/>
+			</File>
+		</Var>
+		<Var Name="doMixerClose" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="29" PS=" Ln:29" A="R" O="%QX.SL1.SS1.IF2.ST3.SL3.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="diTankLevelHigh" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="11" PS=" Ln:11" A="W" O="%IX.SL1.SS1.IF2.ST2.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="doMixerOpen" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="28" PS=" Ln:28" A="R" O="%QX.SL1.SS1.IF2.ST3.SL3.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="doBoilerPump" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="27" PS=" Ln:27" A="R" O="%QX.SL1.SS1.IF2.ST3.SL2.DigitalOutput03"/>
+			</File>
+		</Var>
+		<Var Name="aiTempFlow" Scope="Global" Type="UINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="22" PS=" Ln:22" A="W" O="%IW.SL1.SS1.IF2.ST3.SL1.SS1.Resistor03"/>
+			</File>
+		</Var>
+		<Var Name="diTankLevelLow" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="12" PS=" Ln:12" A="W" O="%IX.SL1.SS1.IF2.ST2.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve1" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="13" PS=" Ln:13" A="R" O="%QX.SL1.SS1.IF2.ST2.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve2" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="14" PS=" Ln:14" A="R" O="%QX.SL1.SS1.IF2.ST2.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve3" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="15" PS=" Ln:15" A="R" O="%QX.SL1.SS1.IF2.ST2.DigitalOutput03"/>
+			</File>
+		</Var>
+		<Var Name="aiTempBurner" Scope="Global" Type="UINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="21" PS=" Ln:21" A="W" O="%IW.SL1.SS1.IF2.ST3.SL1.SS1.Resistor02"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve4" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="16" PS=" Ln:16" A="R" O="%QX.SL1.SS1.IF2.ST2.DigitalOutput04"/>
+			</File>
+		</Var>
+		<Var Name="gHeatingNodeRelais1Ok" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="33" PS=" Ln:33" A="W" O="%IX.SL1.SS1.IF2.ST3.SL2.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="aiTempBoiler" Scope="Global" Type="UINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="20" PS=" Ln:20" A="W" O="%IW.SL1.SS1.IF2.ST3.SL1.SS1.Resistor01"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve5" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="17" PS=" Ln:17" A="R" O="%QX.SL1.SS1.IF2.ST2.DigitalOutput05"/>
+			</File>
+		</Var>
+		<Var Name="gHeatingNodeRelais2Ok" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="34" PS=" Ln:34" A="W" O="%IX.SL1.SS1.IF2.ST3.SL3.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigValve6" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="18" PS=" Ln:18" A="R" O="%QX.SL1.SS1.IF2.ST2.DigitalOutput06"/>
+			</File>
+		</Var>
+		<Var Name="gIrrigationNodeOk" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="30" PS=" Ln:30" A="W" O="%IX.SL1.SS1.IF2.ST2.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="gHeatingNodeTemp1Ok" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="31" PS=" Ln:31" A="W" O="%IX.SL1.SS1.IF2.ST3.SL1.SS1.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="doBurner" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="25" PS=" Ln:25" A="R" O="%QX.SL1.SS1.IF2.ST3.SL2.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="gHeatingNodeTemp2Ok" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="32" PS=" Ln:32" A="W" O="%IX.SL1.SS1.IF2.ST3.SL1.SS2.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="doIrrigPump" Scope="Global" Type="BOOL" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="19" PS=" Ln:19" A="R" O="%QX.SL1.SS1.IF2.ST2.DigitalOutput08"/>
+			</File>
+		</Var>
+		<Var Name="aiTempLivingroom" Scope="Global" Type="UINT" Desc="">
+			<File Name="Z:/Hauslleittechnik/Projekt/PP400/bms/Physical/MainStation/PP420/IoMap.iom" Desc="">
+				<Pos L="24" PS=" Ln:24" A="W" O="%IW.SL1.SS1.IF2.ST3.SL1.SS2.Resistor01"/>
+			</File>
+		</Var>
+	</Vars>
+</Crossref>

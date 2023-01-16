@@ -1,0 +1,2 @@
+$(AS_PROJECT_PATH)/logical/globals/io.var
+$(AS_PROJECT_PATH)/logical/globals/global.var

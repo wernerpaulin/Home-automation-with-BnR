@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: statistics
+ * File: statistics.var
+ * Author: asdemo
+ * Created: December 27, 2009
+ ********************************************************************
+ * Local variables of program statistics
+ ********************************************************************)
+VAR
+	fDatObjInfo : DatObjInfo;
+	oldHour : USINT;
+	cmdWriteStatistics : BOOL;
+	fDatObjUpdate : DatObjUpdate;
+	fDatObjRead : DatObjRead;
+END_VAR
